@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_act1.cpp' l='738' type='int [4][2]'/>
+<use f='codebrowser/wl_act1.cpp' l='759' u='r' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_act1.cpp' l='760' u='r' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_act1.cpp' l='817' u='r' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='817' u='r' c='_Z10MovePWallsv'/>

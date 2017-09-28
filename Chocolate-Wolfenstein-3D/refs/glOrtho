@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='868' type='void glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble near_val, GLdouble far_val)'/>
+<use f='codebrowser/crt.cpp' l='50' u='c' c='_Z8CRT_Initi'/>

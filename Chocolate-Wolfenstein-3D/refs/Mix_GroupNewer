@@ -1,0 +1,2 @@
+<dec f='include/SDL/SDL_mixer.h' l='528' type='int Mix_GroupNewer(int tag)'/>
+<doc f='include/SDL/SDL_mixer.h' l='527'>/* Finds the &quot;most recent&quot; (i.e. last) sample playing in a group of channels */</doc>

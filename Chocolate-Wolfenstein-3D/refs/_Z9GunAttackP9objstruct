@@ -1,0 +1,2 @@
+<def f='codebrowser/wl_agent.cpp' l='1245' ll='1317' type='void GunAttack(objtype * ob)'/>
+<use f='codebrowser/wl_agent.cpp' l='1432' u='c' c='_Z8T_AttackP9objstruct'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1144' type='int'/>
+<def f='codebrowser/wl_agent.cpp' l='322' type='int'/>
+<use f='codebrowser/wl_agent.cpp' l='329' u='r' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='331' u='w' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='763' u='w' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_game.cpp' l='644' u='w' c='_Z14SetupGameLevelv'/>

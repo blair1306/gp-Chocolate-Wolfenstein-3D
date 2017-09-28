@@ -1,0 +1,26 @@
+<dec f='codebrowser/id_pm.h' l='7' type='int'/>
+<use f='codebrowser/id_pm.h' l='22' u='r' c='_ZL14PM_GetPageSizei'/>
+<use f='codebrowser/id_pm.h' l='29' u='r' c='_ZL10PM_GetPagei'/>
+<use f='codebrowser/id_pm.h' l='36' u='r' c='_ZL9PM_GetEndv'/>
+<def f='codebrowser/id_pm.cpp' l='3' type='int'/>
+<use f='codebrowser/id_pm.cpp' l='26' u='w' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='27' u='a' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='33' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='35' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='37' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='39' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='47' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='53' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='71' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='78' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='83' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='85' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='93' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='114' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_sd.cpp' l='655' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='656' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='666' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='676' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='676' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='679' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='686' u='r' c='_Z13SDL_SetupDigiv'/>

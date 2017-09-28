@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_menu.h' l='187' type='int CP_SaveGame(int quick)'/>
+<use f='codebrowser/wl_menu.cpp' l='71'/>
+<use f='codebrowser/wl_menu.cpp' l='71'/>
+<use f='codebrowser/wl_menu.cpp' l='71'/>
+<use f='codebrowser/wl_menu.cpp' l='71'/>
+<use f='codebrowser/wl_menu.cpp' l='421' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='772' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='795' u='c' c='_Z13CP_CheckQuicki'/>
+<def f='codebrowser/wl_menu.cpp' l='1669' ll='1806' type='int CP_SaveGame(int quick)'/>
+<doc f='codebrowser/wl_menu.cpp' l='1664'>////////////////////////////////////////////////////////////////////
+//
+// SAVE CURRENT GAME
+//
+////////////////////////////////////////////////////////////////////</doc>

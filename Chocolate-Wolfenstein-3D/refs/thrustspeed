@@ -1,0 +1,18 @@
+<dec f='codebrowser/wl_def.h' l='1146' type='int32_t'/>
+<use f='codebrowser/wl_act2.cpp' l='3488' u='r' c='_Z7T_ShootP9objstruct'/>
+<def f='codebrowser/wl_agent.cpp' l='34' type='int32_t'/>
+<use f='codebrowser/wl_agent.cpp' l='161' u='w' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1021' u='w' c='_Z6Thrustii'/>
+<doc f='codebrowser/wl_agent.cpp' l='21'>/*
+=============================================================================
+
+                                GLOBAL VARIABLES
+
+=============================================================================
+*/
+
+
+
+//
+// player state info
+//</doc>

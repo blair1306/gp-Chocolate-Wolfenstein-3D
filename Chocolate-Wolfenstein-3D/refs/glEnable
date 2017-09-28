@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='796' type='void glEnable(GLenum cap)'/>
+<use f='codebrowser/crt.cpp' l='54' u='c' c='_Z8CRT_Initi'/>

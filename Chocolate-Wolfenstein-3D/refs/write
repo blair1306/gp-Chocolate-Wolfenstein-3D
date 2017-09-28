@@ -1,0 +1,22 @@
+<dec f='include/unistd.h' l='369' type='ssize_t write(int __fd, const void * __buf, size_t __n)'/>
+<use f='codebrowser/id_ca.cpp' l='161' u='c' c='_Z12CA_WriteFilePKcPvi'/>
+<doc f='include/unistd.h' l='365'>/* Write N bytes of BUF to FD.  Return the number written, or -1.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/wl_main.cpp' l='254' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='255' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='257' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='258' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='259' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='261' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='262' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='264' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='266' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='268' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='270' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='271' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='272' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='273' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='275' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='276' u='c' c='_Z11WriteConfigv'/>

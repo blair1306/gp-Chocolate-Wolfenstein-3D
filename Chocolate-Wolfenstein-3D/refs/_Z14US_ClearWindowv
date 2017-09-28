@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_us.h' l='75' type='void US_ClearWindow()'/>
+<def f='codebrowser/id_us_1.cpp' l='334' ll='340' type='void US_ClearWindow()'/>
+<use f='codebrowser/id_us_1.cpp' l='367' u='c' c='_Z13US_DrawWindowtttt'/>
+<doc f='codebrowser/id_us_1.cpp' l='328'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_ClearWindow() - Clears the current window to white and homes the
+//      cursor
+//
+///////////////////////////////////////////////////////////////////////////</doc>

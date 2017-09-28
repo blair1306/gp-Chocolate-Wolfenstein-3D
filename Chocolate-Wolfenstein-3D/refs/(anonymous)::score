@@ -1,0 +1,18 @@
+<dec f='codebrowser/id_us.h' l='27' type='int32_t'/>
+<dec f='codebrowser/wl_def.h' l='827' type='int32_t'/>
+<offset>64</offset>
+<use f='codebrowser/wl_agent.cpp' l='537' u='r' c='_Z9DrawScorev'/>
+<use f='codebrowser/wl_agent.cpp' l='550' u='w' c='_Z10GivePointsi'/>
+<use f='codebrowser/wl_agent.cpp' l='551' u='r' c='_Z10GivePointsi'/>
+<use f='codebrowser/wl_game.cpp' l='1370' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1493' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1552' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1572' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_inter.cpp' l='1124' u='r' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1191' u='w' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1197' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1197' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1198' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1198' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_main.cpp' l='636' u='w' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_play.cpp' l='594' u='w' c='_Z9CheckKeysv'/>

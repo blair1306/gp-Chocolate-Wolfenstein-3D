@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_state.cpp' l='808' ll='837' type='void DropItem(wl_stat_t itemtype, int tilex, int tiley)'/>
+<doc f='codebrowser/wl_state.cpp' l='797'>/*
+===============
+=
+= DropItem
+=
+= Tries to drop a bonus item somewhere in the tiles surrounding the
+= given tilex/tiley
+=
+===============
+*/</doc>

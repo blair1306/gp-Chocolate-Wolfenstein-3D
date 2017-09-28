@@ -1,0 +1,57 @@
+<dec f='codebrowser/wl_def.h' l='997' type='doorobj_t [64]'/>
+<dec f='codebrowser/wl_def.h' l='1183' type='doorobj_t [64]'/>
+<doc f='codebrowser/wl_def.h' l='1175'>/*
+=============================================================================
+
+                             WL_ACT1 DEFINITIONS
+
+=============================================================================
+*/</doc>
+<def f='codebrowser/wl_act1.cpp' l='277' type='doorobj_t [64]'/>
+<use f='codebrowser/wl_act1.cpp' l='343' u='a' c='_Z12InitDoorListv'/>
+<use f='codebrowser/wl_act1.cpp' l='407' u='m' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='408' u='m' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='410' u='m' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='430' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='431' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='439' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='455' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='476' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='477' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='480' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='480' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='483' u='m' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='506' u='m' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='516' u='m' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='544' u='m' c='_Z8DoorOpeni'/>
+<use f='codebrowser/wl_act1.cpp' l='570' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='571' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='573' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='595' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='595' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='609' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='610' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='611' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='611' u='m' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='633' u='m' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='634' u='m' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='656' u='m' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='658' u='m' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='658' u='m' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='660' u='m' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='708' u='m' c='_Z9MoveDoorsv'/>
+<use f='codebrowser/wl_act2.cpp' l='2425' u='m' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2517' u='m' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2609' u='m' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3189' u='m' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3416' u='m' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='509' u='m' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='572' u='m' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_main.cpp' l='460' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='460' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='461' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='461' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='576' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='576' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='577' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='577' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='203' type='0'/>
+<use f='codebrowser/wl_menu.cpp' l='2115' u='r' c='_Z15DefineMouseBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2208' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2258' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>

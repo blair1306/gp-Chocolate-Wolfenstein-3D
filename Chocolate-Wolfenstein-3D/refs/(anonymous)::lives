@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='828' type='short'/>
+<offset>128</offset>
+<use f='codebrowser/wl_agent.cpp' l='504' u='r' c='_Z9DrawLivesv'/>
+<use f='codebrowser/wl_agent.cpp' l='518' u='r' c='_Z12GiveExtraManv'/>
+<use f='codebrowser/wl_agent.cpp' l='519' u='w' c='_Z12GiveExtraManv'/>
+<use f='codebrowser/wl_game.cpp' l='1319' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1321' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1543' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='304' u='w' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_main.cpp' l='637' u='w' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_menu.cpp' l='755' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='952' u='w' c='_Z10CP_EndGamei'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_ca.h' l='54' type='void CA_CannotOpen(const char * name)'/>
+<dec f='codebrowser/id_ca.cpp' l='92' type='void CA_CannotOpen(const char * string)'/>
+<use f='codebrowser/id_ca.cpp' l='466' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='477' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='516' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='558' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='577' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='638' u='c' c='_Z18CAL_SetupAudioFilev'/>
+<use f='codebrowser/id_ca.cpp' l='649' u='c' c='_Z18CAL_SetupAudioFilev'/>
+<def f='codebrowser/id_ca.cpp' l='1102' ll='1110' type='void CA_CannotOpen(const char * string)'/>
+<doc f='codebrowser/id_ca.cpp' l='1100'>//===========================================================================</doc>
+<use f='codebrowser/id_pm.cpp' l='24' u='c' c='_Z10PM_Startupv'/>

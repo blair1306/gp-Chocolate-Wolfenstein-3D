@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1029' type='void StartBonusFlash()'/>
+<use f='codebrowser/wl_agent.cpp' l='813' u='c' c='_Z8GetBonusP10statstruct'/>
+<def f='codebrowser/wl_play.cpp' l='1034' ll='1037' type='void StartBonusFlash()'/>
+<doc f='codebrowser/wl_play.cpp' l='1026'>/*
+=====================
+=
+= StartBonusFlash
+=
+=====================
+*/</doc>

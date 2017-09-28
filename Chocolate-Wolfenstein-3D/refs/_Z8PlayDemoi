@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='938' type='void PlayDemo(int demonumber)'/>
+<def f='codebrowser/wl_game.cpp' l='1144' ll='1195' type='void PlayDemo(int demonumber)'/>
+<doc f='codebrowser/wl_game.cpp' l='1134'>/*
+==================
+=
+= PlayDemo
+=
+= Fades the screen out, then starts a demo.  Exits with the screen unfaded
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1606' u='c' c='_ZL8DemoLoopv'/>

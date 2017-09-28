@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1009' type='int [4]'/>
+<use f='codebrowser/wl_main.cpp' l='157' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='157' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='270' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='270' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='2328' u='w' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2773' u='r' c='_Z13PrintCustKeysi'/>
+<def f='codebrowser/wl_play.cpp' l='52' type='int [4]'/>
+<use f='codebrowser/wl_play.cpp' l='315' u='r' c='_Z16PollKeyboardMovev'/>
+<use f='codebrowser/wl_play.cpp' l='317' u='r' c='_Z16PollKeyboardMovev'/>
+<use f='codebrowser/wl_play.cpp' l='319' u='r' c='_Z16PollKeyboardMovev'/>
+<use f='codebrowser/wl_play.cpp' l='321' u='r' c='_Z16PollKeyboardMovev'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_menu.h' l='99' type='short'/>
+<offset>64</offset>
+<use f='codebrowser/wl_menu.cpp' l='1649' u='r' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1649' u='r' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1651' u='r' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1752' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1753' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1757' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1758' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1783' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1784' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='2027' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3212' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3390' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3437' u='r' c='_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3469' u='r' c='_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3513' u='r' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>

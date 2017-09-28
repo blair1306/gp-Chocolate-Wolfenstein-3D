@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='780' type='3'/>
+<use f='codebrowser/wl_agent.cpp' l='1137' u='r' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1142' u='w' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1152' u='r' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1154' u='w' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1379' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1379' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1380' u='w' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1478' u='r' c='_Z8T_PlayerP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='54'/>
+<use f='codebrowser/wl_play.cpp' l='54'/>
+<use f='codebrowser/wl_play.cpp' l='57'/>
+<use f='codebrowser/wl_play.cpp' l='57'/>

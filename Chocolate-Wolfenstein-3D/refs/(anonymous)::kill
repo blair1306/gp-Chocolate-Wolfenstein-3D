@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_menu.h' l='229' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/wl_debug.cpp' l='587' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_inter.cpp' l='205' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='847' u='w' c='_Z14LevelCompletedv'/>

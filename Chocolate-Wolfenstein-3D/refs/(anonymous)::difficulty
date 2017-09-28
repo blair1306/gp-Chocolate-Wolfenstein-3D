@@ -1,0 +1,35 @@
+<dec f='codebrowser/wl_def.h' l='825' type='short'/>
+<offset>0</offset>
+<use f='codebrowser/wl_act2.cpp' l='910' u='r' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='952' u='r' c='_Z9SpawnBossii'/>
+<use f='codebrowser/wl_act2.cpp' l='973' u='r' c='_Z11SpawnGretelii'/>
+<use f='codebrowser/wl_act2.cpp' l='1031' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2226' u='r' c='_Z12SpawnSchabbsii'/>
+<use f='codebrowser/wl_act2.cpp' l='2253' u='r' c='_Z9SpawnGiftii'/>
+<use f='codebrowser/wl_act2.cpp' l='2280' u='r' c='_Z8SpawnFatii'/>
+<use f='codebrowser/wl_act2.cpp' l='2836' u='r' c='_Z15SpawnFakeHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='2864' u='r' c='_Z11SpawnHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='2896' u='r' c='_Z13A_HitlerMorphP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='418' u='r' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='323' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='330' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='345' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='352' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='372' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='379' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='394' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='401' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='419' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='426' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='441' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='448' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='465' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='472' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='487' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='494' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='558' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='565' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='579' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='586' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='1165' u='w' c='_Z8PlayDemoi'/>
+<use f='codebrowser/wl_main.cpp' l='299' u='w' c='_Z7NewGameii'/>

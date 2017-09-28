@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1282' type='void SpawnStand(enemy_t which, int tilex, int tiley, int dir)'/>
+<def f='codebrowser/wl_act2.cpp' l='851' ll='913' type='void SpawnStand(enemy_t which, int tilex, int tiley, int dir)'/>
+<doc f='codebrowser/wl_act2.cpp' l='843'>/*
+===============
+=
+= SpawnStand
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='337' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='386' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='433' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='479' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='572' u='c' c='_ZL13ScanInfoPlanev'/>

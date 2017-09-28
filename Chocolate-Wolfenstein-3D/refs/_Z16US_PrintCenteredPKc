@@ -1,0 +1,17 @@
+<dec f='codebrowser/id_us.h' l='78' type='void US_PrintCentered(const char * s)'/>
+<def f='codebrowser/id_us_1.cpp' l='223' ll='234' type='void US_PrintCentered(const char * s)'/>
+<doc f='codebrowser/id_us_1.cpp' l='218'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_PrintCentered() - Prints a string centered in the current window.
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_debug.cpp' l='143' u='c' c='_Z14PictureGrabberv'/>
+<use f='codebrowser/wl_debug.cpp' l='472' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='474' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='512' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='514' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='516' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='534' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='610' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='612' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='693' u='c' c='_Z9DebugKeysv'/>

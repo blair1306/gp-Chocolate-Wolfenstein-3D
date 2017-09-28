@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='967'/>
+<doc f='codebrowser/wl_def.h' l='959'>/*
+=============================================================================
+
+                            WL_PLAY DEFINITIONS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_agent.cpp' l='174' u='c'/>
+<use f='codebrowser/wl_agent.cpp' l='185' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='313' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='364' u='c'/>

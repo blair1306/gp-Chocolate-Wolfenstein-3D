@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_us.h' l='74' type='void US_RestoreWindow(WindowRec * win)'/>
+<def f='codebrowser/id_us_1.cpp' l='402' ll='412' type='void US_RestoreWindow(WindowRec * win)'/>
+<doc f='codebrowser/id_us_1.cpp' l='396'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_RestoreWindow() - Sets the current window parms to those held in the
+//      record
+//
+///////////////////////////////////////////////////////////////////////////</doc>

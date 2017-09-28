@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_vl.h' l='79' type='void VL_ScreenToScreen(SDL_Surface * source, SDL_Surface * dest)'/>
+<def f='codebrowser/id_vl.cpp' l='737' ll='740' type='void VL_ScreenToScreen(SDL_Surface * source, SDL_Surface * dest)'/>
+<doc f='codebrowser/id_vl.cpp' l='729'>/*
+=================
+=
+= VL_ScreenToScreen
+=
+=================
+*/</doc>

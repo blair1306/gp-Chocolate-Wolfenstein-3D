@@ -1,0 +1,17 @@
+<dec f='codebrowser/id_sd.h' l='18' type='2'/>
+<use f='codebrowser/id_ca.cpp' l='714' c='_Z11CA_Shutdownv'/>
+<use f='codebrowser/id_ca.cpp' l='813' c='_Z16CA_LoadAllSoundsv'/>
+<use f='codebrowser/id_ca.cpp' l='833' c='_Z16CA_LoadAllSoundsv'/>
+<use f='codebrowser/id_sd.cpp' l='842' c='_ZL14SDL_ShutDevicev'/>
+<use f='codebrowser/id_sd.cpp' l='857' u='r' c='_ZL15SDL_CleanDevicev'/>
+<use f='codebrowser/id_sd.cpp' l='871' c='_ZL15SDL_StartDevicev'/>
+<use f='codebrowser/id_sd.cpp' l='894' u='r' c='_Z15SD_SetSoundMode6SDMode'/>
+<use f='codebrowser/id_sd.cpp' l='907' c='_Z15SD_SetSoundMode6SDMode'/>
+<use f='codebrowser/id_sd.cpp' l='1212' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/id_sd.cpp' l='1239' c='_Z15SD_SoundPlayingv'/>
+<use f='codebrowser/id_sd.cpp' l='1266' c='_Z12SD_StopSoundv'/>
+<use f='codebrowser/wl_main.cpp' l='167' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='204' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1266' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1269' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1407' u='r' c='_Z13DrawSoundMenuv'/>

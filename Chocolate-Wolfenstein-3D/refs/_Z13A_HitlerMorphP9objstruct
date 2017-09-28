@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_act2.cpp' l='228' type='void A_HitlerMorph(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2777'/>
+<use f='codebrowser/wl_act2.cpp' l='2777'/>
+<def f='codebrowser/wl_act2.cpp' l='2880' ll='2897' type='void A_HitlerMorph(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2872'>/*
+===============
+=
+= A_HitlerMorph
+=
+===============
+*/</doc>

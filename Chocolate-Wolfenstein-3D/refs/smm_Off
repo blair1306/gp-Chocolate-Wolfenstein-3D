@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_sd.h' l='23' type='0'/>
+<use f='codebrowser/id_sd.cpp' l='944' c='_Z15SD_SetMusicMode6SMMode'/>
+<use f='codebrowser/id_sd.cpp' l='1089' u='r' c='_Z10SD_Startupv'/>
+<use f='codebrowser/wl_main.cpp' l='171' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='210' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1307' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1309' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1431' u='r' c='_Z13DrawSoundMenuv'/>

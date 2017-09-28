@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='727' type='0'/>
+<use f='codebrowser/wl_act1.cpp' l='407' u='r' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='522' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='610' u='r' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='710' c='_Z9MoveDoorsv'/>
+<use f='codebrowser/wl_act2.cpp' l='2425' u='r' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2517' u='r' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2609' u='r' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3189' u='r' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3416' u='r' c='_Z6T_PathP9objstruct'/>

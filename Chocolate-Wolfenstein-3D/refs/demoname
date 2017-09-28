@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='928' type='char [13]'/>
+<def f='codebrowser/wl_game.cpp' l='989' type='char [13]'/>
+<use f='codebrowser/wl_game.cpp' l='1041' u='w' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1042' u='r' c='_Z16FinishDemoRecordv'/>
+<doc f='codebrowser/wl_game.cpp' l='981'>/*
+==================
+=
+= StartDemoRecord
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_menu.cpp' l='4121' u='r' c='_Z16CheckForEpisodesv'/>

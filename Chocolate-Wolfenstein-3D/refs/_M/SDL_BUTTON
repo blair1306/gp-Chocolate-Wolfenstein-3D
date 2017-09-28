@@ -1,0 +1,16 @@
+<dec f='include/SDL/SDL_mouse.h' l='122'/>
+<doc f='include/SDL/SDL_mouse.h' l='115'>/** Used as a mask when testing buttons in buttonstate
+ *  Button 1:	Left mouse button
+ *  Button 2:	Middle mouse button
+ *  Button 3:	Right mouse button
+ *  Button 4:	Mouse wheel up	 (may also be a real button)
+ *  Button 5:	Mouse wheel down (may also be a real button)
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='130' u='c'/>
+<use f='codebrowser/id_in.cpp' l='131' u='c'/>
+<use f='codebrowser/id_in.cpp' l='132' u='c'/>
+<use f='codebrowser/id_in.cpp' l='132' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3590' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3591' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3592' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3592' u='c'/>

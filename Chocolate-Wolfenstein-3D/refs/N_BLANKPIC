@@ -1,0 +1,4 @@
+<dec f='codebrowser/gfxv_apo.h' l='130' type='110'/>
+<doc f='codebrowser/gfxv_apo.h' l='130'>// 110</doc>
+<use f='codebrowser/wl_agent.cpp' l='373' u='r' c='_ZL11LatchNumberiiji'/>
+<use f='codebrowser/wl_game.cpp' l='940' u='r' c='_Z15LatchNumberHEREiiji'/>

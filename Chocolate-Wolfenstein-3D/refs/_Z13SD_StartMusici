@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_sd.h' l='140' type='void SD_StartMusic(int chunk)'/>
+<def f='codebrowser/id_sd.cpp' l='1328' ll='1344' type='void SD_StartMusic(int chunk)'/>
+<doc f='codebrowser/id_sd.cpp' l='1323'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_StartMusic() - starts playing the music pointed to
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_menu.cpp' l='3854' u='c' c='_Z12StartCPMusici'/>
+<use f='codebrowser/wl_play.cpp' l='924' u='c' c='_Z10StartMusicv'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/wl_draw.cpp' l='56' type='void BuildTables()'/>
+<def f='codebrowser/wl_main.cpp' l='687' ll='718' type='void BuildTables()'/>
+<use f='codebrowser/wl_main.cpp' l='1289' u='c' c='_ZL8InitGamev'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_sd.h' l='142' type='void SD_MusicOn()'/>
+<def f='codebrowser/id_sd.cpp' l='1293' ll='1297' type='void SD_MusicOn()'/>
+<use f='codebrowser/id_sd.cpp' l='1342' u='c' c='_Z13SD_StartMusici'/>
+<use f='codebrowser/id_sd.cpp' l='1381' u='c' c='_Z16SD_ContinueMusicii'/>
+<doc f='codebrowser/id_sd.cpp' l='1288'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_MusicOn() - turns on the sequencer
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_menu.cpp' l='3898' u='c' c='_Z10CheckPausev'/>

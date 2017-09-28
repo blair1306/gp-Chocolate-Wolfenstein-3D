@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1166' type='void DrawLevel()'/>
+<def f='codebrowser/wl_agent.cpp' l='479' ll='488' type='void DrawLevel()'/>
+<doc f='codebrowser/wl_agent.cpp' l='471'>/*
+===============
+=
+= DrawLevel
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='921' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='970' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1401' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_inter.cpp' l='982' u='c' c='_Z15PreloadGraphicsv'/>
+<use f='codebrowser/wl_menu.cpp' l='1521' u='c' c='_Z11CP_LoadGamei'/>

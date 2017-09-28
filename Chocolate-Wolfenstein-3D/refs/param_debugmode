@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='894' type='boolean'/>
+<doc f='codebrowser/wl_def.h' l='891'>//
+// Command line parameter variables
+//</doc>
+<def f='codebrowser/wl_main.cpp' l='83' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='1622' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1661' u='w' c='_Z15CheckParametersiPPc'/>
+<doc f='codebrowser/wl_main.cpp' l='80'>//
+// Command line parameter variables
+//</doc>
+<use f='codebrowser/wl_play.cpp' l='622' u='r' c='_Z9CheckKeysv'/>

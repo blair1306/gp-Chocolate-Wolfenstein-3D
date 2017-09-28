@@ -1,0 +1,19 @@
+<dec f='codebrowser/wl_menu.h' l='135' type='void ReadAnyControl(ControlInfo * ci)'/>
+<use f='codebrowser/id_us_1.cpp' l='508' u='c' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_menu.cpp' l='1934' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2206' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2347' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2374' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2388' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2815' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3299' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3496' u='c' c='_Z8TicDelayi'/>
+<use f='codebrowser/wl_menu.cpp' l='3565' u='c' c='_Z9WaitKeyUpv'/>
+<def f='codebrowser/wl_menu.cpp' l='3579' ll='3655' type='void ReadAnyControl(ControlInfo * ci)'/>
+<use f='codebrowser/wl_menu.cpp' l='3683' u='c' c='_Z7ConfirmPKc'/>
+<doc f='codebrowser/wl_menu.cpp' l='3574'>////////////////////////////////////////////////////////////////////
+//
+// READ KEYBOARD, JOYSTICK AND MOUSE FOR INPUT
+//
+////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_text.cpp' l='675' u='c' c='_Z11ShowArticlePc'/>

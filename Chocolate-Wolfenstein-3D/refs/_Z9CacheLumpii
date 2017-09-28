@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_menu.h' l='137' type='void CacheLump(int lumpstart, int lumpend)'/>
+<use f='codebrowser/wl_act2.cpp' l='3821' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_inter.cpp' l='161' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='560' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_main.cpp' l='1118' u='c' c='_Z9DoJukeboxv'/>
+<def f='codebrowser/wl_menu.cpp' l='3056' ll='3063' type='void CacheLump(int lumpstart, int lumpend)'/>
+<use f='codebrowser/wl_menu.cpp' l='3113' u='c' c='_Z17SetupControlPanelv'/>
+<doc f='codebrowser/wl_menu.cpp' l='3051'>////////////////////////////////////////////////////////////////////
+//
+// Un/Cache a LUMP of graphics
+//
+////////////////////////////////////////////////////////////////////</doc>

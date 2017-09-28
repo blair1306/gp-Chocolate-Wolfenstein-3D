@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='698' type='void (*)(void *)'/>
+<offset>40</offset>
+<use f='codebrowser/wl_play.cpp' l='1163' u='r' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1222' u='r' c='_Z7DoActorP9objstruct'/>

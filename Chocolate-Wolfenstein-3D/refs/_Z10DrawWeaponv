@@ -1,0 +1,19 @@
+<dec f='codebrowser/wl_def.h' l='1170' type='void DrawWeapon()'/>
+<use f='codebrowser/wl_agent.cpp' l='135' u='c' c='_Z17CheckWeaponChangev'/>
+<def f='codebrowser/wl_agent.cpp' l='569' ll='573' type='void DrawWeapon()'/>
+<use f='codebrowser/wl_agent.cpp' l='614' u='c' c='_Z10GiveWeaponi'/>
+<use f='codebrowser/wl_agent.cpp' l='648' u='c' c='_Z8GiveAmmoi'/>
+<use f='codebrowser/wl_agent.cpp' l='1408' u='c' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1415' u='c' c='_Z8T_AttackP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='561'>/*
+==================
+=
+= DrawWeapon
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='924' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='973' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1335' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1524' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_play.cpp' l='597' u='c' c='_Z9CheckKeysv'/>

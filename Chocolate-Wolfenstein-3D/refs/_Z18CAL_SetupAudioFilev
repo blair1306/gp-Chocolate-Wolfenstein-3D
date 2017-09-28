@@ -1,0 +1,9 @@
+<def f='codebrowser/id_ca.cpp' l='626' ll='650' type='void CAL_SetupAudioFile()'/>
+<use f='codebrowser/id_ca.cpp' l='674' u='c' c='_Z10CA_Startupv'/>
+<doc f='codebrowser/id_ca.cpp' l='618'>/*
+======================
+=
+= CAL_SetupAudioFile
+=
+======================
+*/</doc>

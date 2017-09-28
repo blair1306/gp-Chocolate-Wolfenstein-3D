@@ -1,0 +1,22 @@
+<dec f='codebrowser/wl_def.h' l='1015' type='void GetNewActor()'/>
+<use f='codebrowser/wl_act2.cpp' l='241' u='c' c='_Z7A_SmokeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2309' u='c' c='_Z13T_SchabbThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2349' u='c' c='_Z11T_GiftThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2944' u='c' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_main.cpp' l='551' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_play.cpp' l='802' u='c' c='_Z13InitActorListv'/>
+<def f='codebrowser/wl_play.cpp' l='823' ll='840' type='void GetNewActor()'/>
+<doc f='codebrowser/wl_play.cpp' l='809'>/*
+=========================
+=
+= GetNewActor
+=
+= Sets the global variable new to point to a free spot in objlist.
+= The free spot is inserted at the end of the liked list
+=
+= When the object list is full, the caller can either have it bomb out ot
+= return a dummy object pointer that will never get used
+=
+=========================
+*/</doc>
+<use f='codebrowser/wl_state.cpp' l='83' u='c' c='_Z11SpawnNewObjjjP11statestruct'/>

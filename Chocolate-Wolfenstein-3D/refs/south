@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='659' type='6'/>
+<use f='codebrowser/wl_act2.cpp' l='42' u='r'/>
+<use f='codebrowser/wl_act2.cpp' l='42' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='25' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='25' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='231' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='296' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='427' u='r' c='_Z14SelectDodgeDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='433' u='r' c='_Z14SelectDodgeDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='523' u='r' c='_Z14SelectChaseDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='627' u='r' c='_Z12SelectRunDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='706' c='_Z7MoveObjP9objstructi'/>
+<use f='codebrowser/wl_state.cpp' l='765' c='_Z7MoveObjP9objstructi'/>
+<use f='codebrowser/wl_state.cpp' l='1254' c='_Z10CheckSightP9objstruct'/>

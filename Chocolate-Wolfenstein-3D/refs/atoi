@@ -1,0 +1,23 @@
+<dec f='include/stdlib.h' l='147' type='int atoi(const char * __nptr)'/>
+<def f='include/stdlib.h' l='277' ll='281' macro='1' type='int atoi(const char * __nptr)'/>
+<doc f='include/stdlib.h' l='146'>/* Convert a string to an integer.  */</doc>
+<use f='codebrowser/wl_debug.cpp' l='441' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='556' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='638' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='658' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='677' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1038' u='c' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1085' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_main.cpp' l='1679' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1697' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1698' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1713' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1714' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1730' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1757' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1772' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1781' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1790' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1800' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1812' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_text.cpp' l='117' u='c' c='_Z11ParseNumberv'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_sd.h' l='113' type='boolean'/>
+<def f='codebrowser/id_sd.cpp' l='77' type='boolean'/>
+<use f='codebrowser/id_sd.cpp' l='894' u='r' c='_Z15SD_SetSoundMode6SDMode'/>
+<use f='codebrowser/id_sd.cpp' l='909' u='r' c='_Z15SD_SetSoundMode6SDMode'/>
+<use f='codebrowser/id_sd.cpp' l='948' u='r' c='_Z15SD_SetMusicMode6SMMode'/>
+<use f='codebrowser/id_sd.cpp' l='1083' u='w' c='_Z10SD_Startupv'/>
+<use f='codebrowser/wl_main.cpp' l='167' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='202' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='1099' u='r' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='1364' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='3016' u='r' c='_Z11IntroScreenv'/>

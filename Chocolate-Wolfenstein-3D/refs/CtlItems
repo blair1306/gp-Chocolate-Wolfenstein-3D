@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_menu.cpp' l='239' ll='242' type='CP_iteminfo'/>
+<use f='codebrowser/wl_menu.cpp' l='1829' u='a' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='2024' u='a' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2027' u='m' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2043' u='m' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2043' u='m' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2045' u='m' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2049' u='m' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2055' u='a' c='_Z13DrawCtlScreenv'/>

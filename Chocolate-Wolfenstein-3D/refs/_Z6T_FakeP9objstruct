@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_act2.cpp' l='223' type='void T_Fake(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2689'/>
+<use f='codebrowser/wl_act2.cpp' l='2689'/>
+<use f='codebrowser/wl_act2.cpp' l='2691'/>
+<use f='codebrowser/wl_act2.cpp' l='2691'/>
+<use f='codebrowser/wl_act2.cpp' l='2692'/>
+<use f='codebrowser/wl_act2.cpp' l='2692'/>
+<use f='codebrowser/wl_act2.cpp' l='2694'/>
+<use f='codebrowser/wl_act2.cpp' l='2694'/>
+<def f='codebrowser/wl_act2.cpp' l='2972' ll='3025' type='void T_Fake(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2964'>/*
+=================
+=
+= T_Fake
+=
+=================
+*/</doc>

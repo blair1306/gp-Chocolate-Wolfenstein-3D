@@ -1,0 +1,8 @@
+<dec f='codebrowser/audiowl6.h' l='107'/>
+<doc f='codebrowser/audiowl6.h' l='104'>//
+// Base offsets
+//</doc>
+<use f='codebrowser/id_ca.cpp' l='712' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='811' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='831' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='904' u='c'/>

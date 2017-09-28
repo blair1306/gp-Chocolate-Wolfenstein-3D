@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_debug.cpp' l='124' ll='146' type='void PictureGrabber()'/>
+<use f='codebrowser/wl_debug.cpp' l='624' u='c' c='_Z9DebugKeysv'/>
+<doc f='codebrowser/wl_debug.cpp' l='117'>/*
+===================
+=
+= PictureGrabber
+=
+===================
+*/</doc>

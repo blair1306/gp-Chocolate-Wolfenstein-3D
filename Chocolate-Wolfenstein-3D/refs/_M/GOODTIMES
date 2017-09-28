@@ -1,0 +1,11 @@
+<dec f='codebrowser/version.h' l='11'/>
+<use f='codebrowser/wl_menu.h' l='50' u='a'/>
+<use f='codebrowser/wl_menu.h' l='214' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='32' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='74' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='412' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='647' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='666' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='1112' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='1568' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='4124' u='a'/>

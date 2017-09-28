@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='832' type='weapontype'/>
+<offset>192</offset>
+<use f='codebrowser/wl_agent.cpp' l='113' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='118' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='122' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='610' u='r' c='_Z10GiveWeaponi'/>
+<use f='codebrowser/wl_agent.cpp' l='611' u='w' c='_Z10GiveWeaponi'/>
+<use f='codebrowser/wl_debug.cpp' l='538' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='539' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1324' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_main.cpp' l='300' u='w' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_main.cpp' l='640' u='w' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_state.cpp' l='879' u='r' c='_Z9KillActorP9objstruct'/>

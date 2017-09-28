@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='805' type='3'/>
+<use f='codebrowser/wl_agent.cpp' l='764' u='r' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1260' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_debug.cpp' l='538' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='596' u='r' c='_Z9CheckKeysv'/>

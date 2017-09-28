@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='763' type='word'/>
+<offset>360</offset>
+<use f='codebrowser/wl_draw.cpp' l='159' u='w' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='168' u='w' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='936' u='r' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='940' u='r' c='_Z11DrawScaledsv'/>

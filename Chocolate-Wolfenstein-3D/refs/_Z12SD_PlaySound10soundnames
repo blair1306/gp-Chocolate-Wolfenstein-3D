@@ -1,0 +1,87 @@
+<dec f='codebrowser/id_sd.h' l='135' type='boolean SD_PlaySound(soundnames sound)'/>
+<def f='codebrowser/id_sd.cpp' l='1141' ll='1221' type='boolean SD_PlaySound(soundnames sound)'/>
+<doc f='codebrowser/id_sd.cpp' l='1136'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_PlaySound() - plays the specified sound on the appropriate hardware
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_act1.cpp' l='511' u='c' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='764' u='c' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_act1.cpp' l='781' u='c' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_act2.cpp' l='1127' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1130' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1133' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1136' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1139' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1143' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1146' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1149' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2914' u='c' c='_Z9A_SlurpieP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='521' u='c' c='_Z12GiveExtraManv'/>
+<use f='codebrowser/wl_agent.cpp' l='699' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='708' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='712' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='717' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='722' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='727' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='736' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='743' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='758' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='762' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='772' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='783' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='791' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='799' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='941' u='c' c='_Z8ClipMoveP9objstructii'/>
+<use f='codebrowser/wl_agent.cpp' l='1149' u='c' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1158' u='c' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1216' u='c' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1255' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1258' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1261' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='180' u='c' c='_Z18PlaySoundLocGlobaltii'/>
+<use f='codebrowser/wl_game.cpp' l='1222' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_inter.cpp' l='675' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='685' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='706' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='723' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='729' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='732' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='748' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='765' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='771' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='774' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='789' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='805' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='811' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='814' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1032' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1787' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1947' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1962' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1979' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1982' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2245' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2284' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2311' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2342' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2373' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2387' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2398' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2826' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2840' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2849' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2860' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3420' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3452' u='c' c='_Z12DrawHalfStepii'/>
+<use f='codebrowser/wl_menu.cpp' l='3479' u='c' c='_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3728' u='c' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3950' u='c' c='_Z8ShootSndv'/>
+<use f='codebrowser/wl_state.cpp' l='1343' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1350' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1356' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1362' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1369' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1375' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1381' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1387' u='c' c='_Z13FirstSightingP9objstruct'/>

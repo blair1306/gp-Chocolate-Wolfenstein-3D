@@ -1,0 +1,14 @@
+<def f='codebrowser/id_ca.cpp' l='103' type='int'/>
+<use f='codebrowser/id_ca.cpp' l='139' u='r' c='_Z20CAL_GetGrChunkLengthi'/>
+<use f='codebrowser/id_ca.cpp' l='140' u='r' c='_Z20CAL_GetGrChunkLengthi'/>
+<use f='codebrowser/id_ca.cpp' l='514' u='w' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='515' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='527' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='698' u='r' c='_Z11CA_Shutdownv'/>
+<use f='codebrowser/id_ca.cpp' l='699' u='r' c='_Z11CA_Shutdownv'/>
+<use f='codebrowser/id_ca.cpp' l='940' u='r' c='_Z15CA_CacheGrChunki'/>
+<use f='codebrowser/id_ca.cpp' l='944' u='r' c='_Z15CA_CacheGrChunki'/>
+<use f='codebrowser/id_ca.cpp' l='951' u='r' c='_Z15CA_CacheGrChunki'/>
+<use f='codebrowser/id_ca.cpp' l='990' u='r' c='_Z14CA_CacheScreeni'/>
+<use f='codebrowser/id_ca.cpp' l='994' u='r' c='_Z14CA_CacheScreeni'/>
+<doc f='codebrowser/id_ca.cpp' l='103'>// handle to EGAGRAPH</doc>

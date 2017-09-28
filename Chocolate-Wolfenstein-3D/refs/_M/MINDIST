@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='179'/>
+<use f='codebrowser/wl_act1.cpp' l='443' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='445' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='449' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='452' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='459' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='461' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='465' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='468' u='c'/>
+<use f='codebrowser/wl_agent.cpp' l='1025' u='c'/>
+<use f='codebrowser/wl_agent.cpp' l='1026' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='157' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='222' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='256' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='257' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='743' u='c'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_sd.h' l='119' type='int []'/>
+<def f='codebrowser/id_sd.cpp' l='84' type='int [87]'/>
+<use f='codebrowser/id_sd.cpp' l='700' u='w' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='1164' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/id_sd.cpp' l='1189' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/wl_main.cpp' l='1010' u='w' c='_Z11InitDigiMapv'/>

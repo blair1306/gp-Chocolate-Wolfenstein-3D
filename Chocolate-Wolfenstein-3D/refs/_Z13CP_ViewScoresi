@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_menu.h' l='192' type='int CP_ViewScores(int )'/>
+<use f='codebrowser/wl_game.cpp' l='1556' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1576' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='86'/>
+<use f='codebrowser/wl_menu.cpp' l='86'/>
+<use f='codebrowser/wl_menu.cpp' l='86'/>
+<use f='codebrowser/wl_menu.cpp' l='86'/>
+<use f='codebrowser/wl_menu.cpp' l='957' u='r' c='_Z10CP_EndGamei'/>
+<def f='codebrowser/wl_menu.cpp' l='971' ll='998' type='int CP_ViewScores(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='966'>////////////////////////////////////////////////////////////////////
+//
+// VIEW THE HIGH SCORES
+//
+////////////////////////////////////////////////////////////////////</doc>

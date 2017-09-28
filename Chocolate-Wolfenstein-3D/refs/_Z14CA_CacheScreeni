@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_ca.h' l='52' type='void CA_CacheScreen(int chunk)'/>
+<def f='codebrowser/id_ca.cpp' l='974' ll='1021' type='void CA_CacheScreen(int chunk)'/>
+<doc f='codebrowser/id_ca.cpp' l='964'>/*
+======================
+=
+= CA_CacheScreen
+=
+= Decompresses a chunk from disk straight onto the screen
+=
+======================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1575' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1585' u='c' c='_ZL8DemoLoopv'/>

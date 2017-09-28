@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_text.cpp' l='78' ll='82' type='void RipToEOL()'/>
+<use f='codebrowser/wl_text.cpp' l='138' u='c' c='_Z15ParsePicCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='148' u='c' c='_Z17ParseTimedCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='205' u='c' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='208' u='c' c='_Z13HandleCommandv'/>
+<doc f='codebrowser/wl_text.cpp' l='70'>/*
+=====================
+=
+= RipToEOL
+=
+=====================
+*/</doc>

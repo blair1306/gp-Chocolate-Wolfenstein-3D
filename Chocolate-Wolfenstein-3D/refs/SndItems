@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_menu.cpp' l='239' ll='240' type='CP_iteminfo'/>
+<use f='codebrowser/wl_menu.cpp' l='1238' u='a' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1375' u='a' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1382' u='m' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1446' u='a' c='_Z13DrawSoundMenuv'/>

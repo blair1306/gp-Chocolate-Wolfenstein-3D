@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1153' type='void GetBonus(statobj_t * check)'/>
+<def f='codebrowser/wl_agent.cpp' l='691' ll='815' type='void GetBonus(statobj_t * check)'/>
+<doc f='codebrowser/wl_agent.cpp' l='684'>/*
+===================
+=
+= GetBonus
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_draw.cpp' l='894' u='c' c='_Z11DrawScaledsv'/>

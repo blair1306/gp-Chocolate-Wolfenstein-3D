@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='983' type='int'/>
+<use f='codebrowser/wl_game.cpp' l='1388' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='482' u='a' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='482' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='622' u='a' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='622' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='623' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='623' u='w' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<dec f='codebrowser/wl_menu.cpp' l='20' type='int'/>
+<use f='codebrowser/wl_menu.cpp' l='397' u='w' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='794' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='804' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='865' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='875' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1526' u='r' c='_Z11CP_LoadGamei'/>
+<def f='codebrowser/wl_play.cpp' l='78' type='int'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/id_sd.h' l='114' type='boolean'/>
+<def f='codebrowser/id_sd.cpp' l='77' ll='78' type='boolean'/>
+<use f='codebrowser/id_sd.cpp' l='636' u='r' c='_Z16SD_SetDigiDevice7SDSMode'/>
+<use f='codebrowser/id_sd.cpp' l='1084' u='w' c='_Z10SD_Startupv'/>
+<use f='codebrowser/wl_main.cpp' l='168' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='174' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='202' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='213' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='1099' u='r' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='1364' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1369' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1372' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='3016' u='r' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3019' u='r' c='_Z11IntroScreenv'/>

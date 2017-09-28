@@ -1,0 +1,26 @@
+<dec f='codebrowser/wl_draw.cpp' l='55' type='void TransformActor(objtype * ob)'/>
+<def f='codebrowser/wl_draw.cpp' l='125' ll='169' type='void TransformActor(objtype * ob)'/>
+<use f='codebrowser/wl_draw.cpp' l='935' u='c' c='_Z11DrawScaledsv'/>
+<doc f='codebrowser/wl_draw.cpp' l='102'>/*
+========================
+=
+= TransformActor
+=
+= Takes paramaters:
+=   gx,gy               : globalx/globaly of point
+=
+= globals:
+=   viewx,viewy         : point of view
+=   viewcos,viewsin     : sin/cos of viewangle
+=   scale               : conversion from global value to screen value
+=
+= sets:
+=   screenx,transx,transy,screenheight: projected edge location and size
+=
+========================
+*/
+
+
+//
+// transform actor
+//</doc>

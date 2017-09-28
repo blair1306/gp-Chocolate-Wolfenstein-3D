@@ -1,0 +1,20 @@
+<dec f='codebrowser/id_ca.h' l='30' type='char [5]'/>
+<def f='codebrowser/id_ca.cpp' l='81' type='char [5]'/>
+<use f='codebrowser/id_ca.cpp' l='554' u='r' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='573' u='r' c='_Z16CAL_SetupMapFilev'/>
+<doc f='codebrowser/id_ca.cpp' l='73'>/*
+=============================================================================
+
+                             LOCAL VARIABLES
+
+=============================================================================
+*/</doc>
+<doc f='codebrowser/id_ca.cpp' l='81'>// Need a string, not constant to change cache files</doc>
+<use f='codebrowser/id_pm.cpp' l='20' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/wl_menu.cpp' l='4029' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4115' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4116' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4119' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4120' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4121' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4127' u='r' c='_Z16CheckForEpisodesv'/>

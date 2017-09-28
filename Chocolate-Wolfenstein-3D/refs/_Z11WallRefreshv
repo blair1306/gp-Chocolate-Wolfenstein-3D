@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_draw.cpp' l='1480' ll='1491' type='void WallRefresh()'/>
+<use f='codebrowser/wl_draw.cpp' l='1540' u='c' c='_Z13ThreeDRefreshv'/>
+<doc f='codebrowser/wl_draw.cpp' l='1472'>/*
+====================
+=
+= WallRefresh
+=
+====================
+*/</doc>

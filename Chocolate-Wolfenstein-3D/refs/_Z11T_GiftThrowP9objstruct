@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_act2.cpp' l='2029' type='void T_GiftThrow(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2144'/>
+<use f='codebrowser/wl_act2.cpp' l='2144'/>
+<use f='codebrowser/wl_act2.cpp' l='2200'/>
+<use f='codebrowser/wl_act2.cpp' l='2200'/>
+<def f='codebrowser/wl_act2.cpp' l='2336' ll='2367' type='void T_GiftThrow(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2328'>/*
+=================
+=
+= T_GiftThrow
+=
+=================
+*/</doc>

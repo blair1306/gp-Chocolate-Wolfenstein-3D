@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_us.h' l='86' type='void US_PrintSigned(int32_t n)'/>
+<def f='codebrowser/id_us_1.cpp' l='190' ll='196' type='void US_PrintSigned(int32_t n)'/>
+<doc f='codebrowser/id_us_1.cpp' l='185'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_PrintSigned() - Prints a signed long
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_draw.cpp' l='1579' u='c' c='_Z13ThreeDRefreshv'/>

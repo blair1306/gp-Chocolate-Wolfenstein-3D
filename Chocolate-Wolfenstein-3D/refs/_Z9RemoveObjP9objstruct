@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_def.h' l='1023' type='void RemoveObj(objtype * gone)'/>
+<dec f='codebrowser/wl_play.cpp' l='86' type='void RemoveObj(objtype * gone)'/>
+<def f='codebrowser/wl_play.cpp' l='855' ll='882' type='void RemoveObj(objtype * gone)'/>
+<use f='codebrowser/wl_play.cpp' l='1169' u='c' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1196' u='c' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1205' u='c' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1228' u='c' c='_Z7DoActorP9objstruct'/>
+<doc f='codebrowser/wl_play.cpp' l='844'>/*
+=========================
+=
+= RemoveObj
+=
+= Add the given object back into the free list, and unlink it from it&apos;s
+= neighbors
+=
+=========================
+*/</doc>

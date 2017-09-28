@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_us.h' l='76' type='void US_SetPrintRoutines(void (*)(const char *, word *, word *) measure, void (*)(const char *) print)'/>
+<def f='codebrowser/id_us_1.cpp' l='121' ll='127' type='void US_SetPrintRoutines(void (*)(const char *, word *, word *) measure, void (*)(const char *) print)'/>
+<doc f='codebrowser/id_us_1.cpp' l='112'>//  Window/Printing routines
+
+///////////////////////////////////////////////////////////////////////////
+//
+//  US_SetPrintRoutines() - Sets the routines used to measure and print
+//      from within the User Mgr. Primarily provided to allow switching
+//      between masked and non-masked fonts
+//
+///////////////////////////////////////////////////////////////////////////</doc>

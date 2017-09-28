@@ -1,0 +1,2 @@
+<def f='codebrowser/id_pm.h' l='34' ll='37' type='uint8_t * PM_GetEnd()'/>
+<use f='codebrowser/id_sd.cpp' l='553' u='c' c='_Z15SD_PrepareSoundi'/>

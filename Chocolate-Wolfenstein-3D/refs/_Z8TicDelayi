@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_menu.h' l='136' type='void TicDelay(int count)'/>
+<use f='codebrowser/wl_menu.cpp' l='1948' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1963' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2827' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2841' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3335' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3368' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<def f='codebrowser/wl_menu.cpp' l='3487' ll='3499' type='void TicDelay(int count)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3482'>////////////////////////////////////////////////////////////////////
+//
+// DELAY FOR AN AMOUNT OF TICS OR UNTIL CONTROLS ARE INACTIVE
+//
+////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_text.cpp' l='717' u='c' c='_Z11ShowArticlePc'/>
+<use f='codebrowser/wl_text.cpp' l='729' u='c' c='_Z11ShowArticlePc'/>

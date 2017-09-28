@@ -1,0 +1,20 @@
+<dec f='codebrowser/wl_def.h' l='1132' type='boolean CheckLine(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2389' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2481' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2573' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2976' u='c' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3077' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3479' u='c' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1296' u='c' c='_Z9GunAttackP9objstruct'/>
+<dec f='codebrowser/wl_state.cpp' l='51' type='boolean CheckLine(objtype * ob)'/>
+<def f='codebrowser/wl_state.cpp' l='1072' ll='1200' type='boolean CheckLine(objtype * ob)'/>
+<use f='codebrowser/wl_state.cpp' l='1290' u='c' c='_Z10CheckSightP9objstruct'/>
+<doc f='codebrowser/wl_state.cpp' l='1062'>/*
+=====================
+=
+= CheckLine
+=
+= Returns true if a straight line between the player and ob is unobstructed
+=
+=====================
+*/</doc>

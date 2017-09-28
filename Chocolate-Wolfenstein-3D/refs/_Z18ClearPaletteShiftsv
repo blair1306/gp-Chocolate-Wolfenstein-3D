@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_play.cpp' l='1019' ll='1023' type='void ClearPaletteShifts()'/>
+<use f='codebrowser/wl_play.cpp' l='1265' u='c' c='_Z8PlayLoopv'/>
+<doc f='codebrowser/wl_play.cpp' l='1011'>/*
+=====================
+=
+= ClearPaletteShifts
+=
+=====================
+*/</doc>

@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='1330' type='void glTexSubImage2D(GLenum target, GLint level, GLint xoffset, GLint yoffset, GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid * pixels)'/>
+<use f='codebrowser/crt.cpp' l='80' u='c' c='_Z7CRT_DACv'/>

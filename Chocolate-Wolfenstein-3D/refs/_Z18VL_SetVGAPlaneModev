@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_vl.h' l='41' type='void VL_SetVGAPlaneMode()'/>
+<def f='codebrowser/id_vl.cpp' l='85' ll='153' type='void VL_SetVGAPlaneMode()'/>
+<doc f='codebrowser/id_vl.cpp' l='77'>/*
+=======================
+=
+= VL_SetVGAPlaneMode
+=
+=======================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='813' u='c' c='_Z12SignonScreenv'/>

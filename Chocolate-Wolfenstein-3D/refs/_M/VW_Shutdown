@@ -1,0 +1,5 @@
+<dec f='codebrowser/id_vh.h' l='75'/>
+<doc f='codebrowser/id_vh.h' l='70'>//
+// wolfenstein EGA compatability stuff
+//</doc>
+<use f='codebrowser/wl_main.cpp' l='665' u='c'/>

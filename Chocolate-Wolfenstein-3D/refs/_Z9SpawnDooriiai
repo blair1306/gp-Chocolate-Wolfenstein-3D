@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1202' type='void SpawnDoor(int tilex, int tiley, boolean vertical, int lock)'/>
+<def f='codebrowser/wl_act1.cpp' l='356' ll='393' type='void SpawnDoor(int tilex, int tiley, boolean vertical, int lock)'/>
+<doc f='codebrowser/wl_act1.cpp' l='348'>/*
+===============
+=
+= SpawnDoor
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='711' u='c' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='719' u='c' c='_Z14SetupGameLevelv'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_us.h' l='28' type='word'/>
+<offset>496</offset>
+<use f='codebrowser/wl_inter.cpp' l='1093' u='r' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1193' u='w' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1198' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1198' u='r' c='_Z14CheckHighScoreit'/>

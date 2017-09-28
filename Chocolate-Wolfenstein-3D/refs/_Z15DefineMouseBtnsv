@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_menu.h' l='154' type='void DefineMouseBtns()'/>
+<use f='codebrowser/wl_menu.cpp' l='2083' u='c' c='_Z14CustomControlsi'/>
+<def f='codebrowser/wl_menu.cpp' l='2111' ll='2116' type='void DefineMouseBtns()'/>
+<doc f='codebrowser/wl_menu.cpp' l='2107'>////////////////////////
+//
+// DEFINE THE MOUSE BUTTONS
+//</doc>

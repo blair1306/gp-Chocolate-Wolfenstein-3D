@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='838' type='short'/>
+<offset>432</offset>
+<use f='codebrowser/wl_act1.cpp' l='163' u='w' c='_Z11SpawnStaticiii'/>
+<use f='codebrowser/wl_game.cpp' l='640' u='w' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_inter.cpp' l='659' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='660' u='r' c='_Z14LevelCompletedv'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1051' type='void CheckHighScore(int32_t score, word other)'/>
+<use f='codebrowser/wl_game.cpp' l='1552' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1572' u='c' c='_Z8GameLoopv'/>
+<def f='codebrowser/wl_inter.cpp' l='1183' ll='1244' type='void CheckHighScore(int32_t score, word other)'/>
+<doc f='codebrowser/wl_inter.cpp' l='1175'>/*
+=======================
+=
+= CheckHighScore
+=
+=======================
+*/</doc>

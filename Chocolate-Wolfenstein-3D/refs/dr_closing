@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='727' type='3'/>
+<use f='codebrowser/wl_act1.cpp' l='483' u='r' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='519' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='718' c='_Z9MoveDoorsv'/>

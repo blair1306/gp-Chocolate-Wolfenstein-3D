@@ -1,0 +1,6 @@
+<def f='codebrowser/id_us_1.cpp' l='55' type='int'/>
+<use f='codebrowser/id_us_1.cpp' l='764' u='w' c='_Z11US_InitRndTi'/>
+<use f='codebrowser/id_us_1.cpp' l='766' u='w' c='_Z11US_InitRndTi'/>
+<use f='codebrowser/id_us_1.cpp' l='776' u='w' c='_Z7US_RndTv'/>
+<use f='codebrowser/id_us_1.cpp' l='776' u='r' c='_Z7US_RndTv'/>
+<use f='codebrowser/id_us_1.cpp' l='777' u='r' c='_Z7US_RndTv'/>

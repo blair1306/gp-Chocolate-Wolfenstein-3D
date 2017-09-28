@@ -1,0 +1,3 @@
+<dec f='codebrowser/wl_draw.cpp' l='59' type='void DrawScaleds()'/>
+<def f='codebrowser/wl_draw.cpp' l='869' ll='987' type='void DrawScaleds()'/>
+<use f='codebrowser/wl_draw.cpp' l='1548' u='c' c='_Z13ThreeDRefreshv'/>

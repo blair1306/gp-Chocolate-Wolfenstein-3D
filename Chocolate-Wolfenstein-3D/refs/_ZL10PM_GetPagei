@@ -1,0 +1,5 @@
+<def f='codebrowser/id_pm.h' l='27' ll='32' type='uint8_t * PM_GetPage(int page)'/>
+<use f='codebrowser/id_pm.h' l='41' u='c' c='_ZL13PM_GetTexturei'/>
+<use f='codebrowser/id_pm.h' l='47' u='c' c='_ZL12PM_GetSpritei'/>
+<use f='codebrowser/id_pm.h' l='52' u='c' c='_ZL11PM_GetSoundi'/>
+<use f='codebrowser/id_sd.cpp' l='655' u='c' c='_Z13SDL_SetupDigiv'/>

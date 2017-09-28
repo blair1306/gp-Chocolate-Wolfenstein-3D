@@ -1,0 +1,4 @@
+<dec f='codebrowser/fmopl.h' l='7'/>
+<use f='codebrowser/fmopl.h' l='42' u='c'/>
+<use f='codebrowser/fmopl.cpp' l='2078' u='c'/>
+<doc f='codebrowser/fmopl.h' l='6'>/* --- select emulation chips --- */</doc>

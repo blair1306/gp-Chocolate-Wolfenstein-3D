@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='175' type='void PrintCustJoy(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2127' u='r' c='_Z13DefineJoyBtnsv'/>
+<def f='codebrowser/wl_menu.cpp' l='2708' ll='2720' type='void PrintCustJoy(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2742' u='c' c='_Z11DrawCustJoyi'/>

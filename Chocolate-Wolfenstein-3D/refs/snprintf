@@ -1,0 +1,10 @@
+<dec f='include/stdio.h' l='386' type='int snprintf(char *__restrict __s, size_t __maxlen, const char *__restrict __format)'/>
+<doc f='include/stdio.h' l='385'>/* Maximum chars of output to write in MAXLEN.  */</doc>
+<use f='codebrowser/wl_main.cpp' l='125' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='246' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1507' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1548' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1692' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1764' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='3152' u='c' c='_Z14SetupSaveGamesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3979' u='c' c='_Z16CheckForEpisodesv'/>

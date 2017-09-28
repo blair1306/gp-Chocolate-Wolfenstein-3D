@@ -1,0 +1,22 @@
+<dec f='codebrowser/id_sd.h' l='117' type='SDSMode'/>
+<def f='codebrowser/id_sd.cpp' l='82' type='SDSMode'/>
+<use f='codebrowser/id_sd.cpp' l='485' u='r' c='_Z16SD_StopDigitizedv'/>
+<use f='codebrowser/id_sd.cpp' l='488' u='r' c='_Z16SD_StopDigitizedv'/>
+<use f='codebrowser/id_sd.cpp' l='517' u='r' c='_Z14SD_SetPositioniii'/>
+<use f='codebrowser/id_sd.cpp' l='590' u='r' c='_Z16SD_PlayDigitizedtii'/>
+<use f='codebrowser/id_sd.cpp' l='627' u='r' c='_Z16SD_SetDigiDevice7SDSMode'/>
+<use f='codebrowser/id_sd.cpp' l='643' u='w' c='_Z16SD_SetDigiDevice7SDSMode'/>
+<use f='codebrowser/id_sd.cpp' l='1156' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/id_sd.cpp' l='1164' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/id_sd.cpp' l='1166' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/wl_act2.cpp' l='2217' u='r' c='_Z12SpawnSchabbsii'/>
+<use f='codebrowser/wl_act2.cpp' l='2244' u='r' c='_Z9SpawnGiftii'/>
+<use f='codebrowser/wl_act2.cpp' l='2271' u='r' c='_Z8SpawnFatii'/>
+<use f='codebrowser/wl_act2.cpp' l='2827' u='r' c='_Z15SpawnFakeHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='2854' u='r' c='_Z11SpawnHitlerii'/>
+<use f='codebrowser/wl_main.cpp' l='259' u='a' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='259' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1280' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1295' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1415' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1423' u='r' c='_Z13DrawSoundMenuv'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/id_ca.cpp' l='543' ll='612' type='void CAL_SetupMapFile()'/>
+<use f='codebrowser/id_ca.cpp' l='672' u='c' c='_Z10CA_Startupv'/>
+<doc f='codebrowser/id_ca.cpp' l='535'>/*
+======================
+=
+= CAL_SetupMapFile
+=
+======================
+*/</doc>

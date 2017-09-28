@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_in.h' l='174' type='void IN_GetJoyDelta(int * dx, int * dy)'/>
+<def f='codebrowser/id_in.cpp' l='145' ll='179' type='void IN_GetJoyDelta(int * dx, int * dy)'/>
+<doc f='codebrowser/id_in.cpp' l='139'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_GetJoyDelta() - Returns the relative movement of the specified
+//      joystick (from +/-127)
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_menu.cpp' l='3635' u='c' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_play.cpp' l='362' u='c' c='_Z16PollJoystickMovev'/>

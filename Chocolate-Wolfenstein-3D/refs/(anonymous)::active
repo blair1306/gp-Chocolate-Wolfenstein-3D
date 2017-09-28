@@ -1,0 +1,35 @@
+<dec f='codebrowser/wl_menu.h' l='103' type='short'/>
+<offset>0</offset>
+<use f='codebrowser/wl_main.cpp' l='193' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='1152' u='w' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_main.cpp' l='1155' u='w' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='622' u='w' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='640' u='w' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='760' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='956' u='w' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1366' u='w' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1366' u='w' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1366' u='w' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1370' u='w' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1373' u='w' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='2014' u='w' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2018' u='w' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2018' u='w' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2021' u='w' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2043' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2047' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2658' u='r' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2698' u='w' c='_Z13DrawCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='2701' u='w' c='_Z13DrawCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='2735' u='w' c='_Z11DrawCustJoyi'/>
+<use f='codebrowser/wl_menu.cpp' l='2738' u='w' c='_Z11DrawCustJoyi'/>
+<use f='codebrowser/wl_menu.cpp' l='3127' u='w' c='_Z17SetupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3269' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3285' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3313' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3329' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3348' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3361' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3523' u='r' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3547' u='r' c='_Z12SetTextColorP11CP_itemtypei'/>
+<use f='codebrowser/wl_menu.cpp' l='3551' u='r' c='_Z12SetTextColorP11CP_itemtypei'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1096' type='void ThreeDRefresh()'/>
+<dec f='codebrowser/wl_draw.cpp' l='61' type='void ThreeDRefresh()'/>
+<def f='codebrowser/wl_draw.cpp' l='1521' ll='1602' type='void ThreeDRefresh()'/>
+<doc f='codebrowser/wl_draw.cpp' l='1513'>/*
+========================
+=
+= ThreeDRefresh
+=
+========================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='1217' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1275' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1297' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_play.cpp' l='1290' u='c' c='_Z8PlayLoopv'/>

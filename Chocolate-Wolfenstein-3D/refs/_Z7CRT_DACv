@@ -1,0 +1,12 @@
+<dec f='codebrowser/crt.h' l='35' type='void CRT_DAC()'/>
+<def f='codebrowser/crt.cpp' l='63' ll='112' type='void CRT_DAC()'/>
+<doc f='codebrowser/crt.h' l='32'>/*
+ *   Trigger the Digital To Analogic convertion
+ */</doc>
+<use f='codebrowser/id_vh.cpp' l='119' macro='1' u='c'/>
+<use f='codebrowser/id_vh.cpp' l='369' macro='1' u='c'/>
+<use f='codebrowser/id_vh.cpp' l='436' macro='1' u='c'/>
+<use f='codebrowser/id_vh.cpp' l='447' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='227' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='271' macro='1' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1585' macro='1' u='c'/>

@@ -1,0 +1,25 @@
+<dec f='include/string.h' l='394' type='size_t strlen(const char * __s)'/>
+<doc f='include/string.h' l='393'>/* Return the length of S.  */</doc>
+<use f='codebrowser/id_us_1.cpp' l='497' u='c' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='637' u='c' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='689' u='c' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_agent.cpp' l='369' u='c' c='_ZL11LatchNumberiiji'/>
+<use f='codebrowser/wl_game.cpp' l='936' u='c' c='_Z15LatchNumberHEREiiji'/>
+<use f='codebrowser/wl_inter.cpp' l='239' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='243' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='247' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='343' u='c' c='_Z5WriteiiPKc'/>
+<use f='codebrowser/wl_inter.cpp' l='672' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='703' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='720' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='745' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='762' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='786' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='802' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='824' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='828' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='832' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='841' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_main.cpp' l='1829' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_menu.cpp' l='3804' u='c' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3975' u='c' c='_Z16CheckForEpisodesv'/>

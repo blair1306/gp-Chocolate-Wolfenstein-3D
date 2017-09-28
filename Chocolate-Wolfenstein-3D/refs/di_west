@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='576' type='3'/>
+<use f='codebrowser/wl_agent.cpp' l='859' c='_Z7TryMoveP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1116' u='r' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_draw.cpp' l='1126' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1198' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1203' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1214' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1397' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1399' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1404' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1438' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_play.cpp' l='319' u='r' c='_Z16PollKeyboardMovev'/>

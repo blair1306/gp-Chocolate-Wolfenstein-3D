@@ -1,0 +1,4 @@
+<def f='codebrowser/id_ca.cpp' l='109' type='SDMode'/>
+<use f='codebrowser/id_ca.cpp' l='707' u='r' c='_Z11CA_Shutdownv'/>
+<use f='codebrowser/id_ca.cpp' l='806' u='r' c='_Z16CA_LoadAllSoundsv'/>
+<use f='codebrowser/id_ca.cpp' l='823' u='w' c='_Z16CA_LoadAllSoundsv'/>

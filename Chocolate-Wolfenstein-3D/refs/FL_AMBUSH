@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='229' type='64'/>
+<use f='codebrowser/wl_act2.cpp' l='906' u='r' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='954' u='r' c='_Z9SpawnBossii'/>
+<use f='codebrowser/wl_act2.cpp' l='975' u='r' c='_Z11SpawnGretelii'/>
+<use f='codebrowser/wl_act2.cpp' l='2018' u='r' c='_Z11SpawnGhostsiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2228' u='r' c='_Z12SpawnSchabbsii'/>
+<use f='codebrowser/wl_act2.cpp' l='2255' u='r' c='_Z9SpawnGiftii'/>
+<use f='codebrowser/wl_act2.cpp' l='2282' u='r' c='_Z8SpawnFatii'/>
+<use f='codebrowser/wl_act2.cpp' l='2838' u='r' c='_Z15SpawnFakeHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='2866' u='r' c='_Z11SpawnHitlerii'/>
+<use f='codebrowser/wl_state.cpp' l='1476' u='r' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1480' u='r' c='_Z11SightPlayerP9objstruct'/>

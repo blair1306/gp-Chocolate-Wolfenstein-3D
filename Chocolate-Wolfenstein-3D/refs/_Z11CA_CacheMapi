@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_ca.h' l='50' type='void CA_CacheMap(int mapnum)'/>
+<def f='codebrowser/id_ca.cpp' l='1035' ll='1098' type='void CA_CacheMap(int mapnum)'/>
+<doc f='codebrowser/id_ca.cpp' l='1025'>/*
+======================
+=
+= CA_CacheMap
+=
+= WOLF: This is specialized for a 64*64 map size
+=
+======================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='657' u='c' c='_Z14SetupGameLevelv'/>

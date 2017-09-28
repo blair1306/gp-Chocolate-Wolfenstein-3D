@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1035' type='objtype *'/>
+<doc f='codebrowser/wl_def.h' l='1035'>// *obj,*player,*lastobj,</doc>
+<use f='codebrowser/wl_act2.cpp' l='2392' u='r' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2484' u='r' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2576' u='r' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2931' u='r' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2979' u='r' c='_Z6T_FakeP9objstruct'/>
+<def f='codebrowser/wl_play.cpp' l='34' type='objtype *'/>
+<use f='codebrowser/wl_play.cpp' l='794' u='w' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='825' u='r' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='828' u='r' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='829' u='w' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='878' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='879' u='w' c='_Z9RemoveObjP9objstruct'/>

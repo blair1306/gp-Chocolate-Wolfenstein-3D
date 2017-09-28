@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='147' type='void DrawGun(CP_iteminfo * item_i, CP_itemtype * items, int x, int * y, int which, int basey, void (*)(int) routine)'/>
+<use f='codebrowser/wl_menu.cpp' l='3273' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3289' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3331' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3363' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<def f='codebrowser/wl_menu.cpp' l='3460' ll='3480' type='void DrawGun(CP_iteminfo * item_i, CP_itemtype * items, int x, int * y, int which, int basey, void (*)(int) routine)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3457'>//
+// DRAW GUN AT NEW POSITION
+//</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_menu.h' l='145' type='void BossKey()'/>
+<use f='codebrowser/wl_menu.cpp' l='413' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='672' ll='697' type='void BossKey()'/>
+<doc f='codebrowser/wl_menu.cpp' l='667'>////////////////////////////////////////////////////////////////////
+//
+// BOSS KEY
+//
+////////////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,20 @@
+<def f='codebrowser/wl_draw.cpp' l='414' ll='463' type='void HitHorizWall()'/>
+<use f='codebrowser/wl_draw.cpp' l='1155' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='593' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1259' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1293' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1379' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1391' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1422' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1433' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1457' u='c' c='_Z10AsmRefreshv'/>
+<doc f='codebrowser/wl_draw.cpp' l='403'>/*
+====================
+=
+= HitHorizWall
+=
+= tilehit bit 7 is 0, because it&apos;s not a door tile
+= if bit 6 is 1 and the adjacent tile is a door tile, use door side pic
+=
+====================
+*/</doc>

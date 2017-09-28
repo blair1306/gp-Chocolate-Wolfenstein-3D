@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1156' type='void GiveKey(int key)'/>
+<def f='codebrowser/wl_agent.cpp' l='667' ll='671' type='void GiveKey(int key)'/>
+<use f='codebrowser/wl_agent.cpp' l='707' u='c' c='_Z8GetBonusP10statstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='659'>/*
+==================
+=
+= GiveKey
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_debug.cpp' l='558' u='c' c='_Z9DebugKeysv'/>

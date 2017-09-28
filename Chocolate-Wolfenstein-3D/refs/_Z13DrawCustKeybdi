@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_menu.h' l='172' type='void DrawCustKeybd(int hilight)'/>
+<use f='codebrowser/wl_menu.cpp' l='2092' u='c' c='_Z14CustomControlsi'/>
+<use f='codebrowser/wl_menu.cpp' l='2139' u='r' c='_Z13DefineKeyBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2434' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2464' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2623' u='c' c='_Z16DrawCustomScreenv'/>
+<def f='codebrowser/wl_menu.cpp' l='2753' ll='2767' type='void DrawCustKeybd(int hilight)'/>

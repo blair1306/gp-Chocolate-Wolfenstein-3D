@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_def.h' l='835' type='short'/>
+<offset>336</offset>
+<use f='codebrowser/wl_agent.cpp' l='1069' u='w' c='_Z8Cmd_Firev'/>
+<use f='codebrowser/wl_agent.cpp' l='1076' u='w' c='_Z8Cmd_Firev'/>
+<use f='codebrowser/wl_agent.cpp' l='1418' u='w' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1450' u='w' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='1021' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_game.cpp' l='1330' u='w' c='_Z4Diedv'/>

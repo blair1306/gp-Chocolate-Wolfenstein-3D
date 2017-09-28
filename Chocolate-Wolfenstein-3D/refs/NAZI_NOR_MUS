@@ -1,0 +1,6 @@
+<dec f='codebrowser/audiowl6.h' l='123' type='7'/>
+<doc f='codebrowser/audiowl6.h' l='123'>// 7</doc>
+<use f='codebrowser/wl_main.cpp' l='1540' macro='1' u='r'/>
+<use f='codebrowser/wl_main.cpp' l='1616' macro='1' u='r'/>
+<use f='codebrowser/wl_main.cpp' l='1636' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='529' macro='1' u='r'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='1171' type='void DrawKeys()'/>
+<def f='codebrowser/wl_agent.cpp' l='584' ll='596' type='void DrawKeys()'/>
+<use f='codebrowser/wl_agent.cpp' l='670' u='c' c='_Z7GiveKeyi'/>
+<doc f='codebrowser/wl_agent.cpp' l='576'>/*
+==================
+=
+= DrawKeys
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='923' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='972' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1334' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1449' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='1523' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_play.cpp' l='599' u='c' c='_Z9CheckKeysv'/>

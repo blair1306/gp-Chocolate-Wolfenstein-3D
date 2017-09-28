@@ -1,0 +1,7 @@
+<dec f='codebrowser/id_vl.h' l='28' type='boolean'/>
+<def f='codebrowser/id_vl.cpp' l='40' type='boolean'/>
+<use f='codebrowser/id_vl.cpp' l='349' u='w' c='_Z10VL_FadeOutiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='392' u='w' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/wl_game.cpp' l='1215' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_play.cpp' l='553' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1309' u='r' c='_Z8PlayLoopv'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_draw.cpp' l='52' type='short'/>
+<use f='codebrowser/wl_draw.cpp' l='1495' u='w' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_draw.cpp' l='1497' u='r' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_draw.cpp' l='1498' u='r' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_draw.cpp' l='1499' u='r' c='_Z17CalcViewVariablesv'/>

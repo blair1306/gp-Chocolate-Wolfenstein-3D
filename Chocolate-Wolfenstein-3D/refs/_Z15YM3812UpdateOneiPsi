@@ -1,0 +1,11 @@
+<dec f='codebrowser/fmopl.h' l='51' type='void YM3812UpdateOne(int which, INT16 * buffer, int length)'/>
+<def f='codebrowser/fmopl.cpp' l='2169' ll='2241' type='void YM3812UpdateOne(int which, INT16 * buffer, int length)'/>
+<doc f='codebrowser/fmopl.cpp' l='2162'>/*
+** Generate samples for one of the YM3812&apos;s
+**
+** &apos;which&apos; is the virtual YM3812 number
+** &apos;*buffer&apos; is the output buffer pointer
+** &apos;length&apos; is the number of samples that should be generated
+*/</doc>
+<use f='codebrowser/id_sd.cpp' l='980' u='c' c='_Z18SDL_IMFMusicPlayerPvPhi'/>
+<use f='codebrowser/id_sd.cpp' l='986' u='c' c='_Z18SDL_IMFMusicPlayerPvPhi'/>

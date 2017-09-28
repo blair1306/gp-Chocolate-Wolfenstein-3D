@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_menu.h' l='185' type='int CP_Sound(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='68'/>
+<use f='codebrowser/wl_menu.cpp' l='68'/>
+<use f='codebrowser/wl_menu.cpp' l='68'/>
+<use f='codebrowser/wl_menu.cpp' l='68'/>
+<use f='codebrowser/wl_menu.cpp' l='429' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='1221' ll='1334' type='int CP_Sound(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='1216'>////////////////////////////////////////////////////////////////////
+//
+// HANDLE SOUND MENU
+//
+////////////////////////////////////////////////////////////////////</doc>

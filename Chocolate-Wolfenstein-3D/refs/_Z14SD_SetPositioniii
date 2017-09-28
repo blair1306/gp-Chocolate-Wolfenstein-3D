@@ -1,0 +1,4 @@
+<dec f='codebrowser/id_sd.h' l='136' type='void SD_SetPosition(int channel, int leftvol, int rightvol)'/>
+<def f='codebrowser/id_sd.cpp' l='511' ll='525' type='void SD_SetPosition(int channel, int leftpos, int rightpos)'/>
+<use f='codebrowser/id_sd.cpp' l='597' u='c' c='_Z16SD_PlayDigitizedtii'/>
+<use f='codebrowser/wl_game.cpp' l='203' u='c' c='_Z14UpdateSoundLocv'/>

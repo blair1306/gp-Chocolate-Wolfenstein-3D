@@ -1,0 +1,26 @@
+<dec f='codebrowser/id_vl.h' l='54' type='byte * VL_LockSurface(SDL_Surface * surface)'/>
+<use f='codebrowser/id_ca.cpp' l='1007' macro='1' u='c'/>
+<use f='codebrowser/id_vh.cpp' l='20' macro='1' u='c'/>
+<use f='codebrowser/id_vh.cpp' l='361' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='375' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<def f='codebrowser/id_vl.cpp' l='403' ll='411' type='byte * VL_LockSurface(SDL_Surface * surface)'/>
+<use f='codebrowser/id_vl.cpp' l='435' u='c' c='_Z7VL_Plotiii'/>
+<use f='codebrowser/id_vl.cpp' l='454' u='c' c='_Z11VL_GetPixelii'/>
+<use f='codebrowser/id_vl.cpp' l='475' u='c' c='_Z7VL_Hlinjjji'/>
+<use f='codebrowser/id_vl.cpp' l='496' u='c' c='_Z7VL_Vliniiii'/>
+<use f='codebrowser/id_vl.cpp' l='522' u='c' c='_Z17VL_BarScaledCoordiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='556' u='c' c='_Z13VL_MemToLatchPhiiP11SDL_Surfaceii'/>
+<use f='codebrowser/id_vl.cpp' l='589' u='c' c='_Z25VL_MemToScreenScaledCoordPhiiii'/>
+<use f='codebrowser/id_vl.cpp' l='628' u='c' c='_Z25VL_MemToScreenScaledCoordPhiiiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='676' u='c' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='680' u='c' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='702' u='c' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='706' u='c' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<doc f='codebrowser/id_vl.cpp' l='395'>/*
+=============================================================================
+
+                            PIXEL OPS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_draw.cpp' l='1529' u='c' c='_Z13ThreeDRefreshv'/>

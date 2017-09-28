@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='935' type='void DrawPlayBorderSides()'/>
+<def f='codebrowser/wl_game.cpp' l='782' ll='822' type='void DrawPlayBorderSides()'/>
+<doc f='codebrowser/wl_game.cpp' l='773'>/*
+===================
+=
+= DrawPlayBorderSides
+=
+= To fix window overwrites
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_play.cpp' l='633' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='690' u='c' c='_Z9CheckKeysv'/>

@@ -1,0 +1,2 @@
+<dec f='include/SDL/SDL_video.h' l='581' type='void SDL_UnlockSurface(SDL_Surface * surface)'/>
+<use f='codebrowser/id_vl.cpp' l='417' u='c' c='_Z16VL_UnlockSurfaceP11SDL_Surface'/>

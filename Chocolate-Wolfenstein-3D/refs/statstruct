@@ -1,0 +1,13 @@
+<def f='codebrowser/wl_def.h' l='709' ll='716'/>
+<size>17</size>
+<doc f='codebrowser/wl_def.h' l='703'>//---------------------
+//
+// trivial actor structure
+//
+//---------------------</doc>
+<mbr r='statstruct::tilex' o='0' t='byte'/>
+<mbr r='statstruct::tiley' o='8' t='byte'/>
+<mbr r='statstruct::shapenum' o='16' t='short'/>
+<mbr r='statstruct::visspot' o='32' t='byte *'/>
+<mbr r='statstruct::flags' o='96' t='uint32_t'/>
+<mbr r='statstruct::itemnumber' o='128' t='byte'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/wl_game.cpp' l='994' ll='1004' type='void StartDemoRecord(int levelnumber)'/>
+<use f='codebrowser/wl_game.cpp' l='1101' u='c' c='_Z10RecordDemov'/>

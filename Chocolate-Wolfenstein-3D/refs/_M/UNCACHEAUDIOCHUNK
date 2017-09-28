@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_ca.h' l='10'/>
+<use f='codebrowser/id_ca.cpp' l='720' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='819' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3852' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3861' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='904' u='c'/>

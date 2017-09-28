@@ -1,0 +1,5 @@
+<dec f='include/GL/gl.h' l='941' type='void glVertex3i(GLint x, GLint y, GLint z)'/>
+<use f='codebrowser/crt.cpp' l='92' u='c' c='_Z7CRT_DACv'/>
+<use f='codebrowser/crt.cpp' l='93' u='c' c='_Z7CRT_DACv'/>
+<use f='codebrowser/crt.cpp' l='94' u='c' c='_Z7CRT_DACv'/>
+<use f='codebrowser/crt.cpp' l='95' u='c' c='_Z7CRT_DACv'/>

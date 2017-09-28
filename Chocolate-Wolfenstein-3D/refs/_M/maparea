@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='183'/>
+<use f='codebrowser/id_ca.cpp' l='609' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='1053' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1178' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1333' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1526' u='c'/>

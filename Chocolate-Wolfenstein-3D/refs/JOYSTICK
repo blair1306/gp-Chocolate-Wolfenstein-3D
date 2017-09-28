@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_menu.h' l='203' type='1'/>
+<use f='codebrowser/wl_menu.cpp' l='2127' u='r' c='_Z13DefineJoyBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2208' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2288' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2339' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>

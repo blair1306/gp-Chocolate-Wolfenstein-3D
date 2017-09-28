@@ -1,0 +1,24 @@
+<dec f='codebrowser/wl_def.h' l='992' type='exit_t'/>
+<use f='codebrowser/wl_act2.cpp' l='3734' u='w' c='_Z8T_BJDoneP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3799' u='w' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='427' u='w' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1146' u='w' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_agent.cpp' l='1148' u='w' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_debug.cpp' l='481' u='w' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='685' u='w' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1437' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1443' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1505' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1611' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='753' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='807' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='878' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='953' u='w' c='_Z10CP_EndGamei'/>
+<def f='codebrowser/wl_play.cpp' l='27' type='exit_t'/>
+<use f='codebrowser/wl_play.cpp' l='439' u='w' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='508' u='w' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='713' u='w' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1258' u='w' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='1330' u='w' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='1334' u='r' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='1336' u='r' c='_Z8PlayLoopv'/>

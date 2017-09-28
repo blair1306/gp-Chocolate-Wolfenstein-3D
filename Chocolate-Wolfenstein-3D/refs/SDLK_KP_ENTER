@@ -1,0 +1,3 @@
+<dec f='include/SDL/SDL_keysym.h' l='232' type='271'/>
+<use f='codebrowser/id_in.cpp' l='261' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='308' u='r' c='_ZL12processEventP9SDL_Event'/>

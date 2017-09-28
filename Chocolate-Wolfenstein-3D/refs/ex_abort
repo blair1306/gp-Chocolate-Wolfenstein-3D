@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='854' type='7'/>
+<use f='codebrowser/wl_main.cpp' l='1611' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='807' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='878' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_play.cpp' l='713' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1330' u='r' c='_Z8PlayLoopv'/>

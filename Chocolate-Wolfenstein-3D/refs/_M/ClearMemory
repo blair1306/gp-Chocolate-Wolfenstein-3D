@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='949'/>
+<use f='codebrowser/wl_game.cpp' l='1121' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1194' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1317' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1362' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1452' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1550' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1566' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1570' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1581' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='603' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='624' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='643' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='686' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='700' u='c'/>
+<use f='codebrowser/wl_text.cpp' l='814' u='c'/>

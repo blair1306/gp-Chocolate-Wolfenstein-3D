@@ -1,0 +1,4 @@
+<def f='codebrowser/id_ca.cpp' l='107' type='int32_t'/>
+<use f='codebrowser/id_ca.cpp' l='141' u='w' c='_Z20CAL_GetGrChunkLengthi'/>
+<use f='codebrowser/id_ca.cpp' l='525' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='527' u='r' c='_Z15CAL_SetupGrFilev'/>

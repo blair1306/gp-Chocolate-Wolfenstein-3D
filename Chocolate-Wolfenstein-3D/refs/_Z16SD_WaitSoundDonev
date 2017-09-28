@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_sd.h' l='138' type='void SD_WaitSoundDone()'/>
+<def f='codebrowser/id_sd.cpp' l='1281' ll='1286' type='void SD_WaitSoundDone()'/>
+<doc f='codebrowser/id_sd.cpp' l='1276'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_WaitSoundDone() - waits until the current sound is done playing
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_agent.cpp' l='1150' u='c' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_game.cpp' l='1316' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1250' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1258' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1268' u='c' c='_Z8CP_Soundi'/>

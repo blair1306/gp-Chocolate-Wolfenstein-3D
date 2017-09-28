@@ -1,0 +1,3 @@
+<dec f='codebrowser/wl_def.h' l='936' type='void ShowActStatus()'/>
+<use f='codebrowser/wl_draw.cpp' l='1554' u='c' c='_Z13ThreeDRefreshv'/>
+<def f='codebrowser/wl_game.cpp' l='955' ll='976' type='void ShowActStatus()'/>

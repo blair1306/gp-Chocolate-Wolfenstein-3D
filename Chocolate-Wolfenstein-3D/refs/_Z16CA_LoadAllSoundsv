@@ -1,0 +1,16 @@
+<dec f='codebrowser/id_ca.h' l='47' type='void CA_LoadAllSounds()'/>
+<def f='codebrowser/id_ca.cpp' l='802' ll='848' type='void CA_LoadAllSounds()'/>
+<doc f='codebrowser/id_ca.cpp' l='792'>/*
+======================
+=
+= CA_LoadAllSounds
+=
+= Purges all sounds, then loads all new ones (mode switch)
+=
+======================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='766' u='c' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_main.cpp' l='1120' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='1260' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1270' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='3125' u='c' c='_Z17SetupControlPanelv'/>

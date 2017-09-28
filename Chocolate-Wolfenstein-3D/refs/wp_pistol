@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='803' type='1'/>
+<use f='codebrowser/wl_agent.cpp' l='1254' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1325' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_main.cpp' l='301' u='r' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_main.cpp' l='640' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>

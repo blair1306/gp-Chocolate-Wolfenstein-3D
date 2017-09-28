@@ -1,0 +1,37 @@
+<dec f='codebrowser/id_vh.h' l='58' type='void VWB_Bar(int x, int y, int width, int height, int color)'/>
+<use f='codebrowser/id_us_1.cpp' l='337' u='c' c='_Z14US_ClearWindowv'/>
+<def f='codebrowser/id_vh.cpp' l='158' ll='161' type='void VWB_Bar(int x, int y, int width, int height, int color)'/>
+<use f='codebrowser/wl_debug.cpp' l='177' u='c' c='_Z13BasicOverheadv'/>
+<use f='codebrowser/wl_debug.cpp' l='201' u='c' c='_Z13BasicOverheadv'/>
+<use f='codebrowser/wl_debug.cpp' l='205' u='c' c='_Z13BasicOverheadv'/>
+<use f='codebrowser/wl_draw.cpp' l='1578' u='c' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_inter.cpp' l='168' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='315' u='c' c='_Z4PG13v'/>
+<use f='codebrowser/wl_inter.cpp' l='562' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1752' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1783' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1908' u='c' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='1911' u='c' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='1942' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1945' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1957' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='1960' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2240' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2882' u='c' c='_Z14DrawChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2999' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3001' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3003' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3011' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3014' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3017' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3020' u='c' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3044' u='c' c='_Z12ClearMScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3085' u='c' c='_Z10DrawWindowiiiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3389' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3434' u='c' c='_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3464' u='c' c='_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3690' u='c' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3939' u='c' c='_Z11DrawStripesi'/>
+<use f='codebrowser/wl_text.cpp' l='204' u='c' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='427' u='c' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='645' u='c' c='_Z11ShowArticlePc'/>

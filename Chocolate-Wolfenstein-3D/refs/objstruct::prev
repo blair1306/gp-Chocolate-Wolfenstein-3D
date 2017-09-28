@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='771' type='struct objstruct *'/>
+<offset>616</offset>
+<use f='codebrowser/wl_play.cpp' l='788' u='w' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='792' u='w' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='829' u='r' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='834' u='w' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='866' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='868' u='w' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='868' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='873' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='878' u='w' c='_Z9RemoveObjP9objstruct'/>

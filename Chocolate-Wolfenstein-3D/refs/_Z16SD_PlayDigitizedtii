@@ -1,0 +1,3 @@
+<dec f='codebrowser/id_sd.h' l='153' type='int SD_PlayDigitized(word which, int leftpos, int rightpos)'/>
+<def f='codebrowser/id_sd.cpp' l='588' ll='615' type='int SD_PlayDigitized(word which, int leftpos, int rightpos)'/>
+<use f='codebrowser/id_sd.cpp' l='1189' u='c' c='_Z12SD_PlaySound10soundnames'/>

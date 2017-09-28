@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_debug.cpp' l='41' type='void SimpleScaleShape(int xcenter, int shapenum, unsigned int height)'/>
+<def f='codebrowser/wl_draw.cpp' l='771' ll='843' type='void SimpleScaleShape(int xcenter, int shapenum, unsigned int height)'/>
+<use f='codebrowser/wl_draw.cpp' l='1013' u='c' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1022' u='c' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1026' u='c' c='_Z16DrawPlayerWeaponv'/>

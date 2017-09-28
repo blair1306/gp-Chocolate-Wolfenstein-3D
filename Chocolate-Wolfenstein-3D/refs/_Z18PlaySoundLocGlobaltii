@@ -1,0 +1,38 @@
+<dec f='codebrowser/wl_def.h' l='955' type='void PlaySoundLocGlobal(word s, fixed gx, fixed gy)'/>
+<use f='codebrowser/wl_act1.cpp' l='480' macro='1' u='c'/>
+<use f='codebrowser/wl_act1.cpp' l='595' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='334' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='1092' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='1112' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='1117' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='1120' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='1123' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2325' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2365' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2909' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2959' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3521' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3527' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3533' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3536' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3539' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3543' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3560' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3720' macro='1' u='c'/>
+<def f='codebrowser/wl_game.cpp' l='175' ll='187' type='void PlaySoundLocGlobal(word s, fixed gx, fixed gy)'/>
+<doc f='codebrowser/wl_game.cpp' l='163'>/*
+==========================
+=
+= SetSoundLocGlobal - Sets up globalsoundx &amp; globalsoundy and then calls
+=       UpdateSoundLoc() to transform that into relative channel volumes. Those
+=       values are then passed to the Sound Manager so that they&apos;ll be used for
+=       the next sound played (if possible).
+=
+= JAB
+=
+==========================
+*/</doc>
+<use f='codebrowser/wl_state.cpp' l='1313' macro='1' u='c'/>
+<use f='codebrowser/wl_state.cpp' l='1319' macro='1' u='c'/>
+<use f='codebrowser/wl_state.cpp' l='1330' macro='1' u='c'/>
+<use f='codebrowser/wl_state.cpp' l='1336' macro='1' u='c'/>

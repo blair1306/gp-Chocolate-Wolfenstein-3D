@@ -1,0 +1,18 @@
+<dec f='codebrowser/wl_def.h' l='771' type='struct objstruct *'/>
+<offset>552</offset>
+<use f='codebrowser/wl_agent.cpp' l='1220' u='r' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1220' u='r' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1277' u='r' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1277' u='r' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_debug.cpp' l='96' u='r' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='96' u='r' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_draw.cpp' l='912' u='r' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='912' u='r' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_main.cpp' l='429' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='432' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_play.cpp' l='789' u='w' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='833' u='w' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='868' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='873' u='w' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='873' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1285' u='r' c='_Z8PlayLoopv'/>

@@ -1,0 +1,17 @@
+<def f='codebrowser/wl_agent.cpp' l='155' ll='246' type='void ControlMovement(objtype * ob)'/>
+<use f='codebrowser/wl_agent.cpp' l='1385' u='c' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1484' u='c' c='_Z8T_PlayerP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='140'>/*
+=======================
+=
+= ControlMovement
+=
+= Takes controlx,controly, and buttonstate[bt_strafe]
+=
+= Changes the player&apos;s angle and position
+=
+= There is an angle hack because when going 70 fps, the roundoff becomes
+= significant
+=
+=======================
+*/</doc>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='1164' type='void DrawHealth()'/>
+<def f='codebrowser/wl_agent.cpp' l='397' ll='401' type='void DrawHealth()'/>
+<use f='codebrowser/wl_agent.cpp' l='434' u='c' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='463' u='c' c='_Z8HealSelfi'/>
+<doc f='codebrowser/wl_agent.cpp' l='389'>/*
+===============
+=
+= DrawHealth
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='919' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='968' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1337' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1519' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_play.cpp' l='598' u='c' c='_Z9CheckKeysv'/>

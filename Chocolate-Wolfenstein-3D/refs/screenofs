@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='884' type='unsigned int'/>
+<use f='codebrowser/wl_draw.cpp' l='1530' u='r' c='_Z13ThreeDRefreshv'/>
+<def f='codebrowser/wl_main.cpp' l='61' type='unsigned int'/>
+<use f='codebrowser/wl_main.cpp' l='1326' u='w' c='_Z11SetViewSizejj'/>
+<use f='codebrowser/wl_main.cpp' l='1331' u='w' c='_Z11SetViewSizejj'/>

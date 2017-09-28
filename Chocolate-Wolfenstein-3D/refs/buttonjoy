@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1012' type='int [32]'/>
+<use f='codebrowser/wl_main.cpp' l='160' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='160' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='273' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='273' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='2302' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2304' u='w' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2309' u='w' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2713' u='r' c='_Z12PrintCustJoyi'/>
+<def f='codebrowser/wl_play.cpp' l='55' ll='62' type='int [32]'/>
+<use f='codebrowser/wl_play.cpp' l='298' u='r' c='_Z19PollJoystickButtonsv'/>

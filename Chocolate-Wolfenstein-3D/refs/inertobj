@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='598' type='2'/>
+<use f='codebrowser/wl_act2.cpp' l='254' u='r' c='_Z7A_SmokeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='932' u='r' c='_Z14SpawnDeadGuardii'/>
+<use f='codebrowser/wl_state.cpp' l='209' u='r' c='_Z7TryWalkP9objstruct'/>

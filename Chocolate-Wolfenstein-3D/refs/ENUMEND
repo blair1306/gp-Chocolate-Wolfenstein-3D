@@ -1,0 +1,5 @@
+<dec f='codebrowser/gfxv_apo.h' l='189' type='161'/>
+<use f='codebrowser/id_ca.h' l='28' macro='1'/>
+<use f='codebrowser/id_ca.cpp' l='67' macro='1'/>
+<use f='codebrowser/id_ca.cpp' l='94' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='703' macro='1' u='r'/>

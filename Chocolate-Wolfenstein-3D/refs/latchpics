@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_vh.h' l='99' type='SDL_Surface *[100]'/>
+<dec f='codebrowser/wl_def.h' l='927' type='SDL_Surface *[100]'/>
+<def f='codebrowser/id_vh.cpp' l='5' type='SDL_Surface *[100]'/>
+<use f='codebrowser/id_vh.cpp' l='125' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='206' u='r' c='_Z12LatchDrawPicjjj'/>
+<use f='codebrowser/id_vh.cpp' l='211' u='r' c='_Z23LatchDrawPicScaledCoordjjj'/>
+<use f='codebrowser/id_vh.cpp' l='243' u='w' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/id_vh.cpp' l='271' u='w' c='_Z12LoadLatchMemv'/>

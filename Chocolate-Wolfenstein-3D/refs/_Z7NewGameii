@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='907' type='void NewGame(int difficulty, int episode)'/>
+<use f='codebrowser/wl_game.cpp' l='1094' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1163' u='c' c='_Z8PlayDemoi'/>
+<def f='codebrowser/wl_main.cpp' l='296' ll='309' type='void NewGame(int difficulty, int episode)'/>
+<use f='codebrowser/wl_main.cpp' l='1500' u='c' c='_ZL8DemoLoopv'/>
+<doc f='codebrowser/wl_main.cpp' l='286'>/*
+=====================
+=
+= NewGame
+=
+= Set up new game to start from the beginning
+=
+=====================
+*/</doc>
+<use f='codebrowser/wl_menu.cpp' l='1104' u='c' c='_Z10CP_NewGamei'/>

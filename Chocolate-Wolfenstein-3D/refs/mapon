@@ -1,0 +1,16 @@
+<dec f='codebrowser/id_ca.h' l='24' type='int'/>
+<dec f='codebrowser/wl_def.h' l='861' type='int'/>
+<doc f='codebrowser/id_ca.h' l='22'>//===========================================================================</doc>
+<def f='codebrowser/id_ca.cpp' l='62' type='int'/>
+<use f='codebrowser/id_ca.cpp' l='676' u='w' c='_Z10CA_Startupv'/>
+<use f='codebrowser/id_ca.cpp' l='1048' u='w' c='_Z11CA_CacheMapi'/>
+<use f='codebrowser/wl_draw.cpp' l='624' u='r' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='658' u='w' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_inter.cpp' l='583' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='615' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='626' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='627' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='847' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='848' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='849' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='850' u='r' c='_Z14LevelCompletedv'/>

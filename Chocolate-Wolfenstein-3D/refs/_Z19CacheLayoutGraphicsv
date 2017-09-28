@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_text.cpp' l='537' ll='582' type='void CacheLayoutGraphics()'/>
+<use f='codebrowser/wl_text.cpp' l='646' u='c' c='_Z11ShowArticlePc'/>
+<doc f='codebrowser/wl_text.cpp' l='527'>/*
+=====================
+=
+= CacheLayoutGraphics
+=
+= Scans an entire layout file (until a ^E) marking all graphics used, and
+= counting pages, then caches the graphics in
+=
+=====================
+*/</doc>

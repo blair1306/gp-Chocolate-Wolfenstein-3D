@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_in.h' l='180' type='void IN_CenterMouse()'/>
+<def f='codebrowser/id_in.cpp' l='615' ll='618' type='void IN_CenterMouse()'/>
+<use f='codebrowser/wl_menu.cpp' l='811' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='883' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1835' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='3133' u='c' c='_Z17SetupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3619' u='c' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_play.cpp' l='340' u='c' c='_Z13PollMouseMovev'/>
+<use f='codebrowser/wl_play.cpp' l='672' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='716' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='733' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1268' u='c' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_text.cpp' l='854' u='c' c='_Z7EndTextv'/>

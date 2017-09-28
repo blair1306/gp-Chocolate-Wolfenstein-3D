@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_vh.h' l='92' type='void LoadLatchMem()'/>
+<def f='codebrowser/id_vh.cpp' l='225' ll='276' type='void LoadLatchMem()'/>
+<doc f='codebrowser/id_vh.cpp' l='217'>/*
+===================
+=
+= LoadLatchMem
+=
+===================
+*/</doc>
+<dec f='codebrowser/wl_game.cpp' l='57' type='void LoadLatchMem()'/>
+<use f='codebrowser/wl_main.cpp' l='1288' u='c' c='_ZL8InitGamev'/>

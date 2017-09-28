@@ -1,0 +1,23 @@
+<dec f='codebrowser/wl_def.h' l='832' type='weapontype'/>
+<offset>224</offset>
+<use f='codebrowser/wl_agent.cpp' l='112' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='117' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='134' u='w' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='572' u='r' c='_Z10DrawWeaponv'/>
+<use f='codebrowser/wl_agent.cpp' l='611' u='w' c='_Z10GiveWeaponi'/>
+<use f='codebrowser/wl_agent.cpp' l='647' u='w' c='_Z8GiveAmmoi'/>
+<use f='codebrowser/wl_agent.cpp' l='1075' u='r' c='_Z8Cmd_Firev'/>
+<use f='codebrowser/wl_agent.cpp' l='1077' u='r' c='_Z8Cmd_Firev'/>
+<use f='codebrowser/wl_agent.cpp' l='1252' u='r' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1400' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1407' u='w' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1412' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1414' u='w' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1451' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='1019' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1021' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1553' u='r' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_game.cpp' l='1221' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1324' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_main.cpp' l='300' u='w' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_main.cpp' l='638' u='w' c='_Z11LoadTheGameP8_IO_FILEii'/>

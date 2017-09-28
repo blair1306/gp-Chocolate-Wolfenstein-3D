@@ -1,0 +1,5 @@
+<dec f='codebrowser/fmopl.h' l='12'/>
+<use f='codebrowser/fmopl.h' l='27' u='c'/>
+<use f='codebrowser/fmopl.h' l='30' u='c'/>
+<use f='codebrowser/fmopl.cpp' l='101' u='c'/>
+<doc f='codebrowser/fmopl.h' l='11'>/* select output bits size of output : 8 or 16 */</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1049' type='void PG13()'/>
+<def f='codebrowser/wl_inter.cpp' l='311' ll='327' type='void PG13()'/>
+<doc f='codebrowser/wl_inter.cpp' l='303'>/*
+==================
+=
+= PG13
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1544' u='c' c='_ZL8DemoLoopv'/>

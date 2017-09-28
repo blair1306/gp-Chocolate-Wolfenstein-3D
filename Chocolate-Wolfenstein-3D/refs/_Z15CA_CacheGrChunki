@@ -1,0 +1,61 @@
+<dec f='codebrowser/id_ca.h' l='49' type='void CA_CacheGrChunk(int chunk)'/>
+<def f='codebrowser/id_ca.cpp' l='917' ll='958' type='void CA_CacheGrChunk(int chunk)'/>
+<doc f='codebrowser/id_ca.cpp' l='907'>/*
+======================
+=
+= CA_CacheGrChunk
+=
+= Makes sure a given chunk is in memory, loadiing it if needed
+=
+======================
+*/</doc>
+<use f='codebrowser/id_vh.cpp' l='244' u='c' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/id_vh.cpp' l='272' u='c' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/wl_act2.cpp' l='3812' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1067' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1155' u='c' c='_Z8PlayDemoi'/>
+<use f='codebrowser/wl_inter.cpp' l='162' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='165' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='317' u='c' c='_Z4PG13v'/>
+<use f='codebrowser/wl_inter.cpp' l='1031' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1032' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1034' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1035' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1036' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_main.cpp' l='1114' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_main.cpp' l='1285' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1286' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='744' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='769' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='778' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='779' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='780' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='781' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='782' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='783' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='784' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='835' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='849' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='850' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='851' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='852' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='853' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='854' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='855' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='902' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='3062' u='c' c='_Z9CacheLumpii'/>
+<use f='codebrowser/wl_menu.cpp' l='3111' u='c' c='_Z17SetupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3808' u='c' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_play.cpp' l='604' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='625' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='644' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='726' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_text.cpp' l='556' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<use f='codebrowser/wl_text.cpp' l='557' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<use f='codebrowser/wl_text.cpp' l='558' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<use f='codebrowser/wl_text.cpp' l='559' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<use f='codebrowser/wl_text.cpp' l='568' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<use f='codebrowser/wl_text.cpp' l='573' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<use f='codebrowser/wl_text.cpp' l='644' u='c' c='_Z11ShowArticlePc'/>
+<use f='codebrowser/wl_text.cpp' l='781' u='c' c='_Z11HelpScreensv'/>
+<use f='codebrowser/wl_text.cpp' l='833' u='c' c='_Z7EndTextv'/>

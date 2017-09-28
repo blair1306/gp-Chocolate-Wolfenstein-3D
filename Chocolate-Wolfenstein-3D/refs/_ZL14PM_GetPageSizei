@@ -1,0 +1,3 @@
+<def f='codebrowser/id_pm.h' l='20' ll='25' type='uint32_t PM_GetPageSize(int page)'/>
+<use f='codebrowser/id_sd.cpp' l='656' u='c' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='683' u='c' c='_Z13SDL_SetupDigiv'/>

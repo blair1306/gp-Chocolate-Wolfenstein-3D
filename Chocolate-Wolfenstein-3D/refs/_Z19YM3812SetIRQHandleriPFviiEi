@@ -1,0 +1,2 @@
+<dec f='codebrowser/fmopl.h' l='54' type='void YM3812SetIRQHandler(int which, OPL_IRQHANDLER IRQHandler, int param)'/>
+<def f='codebrowser/fmopl.cpp' l='2152' ll='2155' type='void YM3812SetIRQHandler(int which, OPL_IRQHANDLER IRQHandler, int param)'/>

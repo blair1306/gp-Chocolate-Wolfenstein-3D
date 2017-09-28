@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1085' type='word []'/>
+<def f='codebrowser/wl_draw.cpp' l='91' type='word [64]'/>
+<use f='codebrowser/wl_draw.cpp' l='394' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='397' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_main.cpp' l='792' u='w' c='_Z10SetupWallsv'/>
+<use f='codebrowser/wl_main.cpp' l='797' u='w' c='_Z10SetupWallsv'/>

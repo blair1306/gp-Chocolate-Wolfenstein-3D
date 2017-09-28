@@ -1,0 +1,4 @@
+<dec f='include/SDL/SDL_events.h' l='65' type='12'/>
+<use f='include/SDL/SDL_events.h' l='112' u='r'/>
+<doc f='include/SDL/SDL_events.h' l='65'>/**&lt; User-requested quit */</doc>
+<use f='codebrowser/id_in.cpp' l='240' c='_ZL12processEventP9SDL_Event'/>

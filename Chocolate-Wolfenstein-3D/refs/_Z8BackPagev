@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_text.cpp' l='512' ll='521' type='void BackPage()'/>
+<use f='codebrowser/wl_text.cpp' l='710' u='c' c='_Z11ShowArticlePc'/>
+<use f='codebrowser/wl_text.cpp' l='711' u='c' c='_Z11ShowArticlePc'/>
+<doc f='codebrowser/wl_text.cpp' l='502'>/*
+=====================
+=
+= BackPage
+=
+= Scans for a previous ^P
+=
+=====================
+*/</doc>

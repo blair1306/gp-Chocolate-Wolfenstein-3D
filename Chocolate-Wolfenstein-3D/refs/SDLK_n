@@ -1,0 +1,3 @@
+<dec f='include/SDL/SDL_keysym.h' l='98' type='110'/>
+<use f='codebrowser/wl_debug.cpp' l='605' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3708' macro='1' u='r'/>

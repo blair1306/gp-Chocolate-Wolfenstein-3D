@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_draw.cpp' l='77' type='longword'/>
+<use f='codebrowser/wl_draw.cpp' l='1085' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1094' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1484' u='w' c='_Z11WallRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1485' u='r' c='_Z11WallRefreshv'/>

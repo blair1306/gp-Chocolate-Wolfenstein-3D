@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='908' type='void CalcProjection(int32_t focal)'/>
+<def f='codebrowser/wl_main.cpp' l='733' ll='771' type='void CalcProjection(int32_t focal)'/>
+<use f='codebrowser/wl_main.cpp' l='1337' u='c' c='_Z11SetViewSizejj'/>
+<doc f='codebrowser/wl_main.cpp' l='723'>/*
+====================
+=
+= CalcProjection
+=
+= Uses focallength
+=
+====================
+*/</doc>

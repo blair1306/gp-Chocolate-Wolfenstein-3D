@@ -1,0 +1,4 @@
+<dec f='include/SDL/SDL_video.h' l='252'/>
+<doc f='include/SDL/SDL_video.h' l='251'>/*@{*/</doc>
+<use f='codebrowser/id_vl.cpp' l='225' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='267' u='c'/>

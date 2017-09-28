@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_menu.h' l='194' type='int CP_CheckQuick(ScanCode scancode)'/>
+<use f='codebrowser/wl_menu.cpp' l='395' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='735' ll='932' type='int CP_CheckQuick(ScanCode scancode)'/>
+<doc f='codebrowser/wl_menu.cpp' l='730'>////////////////////////////////////////////////////////////////////
+//
+// CHECK QUICK-KEYS &amp; QUIT (WHILE IN A GAME)
+//
+////////////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,6 @@
+<dec f='include/SDL/SDL_events.h' l='230' type='SDL_KeyboardEvent'/>
+<offset>0</offset>
+<use f='codebrowser/id_in.cpp' l='246' u='m' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='246' u='m' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='253' u='m' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='307' u='m' c='_ZL12processEventP9SDL_Event'/>

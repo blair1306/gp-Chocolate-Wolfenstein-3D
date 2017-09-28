@@ -1,0 +1,12 @@
+<dec f='include/assert.h' l='69' type='void __assert_fail(const char * __assertion, const char * __file, unsigned int __line, const char * __function)'/>
+<doc f='include/assert.h' l='68'>/* This prints an &quot;Assertion failed&quot; message and aborts.  */</doc>
+<use f='codebrowser/id_ca.cpp' l='114' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='431' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='450' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='471' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='492' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='518' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='552' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='585' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='624' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='660' macro='1' u='c'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1149' type='void Thrust(int angle, int32_t speed)'/>
+<use f='codebrowser/wl_agent.cpp' l='172' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='174' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='183' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='185' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='202' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='209' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='234' u='c' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='241' u='c' c='_Z15ControlMovementP9objstruct'/>
+<def f='codebrowser/wl_agent.cpp' l='1007' ll='1045' type='void Thrust(int angle, int32_t speed)'/>
+<use f='codebrowser/wl_agent.cpp' l='1193' u='c' c='_Z11SpawnPlayeriii'/>
+<use f='codebrowser/wl_main.cpp' l='618' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>

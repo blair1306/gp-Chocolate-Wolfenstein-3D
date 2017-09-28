@@ -1,0 +1,636 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>id_in.cpp source code [codebrowser/id_in.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/id_in.cpp'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='id_in.cpp.html'>id_in.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>//</i></td></tr>
+<tr><th id="2">2</th><td><i>//  ID Engine</i></td></tr>
+<tr><th id="3">3</th><td><i>//  ID_IN.c - Input Manager</i></td></tr>
+<tr><th id="4">4</th><td><i>//  v1.0d1</i></td></tr>
+<tr><th id="5">5</th><td><i>//  By Jason Blochowiak</i></td></tr>
+<tr><th id="6">6</th><td><i>//</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>//  This module handles dealing with the various input devices</i></td></tr>
+<tr><th id="10">10</th><td><i>//</i></td></tr>
+<tr><th id="11">11</th><td><i>//  Depends on: Memory Mgr (for demo recording), Sound Mgr (for timing stuff),</i></td></tr>
+<tr><th id="12">12</th><td><i>//              User Mgr (for command line parms)</i></td></tr>
+<tr><th id="13">13</th><td><i>//</i></td></tr>
+<tr><th id="14">14</th><td><i>//  Globals:</i></td></tr>
+<tr><th id="15">15</th><td><i>//      LastScan - The keyboard scan code of the last key pressed</i></td></tr>
+<tr><th id="16">16</th><td><i>//      LastASCII - The ASCII value of the last key pressed</i></td></tr>
+<tr><th id="17">17</th><td><i>//  DEBUG - there are more globals</i></td></tr>
+<tr><th id="18">18</th><td><i>//</i></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="wl_def.h.html">"wl_def.h"</a></u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><i>/*</i></td></tr>
+<tr><th id="24">24</th><td><i>=============================================================================</i></td></tr>
+<tr><th id="25">25</th><td><i></i></td></tr>
+<tr><th id="26">26</th><td><i>                    GLOBAL VARIABLES</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>=============================================================================</i></td></tr>
+<tr><th id="29">29</th><td><i>*/</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i></i></td></tr>
+<tr><th id="32">32</th><td><i>//</i></td></tr>
+<tr><th id="33">33</th><td><i>// configuration variables</i></td></tr>
+<tr><th id="34">34</th><td><i>//</i></td></tr>
+<tr><th id="35">35</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl def" id="MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</dfn>;</td></tr>
+<tr><th id="36">36</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl def" id="forcegrabmouse" title='forcegrabmouse' data-ref="forcegrabmouse">forcegrabmouse</dfn>;</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><i>//  Global variables</i></td></tr>
+<tr><th id="40">40</th><td><em>volatile</em> <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>    <dfn class="decl def" id="Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</dfn>[<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LAST" title='SDLK_LAST' data-ref="SDLK_LAST">SDLK_LAST</a>];</td></tr>
+<tr><th id="41">41</th><td><em>volatile</em> <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>    <dfn class="decl def" id="Paused" title='Paused' data-ref="Paused">Paused</dfn>;</td></tr>
+<tr><th id="42">42</th><td><em>volatile</em> <em>char</em>       <dfn class="decl def" id="LastASCII" title='LastASCII' data-ref="LastASCII">LastASCII</dfn>;</td></tr>
+<tr><th id="43">43</th><td><em>volatile</em> <a class="typedef" href="id_in.h.html#ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</a>   <dfn class="decl def" id="LastScan" title='LastScan' data-ref="LastScan">LastScan</dfn>;</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><i  data-doc="KbdDefs">//KeyboardDef   KbdDefs = {0x1d,0x38,0x47,0x48,0x49,0x4b,0x4d,0x4f,0x50,0x51};</i></td></tr>
+<tr><th id="46">46</th><td><em>static</em> <a class="typedef" href="id_in.h.html#KeyboardDef" title='KeyboardDef' data-type='struct KeyboardDef' data-ref="KeyboardDef">KeyboardDef</a> <dfn class="tu decl def" id="KbdDefs" title='KbdDefs' data-type='KeyboardDef' data-ref="KbdDefs">KbdDefs</dfn> = {</td></tr>
+<tr><th id="47">47</th><td>    <a class="macro" href="id_in.h.html#25" title="SDLK_LCTRL" data-ref="_M/sc_Control">sc_Control</a>,             <i>// button0</i></td></tr>
+<tr><th id="48">48</th><td>    <a class="macro" href="id_in.h.html#24" title="SDLK_LALT" data-ref="_M/sc_Alt">sc_Alt</a>,                 <i>// button1</i></td></tr>
+<tr><th id="49">49</th><td>    <a class="macro" href="id_in.h.html#35" title="SDLK_HOME" data-ref="_M/sc_Home">sc_Home</a>,                <i>// upleft</i></td></tr>
+<tr><th id="50">50</th><td>    <a class="macro" href="id_in.h.html#29" title="SDLK_UP" data-ref="_M/sc_UpArrow">sc_UpArrow</a>,             <i>// up</i></td></tr>
+<tr><th id="51">51</th><td>    <a class="macro" href="id_in.h.html#37" title="SDLK_PAGEUP" data-ref="_M/sc_PgUp">sc_PgUp</a>,                <i>// upright</i></td></tr>
+<tr><th id="52">52</th><td>    <a class="macro" href="id_in.h.html#31" title="SDLK_LEFT" data-ref="_M/sc_LeftArrow">sc_LeftArrow</a>,           <i>// left</i></td></tr>
+<tr><th id="53">53</th><td>    <a class="macro" href="id_in.h.html#32" title="SDLK_RIGHT" data-ref="_M/sc_RightArrow">sc_RightArrow</a>,          <i>// right</i></td></tr>
+<tr><th id="54">54</th><td>    <a class="macro" href="id_in.h.html#36" title="SDLK_END" data-ref="_M/sc_End">sc_End</a>,                 <i>// downleft</i></td></tr>
+<tr><th id="55">55</th><td>    <a class="macro" href="id_in.h.html#30" title="SDLK_DOWN" data-ref="_M/sc_DownArrow">sc_DownArrow</a>,           <i>// down</i></td></tr>
+<tr><th id="56">56</th><td>    <a class="macro" href="id_in.h.html#38" title="SDLK_PAGEDOWN" data-ref="_M/sc_PgDn">sc_PgDn</a>                 <i>// downright</i></td></tr>
+<tr><th id="57">57</th><td>};</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><em>static</em> <a class="typedef" href="../include/SDL/SDL_joystick.h.html#SDL_Joystick" title='SDL_Joystick' data-type='struct _SDL_Joystick' data-ref="SDL_Joystick">SDL_Joystick</a> *<dfn class="tu decl def" id="Joystick" title='Joystick' data-type='SDL_Joystick *' data-ref="Joystick">Joystick</dfn>;</td></tr>
+<tr><th id="60">60</th><td><em>int</em> <dfn class="decl def" id="JoyNumButtons" title='JoyNumButtons' data-ref="JoyNumButtons">JoyNumButtons</dfn>;</td></tr>
+<tr><th id="61">61</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="JoyNumHats" title='JoyNumHats' data-type='int' data-ref="JoyNumHats">JoyNumHats</dfn>;</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><em>static</em> <em>bool</em> <dfn class="tu decl def" id="GrabInput" title='GrabInput' data-type='bool' data-ref="GrabInput">GrabInput</dfn> = <b>false</b>;</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><i>/*</i></td></tr>
+<tr><th id="66">66</th><td><i>=============================================================================</i></td></tr>
+<tr><th id="67">67</th><td><i></i></td></tr>
+<tr><th id="68">68</th><td><i>                    LOCAL VARIABLES</i></td></tr>
+<tr><th id="69">69</th><td><i></i></td></tr>
+<tr><th id="70">70</th><td><i>=============================================================================</i></td></tr>
+<tr><th id="71">71</th><td><i>*/</i></td></tr>
+<tr><th id="72">72</th><td><a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>        <dfn class="decl def" id="ASCIINames" title='ASCIINames' data-ref="ASCIINames">ASCIINames</dfn>[] =      <i>// Unshifted ASCII for scan codes       // TODO: keypad</i></td></tr>
+<tr><th id="73">73</th><td>{</td></tr>
+<tr><th id="74">74</th><td><i>//   0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F</i></td></tr>
+<tr><th id="75">75</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>8</var>  ,<var>9</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>13</var> ,<var>0</var>  ,<var>0</var>  ,    <i>// 0</i></td></tr>
+<tr><th id="76">76</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>27</var> ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 1</i></td></tr>
+<tr><th id="77">77</th><td>    <kbd>' '</kbd>,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>39</var> ,<var>0</var>  ,<var>0</var>  ,<kbd>'*'</kbd>,<kbd>'+'</kbd>,<kbd>','</kbd>,<kbd>'-'</kbd>,<kbd>'.'</kbd>,<kbd>'/'</kbd>,    <i>// 2</i></td></tr>
+<tr><th id="78">78</th><td>    <kbd>'0'</kbd>,<kbd>'1'</kbd>,<kbd>'2'</kbd>,<kbd>'3'</kbd>,<kbd>'4'</kbd>,<kbd>'5'</kbd>,<kbd>'6'</kbd>,<kbd>'7'</kbd>,<kbd>'8'</kbd>,<kbd>'9'</kbd>,<var>0</var>  ,<kbd>';'</kbd>,<var>0</var>  ,<kbd>'='</kbd>,<var>0</var>  ,<var>0</var>  ,    <i>// 3</i></td></tr>
+<tr><th id="79">79</th><td>    <kbd>'`'</kbd>,<kbd>'a'</kbd>,<kbd>'b'</kbd>,<kbd>'c'</kbd>,<kbd>'d'</kbd>,<kbd>'e'</kbd>,<kbd>'f'</kbd>,<kbd>'g'</kbd>,<kbd>'h'</kbd>,<kbd>'i'</kbd>,<kbd>'j'</kbd>,<kbd>'k'</kbd>,<kbd>'l'</kbd>,<kbd>'m'</kbd>,<kbd>'n'</kbd>,<kbd>'o'</kbd>,    <i>// 4</i></td></tr>
+<tr><th id="80">80</th><td>    <kbd>'p'</kbd>,<kbd>'q'</kbd>,<kbd>'r'</kbd>,<kbd>'s'</kbd>,<kbd>'t'</kbd>,<kbd>'u'</kbd>,<kbd>'v'</kbd>,<kbd>'w'</kbd>,<kbd>'x'</kbd>,<kbd>'y'</kbd>,<kbd>'z'</kbd>,<kbd>'['</kbd>,<var>92</var> ,<kbd>']'</kbd>,<var>0</var>  ,<var>0</var>  ,    <i>// 5</i></td></tr>
+<tr><th id="81">81</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 6</i></td></tr>
+<tr><th id="82">82</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>       <i>// 7</i></td></tr>
+<tr><th id="83">83</th><td>};</td></tr>
+<tr><th id="84">84</th><td><a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a> <dfn class="decl def" id="ShiftNames" title='ShiftNames' data-ref="ShiftNames">ShiftNames</dfn>[] =     <i>// Shifted ASCII for scan codes</i></td></tr>
+<tr><th id="85">85</th><td>{</td></tr>
+<tr><th id="86">86</th><td><i>//   0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F</i></td></tr>
+<tr><th id="87">87</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>8</var>  ,<var>9</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>13</var> ,<var>0</var>  ,<var>0</var>  ,    <i>// 0</i></td></tr>
+<tr><th id="88">88</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>27</var> ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 1</i></td></tr>
+<tr><th id="89">89</th><td>    <kbd>' '</kbd>,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>34</var> ,<var>0</var>  ,<var>0</var>  ,<kbd>'*'</kbd>,<kbd>'+'</kbd>,<kbd>'&lt;'</kbd>,<kbd>'_'</kbd>,<kbd>'&gt;'</kbd>,<kbd>'?'</kbd>,    <i>// 2</i></td></tr>
+<tr><th id="90">90</th><td>    <kbd>')'</kbd>,<kbd>'!'</kbd>,<kbd>'@'</kbd>,<kbd>'#'</kbd>,<kbd>'$'</kbd>,<kbd>'%'</kbd>,<kbd>'^'</kbd>,<kbd>'&amp;'</kbd>,<kbd>'*'</kbd>,<kbd>'('</kbd>,<var>0</var>  ,<kbd>':'</kbd>,<var>0</var>  ,<kbd>'+'</kbd>,<var>0</var>  ,<var>0</var>  ,    <i>// 3</i></td></tr>
+<tr><th id="91">91</th><td>    <kbd>'~'</kbd>,<kbd>'A'</kbd>,<kbd>'B'</kbd>,<kbd>'C'</kbd>,<kbd>'D'</kbd>,<kbd>'E'</kbd>,<kbd>'F'</kbd>,<kbd>'G'</kbd>,<kbd>'H'</kbd>,<kbd>'I'</kbd>,<kbd>'J'</kbd>,<kbd>'K'</kbd>,<kbd>'L'</kbd>,<kbd>'M'</kbd>,<kbd>'N'</kbd>,<kbd>'O'</kbd>,    <i>// 4</i></td></tr>
+<tr><th id="92">92</th><td>    <kbd>'P'</kbd>,<kbd>'Q'</kbd>,<kbd>'R'</kbd>,<kbd>'S'</kbd>,<kbd>'T'</kbd>,<kbd>'U'</kbd>,<kbd>'V'</kbd>,<kbd>'W'</kbd>,<kbd>'X'</kbd>,<kbd>'Y'</kbd>,<kbd>'Z'</kbd>,<kbd>'{'</kbd>,<kbd>'|'</kbd>,<kbd>'}'</kbd>,<var>0</var>  ,<var>0</var>  ,    <i>// 5</i></td></tr>
+<tr><th id="93">93</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 6</i></td></tr>
+<tr><th id="94">94</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>       <i>// 7</i></td></tr>
+<tr><th id="95">95</th><td>};</td></tr>
+<tr><th id="96">96</th><td><a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a> <dfn class="decl def" id="SpecialNames" title='SpecialNames' data-ref="SpecialNames">SpecialNames</dfn>[] =   <i>// ASCII for 0xe0 prefixed codes</i></td></tr>
+<tr><th id="97">97</th><td>{</td></tr>
+<tr><th id="98">98</th><td><i>//   0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F</i></td></tr>
+<tr><th id="99">99</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 0</i></td></tr>
+<tr><th id="100">100</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>13</var> ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 1</i></td></tr>
+<tr><th id="101">101</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 2</i></td></tr>
+<tr><th id="102">102</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<kbd>'/'</kbd>,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 3</i></td></tr>
+<tr><th id="103">103</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 4</i></td></tr>
+<tr><th id="104">104</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 5</i></td></tr>
+<tr><th id="105">105</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,    <i>// 6</i></td></tr>
+<tr><th id="106">106</th><td>    <var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>  ,<var>0</var>       <i>// 7</i></td></tr>
+<tr><th id="107">107</th><td>};</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><em>static</em>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>     <dfn class="tu decl def" id="IN_Started" title='IN_Started' data-type='boolean' data-ref="IN_Started">IN_Started</dfn>;</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td><em>static</em>  <a class="typedef" href="id_in.h.html#Direction" title='Direction' data-type='enum Direction' data-ref="Direction">Direction</a>   <dfn class="tu decl def" id="DirTable" title='DirTable' data-type='Direction [9]' data-ref="DirTable">DirTable</dfn>[] =        <i  data-doc="DirTable">// Quick lookup for total direction</i></td></tr>
+<tr><th id="113">113</th><td>{</td></tr>
+<tr><th id="114">114</th><td>    <a class="enum" href="id_in.h.html#dir_NorthWest" title='dir_NorthWest' data-ref="dir_NorthWest">dir_NorthWest</a>,  <a class="enum" href="id_in.h.html#dir_North" title='dir_North' data-ref="dir_North">dir_North</a>,  <a class="enum" href="id_in.h.html#dir_NorthEast" title='dir_NorthEast' data-ref="dir_NorthEast">dir_NorthEast</a>,</td></tr>
+<tr><th id="115">115</th><td>    <a class="enum" href="id_in.h.html#dir_West" title='dir_West' data-ref="dir_West">dir_West</a>,       <a class="enum" href="id_in.h.html#dir_None" title='dir_None' data-ref="dir_None">dir_None</a>,   <a class="enum" href="id_in.h.html#dir_East" title='dir_East' data-ref="dir_East">dir_East</a>,</td></tr>
+<tr><th id="116">116</th><td>    <a class="enum" href="id_in.h.html#dir_SouthWest" title='dir_SouthWest' data-ref="dir_SouthWest">dir_SouthWest</a>,  <a class="enum" href="id_in.h.html#dir_South" title='dir_South' data-ref="dir_South">dir_South</a>,  <a class="enum" href="id_in.h.html#dir_SouthEast" title='dir_SouthEast' data-ref="dir_SouthEast">dir_SouthEast</a></td></tr>
+<tr><th id="117">117</th><td>};</td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td><i  data-doc="_ZL19INL_GetMouseButtonsv">///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="121">121</th><td><i  data-doc="_ZL19INL_GetMouseButtonsv">//</i></td></tr>
+<tr><th id="122">122</th><td><i  data-doc="_ZL19INL_GetMouseButtonsv">//  INL_GetMouseButtons() - Gets the status of the mouse buttons from the</i></td></tr>
+<tr><th id="123">123</th><td><i  data-doc="_ZL19INL_GetMouseButtonsv">//      mouse driver</i></td></tr>
+<tr><th id="124">124</th><td><i  data-doc="_ZL19INL_GetMouseButtonsv">//</i></td></tr>
+<tr><th id="125">125</th><td><i  data-doc="_ZL19INL_GetMouseButtonsv">///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="126">126</th><td><em>static</em> <em>int</em></td></tr>
+<tr><th id="127">127</th><td><dfn class="tu decl def" id="_ZL19INL_GetMouseButtonsv" title='INL_GetMouseButtons' data-type='int INL_GetMouseButtons()' data-ref="_ZL19INL_GetMouseButtonsv">INL_GetMouseButtons</dfn>(<em>void</em>)</td></tr>
+<tr><th id="128">128</th><td>{</td></tr>
+<tr><th id="129">129</th><td>    <em>int</em> <dfn class="local col1 decl" id="1buttons" title='buttons' data-type='int' data-ref="1buttons">buttons</dfn> = <a class="ref" href="../include/SDL/SDL_mouse.h.html#SDL_GetMouseState" title='SDL_GetMouseState' data-ref="SDL_GetMouseState">SDL_GetMouseState</a>(<span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="130">130</th><td>    <em>int</em> <dfn class="local col2 decl" id="2middlePressed" title='middlePressed' data-type='int' data-ref="2middlePressed">middlePressed</dfn> = <a class="local col1 ref" href="#1buttons" title='buttons' data-ref="1buttons">buttons</a> &amp; <a class="macro" href="../include/SDL/SDL_mouse.h.html#122" title="(1 &lt;&lt; ((2)-1))" data-ref="_M/SDL_BUTTON">SDL_BUTTON</a>(<a class="macro" href="../include/SDL/SDL_mouse.h.html#124" title="2" data-ref="_M/SDL_BUTTON_MIDDLE">SDL_BUTTON_MIDDLE</a>);</td></tr>
+<tr><th id="131">131</th><td>    <em>int</em> <dfn class="local col3 decl" id="3rightPressed" title='rightPressed' data-type='int' data-ref="3rightPressed">rightPressed</dfn> = <a class="local col1 ref" href="#1buttons" title='buttons' data-ref="1buttons">buttons</a> &amp; <a class="macro" href="../include/SDL/SDL_mouse.h.html#122" title="(1 &lt;&lt; ((3)-1))" data-ref="_M/SDL_BUTTON">SDL_BUTTON</a>(<a class="macro" href="../include/SDL/SDL_mouse.h.html#125" title="3" data-ref="_M/SDL_BUTTON_RIGHT">SDL_BUTTON_RIGHT</a>);</td></tr>
+<tr><th id="132">132</th><td>    <a class="local col1 ref" href="#1buttons" title='buttons' data-ref="1buttons">buttons</a> &amp;= ~(<a class="macro" href="../include/SDL/SDL_mouse.h.html#122" title="(1 &lt;&lt; ((2)-1))" data-ref="_M/SDL_BUTTON">SDL_BUTTON</a>(<a class="macro" href="../include/SDL/SDL_mouse.h.html#124" title="2" data-ref="_M/SDL_BUTTON_MIDDLE">SDL_BUTTON_MIDDLE</a>) | <a class="macro" href="../include/SDL/SDL_mouse.h.html#122" title="(1 &lt;&lt; ((3)-1))" data-ref="_M/SDL_BUTTON">SDL_BUTTON</a>(<a class="macro" href="../include/SDL/SDL_mouse.h.html#125" title="3" data-ref="_M/SDL_BUTTON_RIGHT">SDL_BUTTON_RIGHT</a>));</td></tr>
+<tr><th id="133">133</th><td>    <b>if</b>(<a class="local col2 ref" href="#2middlePressed" title='middlePressed' data-ref="2middlePressed">middlePressed</a>) <a class="local col1 ref" href="#1buttons" title='buttons' data-ref="1buttons">buttons</a> |= <var>1</var> &lt;&lt; <var>2</var>;</td></tr>
+<tr><th id="134">134</th><td>    <b>if</b>(<a class="local col3 ref" href="#3rightPressed" title='rightPressed' data-ref="3rightPressed">rightPressed</a>) <a class="local col1 ref" href="#1buttons" title='buttons' data-ref="1buttons">buttons</a> |= <var>1</var> &lt;&lt; <var>1</var>;</td></tr>
+<tr><th id="135">135</th><td></td></tr>
+<tr><th id="136">136</th><td>    <b>return</b> <a class="local col1 ref" href="#1buttons" title='buttons' data-ref="1buttons">buttons</a>;</td></tr>
+<tr><th id="137">137</th><td>}</td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="140">140</th><td><i>//</i></td></tr>
+<tr><th id="141">141</th><td><i>//  IN_GetJoyDelta() - Returns the relative movement of the specified</i></td></tr>
+<tr><th id="142">142</th><td><i>//      joystick (from +/-127)</i></td></tr>
+<tr><th id="143">143</th><td><i>//</i></td></tr>
+<tr><th id="144">144</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="145">145</th><td><em>void</em> <dfn class="decl def" id="_Z14IN_GetJoyDeltaPiS_" title='IN_GetJoyDelta' data-ref="_Z14IN_GetJoyDeltaPiS_">IN_GetJoyDelta</dfn>(<em>int</em> *<dfn class="local col4 decl" id="4dx" title='dx' data-type='int *' data-ref="4dx">dx</dfn>,<em>int</em> *<dfn class="local col5 decl" id="5dy" title='dy' data-type='int *' data-ref="5dy">dy</dfn>)</td></tr>
+<tr><th id="146">146</th><td>{</td></tr>
+<tr><th id="147">147</th><td>    <b>if</b>(!<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>)</td></tr>
+<tr><th id="148">148</th><td>    {</td></tr>
+<tr><th id="149">149</th><td>        *<a class="local col4 ref" href="#4dx" title='dx' data-ref="4dx">dx</a> = *<a class="local col5 ref" href="#5dy" title='dy' data-ref="5dy">dy</a> = <var>0</var>;</td></tr>
+<tr><th id="150">150</th><td>        <b>return</b>;</td></tr>
+<tr><th id="151">151</th><td>    }</td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td>    <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickUpdate" title='SDL_JoystickUpdate' data-ref="SDL_JoystickUpdate">SDL_JoystickUpdate</a>();</td></tr>
+<tr><th id="154">154</th><td></td></tr>
+<tr><th id="155">155</th><td>    <em>int</em> <dfn class="local col6 decl" id="6x" title='x' data-type='int' data-ref="6x">x</dfn> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickGetAxis" title='SDL_JoystickGetAxis' data-ref="SDL_JoystickGetAxis">SDL_JoystickGetAxis</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>, <var>0</var>) &gt;&gt; <var>8</var>;</td></tr>
+<tr><th id="156">156</th><td>    <em>int</em> <dfn class="local col7 decl" id="7y" title='y' data-type='int' data-ref="7y">y</dfn> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickGetAxis" title='SDL_JoystickGetAxis' data-ref="SDL_JoystickGetAxis">SDL_JoystickGetAxis</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>, <var>1</var>) &gt;&gt; <var>8</var>;</td></tr>
+<tr><th id="157">157</th><td></td></tr>
+<tr><th id="158">158</th><td>    <b>if</b>(<a class="ref" href="wl_def.h.html#param_joystickhat" title='param_joystickhat' data-ref="param_joystickhat">param_joystickhat</a> != -<var>1</var>)</td></tr>
+<tr><th id="159">159</th><td>    {</td></tr>
+<tr><th id="160">160</th><td>        <a class="typedef" href="../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> <dfn class="local col8 decl" id="8hatState" title='hatState' data-type='uint8_t' data-ref="8hatState">hatState</dfn> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickGetHat" title='SDL_JoystickGetHat' data-ref="SDL_JoystickGetHat">SDL_JoystickGetHat</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>, <a class="ref" href="wl_def.h.html#param_joystickhat" title='param_joystickhat' data-ref="param_joystickhat">param_joystickhat</a>);</td></tr>
+<tr><th id="161">161</th><td>        <b>if</b>(<a class="local col8 ref" href="#8hatState" title='hatState' data-ref="8hatState">hatState</a> &amp; <a class="macro" href="../include/SDL/SDL_joystick.h.html#143" title="0x02" data-ref="_M/SDL_HAT_RIGHT">SDL_HAT_RIGHT</a>)</td></tr>
+<tr><th id="162">162</th><td>            <a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a> += <var>127</var>;</td></tr>
+<tr><th id="163">163</th><td>        <b>else</b> <b>if</b>(<a class="local col8 ref" href="#8hatState" title='hatState' data-ref="8hatState">hatState</a> &amp; <a class="macro" href="../include/SDL/SDL_joystick.h.html#145" title="0x08" data-ref="_M/SDL_HAT_LEFT">SDL_HAT_LEFT</a>)</td></tr>
+<tr><th id="164">164</th><td>            <a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a> -= <var>127</var>;</td></tr>
+<tr><th id="165">165</th><td>        <b>if</b>(<a class="local col8 ref" href="#8hatState" title='hatState' data-ref="8hatState">hatState</a> &amp; <a class="macro" href="../include/SDL/SDL_joystick.h.html#144" title="0x04" data-ref="_M/SDL_HAT_DOWN">SDL_HAT_DOWN</a>)</td></tr>
+<tr><th id="166">166</th><td>            <a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a> += <var>127</var>;</td></tr>
+<tr><th id="167">167</th><td>        <b>else</b> <b>if</b>(<a class="local col8 ref" href="#8hatState" title='hatState' data-ref="8hatState">hatState</a> &amp; <a class="macro" href="../include/SDL/SDL_joystick.h.html#142" title="0x01" data-ref="_M/SDL_HAT_UP">SDL_HAT_UP</a>)</td></tr>
+<tr><th id="168">168</th><td>            <a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a> -= <var>127</var>;</td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td>        <b>if</b>(<a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a> &lt; -<var>128</var>) <a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a> = -<var>128</var>;</td></tr>
+<tr><th id="171">171</th><td>        <b>else</b> <b>if</b>(<a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a> &gt; <var>127</var>) <a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a> = <var>127</var>;</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>        <b>if</b>(<a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a> &lt; -<var>128</var>) <a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a> = -<var>128</var>;</td></tr>
+<tr><th id="174">174</th><td>        <b>else</b> <b>if</b>(<a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a> &gt; <var>127</var>) <a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a> = <var>127</var>;</td></tr>
+<tr><th id="175">175</th><td>    }</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td>    *<a class="local col4 ref" href="#4dx" title='dx' data-ref="4dx">dx</a> = <a class="local col6 ref" href="#6x" title='x' data-ref="6x">x</a>;</td></tr>
+<tr><th id="178">178</th><td>    *<a class="local col5 ref" href="#5dy" title='dy' data-ref="5dy">dy</a> = <a class="local col7 ref" href="#7y" title='y' data-ref="7y">y</a>;</td></tr>
+<tr><th id="179">179</th><td>}</td></tr>
+<tr><th id="180">180</th><td></td></tr>
+<tr><th id="181">181</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="182">182</th><td><i>//</i></td></tr>
+<tr><th id="183">183</th><td><i>//  IN_GetJoyFineDelta() - Returns the relative movement of the specified</i></td></tr>
+<tr><th id="184">184</th><td><i>//      joystick without dividing the results by 256 (from +/-127)</i></td></tr>
+<tr><th id="185">185</th><td><i>//</i></td></tr>
+<tr><th id="186">186</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="187">187</th><td><em>void</em> <dfn class="decl def" id="_Z18IN_GetJoyFineDeltaPiS_" title='IN_GetJoyFineDelta' data-ref="_Z18IN_GetJoyFineDeltaPiS_">IN_GetJoyFineDelta</dfn>(<em>int</em> *<dfn class="local col9 decl" id="9dx" title='dx' data-type='int *' data-ref="9dx">dx</dfn>, <em>int</em> *<dfn class="local col0 decl" id="10dy" title='dy' data-type='int *' data-ref="10dy">dy</dfn>)</td></tr>
+<tr><th id="188">188</th><td>{</td></tr>
+<tr><th id="189">189</th><td>    <b>if</b>(!<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>)</td></tr>
+<tr><th id="190">190</th><td>    {</td></tr>
+<tr><th id="191">191</th><td>        *<a class="local col9 ref" href="#9dx" title='dx' data-ref="9dx">dx</a> = <var>0</var>;</td></tr>
+<tr><th id="192">192</th><td>        *<a class="local col0 ref" href="#10dy" title='dy' data-ref="10dy">dy</a> = <var>0</var>;</td></tr>
+<tr><th id="193">193</th><td>        <b>return</b>;</td></tr>
+<tr><th id="194">194</th><td>    }</td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td>    <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickUpdate" title='SDL_JoystickUpdate' data-ref="SDL_JoystickUpdate">SDL_JoystickUpdate</a>();</td></tr>
+<tr><th id="197">197</th><td>    <em>int</em> <dfn class="local col1 decl" id="11x" title='x' data-type='int' data-ref="11x">x</dfn> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickGetAxis" title='SDL_JoystickGetAxis' data-ref="SDL_JoystickGetAxis">SDL_JoystickGetAxis</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>, <var>0</var>);</td></tr>
+<tr><th id="198">198</th><td>    <em>int</em> <dfn class="local col2 decl" id="12y" title='y' data-type='int' data-ref="12y">y</dfn> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickGetAxis" title='SDL_JoystickGetAxis' data-ref="SDL_JoystickGetAxis">SDL_JoystickGetAxis</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>, <var>1</var>);</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td>    <b>if</b>(<a class="local col1 ref" href="#11x" title='x' data-ref="11x">x</a> &lt; -<var>128</var>) <a class="local col1 ref" href="#11x" title='x' data-ref="11x">x</a> = -<var>128</var>;</td></tr>
+<tr><th id="201">201</th><td>    <b>else</b> <b>if</b>(<a class="local col1 ref" href="#11x" title='x' data-ref="11x">x</a> &gt; <var>127</var>) <a class="local col1 ref" href="#11x" title='x' data-ref="11x">x</a> = <var>127</var>;</td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td>    <b>if</b>(<a class="local col2 ref" href="#12y" title='y' data-ref="12y">y</a> &lt; -<var>128</var>) <a class="local col2 ref" href="#12y" title='y' data-ref="12y">y</a> = -<var>128</var>;</td></tr>
+<tr><th id="204">204</th><td>    <b>else</b> <b>if</b>(<a class="local col2 ref" href="#12y" title='y' data-ref="12y">y</a> &gt; <var>127</var>) <a class="local col2 ref" href="#12y" title='y' data-ref="12y">y</a> = <var>127</var>;</td></tr>
+<tr><th id="205">205</th><td></td></tr>
+<tr><th id="206">206</th><td>    *<a class="local col9 ref" href="#9dx" title='dx' data-ref="9dx">dx</a> = <a class="local col1 ref" href="#11x" title='x' data-ref="11x">x</a>;</td></tr>
+<tr><th id="207">207</th><td>    *<a class="local col0 ref" href="#10dy" title='dy' data-ref="10dy">dy</a> = <a class="local col2 ref" href="#12y" title='y' data-ref="12y">y</a>;</td></tr>
+<tr><th id="208">208</th><td>}</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td><i>/*</i></td></tr>
+<tr><th id="211">211</th><td><i>===================</i></td></tr>
+<tr><th id="212">212</th><td><i>=</i></td></tr>
+<tr><th id="213">213</th><td><i>= IN_JoyButtons</i></td></tr>
+<tr><th id="214">214</th><td><i>=</i></td></tr>
+<tr><th id="215">215</th><td><i>===================</i></td></tr>
+<tr><th id="216">216</th><td><i>*/</i></td></tr>
+<tr><th id="217">217</th><td></td></tr>
+<tr><th id="218">218</th><td><em>int</em> <dfn class="decl def" id="_Z13IN_JoyButtonsv" title='IN_JoyButtons' data-ref="_Z13IN_JoyButtonsv">IN_JoyButtons</dfn>()</td></tr>
+<tr><th id="219">219</th><td>{</td></tr>
+<tr><th id="220">220</th><td>    <b>if</b>(!<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="221">221</th><td></td></tr>
+<tr><th id="222">222</th><td>    <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickUpdate" title='SDL_JoystickUpdate' data-ref="SDL_JoystickUpdate">SDL_JoystickUpdate</a>();</td></tr>
+<tr><th id="223">223</th><td></td></tr>
+<tr><th id="224">224</th><td>    <em>int</em> <dfn class="local col3 decl" id="13res" title='res' data-type='int' data-ref="13res">res</dfn> = <var>0</var>;</td></tr>
+<tr><th id="225">225</th><td>    <b>for</b>(<em>int</em> <dfn class="local col4 decl" id="14i" title='i' data-type='int' data-ref="14i">i</dfn> = <var>0</var>; <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a> &lt; <a class="ref" href="id_in.h.html#JoyNumButtons" title='JoyNumButtons' data-ref="JoyNumButtons">JoyNumButtons</a> &amp;&amp; <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a> &lt; <var>32</var>; <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a>++)</td></tr>
+<tr><th id="226">226</th><td>        <a class="local col3 ref" href="#13res" title='res' data-ref="13res">res</a> |= <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickGetButton" title='SDL_JoystickGetButton' data-ref="SDL_JoystickGetButton">SDL_JoystickGetButton</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>, <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a>) &lt;&lt; <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a>;</td></tr>
+<tr><th id="227">227</th><td>    <b>return</b> <a class="local col3 ref" href="#13res" title='res' data-ref="13res">res</a>;</td></tr>
+<tr><th id="228">228</th><td>}</td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl def" id="_Z13IN_JoyPresentv" title='IN_JoyPresent' data-ref="_Z13IN_JoyPresentv">IN_JoyPresent</dfn>()</td></tr>
+<tr><th id="231">231</th><td>{</td></tr>
+<tr><th id="232">232</th><td>    <b>return</b> <a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a> != <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="233">233</th><td>}</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="_ZL12processEventP9SDL_Event" title='processEvent' data-type='void processEvent(SDL_Event * event)' data-ref="_ZL12processEventP9SDL_Event">processEvent</dfn>(<a class="typedef" href="../include/SDL/SDL_events.h.html#SDL_Event" title='SDL_Event' data-type='union SDL_Event' data-ref="SDL_Event">SDL_Event</a> *<dfn class="local col5 decl" id="15event" title='event' data-type='SDL_Event *' data-ref="15event">event</dfn>)</td></tr>
+<tr><th id="236">236</th><td>{</td></tr>
+<tr><th id="237">237</th><td>    <b>switch</b> (<a class="local col5 ref" href="#15event" title='event' data-ref="15event">event</a>-&gt;<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_Event::type" title='SDL_Event::type' data-ref="SDL_Event::type">type</a>)</td></tr>
+<tr><th id="238">238</th><td>    {</td></tr>
+<tr><th id="239">239</th><td>        <i>// exit if the window is closed</i></td></tr>
+<tr><th id="240">240</th><td>        <b>case</b> <a class="enum" href="../include/SDL/SDL_events.h.html#SDL_QUIT" title='SDL_QUIT' data-ref="SDL_QUIT">SDL_QUIT</a>:</td></tr>
+<tr><th id="241">241</th><td>            <a class="ref" href="wl_def.h.html#_Z4QuitPKcz" title='Quit' data-ref="_Z4QuitPKcz">Quit</a>(<span class="macro" title="__null" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="242">242</th><td></td></tr>
+<tr><th id="243">243</th><td>        <i>// check for keypresses</i></td></tr>
+<tr><th id="244">244</th><td>        <b>case</b> <a class="enum" href="../include/SDL/SDL_events.h.html#SDL_KEYDOWN" title='SDL_KEYDOWN' data-ref="SDL_KEYDOWN">SDL_KEYDOWN</a>:</td></tr>
+<tr><th id="245">245</th><td>        {</td></tr>
+<tr><th id="246">246</th><td>            <b>if</b>(<a class="local col5 ref" href="#15event" title='event' data-ref="15event">event</a>-&gt;<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_Event::key" title='SDL_Event::key' data-ref="SDL_Event::key">key</a>.<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_KeyboardEvent::keysym" title='SDL_KeyboardEvent::keysym' data-ref="SDL_KeyboardEvent::keysym">keysym</a>.<a class="ref" href="../include/SDL/SDL_keyboard.h.html#SDL_keysym::sym" title='SDL_keysym::sym' data-ref="SDL_keysym::sym">sym</a>==<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_SCROLLOCK" title='SDLK_SCROLLOCK' data-ref="SDLK_SCROLLOCK">SDLK_SCROLLOCK</a> || <a class="local col5 ref" href="#15event" title='event' data-ref="15event">event</a>-&gt;<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_Event::key" title='SDL_Event::key' data-ref="SDL_Event::key">key</a>.<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_KeyboardEvent::keysym" title='SDL_KeyboardEvent::keysym' data-ref="SDL_KeyboardEvent::keysym">keysym</a>.<a class="ref" href="../include/SDL/SDL_keyboard.h.html#SDL_keysym::sym" title='SDL_keysym::sym' data-ref="SDL_keysym::sym">sym</a>==<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_F12" title='SDLK_F12' data-ref="SDLK_F12">SDLK_F12</a>)</td></tr>
+<tr><th id="247">247</th><td>            {</td></tr>
+<tr><th id="248">248</th><td>                <a class="tu ref" href="#GrabInput" title='GrabInput' data-use='w' data-ref="GrabInput">GrabInput</a> = !<a class="tu ref" href="#GrabInput" title='GrabInput' data-use='r' data-ref="GrabInput">GrabInput</a>;</td></tr>
+<tr><th id="249">249</th><td>                <a class="ref" href="../include/SDL/SDL_video.h.html#SDL_WM_GrabInput" title='SDL_WM_GrabInput' data-ref="SDL_WM_GrabInput">SDL_WM_GrabInput</a>(<a class="tu ref" href="#GrabInput" title='GrabInput' data-use='r' data-ref="GrabInput">GrabInput</a> ? <a class="enum" href="../include/SDL/SDL_video.h.html#SDL_GRAB_ON" title='SDL_GRAB_ON' data-ref="SDL_GRAB_ON">SDL_GRAB_ON</a> : <a class="enum" href="../include/SDL/SDL_video.h.html#SDL_GRAB_OFF" title='SDL_GRAB_OFF' data-ref="SDL_GRAB_OFF">SDL_GRAB_OFF</a>);</td></tr>
+<tr><th id="250">250</th><td>                <b>return</b>;</td></tr>
+<tr><th id="251">251</th><td>            }</td></tr>
+<tr><th id="252">252</th><td></td></tr>
+<tr><th id="253">253</th><td>            <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="local col5 ref" href="#15event" title='event' data-ref="15event">event</a>-&gt;<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_Event::key" title='SDL_Event::key' data-ref="SDL_Event::key">key</a>.<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_KeyboardEvent::keysym" title='SDL_KeyboardEvent::keysym' data-ref="SDL_KeyboardEvent::keysym">keysym</a>.<a class="ref" href="../include/SDL/SDL_keyboard.h.html#SDL_keysym::sym" title='SDL_keysym::sym' data-ref="SDL_keysym::sym">sym</a>;</td></tr>
+<tr><th id="254">254</th><td>            <a class="typedef" href="../include/SDL/SDL_keysym.h.html#SDLMod" title='SDLMod' data-type='enum SDLMod' data-ref="SDLMod">SDLMod</a> <dfn class="local col6 decl" id="16mod" title='mod' data-type='SDLMod' data-ref="16mod">mod</dfn> = <a class="ref" href="../include/SDL/SDL_keyboard.h.html#SDL_GetModState" title='SDL_GetModState' data-ref="SDL_GetModState">SDL_GetModState</a>();</td></tr>
+<tr><th id="255">255</th><td>            <b>if</b>(<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="macro" href="id_in.h.html#24" title="SDLK_LALT" data-ref="_M/sc_Alt">sc_Alt</a>])</td></tr>
+<tr><th id="256">256</th><td>            {</td></tr>
+<tr><th id="257">257</th><td>                <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>==<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_F4" title='SDLK_F4' data-ref="SDLK_F4">SDLK_F4</a>)</td></tr>
+<tr><th id="258">258</th><td>                    <a class="ref" href="wl_def.h.html#_Z4QuitPKcz" title='Quit' data-ref="_Z4QuitPKcz">Quit</a>(<span class="macro" title="__null" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="259">259</th><td>            }</td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td>            <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP_ENTER" title='SDLK_KP_ENTER' data-ref="SDLK_KP_ENTER">SDLK_KP_ENTER</a>) <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RETURN" title='SDLK_RETURN' data-ref="SDLK_RETURN">SDLK_RETURN</a>;</td></tr>
+<tr><th id="262">262</th><td>            <b>else</b> <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RSHIFT" title='SDLK_RSHIFT' data-ref="SDLK_RSHIFT">SDLK_RSHIFT</a>) <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LSHIFT" title='SDLK_LSHIFT' data-ref="SDLK_LSHIFT">SDLK_LSHIFT</a>;</td></tr>
+<tr><th id="263">263</th><td>            <b>else</b> <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RALT" title='SDLK_RALT' data-ref="SDLK_RALT">SDLK_RALT</a>) <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LALT" title='SDLK_LALT' data-ref="SDLK_LALT">SDLK_LALT</a>;</td></tr>
+<tr><th id="264">264</th><td>            <b>else</b> <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RCTRL" title='SDLK_RCTRL' data-ref="SDLK_RCTRL">SDLK_RCTRL</a>) <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LCTRL" title='SDLK_LCTRL' data-ref="SDLK_LCTRL">SDLK_LCTRL</a>;</td></tr>
+<tr><th id="265">265</th><td>            <b>else</b></td></tr>
+<tr><th id="266">266</th><td>            {</td></tr>
+<tr><th id="267">267</th><td>                <b>if</b>((<a class="local col6 ref" href="#16mod" title='mod' data-ref="16mod">mod</a> &amp; <a class="enum" href="../include/SDL/SDL_keysym.h.html#KMOD_NUM" title='KMOD_NUM' data-ref="KMOD_NUM">KMOD_NUM</a>) == <var>0</var>)</td></tr>
+<tr><th id="268">268</th><td>                {</td></tr>
+<tr><th id="269">269</th><td>                    <b>switch</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>)</td></tr>
+<tr><th id="270">270</th><td>                    {</td></tr>
+<tr><th id="271">271</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP2" title='SDLK_KP2' data-ref="SDLK_KP2">SDLK_KP2</a>: <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_DOWN" title='SDLK_DOWN' data-ref="SDLK_DOWN">SDLK_DOWN</a>; <b>break</b>;</td></tr>
+<tr><th id="272">272</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP4" title='SDLK_KP4' data-ref="SDLK_KP4">SDLK_KP4</a>: <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LEFT" title='SDLK_LEFT' data-ref="SDLK_LEFT">SDLK_LEFT</a>; <b>break</b>;</td></tr>
+<tr><th id="273">273</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP6" title='SDLK_KP6' data-ref="SDLK_KP6">SDLK_KP6</a>: <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RIGHT" title='SDLK_RIGHT' data-ref="SDLK_RIGHT">SDLK_RIGHT</a>; <b>break</b>;</td></tr>
+<tr><th id="274">274</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP8" title='SDLK_KP8' data-ref="SDLK_KP8">SDLK_KP8</a>: <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_UP" title='SDLK_UP' data-ref="SDLK_UP">SDLK_UP</a>; <b>break</b>;</td></tr>
+<tr><th id="275">275</th><td>                    }</td></tr>
+<tr><th id="276">276</th><td>                }</td></tr>
+<tr><th id="277">277</th><td>            }</td></tr>
+<tr><th id="278">278</th><td></td></tr>
+<tr><th id="279">279</th><td>            <em>int</em> <dfn class="local col7 decl" id="17sym" title='sym' data-type='int' data-ref="17sym">sym</dfn> = <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>;</td></tr>
+<tr><th id="280">280</th><td>            <b>if</b>(<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a> &gt;= <kbd>'a'</kbd> &amp;&amp; <a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a> &lt;= <kbd>'z'</kbd>)</td></tr>
+<tr><th id="281">281</th><td>                <a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a> -= <var>32</var>;  <i>// convert to uppercase</i></td></tr>
+<tr><th id="282">282</th><td></td></tr>
+<tr><th id="283">283</th><td>            <b>if</b>(<a class="local col6 ref" href="#16mod" title='mod' data-ref="16mod">mod</a> &amp; (<a class="macro" href="../include/SDL/SDL_keysym.h.html#322" title="(KMOD_LSHIFT|KMOD_RSHIFT)" data-ref="_M/KMOD_SHIFT">KMOD_SHIFT</a> | <a class="enum" href="../include/SDL/SDL_keysym.h.html#KMOD_CAPS" title='KMOD_CAPS' data-ref="KMOD_CAPS">KMOD_CAPS</a>))</td></tr>
+<tr><th id="284">284</th><td>            {</td></tr>
+<tr><th id="285">285</th><td>                <b>if</b>(<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a> &lt; <a class="macro" href="wl_def.h.html#1371" title="(sizeof(ShiftNames) / sizeof(*(ShiftNames)))" data-ref="_M/lengthof">lengthof</a>(<a class="ref" href="#ShiftNames" title='ShiftNames' data-ref="ShiftNames">ShiftNames</a>) &amp;&amp; <a class="ref" href="#ShiftNames" title='ShiftNames' data-ref="ShiftNames">ShiftNames</a>[<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a>])</td></tr>
+<tr><th id="286">286</th><td>                    <a class="ref" href="id_in.h.html#LastASCII" title='LastASCII' data-ref="LastASCII">LastASCII</a> = <a class="ref" href="#ShiftNames" title='ShiftNames' data-ref="ShiftNames">ShiftNames</a>[<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a>];</td></tr>
+<tr><th id="287">287</th><td>            }</td></tr>
+<tr><th id="288">288</th><td>            <b>else</b></td></tr>
+<tr><th id="289">289</th><td>            {</td></tr>
+<tr><th id="290">290</th><td>                <b>if</b>(<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a> &lt; <a class="macro" href="wl_def.h.html#1371" title="(sizeof(ASCIINames) / sizeof(*(ASCIINames)))" data-ref="_M/lengthof">lengthof</a>(<a class="ref" href="#ASCIINames" title='ASCIINames' data-ref="ASCIINames">ASCIINames</a>) &amp;&amp; <a class="ref" href="#ASCIINames" title='ASCIINames' data-ref="ASCIINames">ASCIINames</a>[<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a>])</td></tr>
+<tr><th id="291">291</th><td>                    <a class="ref" href="id_in.h.html#LastASCII" title='LastASCII' data-ref="LastASCII">LastASCII</a> = <a class="ref" href="#ASCIINames" title='ASCIINames' data-ref="ASCIINames">ASCIINames</a>[<a class="local col7 ref" href="#17sym" title='sym' data-ref="17sym">sym</a>];</td></tr>
+<tr><th id="292">292</th><td>            }</td></tr>
+<tr><th id="293">293</th><td></td></tr>
+<tr><th id="294">294</th><td>			<b>if</b> (<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>&lt;<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_i" title='SDLK_i' data-ref="SDLK_i">SDLK_i</a>){</td></tr>
+<tr><th id="295">295</th><td>			}</td></tr>
+<tr><th id="296">296</th><td></td></tr>
+<tr><th id="297">297</th><td>			<b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>&lt;<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LAST" title='SDLK_LAST' data-ref="SDLK_LAST">SDLK_LAST</a>){</td></tr>
+<tr><th id="298">298</th><td>                <a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>] = <var>1</var>;</td></tr>
+<tr><th id="299">299</th><td>			}</td></tr>
+<tr><th id="300">300</th><td>            <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_PAUSE" title='SDLK_PAUSE' data-ref="SDLK_PAUSE">SDLK_PAUSE</a>)</td></tr>
+<tr><th id="301">301</th><td>                <a class="ref" href="id_in.h.html#Paused" title='Paused' data-ref="Paused">Paused</a> = <b>true</b>;</td></tr>
+<tr><th id="302">302</th><td>            <b>break</b>;</td></tr>
+<tr><th id="303">303</th><td>        }</td></tr>
+<tr><th id="304">304</th><td></td></tr>
+<tr><th id="305">305</th><td>        <b>case</b> <a class="enum" href="../include/SDL/SDL_events.h.html#SDL_KEYUP" title='SDL_KEYUP' data-ref="SDL_KEYUP">SDL_KEYUP</a>:</td></tr>
+<tr><th id="306">306</th><td>        {</td></tr>
+<tr><th id="307">307</th><td>            <em>int</em> <dfn class="local col8 decl" id="18key" title='key' data-type='int' data-ref="18key">key</dfn> = <a class="local col5 ref" href="#15event" title='event' data-ref="15event">event</a>-&gt;<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_Event::key" title='SDL_Event::key' data-ref="SDL_Event::key">key</a>.<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_KeyboardEvent::keysym" title='SDL_KeyboardEvent::keysym' data-ref="SDL_KeyboardEvent::keysym">keysym</a>.<a class="ref" href="../include/SDL/SDL_keyboard.h.html#SDL_keysym::sym" title='SDL_keysym::sym' data-ref="SDL_keysym::sym">sym</a>;</td></tr>
+<tr><th id="308">308</th><td>            <b>if</b>(<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP_ENTER" title='SDLK_KP_ENTER' data-ref="SDLK_KP_ENTER">SDLK_KP_ENTER</a>) <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RETURN" title='SDLK_RETURN' data-ref="SDLK_RETURN">SDLK_RETURN</a>;</td></tr>
+<tr><th id="309">309</th><td>            <b>else</b> <b>if</b>(<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RSHIFT" title='SDLK_RSHIFT' data-ref="SDLK_RSHIFT">SDLK_RSHIFT</a>) <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LSHIFT" title='SDLK_LSHIFT' data-ref="SDLK_LSHIFT">SDLK_LSHIFT</a>;</td></tr>
+<tr><th id="310">310</th><td>            <b>else</b> <b>if</b>(<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RALT" title='SDLK_RALT' data-ref="SDLK_RALT">SDLK_RALT</a>) <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LALT" title='SDLK_LALT' data-ref="SDLK_LALT">SDLK_LALT</a>;</td></tr>
+<tr><th id="311">311</th><td>            <b>else</b> <b>if</b>(<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> == <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RCTRL" title='SDLK_RCTRL' data-ref="SDLK_RCTRL">SDLK_RCTRL</a>) <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LCTRL" title='SDLK_LCTRL' data-ref="SDLK_LCTRL">SDLK_LCTRL</a>;</td></tr>
+<tr><th id="312">312</th><td>            <b>else</b></td></tr>
+<tr><th id="313">313</th><td>            {</td></tr>
+<tr><th id="314">314</th><td>                <b>if</b>((<a class="ref" href="../include/SDL/SDL_keyboard.h.html#SDL_GetModState" title='SDL_GetModState' data-ref="SDL_GetModState">SDL_GetModState</a>() &amp; <a class="enum" href="../include/SDL/SDL_keysym.h.html#KMOD_NUM" title='KMOD_NUM' data-ref="KMOD_NUM">KMOD_NUM</a>) == <var>0</var>)</td></tr>
+<tr><th id="315">315</th><td>                {</td></tr>
+<tr><th id="316">316</th><td>                    <b>switch</b>(<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a>)</td></tr>
+<tr><th id="317">317</th><td>                    {</td></tr>
+<tr><th id="318">318</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP2" title='SDLK_KP2' data-ref="SDLK_KP2">SDLK_KP2</a>: <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_DOWN" title='SDLK_DOWN' data-ref="SDLK_DOWN">SDLK_DOWN</a>; <b>break</b>;</td></tr>
+<tr><th id="319">319</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP4" title='SDLK_KP4' data-ref="SDLK_KP4">SDLK_KP4</a>: <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LEFT" title='SDLK_LEFT' data-ref="SDLK_LEFT">SDLK_LEFT</a>; <b>break</b>;</td></tr>
+<tr><th id="320">320</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP6" title='SDLK_KP6' data-ref="SDLK_KP6">SDLK_KP6</a>: <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_RIGHT" title='SDLK_RIGHT' data-ref="SDLK_RIGHT">SDLK_RIGHT</a>; <b>break</b>;</td></tr>
+<tr><th id="321">321</th><td>                        <b>case</b> <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_KP8" title='SDLK_KP8' data-ref="SDLK_KP8">SDLK_KP8</a>: <a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a> = <a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_UP" title='SDLK_UP' data-ref="SDLK_UP">SDLK_UP</a>; <b>break</b>;</td></tr>
+<tr><th id="322">322</th><td>                    }</td></tr>
+<tr><th id="323">323</th><td>                }</td></tr>
+<tr><th id="324">324</th><td>            }</td></tr>
+<tr><th id="325">325</th><td></td></tr>
+<tr><th id="326">326</th><td>			<b>if</b>(<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a>&lt;<a class="enum" href="../include/SDL/SDL_keysym.h.html#SDLK_LAST" title='SDLK_LAST' data-ref="SDLK_LAST">SDLK_LAST</a>){</td></tr>
+<tr><th id="327">327</th><td>                <a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="local col8 ref" href="#18key" title='key' data-ref="18key">key</a>] = <var>0</var>;</td></tr>
+<tr><th id="328">328</th><td>			}</td></tr>
+<tr><th id="329">329</th><td>            <b>break</b>;</td></tr>
+<tr><th id="330">330</th><td>        }</td></tr>
+<tr><th id="331">331</th><td></td></tr>
+<tr><th id="332">332</th><td>    }</td></tr>
+<tr><th id="333">333</th><td>}</td></tr>
+<tr><th id="334">334</th><td></td></tr>
+<tr><th id="335">335</th><td><em>void</em> <dfn class="decl def" id="_Z23IN_WaitAndProcessEventsv" title='IN_WaitAndProcessEvents' data-ref="_Z23IN_WaitAndProcessEventsv">IN_WaitAndProcessEvents</dfn>()</td></tr>
+<tr><th id="336">336</th><td>{</td></tr>
+<tr><th id="337">337</th><td>    <a class="typedef" href="../include/SDL/SDL_events.h.html#SDL_Event" title='SDL_Event' data-type='union SDL_Event' data-ref="SDL_Event">SDL_Event</a> <a class="ref fake" href="../include/SDL/SDL_events.h.html#227" title='SDL_Event::SDL_Event' data-ref="_ZN9SDL_EventC1Ev"></a><dfn class="local col9 decl" id="19event" title='event' data-type='SDL_Event' data-ref="19event">event</dfn>;</td></tr>
+<tr><th id="338">338</th><td>    <b>if</b>(!<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_WaitEvent" title='SDL_WaitEvent' data-ref="SDL_WaitEvent">SDL_WaitEvent</a>(&amp;<a class="local col9 ref" href="#19event" title='event' data-ref="19event">event</a>)) <b>return</b>;</td></tr>
+<tr><th id="339">339</th><td>    <b>do</b></td></tr>
+<tr><th id="340">340</th><td>    {</td></tr>
+<tr><th id="341">341</th><td>        <a class="tu ref" href="#_ZL12processEventP9SDL_Event" title='processEvent' data-use='c' data-ref="_ZL12processEventP9SDL_Event">processEvent</a>(&amp;<a class="local col9 ref" href="#19event" title='event' data-ref="19event">event</a>);</td></tr>
+<tr><th id="342">342</th><td>    }</td></tr>
+<tr><th id="343">343</th><td>    <b>while</b>(<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_PollEvent" title='SDL_PollEvent' data-ref="SDL_PollEvent">SDL_PollEvent</a>(&amp;<a class="local col9 ref" href="#19event" title='event' data-ref="19event">event</a>));</td></tr>
+<tr><th id="344">344</th><td>}</td></tr>
+<tr><th id="345">345</th><td></td></tr>
+<tr><th id="346">346</th><td><em>void</em> <dfn class="decl def" id="_Z16IN_ProcessEventsv" title='IN_ProcessEvents' data-ref="_Z16IN_ProcessEventsv">IN_ProcessEvents</dfn>()</td></tr>
+<tr><th id="347">347</th><td>{</td></tr>
+<tr><th id="348">348</th><td>    <a class="typedef" href="../include/SDL/SDL_events.h.html#SDL_Event" title='SDL_Event' data-type='union SDL_Event' data-ref="SDL_Event">SDL_Event</a> <a class="ref fake" href="../include/SDL/SDL_events.h.html#227" title='SDL_Event::SDL_Event' data-ref="_ZN9SDL_EventC1Ev"></a><dfn class="local col0 decl" id="20event" title='event' data-type='SDL_Event' data-ref="20event">event</dfn>;</td></tr>
+<tr><th id="349">349</th><td></td></tr>
+<tr><th id="350">350</th><td>    <b>while</b> (<a class="ref" href="../include/SDL/SDL_events.h.html#SDL_PollEvent" title='SDL_PollEvent' data-ref="SDL_PollEvent">SDL_PollEvent</a>(&amp;<a class="local col0 ref" href="#20event" title='event' data-ref="20event">event</a>))</td></tr>
+<tr><th id="351">351</th><td>    {</td></tr>
+<tr><th id="352">352</th><td>        <a class="tu ref" href="#_ZL12processEventP9SDL_Event" title='processEvent' data-use='c' data-ref="_ZL12processEventP9SDL_Event">processEvent</a>(&amp;<a class="local col0 ref" href="#20event" title='event' data-ref="20event">event</a>);</td></tr>
+<tr><th id="353">353</th><td>    }</td></tr>
+<tr><th id="354">354</th><td>}</td></tr>
+<tr><th id="355">355</th><td></td></tr>
+<tr><th id="356">356</th><td></td></tr>
+<tr><th id="357">357</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="358">358</th><td><i>//</i></td></tr>
+<tr><th id="359">359</th><td><i>//  IN_Startup() - Starts up the Input Mgr</i></td></tr>
+<tr><th id="360">360</th><td><i>//</i></td></tr>
+<tr><th id="361">361</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="362">362</th><td><em>void</em></td></tr>
+<tr><th id="363">363</th><td><dfn class="decl def" id="_Z10IN_Startupv" title='IN_Startup' data-ref="_Z10IN_Startupv">IN_Startup</dfn>(<em>void</em>)</td></tr>
+<tr><th id="364">364</th><td>{</td></tr>
+<tr><th id="365">365</th><td>    <b>if</b> (<a class="tu ref" href="#IN_Started" title='IN_Started' data-use='r' data-ref="IN_Started">IN_Started</a>)</td></tr>
+<tr><th id="366">366</th><td>        <b>return</b>;</td></tr>
+<tr><th id="367">367</th><td></td></tr>
+<tr><th id="368">368</th><td>    <a class="ref" href="#_Z16IN_ClearKeysDownv" title='IN_ClearKeysDown' data-ref="_Z16IN_ClearKeysDownv">IN_ClearKeysDown</a>();</td></tr>
+<tr><th id="369">369</th><td></td></tr>
+<tr><th id="370">370</th><td>    <b>if</b>(<a class="ref" href="wl_def.h.html#param_joystickindex" title='param_joystickindex' data-ref="param_joystickindex">param_joystickindex</a> &gt;= <var>0</var> &amp;&amp; <a class="ref" href="wl_def.h.html#param_joystickindex" title='param_joystickindex' data-ref="param_joystickindex">param_joystickindex</a> &lt; <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_NumJoysticks" title='SDL_NumJoysticks' data-ref="SDL_NumJoysticks">SDL_NumJoysticks</a>())</td></tr>
+<tr><th id="371">371</th><td>    {</td></tr>
+<tr><th id="372">372</th><td>        <a class="tu ref" href="#Joystick" title='Joystick' data-use='w' data-ref="Joystick">Joystick</a> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickOpen" title='SDL_JoystickOpen' data-ref="SDL_JoystickOpen">SDL_JoystickOpen</a>(<a class="ref" href="wl_def.h.html#param_joystickindex" title='param_joystickindex' data-ref="param_joystickindex">param_joystickindex</a>);</td></tr>
+<tr><th id="373">373</th><td>        <b>if</b>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>)</td></tr>
+<tr><th id="374">374</th><td>        {</td></tr>
+<tr><th id="375">375</th><td>            <a class="ref" href="id_in.h.html#JoyNumButtons" title='JoyNumButtons' data-ref="JoyNumButtons">JoyNumButtons</a> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickNumButtons" title='SDL_JoystickNumButtons' data-ref="SDL_JoystickNumButtons">SDL_JoystickNumButtons</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>);</td></tr>
+<tr><th id="376">376</th><td>            <b>if</b>(<a class="ref" href="id_in.h.html#JoyNumButtons" title='JoyNumButtons' data-ref="JoyNumButtons">JoyNumButtons</a> &gt; <var>32</var>) <a class="ref" href="id_in.h.html#JoyNumButtons" title='JoyNumButtons' data-ref="JoyNumButtons">JoyNumButtons</a> = <var>32</var>;      <i>// only up to 32 buttons are supported</i></td></tr>
+<tr><th id="377">377</th><td>            <a class="tu ref" href="#JoyNumHats" title='JoyNumHats' data-use='w' data-ref="JoyNumHats">JoyNumHats</a> = <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickNumHats" title='SDL_JoystickNumHats' data-ref="SDL_JoystickNumHats">SDL_JoystickNumHats</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>);</td></tr>
+<tr><th id="378">378</th><td>            <b>if</b>(<a class="ref" href="wl_def.h.html#param_joystickhat" title='param_joystickhat' data-ref="param_joystickhat">param_joystickhat</a> &lt; -<var>1</var> || <a class="ref" href="wl_def.h.html#param_joystickhat" title='param_joystickhat' data-ref="param_joystickhat">param_joystickhat</a> &gt;= <a class="tu ref" href="#JoyNumHats" title='JoyNumHats' data-use='r' data-ref="JoyNumHats">JoyNumHats</a>)</td></tr>
+<tr><th id="379">379</th><td>                <a class="ref" href="wl_def.h.html#_Z4QuitPKcz" title='Quit' data-ref="_Z4QuitPKcz">Quit</a>(<q>"The joystickhat param must be between 0 and %i!"</q>, <a class="tu ref" href="#JoyNumHats" title='JoyNumHats' data-use='r' data-ref="JoyNumHats">JoyNumHats</a> - <var>1</var>);</td></tr>
+<tr><th id="380">380</th><td>        }</td></tr>
+<tr><th id="381">381</th><td>    }</td></tr>
+<tr><th id="382">382</th><td></td></tr>
+<tr><th id="383">383</th><td>    <a class="ref" href="../include/SDL/SDL_events.h.html#SDL_EventState" title='SDL_EventState' data-ref="SDL_EventState">SDL_EventState</a>(<a class="enum" href="../include/SDL/SDL_events.h.html#SDL_MOUSEMOTION" title='SDL_MOUSEMOTION' data-ref="SDL_MOUSEMOTION">SDL_MOUSEMOTION</a>, <a class="macro" href="../include/SDL/SDL_events.h.html#335" title="0" data-ref="_M/SDL_IGNORE">SDL_IGNORE</a>);</td></tr>
+<tr><th id="384">384</th><td></td></tr>
+<tr><th id="385">385</th><td>    <b>if</b>(<a class="ref" href="id_vl.h.html#fullscreen" title='fullscreen' data-ref="fullscreen">fullscreen</a> || <a class="ref" href="id_in.h.html#forcegrabmouse" title='forcegrabmouse' data-ref="forcegrabmouse">forcegrabmouse</a>)</td></tr>
+<tr><th id="386">386</th><td>    {</td></tr>
+<tr><th id="387">387</th><td>        <a class="tu ref" href="#GrabInput" title='GrabInput' data-use='w' data-ref="GrabInput">GrabInput</a> = <b>true</b>;</td></tr>
+<tr><th id="388">388</th><td>        <a class="ref" href="../include/SDL/SDL_video.h.html#SDL_WM_GrabInput" title='SDL_WM_GrabInput' data-ref="SDL_WM_GrabInput">SDL_WM_GrabInput</a>(<a class="enum" href="../include/SDL/SDL_video.h.html#SDL_GRAB_ON" title='SDL_GRAB_ON' data-ref="SDL_GRAB_ON">SDL_GRAB_ON</a>);</td></tr>
+<tr><th id="389">389</th><td>    }</td></tr>
+<tr><th id="390">390</th><td></td></tr>
+<tr><th id="391">391</th><td>    <i>// I didn't find a way to ask libSDL whether a mouse is present, yet...</i></td></tr>
+<tr><th id="392">392</th><td></td></tr>
+<tr><th id="393">393</th><td>    <a class="ref" href="id_in.h.html#MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</a> = <b>true</b>;</td></tr>
+<tr><th id="394">394</th><td>    </td></tr>
+<tr><th id="395">395</th><td>    <a class="tu ref" href="#IN_Started" title='IN_Started' data-use='w' data-ref="IN_Started">IN_Started</a> = <b>true</b>;</td></tr>
+<tr><th id="396">396</th><td>}</td></tr>
+<tr><th id="397">397</th><td></td></tr>
+<tr><th id="398">398</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="399">399</th><td><i>//</i></td></tr>
+<tr><th id="400">400</th><td><i>//  IN_Shutdown() - Shuts down the Input Mgr</i></td></tr>
+<tr><th id="401">401</th><td><i>//</i></td></tr>
+<tr><th id="402">402</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="403">403</th><td><em>void</em></td></tr>
+<tr><th id="404">404</th><td><dfn class="decl def" id="_Z11IN_Shutdownv" title='IN_Shutdown' data-ref="_Z11IN_Shutdownv">IN_Shutdown</dfn>(<em>void</em>)</td></tr>
+<tr><th id="405">405</th><td>{</td></tr>
+<tr><th id="406">406</th><td>    <b>if</b> (!<a class="tu ref" href="#IN_Started" title='IN_Started' data-use='r' data-ref="IN_Started">IN_Started</a>)</td></tr>
+<tr><th id="407">407</th><td>        <b>return</b>;</td></tr>
+<tr><th id="408">408</th><td></td></tr>
+<tr><th id="409">409</th><td>    <b>if</b>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>)</td></tr>
+<tr><th id="410">410</th><td>        <a class="ref" href="../include/SDL/SDL_joystick.h.html#SDL_JoystickClose" title='SDL_JoystickClose' data-ref="SDL_JoystickClose">SDL_JoystickClose</a>(<a class="tu ref" href="#Joystick" title='Joystick' data-use='r' data-ref="Joystick">Joystick</a>);</td></tr>
+<tr><th id="411">411</th><td></td></tr>
+<tr><th id="412">412</th><td>    <a class="tu ref" href="#IN_Started" title='IN_Started' data-use='w' data-ref="IN_Started">IN_Started</a> = <b>false</b>;</td></tr>
+<tr><th id="413">413</th><td>}</td></tr>
+<tr><th id="414">414</th><td></td></tr>
+<tr><th id="415">415</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="416">416</th><td><i>//</i></td></tr>
+<tr><th id="417">417</th><td><i>//  IN_ClearKeysDown() - Clears the keyboard array</i></td></tr>
+<tr><th id="418">418</th><td><i>//</i></td></tr>
+<tr><th id="419">419</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="420">420</th><td><em>void</em></td></tr>
+<tr><th id="421">421</th><td><dfn class="decl def" id="_Z16IN_ClearKeysDownv" title='IN_ClearKeysDown' data-ref="_Z16IN_ClearKeysDownv">IN_ClearKeysDown</dfn>(<em>void</em>)</td></tr>
+<tr><th id="422">422</th><td>{</td></tr>
+<tr><th id="423">423</th><td>    <a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a> = <a class="macro" href="id_in.h.html#16" title="0" data-ref="_M/sc_None">sc_None</a>;</td></tr>
+<tr><th id="424">424</th><td>    <a class="ref" href="id_in.h.html#LastASCII" title='LastASCII' data-ref="LastASCII">LastASCII</a> = <a class="macro" href="id_in.h.html#93" title="0" data-ref="_M/key_None">key_None</a>;</td></tr>
+<tr><th id="425">425</th><td>    <a class="ref" href="../include/string.h.html#memset" title='memset' data-ref="memset">memset</a> ((<em>void</em> *) <a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>,<var>0</var>,<b>sizeof</b>(<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>));</td></tr>
+<tr><th id="426">426</th><td>}</td></tr>
+<tr><th id="427">427</th><td></td></tr>
+<tr><th id="428">428</th><td></td></tr>
+<tr><th id="429">429</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="430">430</th><td><i>//</i></td></tr>
+<tr><th id="431">431</th><td><i>//  IN_ReadControl() - Reads the device associated with the specified</i></td></tr>
+<tr><th id="432">432</th><td><i>//      player and fills in the control info struct</i></td></tr>
+<tr><th id="433">433</th><td><i>//</i></td></tr>
+<tr><th id="434">434</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="435">435</th><td><em>void</em></td></tr>
+<tr><th id="436">436</th><td><dfn class="decl def" id="_Z14IN_ReadControliP10CursorInfo" title='IN_ReadControl' data-ref="_Z14IN_ReadControliP10CursorInfo">IN_ReadControl</dfn>(<em>int</em> <dfn class="local col1 decl" id="21player" title='player' data-type='int' data-ref="21player">player</dfn>,<a class="typedef" href="id_in.h.html#ControlInfo" title='ControlInfo' data-type='CursorInfo' data-ref="ControlInfo">ControlInfo</a> *<dfn class="local col2 decl" id="22info" title='info' data-type='ControlInfo *' data-ref="22info">info</dfn>)</td></tr>
+<tr><th id="437">437</th><td>{</td></tr>
+<tr><th id="438">438</th><td>    <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>        <dfn class="local col3 decl" id="23buttons" title='buttons' data-type='word' data-ref="23buttons">buttons</dfn>;</td></tr>
+<tr><th id="439">439</th><td>    <em>int</em>         <dfn class="local col4 decl" id="24dx" title='dx' data-type='int' data-ref="24dx">dx</dfn>,<dfn class="local col5 decl" id="25dy" title='dy' data-type='int' data-ref="25dy">dy</dfn>;</td></tr>
+<tr><th id="440">440</th><td>    <a class="typedef" href="id_in.h.html#Motion" title='Motion' data-type='enum Motion' data-ref="Motion">Motion</a>      <dfn class="local col6 decl" id="26mx" title='mx' data-type='Motion' data-ref="26mx">mx</dfn>,<dfn class="local col7 decl" id="27my" title='my' data-type='Motion' data-ref="27my">my</dfn>;</td></tr>
+<tr><th id="441">441</th><td></td></tr>
+<tr><th id="442">442</th><td>    <a class="local col4 ref" href="#24dx" title='dx' data-ref="24dx">dx</a> = <a class="local col5 ref" href="#25dy" title='dy' data-ref="25dy">dy</a> = <var>0</var>;</td></tr>
+<tr><th id="443">443</th><td>    <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_None" title='motion_None' data-ref="motion_None">motion_None</a>;</td></tr>
+<tr><th id="444">444</th><td>    <a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> = <var>0</var>;</td></tr>
+<tr><th id="445">445</th><td></td></tr>
+<tr><th id="446">446</th><td>    <a class="ref" href="#_Z16IN_ProcessEventsv" title='IN_ProcessEvents' data-ref="_Z16IN_ProcessEventsv">IN_ProcessEvents</a>();</td></tr>
+<tr><th id="447">447</th><td></td></tr>
+<tr><th id="448">448</th><td>    <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::upleft" title='(anonymous struct)::upleft' data-ref="(anonymous)::upleft">upleft</a>])</td></tr>
+<tr><th id="449">449</th><td>        <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="enum" href="id_in.h.html#motion_Left" title='motion_Left' data-ref="motion_Left">motion_Left</a>,<a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_Up" title='motion_Up' data-ref="motion_Up">motion_Up</a>;</td></tr>
+<tr><th id="450">450</th><td>    <b>else</b> <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::upright" title='(anonymous struct)::upright' data-ref="(anonymous)::upright">upright</a>])</td></tr>
+<tr><th id="451">451</th><td>        <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="enum" href="id_in.h.html#motion_Right" title='motion_Right' data-ref="motion_Right">motion_Right</a>,<a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_Up" title='motion_Up' data-ref="motion_Up">motion_Up</a>;</td></tr>
+<tr><th id="452">452</th><td>    <b>else</b> <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::downleft" title='(anonymous struct)::downleft' data-ref="(anonymous)::downleft">downleft</a>])</td></tr>
+<tr><th id="453">453</th><td>        <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="enum" href="id_in.h.html#motion_Left" title='motion_Left' data-ref="motion_Left">motion_Left</a>,<a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_Down" title='motion_Down' data-ref="motion_Down">motion_Down</a>;</td></tr>
+<tr><th id="454">454</th><td>    <b>else</b> <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::downright" title='(anonymous struct)::downright' data-ref="(anonymous)::downright">downright</a>])</td></tr>
+<tr><th id="455">455</th><td>        <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="enum" href="id_in.h.html#motion_Right" title='motion_Right' data-ref="motion_Right">motion_Right</a>,<a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_Down" title='motion_Down' data-ref="motion_Down">motion_Down</a>;</td></tr>
+<tr><th id="456">456</th><td></td></tr>
+<tr><th id="457">457</th><td>    <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::up" title='(anonymous struct)::up' data-ref="(anonymous)::up">up</a>])</td></tr>
+<tr><th id="458">458</th><td>        <a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_Up" title='motion_Up' data-ref="motion_Up">motion_Up</a>;</td></tr>
+<tr><th id="459">459</th><td>    <b>else</b> <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::down" title='(anonymous struct)::down' data-ref="(anonymous)::down">down</a>])</td></tr>
+<tr><th id="460">460</th><td>        <a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> = <a class="enum" href="id_in.h.html#motion_Down" title='motion_Down' data-ref="motion_Down">motion_Down</a>;</td></tr>
+<tr><th id="461">461</th><td></td></tr>
+<tr><th id="462">462</th><td>    <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::left" title='(anonymous struct)::left' data-ref="(anonymous)::left">left</a>])</td></tr>
+<tr><th id="463">463</th><td>        <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="enum" href="id_in.h.html#motion_Left" title='motion_Left' data-ref="motion_Left">motion_Left</a>;</td></tr>
+<tr><th id="464">464</th><td>    <b>else</b> <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::right" title='(anonymous struct)::right' data-ref="(anonymous)::right">right</a>])</td></tr>
+<tr><th id="465">465</th><td>        <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> = <a class="enum" href="id_in.h.html#motion_Right" title='motion_Right' data-ref="motion_Right">motion_Right</a>;</td></tr>
+<tr><th id="466">466</th><td></td></tr>
+<tr><th id="467">467</th><td>    <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::button0" title='(anonymous struct)::button0' data-ref="(anonymous)::button0">button0</a>])</td></tr>
+<tr><th id="468">468</th><td>        <a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> += <var>1</var> &lt;&lt; <var>0</var>;</td></tr>
+<tr><th id="469">469</th><td>    <b>if</b> (<a class="ref" href="id_in.h.html#Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</a>[<a class="tu ref" href="#KbdDefs" title='KbdDefs' data-use='m' data-ref="KbdDefs">KbdDefs</a>.<a class="ref" href="id_in.h.html#(anonymous)::button1" title='(anonymous struct)::button1' data-ref="(anonymous)::button1">button1</a>])</td></tr>
+<tr><th id="470">470</th><td>        <a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> += <var>1</var> &lt;&lt; <var>1</var>;</td></tr>
+<tr><th id="471">471</th><td></td></tr>
+<tr><th id="472">472</th><td>    <a class="local col4 ref" href="#24dx" title='dx' data-ref="24dx">dx</a> = <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> * <var>127</var>;</td></tr>
+<tr><th id="473">473</th><td>    <a class="local col5 ref" href="#25dy" title='dy' data-ref="25dy">dy</a> = <a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> * <var>127</var>;</td></tr>
+<tr><th id="474">474</th><td></td></tr>
+<tr><th id="475">475</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a> = <a class="local col4 ref" href="#24dx" title='dx' data-ref="24dx">dx</a>;</td></tr>
+<tr><th id="476">476</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::xaxis" title='(anonymous struct)::xaxis' data-ref="(anonymous)::xaxis">xaxis</a> = <a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a>;</td></tr>
+<tr><th id="477">477</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</a> = <a class="local col5 ref" href="#25dy" title='dy' data-ref="25dy">dy</a>;</td></tr>
+<tr><th id="478">478</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::yaxis" title='(anonymous struct)::yaxis' data-ref="(anonymous)::yaxis">yaxis</a> = <a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a>;</td></tr>
+<tr><th id="479">479</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::button0" title='(anonymous struct)::button0' data-ref="(anonymous)::button0">button0</a> = (<a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> &amp; (<var>1</var> &lt;&lt; <var>0</var>)) != <var>0</var>;</td></tr>
+<tr><th id="480">480</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::button1" title='(anonymous struct)::button1' data-ref="(anonymous)::button1">button1</a> = (<a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> &amp; (<var>1</var> &lt;&lt; <var>1</var>)) != <var>0</var>;</td></tr>
+<tr><th id="481">481</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::button2" title='(anonymous struct)::button2' data-ref="(anonymous)::button2">button2</a> = (<a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> &amp; (<var>1</var> &lt;&lt; <var>2</var>)) != <var>0</var>;</td></tr>
+<tr><th id="482">482</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::button3" title='(anonymous struct)::button3' data-ref="(anonymous)::button3">button3</a> = (<a class="local col3 ref" href="#23buttons" title='buttons' data-ref="23buttons">buttons</a> &amp; (<var>1</var> &lt;&lt; <var>3</var>)) != <var>0</var>;</td></tr>
+<tr><th id="483">483</th><td>    <a class="local col2 ref" href="#22info" title='info' data-ref="22info">info</a>-&gt;<a class="ref" href="id_in.h.html#(anonymous)::dir" title='(anonymous struct)::dir' data-ref="(anonymous)::dir">dir</a> = <a class="tu ref" href="#DirTable" title='DirTable' data-use='r' data-ref="DirTable">DirTable</a>[((<a class="local col7 ref" href="#27my" title='my' data-ref="27my">my</a> + <var>1</var>) * <var>3</var>) + (<a class="local col6 ref" href="#26mx" title='mx' data-ref="26mx">mx</a> + <var>1</var>)];</td></tr>
+<tr><th id="484">484</th><td>}</td></tr>
+<tr><th id="485">485</th><td></td></tr>
+<tr><th id="486">486</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="487">487</th><td><i>//</i></td></tr>
+<tr><th id="488">488</th><td><i>//  IN_Ack() - waits for a button or key press.  If a button is down, upon</i></td></tr>
+<tr><th id="489">489</th><td><i>// calling, it must be released for it to be recognized</i></td></tr>
+<tr><th id="490">490</th><td><i>//</i></td></tr>
+<tr><th id="491">491</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="492">492</th><td></td></tr>
+<tr><th id="493">493</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl def" id="btnstate" title='btnstate' data-ref="btnstate">btnstate</dfn>[<a class="enum" href="wl_def.h.html#NUMBUTTONS" title='NUMBUTTONS' data-ref="NUMBUTTONS">NUMBUTTONS</a>];</td></tr>
+<tr><th id="494">494</th><td></td></tr>
+<tr><th id="495">495</th><td><em>void</em> <dfn class="decl def" id="_Z11IN_StartAckv" title='IN_StartAck' data-ref="_Z11IN_StartAckv">IN_StartAck</dfn>(<em>void</em>)</td></tr>
+<tr><th id="496">496</th><td>{</td></tr>
+<tr><th id="497">497</th><td>    <a class="ref" href="#_Z16IN_ProcessEventsv" title='IN_ProcessEvents' data-ref="_Z16IN_ProcessEventsv">IN_ProcessEvents</a>();</td></tr>
+<tr><th id="498">498</th><td><i>//</i></td></tr>
+<tr><th id="499">499</th><td><i>// get initial state of everything</i></td></tr>
+<tr><th id="500">500</th><td><i>//</i></td></tr>
+<tr><th id="501">501</th><td>    <a class="ref" href="#_Z16IN_ClearKeysDownv" title='IN_ClearKeysDown' data-ref="_Z16IN_ClearKeysDownv">IN_ClearKeysDown</a>();</td></tr>
+<tr><th id="502">502</th><td>    <a class="ref" href="../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>(<a class="ref" href="#btnstate" title='btnstate' data-ref="btnstate">btnstate</a>, <var>0</var>, <b>sizeof</b>(<a class="ref" href="#btnstate" title='btnstate' data-ref="btnstate">btnstate</a>));</td></tr>
+<tr><th id="503">503</th><td></td></tr>
+<tr><th id="504">504</th><td>    <em>int</em> <dfn class="local col8 decl" id="28buttons" title='buttons' data-type='int' data-ref="28buttons">buttons</dfn> = <a class="ref" href="#_Z13IN_JoyButtonsv" title='IN_JoyButtons' data-ref="_Z13IN_JoyButtonsv">IN_JoyButtons</a>() &lt;&lt; <var>4</var>;</td></tr>
+<tr><th id="505">505</th><td></td></tr>
+<tr><th id="506">506</th><td>    <b>if</b>(<a class="ref" href="id_in.h.html#MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</a>)</td></tr>
+<tr><th id="507">507</th><td>        <a class="local col8 ref" href="#28buttons" title='buttons' data-ref="28buttons">buttons</a> |= <a class="ref" href="#_Z15IN_MouseButtonsv" title='IN_MouseButtons' data-ref="_Z15IN_MouseButtonsv">IN_MouseButtons</a>();</td></tr>
+<tr><th id="508">508</th><td></td></tr>
+<tr><th id="509">509</th><td>    <b>for</b>(<em>int</em> <dfn class="local col9 decl" id="29i" title='i' data-type='int' data-ref="29i">i</dfn> = <var>0</var>; <a class="local col9 ref" href="#29i" title='i' data-ref="29i">i</a> &lt; <a class="enum" href="wl_def.h.html#NUMBUTTONS" title='NUMBUTTONS' data-ref="NUMBUTTONS">NUMBUTTONS</a>; <a class="local col9 ref" href="#29i" title='i' data-ref="29i">i</a>++, <a class="local col8 ref" href="#28buttons" title='buttons' data-ref="28buttons">buttons</a> &gt;&gt;= <var>1</var>)</td></tr>
+<tr><th id="510">510</th><td>        <b>if</b>(<a class="local col8 ref" href="#28buttons" title='buttons' data-ref="28buttons">buttons</a> &amp; <var>1</var>)</td></tr>
+<tr><th id="511">511</th><td>            <a class="ref" href="#btnstate" title='btnstate' data-ref="btnstate">btnstate</a>[<a class="local col9 ref" href="#29i" title='i' data-ref="29i">i</a>] = <b>true</b>;</td></tr>
+<tr><th id="512">512</th><td>}</td></tr>
+<tr><th id="513">513</th><td></td></tr>
+<tr><th id="514">514</th><td></td></tr>
+<tr><th id="515">515</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl def" id="_Z11IN_CheckAckv" title='IN_CheckAck' data-ref="_Z11IN_CheckAckv">IN_CheckAck</dfn> (<em>void</em>)</td></tr>
+<tr><th id="516">516</th><td>{</td></tr>
+<tr><th id="517">517</th><td>    <a class="ref" href="#_Z16IN_ProcessEventsv" title='IN_ProcessEvents' data-ref="_Z16IN_ProcessEventsv">IN_ProcessEvents</a>();</td></tr>
+<tr><th id="518">518</th><td><i>//</i></td></tr>
+<tr><th id="519">519</th><td><i>// see if something has been pressed</i></td></tr>
+<tr><th id="520">520</th><td><i>//</i></td></tr>
+<tr><th id="521">521</th><td>    <b>if</b>(<a class="ref" href="id_in.h.html#LastScan" title='LastScan' data-ref="LastScan">LastScan</a>)</td></tr>
+<tr><th id="522">522</th><td>        <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="523">523</th><td></td></tr>
+<tr><th id="524">524</th><td>    <em>int</em> <dfn class="local col0 decl" id="30buttons" title='buttons' data-type='int' data-ref="30buttons">buttons</dfn> = <a class="ref" href="#_Z13IN_JoyButtonsv" title='IN_JoyButtons' data-ref="_Z13IN_JoyButtonsv">IN_JoyButtons</a>() &lt;&lt; <var>4</var>;</td></tr>
+<tr><th id="525">525</th><td></td></tr>
+<tr><th id="526">526</th><td>    <b>if</b>(<a class="ref" href="id_in.h.html#MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</a>)</td></tr>
+<tr><th id="527">527</th><td>        <a class="local col0 ref" href="#30buttons" title='buttons' data-ref="30buttons">buttons</a> |= <a class="ref" href="#_Z15IN_MouseButtonsv" title='IN_MouseButtons' data-ref="_Z15IN_MouseButtonsv">IN_MouseButtons</a>();</td></tr>
+<tr><th id="528">528</th><td></td></tr>
+<tr><th id="529">529</th><td>    <b>for</b>(<em>int</em> <dfn class="local col1 decl" id="31i" title='i' data-type='int' data-ref="31i">i</dfn> = <var>0</var>; <a class="local col1 ref" href="#31i" title='i' data-ref="31i">i</a> &lt; <a class="enum" href="wl_def.h.html#NUMBUTTONS" title='NUMBUTTONS' data-ref="NUMBUTTONS">NUMBUTTONS</a>; <a class="local col1 ref" href="#31i" title='i' data-ref="31i">i</a>++, <a class="local col0 ref" href="#30buttons" title='buttons' data-ref="30buttons">buttons</a> &gt;&gt;= <var>1</var>)</td></tr>
+<tr><th id="530">530</th><td>    {</td></tr>
+<tr><th id="531">531</th><td>        <b>if</b>(<a class="local col0 ref" href="#30buttons" title='buttons' data-ref="30buttons">buttons</a> &amp; <var>1</var>)</td></tr>
+<tr><th id="532">532</th><td>        {</td></tr>
+<tr><th id="533">533</th><td>            <b>if</b>(!<a class="ref" href="#btnstate" title='btnstate' data-ref="btnstate">btnstate</a>[<a class="local col1 ref" href="#31i" title='i' data-ref="31i">i</a>])</td></tr>
+<tr><th id="534">534</th><td>            {</td></tr>
+<tr><th id="535">535</th><td>                <i>// Wait until button has been released</i></td></tr>
+<tr><th id="536">536</th><td>                <b>do</b></td></tr>
+<tr><th id="537">537</th><td>                {</td></tr>
+<tr><th id="538">538</th><td>                    <a class="ref" href="#_Z23IN_WaitAndProcessEventsv" title='IN_WaitAndProcessEvents' data-ref="_Z23IN_WaitAndProcessEventsv">IN_WaitAndProcessEvents</a>();</td></tr>
+<tr><th id="539">539</th><td>                    <a class="local col0 ref" href="#30buttons" title='buttons' data-ref="30buttons">buttons</a> = <a class="ref" href="#_Z13IN_JoyButtonsv" title='IN_JoyButtons' data-ref="_Z13IN_JoyButtonsv">IN_JoyButtons</a>() &lt;&lt; <var>4</var>;</td></tr>
+<tr><th id="540">540</th><td></td></tr>
+<tr><th id="541">541</th><td>                    <b>if</b>(<a class="ref" href="id_in.h.html#MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</a>)</td></tr>
+<tr><th id="542">542</th><td>                        <a class="local col0 ref" href="#30buttons" title='buttons' data-ref="30buttons">buttons</a> |= <a class="ref" href="#_Z15IN_MouseButtonsv" title='IN_MouseButtons' data-ref="_Z15IN_MouseButtonsv">IN_MouseButtons</a>();</td></tr>
+<tr><th id="543">543</th><td>                }</td></tr>
+<tr><th id="544">544</th><td>                <b>while</b>(<a class="local col0 ref" href="#30buttons" title='buttons' data-ref="30buttons">buttons</a> &amp; (<var>1</var> &lt;&lt; <a class="local col1 ref" href="#31i" title='i' data-ref="31i">i</a>));</td></tr>
+<tr><th id="545">545</th><td></td></tr>
+<tr><th id="546">546</th><td>                <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="547">547</th><td>            }</td></tr>
+<tr><th id="548">548</th><td>        }</td></tr>
+<tr><th id="549">549</th><td>        <b>else</b></td></tr>
+<tr><th id="550">550</th><td>            <a class="ref" href="#btnstate" title='btnstate' data-ref="btnstate">btnstate</a>[<a class="local col1 ref" href="#31i" title='i' data-ref="31i">i</a>] = <b>false</b>;</td></tr>
+<tr><th id="551">551</th><td>    }</td></tr>
+<tr><th id="552">552</th><td></td></tr>
+<tr><th id="553">553</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="554">554</th><td>}</td></tr>
+<tr><th id="555">555</th><td></td></tr>
+<tr><th id="556">556</th><td></td></tr>
+<tr><th id="557">557</th><td><em>void</em> <dfn class="decl def" id="_Z6IN_Ackv" title='IN_Ack' data-ref="_Z6IN_Ackv">IN_Ack</dfn> (<em>void</em>)</td></tr>
+<tr><th id="558">558</th><td>{</td></tr>
+<tr><th id="559">559</th><td>    <a class="ref" href="#_Z11IN_StartAckv" title='IN_StartAck' data-ref="_Z11IN_StartAckv">IN_StartAck</a> ();</td></tr>
+<tr><th id="560">560</th><td></td></tr>
+<tr><th id="561">561</th><td>    <b>do</b></td></tr>
+<tr><th id="562">562</th><td>    {</td></tr>
+<tr><th id="563">563</th><td>        <a class="ref" href="#_Z23IN_WaitAndProcessEventsv" title='IN_WaitAndProcessEvents' data-ref="_Z23IN_WaitAndProcessEventsv">IN_WaitAndProcessEvents</a>();</td></tr>
+<tr><th id="564">564</th><td>    }</td></tr>
+<tr><th id="565">565</th><td>    <b>while</b>(!<a class="ref" href="#_Z11IN_CheckAckv" title='IN_CheckAck' data-ref="_Z11IN_CheckAckv">IN_CheckAck</a> ());</td></tr>
+<tr><th id="566">566</th><td>}</td></tr>
+<tr><th id="567">567</th><td></td></tr>
+<tr><th id="568">568</th><td></td></tr>
+<tr><th id="569">569</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="570">570</th><td><i>//</i></td></tr>
+<tr><th id="571">571</th><td><i>//  IN_UserInput() - Waits for the specified delay time (in ticks) or the</i></td></tr>
+<tr><th id="572">572</th><td><i>//      user pressing a key or a mouse button. If the clear flag is set, it</i></td></tr>
+<tr><th id="573">573</th><td><i>//      then either clears the key or waits for the user to let the mouse</i></td></tr>
+<tr><th id="574">574</th><td><i>//      button up.</i></td></tr>
+<tr><th id="575">575</th><td><i>//</i></td></tr>
+<tr><th id="576">576</th><td><i>///////////////////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="577">577</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl def" id="_Z12IN_UserInputj" title='IN_UserInput' data-ref="_Z12IN_UserInputj">IN_UserInput</dfn>(<a class="typedef" href="wl_def.h.html#longword" title='longword' data-type='uint32_t' data-ref="longword">longword</a> <dfn class="local col2 decl" id="32delay" title='delay' data-type='longword' data-ref="32delay">delay</dfn>)</td></tr>
+<tr><th id="578">578</th><td>{</td></tr>
+<tr><th id="579">579</th><td>    <a class="typedef" href="wl_def.h.html#longword" title='longword' data-type='uint32_t' data-ref="longword">longword</a>    <dfn class="local col3 decl" id="33lasttime" title='lasttime' data-type='longword' data-ref="33lasttime">lasttime</dfn>;</td></tr>
+<tr><th id="580">580</th><td></td></tr>
+<tr><th id="581">581</th><td>    <a class="local col3 ref" href="#33lasttime" title='lasttime' data-ref="33lasttime">lasttime</a> = <a class="macro" href="id_sd.h.html#122" title="((SDL_GetTicks()*7)/100)" data-ref="_M/GetTimeCount">GetTimeCount</a>();</td></tr>
+<tr><th id="582">582</th><td>    <a class="ref" href="#_Z11IN_StartAckv" title='IN_StartAck' data-ref="_Z11IN_StartAckv">IN_StartAck</a> ();</td></tr>
+<tr><th id="583">583</th><td>    <b>do</b></td></tr>
+<tr><th id="584">584</th><td>    {</td></tr>
+<tr><th id="585">585</th><td>        <a class="ref" href="#_Z16IN_ProcessEventsv" title='IN_ProcessEvents' data-ref="_Z16IN_ProcessEventsv">IN_ProcessEvents</a>();</td></tr>
+<tr><th id="586">586</th><td>        <b>if</b> (<a class="ref" href="#_Z11IN_CheckAckv" title='IN_CheckAck' data-ref="_Z11IN_CheckAckv">IN_CheckAck</a>())</td></tr>
+<tr><th id="587">587</th><td>            <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="588">588</th><td>        <a class="ref" href="../include/SDL/SDL_timer.h.html#SDL_Delay" title='SDL_Delay' data-ref="SDL_Delay">SDL_Delay</a>(<var>5</var>);</td></tr>
+<tr><th id="589">589</th><td>    } <b>while</b> (<a class="macro" href="id_sd.h.html#122" title="((SDL_GetTicks()*7)/100)" data-ref="_M/GetTimeCount">GetTimeCount</a>() - <a class="local col3 ref" href="#33lasttime" title='lasttime' data-ref="33lasttime">lasttime</a> &lt; <a class="local col2 ref" href="#32delay" title='delay' data-ref="32delay">delay</a>);</td></tr>
+<tr><th id="590">590</th><td>    <b>return</b>(<b>false</b>);</td></tr>
+<tr><th id="591">591</th><td>}</td></tr>
+<tr><th id="592">592</th><td></td></tr>
+<tr><th id="593">593</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="594">594</th><td></td></tr>
+<tr><th id="595">595</th><td><i>/*</i></td></tr>
+<tr><th id="596">596</th><td><i>===================</i></td></tr>
+<tr><th id="597">597</th><td><i>=</i></td></tr>
+<tr><th id="598">598</th><td><i>= IN_MouseButtons</i></td></tr>
+<tr><th id="599">599</th><td><i>=</i></td></tr>
+<tr><th id="600">600</th><td><i>===================</i></td></tr>
+<tr><th id="601">601</th><td><i>*/</i></td></tr>
+<tr><th id="602">602</th><td><em>int</em> <dfn class="decl def" id="_Z15IN_MouseButtonsv" title='IN_MouseButtons' data-ref="_Z15IN_MouseButtonsv">IN_MouseButtons</dfn> (<em>void</em>)</td></tr>
+<tr><th id="603">603</th><td>{</td></tr>
+<tr><th id="604">604</th><td>    <b>if</b> (<a class="ref" href="id_in.h.html#MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</a>)</td></tr>
+<tr><th id="605">605</th><td>        <b>return</b> <a class="tu ref" href="#_ZL19INL_GetMouseButtonsv" title='INL_GetMouseButtons' data-use='c' data-ref="_ZL19INL_GetMouseButtonsv">INL_GetMouseButtons</a>();</td></tr>
+<tr><th id="606">606</th><td>    <b>else</b></td></tr>
+<tr><th id="607">607</th><td>        <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="608">608</th><td>}</td></tr>
+<tr><th id="609">609</th><td></td></tr>
+<tr><th id="610">610</th><td><em>bool</em> <dfn class="decl def" id="_Z17IN_IsInputGrabbedv" title='IN_IsInputGrabbed' data-ref="_Z17IN_IsInputGrabbedv">IN_IsInputGrabbed</dfn>()</td></tr>
+<tr><th id="611">611</th><td>{</td></tr>
+<tr><th id="612">612</th><td>    <b>return</b> <a class="tu ref" href="#GrabInput" title='GrabInput' data-use='r' data-ref="GrabInput">GrabInput</a>;</td></tr>
+<tr><th id="613">613</th><td>}</td></tr>
+<tr><th id="614">614</th><td></td></tr>
+<tr><th id="615">615</th><td><em>void</em> <dfn class="decl def" id="_Z14IN_CenterMousev" title='IN_CenterMouse' data-ref="_Z14IN_CenterMousev">IN_CenterMouse</dfn>()</td></tr>
+<tr><th id="616">616</th><td>{</td></tr>
+<tr><th id="617">617</th><td>    <a class="ref" href="../include/SDL/SDL_mouse.h.html#SDL_WarpMouse" title='SDL_WarpMouse' data-ref="SDL_WarpMouse">SDL_WarpMouse</a>(<a class="ref" href="id_vl.h.html#screenWidth" title='screenWidth' data-ref="screenWidth">screenWidth</a> / <var>2</var>, <a class="ref" href="id_vl.h.html#screenHeight" title='screenHeight' data-ref="screenHeight">screenHeight</a> / <var>2</var>);</td></tr>
+<tr><th id="618">618</th><td>}</td></tr>
+<tr><th id="619">619</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

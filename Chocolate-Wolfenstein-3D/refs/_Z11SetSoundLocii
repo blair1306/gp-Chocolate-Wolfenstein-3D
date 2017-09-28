@@ -1,0 +1,3 @@
+<def f='codebrowser/wl_game.cpp' l='124' ll='161' type='void SetSoundLoc(fixed gx, fixed gy)'/>
+<use f='codebrowser/wl_game.cpp' l='177' u='c' c='_Z18PlaySoundLocGlobaltii'/>
+<use f='codebrowser/wl_game.cpp' l='201' u='c' c='_Z14UpdateSoundLocv'/>

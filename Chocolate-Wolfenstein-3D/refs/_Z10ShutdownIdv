@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='914' type='void ShutdownId()'/>
+<def f='codebrowser/wl_main.cpp' l='659' ll='667' type='void ShutdownId()'/>
+<use f='codebrowser/wl_main.cpp' l='1414' u='c' c='_Z4QuitPKcz'/>
+<use f='codebrowser/wl_main.cpp' l='1447' u='c' c='_Z4QuitPKcz'/>
+<doc f='codebrowser/wl_main.cpp' l='649'>/*
+==========================
+=
+= ShutdownId
+=
+= Shuts down all ID_?? managers
+=
+==========================
+*/</doc>

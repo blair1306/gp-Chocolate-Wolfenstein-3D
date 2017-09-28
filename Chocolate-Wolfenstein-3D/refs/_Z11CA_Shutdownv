@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_ca.h' l='44' type='void CA_Shutdown()'/>
+<def f='codebrowser/id_ca.cpp' l='692' ll='721' type='void CA_Shutdown()'/>
+<doc f='codebrowser/id_ca.cpp' l='682'>/*
+======================
+=
+= CA_Shutdown
+=
+= Closes all files
+=
+======================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='666' u='c' c='_Z10ShutdownIdv'/>

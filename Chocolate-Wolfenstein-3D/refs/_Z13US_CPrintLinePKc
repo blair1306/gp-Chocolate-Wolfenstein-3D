@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_us.h' l='80' type='void US_CPrintLine(const char * s)'/>
+<def f='codebrowser/id_us_1.cpp' l='242' ll='255' type='void US_CPrintLine(const char * s)'/>
+<use f='codebrowser/id_us_1.cpp' l='278' u='c' c='_Z9US_CPrintPKc'/>
+<doc f='codebrowser/id_us_1.cpp' l='236'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_CPrintLine() - Prints a string centered on the current line and
+//      advances to the next line. Newlines are not supported.
+//
+///////////////////////////////////////////////////////////////////////////</doc>

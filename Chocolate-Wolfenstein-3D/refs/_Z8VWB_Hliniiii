@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_vh.h' l='62' type='void VWB_Hlin(int x1, int x2, int y, int color)'/>
+<def f='codebrowser/id_vh.cpp' l='171' ll='177' type='void VWB_Hlin(int x1, int x2, int y, int color)'/>
+<use f='codebrowser/wl_menu.cpp' l='2415' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2416' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2418' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2419' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2444' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2445' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2447' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2448' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='3093' u='c' c='_Z11DrawOutlineiiiiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3095' u='c' c='_Z11DrawOutlineiiiiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3940' u='c' c='_Z11DrawStripesi'/>

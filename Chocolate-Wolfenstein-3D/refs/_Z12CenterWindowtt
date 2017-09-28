@@ -1,0 +1,22 @@
+<dec f='codebrowser/wl_def.h' l='1018' type='void CenterWindow(word w, word h)'/>
+<use f='codebrowser/wl_debug.cpp' l='72' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='142' u='c' c='_Z14PictureGrabberv'/>
+<use f='codebrowser/wl_debug.cpp' l='434' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='470' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='486' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='510' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='533' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='549' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='568' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='573' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='599' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='608' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='631' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='651' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='666' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='692' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1029' u='c' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1065' u='c' c='_Z10RecordDemov'/>
+<dec f='codebrowser/wl_play.cpp' l='84' type='void CenterWindow(word w, word h)'/>
+<def f='codebrowser/wl_play.cpp' l='532' ll='535' type='void CenterWindow(word w, word h)'/>
+<doc f='codebrowser/wl_play.cpp' l='81'>//===========================================================================</doc>

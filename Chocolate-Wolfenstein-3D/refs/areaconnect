@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1189' type='byte [37][37]'/>
+<def f='codebrowser/wl_act1.cpp' l='283' type='byte [37][37]'/>
+<use f='codebrowser/wl_act1.cpp' l='304' u='r' c='_Z16RecursiveConnecti'/>
+<use f='codebrowser/wl_act1.cpp' l='341' u='r' c='_Z12InitDoorListv'/>
+<use f='codebrowser/wl_act1.cpp' l='341' u='r' c='_Z12InitDoorListv'/>
+<use f='codebrowser/wl_act1.cpp' l='588' u='w' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='589' u='w' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='675' u='w' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='676' u='w' c='_Z11DoorClosingi'/>
+<doc f='codebrowser/wl_act1.cpp' l='281'>// 0xffff = fully open</doc>
+<use f='codebrowser/wl_main.cpp' l='418' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='418' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='536' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='536' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='795' type='18'/>
+<use f='codebrowser/wl_def.h' l='989'/>
+<use f='codebrowser/wl_def.h' l='991'/>
+<use f='codebrowser/wl_def.h' l='1010'/>
+<use f='codebrowser/id_in.cpp' l='493'/>
+<use f='codebrowser/id_in.cpp' l='509' u='r' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_in.cpp' l='529' u='r' c='_Z11IN_CheckAckv'/>
+<use f='codebrowser/wl_play.cpp' l='53'/>
+<use f='codebrowser/wl_play.cpp' l='66'/>
+<use f='codebrowser/wl_play.cpp' l='76'/>
+<use f='codebrowser/wl_play.cpp' l='255' u='r' c='_Z19PollKeyboardButtonsv'/>
+<use f='codebrowser/wl_play.cpp' l='429' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='496' u='r' c='_Z12PollControlsv'/>

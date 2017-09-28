@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_in.h' l='156' type='void IN_ReadControl(int , ControlInfo * )'/>
+<def f='codebrowser/id_in.cpp' l='435' ll='484' type='void IN_ReadControl(int player, ControlInfo * info)'/>
+<doc f='codebrowser/id_in.cpp' l='429'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_ReadControl() - Reads the device associated with the specified
+//      player and fills in the control info struct
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_menu.cpp' l='3584' u='c' c='_Z14ReadAnyControlP10CursorInfo'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1288' type='void SpawnGretel(int tilex, int tiley)'/>
+<def f='codebrowser/wl_act2.cpp' l='967' ll='978' type='void SpawnGretel(int tilex, int tiley)'/>
+<doc f='codebrowser/wl_act2.cpp' l='959'>/*
+===============
+=
+= SpawnGretel
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='512' u='c' c='_ZL13ScanInfoPlanev'/>

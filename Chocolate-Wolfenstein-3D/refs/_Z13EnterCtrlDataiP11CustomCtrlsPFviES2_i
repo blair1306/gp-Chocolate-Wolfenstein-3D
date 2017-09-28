@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_menu.h' l='158' type='void EnterCtrlData(int index, CustomCtrls * cust, void (*)(int) DrawRtn, void (*)(int) PrintRtn, int type)'/>
+<use f='codebrowser/wl_menu.cpp' l='2115' u='c' c='_Z15DefineMouseBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2127' u='c' c='_Z13DefineJoyBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2139' u='c' c='_Z13DefineKeyBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2151' u='c' c='_Z13DefineKeyMovev'/>
+<def f='codebrowser/wl_menu.cpp' l='2163' ll='2401' type='void EnterCtrlData(int index, CustomCtrls * cust, void (*)(int) DrawRtn, void (*)(int) PrintRtn, int type)'/>

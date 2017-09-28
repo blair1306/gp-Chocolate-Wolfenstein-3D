@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='1053' type='void LevelCompleted()'/>
+<use f='codebrowser/wl_game.cpp' l='1454' u='c' c='_Z8GameLoopv'/>
+<def f='codebrowser/wl_inter.cpp' l='433' ll='936' type='void LevelCompleted()'/>
+<doc f='codebrowser/wl_inter.cpp' l='420'>/*
+==================
+=
+= LevelCompleted
+=
+= Entered with the screen faded out
+= Still in split screen mode with the status bar
+=
+= Exit with the screen faded out
+=
+==================
+*/</doc>

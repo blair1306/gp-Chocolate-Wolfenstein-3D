@@ -1,0 +1,19 @@
+<dec f='codebrowser/id_sd.h' l='144' type='int SD_MusicOff()'/>
+<use f='codebrowser/id_sd.cpp' l='1108' u='c' c='_Z11SD_Shutdownv'/>
+<def f='codebrowser/id_sd.cpp' l='1305' ll='1321' type='int SD_MusicOff()'/>
+<use f='codebrowser/id_sd.cpp' l='1331' u='c' c='_Z13SD_StartMusici'/>
+<use f='codebrowser/id_sd.cpp' l='1349' u='c' c='_Z16SD_ContinueMusicii'/>
+<use f='codebrowser/id_sd.cpp' l='1398' u='c' c='_Z15SD_FadeOutMusicv'/>
+<doc f='codebrowser/id_sd.cpp' l='1299'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_MusicOff() - turns off the sequencer and any playing notes
+//      returns the last music offset for music continue
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_menu.cpp' l='918' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2925' u='c' c='_Z7CP_Quiti'/>
+<use f='codebrowser/wl_menu.cpp' l='3851' u='c' c='_Z12StartCPMusici'/>
+<use f='codebrowser/wl_menu.cpp' l='3901' u='c' c='_Z10CheckPausev'/>
+<use f='codebrowser/wl_play.cpp' l='902' u='c' c='_Z9StopMusicv'/>
+<use f='codebrowser/wl_play.cpp' l='922' u='c' c='_Z10StartMusicv'/>
+<use f='codebrowser/wl_play.cpp' l='929' u='c' c='_Z13ContinueMusici'/>

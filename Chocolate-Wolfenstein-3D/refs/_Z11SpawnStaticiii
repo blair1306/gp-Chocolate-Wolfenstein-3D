@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1201' type='void SpawnStatic(int tilex, int tiley, int type)'/>
+<def f='codebrowser/wl_act1.cpp' l='142' ll='189' type='void SpawnStatic(int tilex, int tiley, int type)'/>
+<doc f='codebrowser/wl_act1.cpp' l='134'>/*
+===============
+=
+= SpawnStatic
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='305' u='c' c='_ZL13ScanInfoPlanev'/>

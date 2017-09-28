@@ -1,0 +1,21 @@
+<dec f='codebrowser/wl_def.h' l='1205' type='void OpenDoor(int door)'/>
+<def f='codebrowser/wl_act1.cpp' l='405' ll='411' type='void OpenDoor(int door)'/>
+<use f='codebrowser/wl_act1.cpp' l='520' u='c' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='639' u='c' c='_Z11DoorClosingi'/>
+<doc f='codebrowser/wl_act1.cpp' l='397'>/*
+=====================
+=
+= OpenDoor
+=
+=====================
+*/</doc>
+<use f='codebrowser/wl_act2.cpp' l='2424' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2516' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2608' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3188' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3415' u='c' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='175' u='c' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='175' u='c' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='175' u='c' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='175' u='c' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='349' u='c' c='_Z7TryWalkP9objstruct'/>

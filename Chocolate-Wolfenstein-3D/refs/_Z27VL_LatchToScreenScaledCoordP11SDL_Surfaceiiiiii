@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_vl.h' l='91' type='void VL_LatchToScreenScaledCoord(SDL_Surface * source, int xsrc, int ysrc, int width, int height, int scxdest, int scydest)'/>
+<use f='codebrowser/id_vl.h' l='97' u='c' c='_Z16VL_LatchToScreenP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.h' l='102' u='c' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceii'/>
+<use f='codebrowser/id_vl.h' l='106' u='c' c='_Z16VL_LatchToScreenP11SDL_Surfaceii'/>
+<def f='codebrowser/id_vl.cpp' l='657' ll='725' type='void VL_LatchToScreenScaledCoord(SDL_Surface * source, int xsrc, int ysrc, int width, int height, int scxdest, int scydest)'/>
+<doc f='codebrowser/id_vl.cpp' l='649'>/*
+=================
+=
+= VL_LatchToScreen
+=
+=================
+*/</doc>

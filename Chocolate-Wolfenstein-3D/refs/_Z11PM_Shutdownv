@@ -1,0 +1,3 @@
+<dec f='codebrowser/id_pm.h' l='18' type='void PM_Shutdown()'/>
+<def f='codebrowser/id_pm.cpp' l='121' ll='125' type='void PM_Shutdown()'/>
+<use f='codebrowser/wl_main.cpp' l='663' u='c' c='_Z10ShutdownIdv'/>

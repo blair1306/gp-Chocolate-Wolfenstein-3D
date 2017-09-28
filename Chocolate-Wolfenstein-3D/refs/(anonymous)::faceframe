@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='834' type='short'/>
+<offset>288</offset>
+<use f='codebrowser/wl_agent.cpp' l='298' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='341' u='w' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='342' u='r' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='343' u='w' c='_Z10UpdateFacev'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/wl_play.cpp' l='951' type='SDL_Color [3][256]'/>
+<use f='codebrowser/wl_play.cpp' l='993' u='r' c='_Z13InitRedShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1099' u='r' c='_Z19UpdatePaletteShiftsv'/>

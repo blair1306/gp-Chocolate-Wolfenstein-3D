@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_def.h' l='646' type='17'/>
+<use f='codebrowser/wl_act1.cpp' l='63'/>
+<use f='codebrowser/wl_act1.cpp' l='63'/>
+<use f='codebrowser/wl_act1.cpp' l='63'/>
+<use f='codebrowser/wl_act1.cpp' l='63'/>
+<use f='codebrowser/wl_act1.cpp' l='174' c='_Z11SpawnStaticiii'/>
+<use f='codebrowser/wl_agent.cpp' l='779' c='_Z8GetBonusP10statstruct'/>

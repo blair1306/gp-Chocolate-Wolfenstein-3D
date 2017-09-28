@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_mixer.h' l='209' type='void Mix_HookMusic(void (*)(void *, Uint8 *, int) mix_func, void * arg)'/>
+<use f='codebrowser/id_sd.cpp' l='1081' u='c' c='_Z10SD_Startupv'/>
+<doc f='include/SDL/SDL_mixer.h' l='206'>/* Add your own music player or additional mixer function.
+   If &apos;mix_func&apos; is NULL, the default music player is re-enabled.
+ */</doc>

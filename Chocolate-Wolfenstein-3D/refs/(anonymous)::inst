@@ -1,0 +1,19 @@
+<dec f='codebrowser/id_sd.h' l='86' type='Instrument'/>
+<offset>48</offset>
+<use f='codebrowser/id_ca.cpp' l='767' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='768' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='769' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='770' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='771' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='772' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='773' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='774' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='775' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='776' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='777' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='778' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='779' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='780' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='781' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='782' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_sd.cpp' l='759' u='a' c='_ZL15SDL_ALPlaySoundP10AdLibSound'/>

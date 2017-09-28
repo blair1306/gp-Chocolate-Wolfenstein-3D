@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_vl.h' l='45' type='void VL_ConvertPalette(byte * srcpal, SDL_Color * destpal, int numColors)'/>
+<def f='codebrowser/id_vl.cpp' l='173' ll='181' type='void VL_ConvertPalette(byte * srcpal, SDL_Color * destpal, int numColors)'/>
+<doc f='codebrowser/id_vl.cpp' l='165'>/*
+=================
+=
+= VL_ConvertPalette
+=
+=================
+*/</doc>

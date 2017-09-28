@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1091' type='boolean'/>
+<use f='codebrowser/wl_debug.cpp' l='471' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='477' u='w' c='_Z9DebugKeysv'/>
+<def f='codebrowser/wl_draw.cpp' l='33' type='boolean'/>
+<use f='codebrowser/wl_draw.cpp' l='1573' u='r' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1589' u='r' c='_Z13ThreeDRefreshv'/>

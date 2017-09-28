@@ -1,0 +1,13 @@
+<dec f='include/fcntl.h' l='156' type='int open(const char * __file, int __oflag)'/>
+<use f='codebrowser/id_ca.cpp' l='157' u='c' c='_Z12CA_WriteFilePKcPvi'/>
+<use f='codebrowser/id_ca.cpp' l='186' u='c' c='_Z11CA_LoadFilePKcPPv'/>
+<use f='codebrowser/id_ca.cpp' l='464' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='475' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='514' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='556' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='575' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='647' u='c' c='_Z18CAL_SetupAudioFilev'/>
+<use f='codebrowser/wl_debug.cpp' l='133' u='c' c='_Z14PictureGrabberv'/>
+<use f='codebrowser/wl_main.cpp' l='129' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='250' u='c' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='3156' u='c' c='_Z14SetupSaveGamesv'/>

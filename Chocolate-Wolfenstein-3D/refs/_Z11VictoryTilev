@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_agent.cpp' l='967' ll='974' type='void VictoryTile()'/>
+<use f='codebrowser/wl_agent.cpp' l='1044' u='c' c='_Z6Thrustii'/>
+<doc f='codebrowser/wl_agent.cpp' l='959'>/*
+===================
+=
+= VictoryTile
+=
+===================
+*/</doc>

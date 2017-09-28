@@ -1,0 +1,4 @@
+<dec f='include/SDL/SDL_video.h' l='99' type='int'/>
+<use f='codebrowser/id_vl.h' l='102' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceii'/>
+<use f='codebrowser/id_vl.h' l='106' u='r' c='_Z16VL_LatchToScreenP11SDL_Surfaceii'/>
+<offset>160</offset>

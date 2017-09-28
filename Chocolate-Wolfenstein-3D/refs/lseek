@@ -1,0 +1,12 @@
+<dec f='include/unistd.h' l='337' type='__off_t lseek(int __fd, __off_t __offset, int __whence)'/>
+<use f='codebrowser/id_ca.cpp' l='139' u='c' c='_Z20CAL_GetGrChunkLengthi'/>
+<use f='codebrowser/id_ca.cpp' l='190' u='c' c='_Z11CA_LoadFilePKcPPv'/>
+<use f='codebrowser/id_ca.cpp' l='191' u='c' c='_Z11CA_LoadFilePKcPPv'/>
+<use f='codebrowser/id_ca.cpp' l='479' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='480' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='598' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='744' u='c' c='_Z18CA_CacheAudioChunki'/>
+<use f='codebrowser/id_ca.cpp' l='758' u='c' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='940' u='c' c='_Z15CA_CacheGrChunki'/>
+<use f='codebrowser/id_ca.cpp' l='990' u='c' c='_Z14CA_CacheScreeni'/>
+<use f='codebrowser/id_ca.cpp' l='1062' u='c' c='_Z11CA_CacheMapi'/>

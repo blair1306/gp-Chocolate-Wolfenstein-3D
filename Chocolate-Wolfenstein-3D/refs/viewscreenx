@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_def.h' l='873' type='int'/>
+<use f='codebrowser/wl_game.cpp' l='1309' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1313' u='r' c='_Z4Diedv'/>
+<def f='codebrowser/wl_main.cpp' l='62' type='int'/>
+<use f='codebrowser/wl_main.cpp' l='1326' u='w' c='_Z11SetViewSizejj'/>
+<use f='codebrowser/wl_main.cpp' l='1329' u='w' c='_Z11SetViewSizejj'/>
+<use f='codebrowser/wl_main.cpp' l='1331' u='r' c='_Z11SetViewSizejj'/>

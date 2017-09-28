@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='904' type='boolean'/>
+<use f='codebrowser/id_ca.cpp' l='488' u='r' c='_Z15CAL_SetupGrFilev'/>
+<def f='codebrowser/wl_main.cpp' l='96' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='1846' u='w' c='_Z15CheckParametersiPPc'/>

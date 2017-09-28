@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_menu.h' l='160' type='void DrawMainMenu()'/>
+<use f='codebrowser/wl_menu.cpp' l='452' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='521' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='541' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='582' ll='645' type='void DrawMainMenu()'/>
+<use f='codebrowser/wl_menu.cpp' l='949' u='c' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='2931' u='c' c='_Z7CP_Quiti'/>
+<doc f='codebrowser/wl_menu.cpp' l='578'>////////////////////////
+//
+// DRAW MAIN MENU SCREEN
+//</doc>

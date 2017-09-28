@@ -1,0 +1,5 @@
+<dec f='codebrowser/audiowl6.h' l='50' type='38'/>
+<doc f='codebrowser/audiowl6.h' l='50'>// 38</doc>
+<use f='codebrowser/wl_agent.cpp' l='289' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='335' u='r' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='762' u='r' c='_Z8GetBonusP10statstruct'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/id_sd.cpp' l='968' ll='1041' type='void SDL_IMFMusicPlayer(void * udata, Uint8 * stream, int len)'/>
+<use f='codebrowser/id_sd.cpp' l='1081' u='r' c='_Z10SD_Startupv'/>

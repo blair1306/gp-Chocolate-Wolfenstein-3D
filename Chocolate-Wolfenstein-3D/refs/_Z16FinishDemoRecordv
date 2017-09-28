@@ -1,0 +1,10 @@
+<def f='codebrowser/wl_game.cpp' l='1015' ll='1047' type='void FinishDemoRecord()'/>
+<use f='codebrowser/wl_game.cpp' l='1123' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1438' u='c' c='_Z8GameLoopv'/>
+<doc f='codebrowser/wl_game.cpp' l='1007'>/*
+==================
+=
+= FinishDemoRecord
+=
+==================
+*/</doc>

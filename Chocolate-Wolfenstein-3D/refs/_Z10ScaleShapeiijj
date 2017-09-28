@@ -1,0 +1,2 @@
+<def f='codebrowser/wl_draw.cpp' l='673' ll='769' type='void ScaleShape(int xcenter, int shapenum, unsigned int height, uint32_t flags)'/>
+<use f='codebrowser/wl_draw.cpp' l='983' u='c' c='_Z11DrawScaledsv'/>

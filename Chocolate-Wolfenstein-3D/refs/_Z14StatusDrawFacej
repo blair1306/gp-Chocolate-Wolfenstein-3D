@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1162' type='void StatusDrawFace(unsigned int picnum)'/>
+<doc f='codebrowser/wl_def.h' l='1158'>//
+// player state info
+//</doc>
+<def f='codebrowser/wl_agent.cpp' l='271' ll='275' type='void StatusDrawFace(unsigned int picnum)'/>
+<use f='codebrowser/wl_agent.cpp' l='290' u='c' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='298' u='c' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='304' u='c' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='307' u='c' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='767' u='c' c='_Z8GetBonusP10statstruct'/>

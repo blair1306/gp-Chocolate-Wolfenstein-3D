@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='770' type='short'/>
+<offset>504</offset>
+<use f='codebrowser/wl_act2.cpp' l='3650' u='w' c='_Z14SpawnBJVictoryv'/>
+<use f='codebrowser/wl_act2.cpp' l='3684' u='w' c='_Z7T_BJRunP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='942' u='r' c='_Z11DrawScaledsv'/>

@@ -1,0 +1,11 @@
+<dec f='include/stdio.h' l='237' type='int fclose(FILE * __stream)'/>
+<use f='codebrowser/crt.cpp' l='148' u='c' c='_Z14CRT_Screenshotv'/>
+<doc f='include/stdio.h' l='233'>/* Close STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/id_pm.cpp' l='118' u='c' c='_Z10PM_Startupv'/>
+<use f='codebrowser/wl_menu.cpp' l='1516' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1559' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1704' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1776' u='c' c='_Z11CP_SaveGamei'/>

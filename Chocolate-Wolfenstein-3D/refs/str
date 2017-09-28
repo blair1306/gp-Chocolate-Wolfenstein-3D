@@ -1,0 +1,27 @@
+<dec f='codebrowser/wl_def.h' l='887' type='char [80]'/>
+<use f='codebrowser/wl_act2.cpp' l='3433' u='r' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3435' u='r' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_debug.cpp' l='438' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='441' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='553' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='556' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='635' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='638' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='655' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='658' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='674' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='677' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1036' u='r' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1038' u='r' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1081' u='r' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1085' u='r' c='_Z10RecordDemov'/>
+<def f='codebrowser/wl_main.cpp' l='53' type='char [80]'/>
+<doc f='codebrowser/wl_main.cpp' l='45'>/*
+=============================================================================
+
+                            GLOBAL VARIABLES
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_text.cpp' l='488' u='r' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='494' u='r' c='_Z10PageLayouta'/>

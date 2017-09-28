@@ -1,0 +1,25 @@
+<dec f='codebrowser/wl_menu.h' l='112' type='CP_itemtype []'/>
+<use f='codebrowser/wl_game.cpp' l='1554' u='m' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1556' u='m' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1574' u='m' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1576' u='m' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='193' u='m' c='_Z10ReadConfigv'/>
+<def f='codebrowser/wl_menu.cpp' l='53' ll='90' type='CP_itemtype [9]'/>
+<use f='codebrowser/wl_menu.cpp' l='239' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='239' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='239' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='239' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='461' u='a' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='514' u='m' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='572' u='m' c='_Z21EnableEndGameMenuItemv'/>
+<use f='codebrowser/wl_menu.cpp' l='574' u='m' c='_Z21EnableEndGameMenuItemv'/>
+<use f='codebrowser/wl_menu.cpp' l='611' u='m' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='622' u='m' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='630' u='m' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='640' u='m' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='643' u='a' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='760' u='m' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='956' u='m' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='957' u='m' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='959' u='m' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='3127' u='m' c='_Z17SetupControlPanelv'/>

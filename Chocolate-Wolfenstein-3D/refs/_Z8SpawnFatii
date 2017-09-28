@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1298' type='void SpawnFat(int tilex, int tiley)'/>
+<def f='codebrowser/wl_act2.cpp' l='2269' ll='2285' type='void SpawnFat(int tilex, int tiley)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2261'>/*
+===============
+=
+= SpawnFat
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='518' u='c' c='_ZL13ScanInfoPlanev'/>

@@ -1,0 +1,67 @@
+<dec f='codebrowser/wl_def.h' l='1120' type='void NewState(objtype * ob, statetype * state)'/>
+<use f='codebrowser/wl_act2.cpp' l='2397' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2489' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2581' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2933' u='c' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2984' u='c' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3120' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3123' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3126' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3129' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3133' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3136' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3139' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3142' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3315' u='c' c='_Z10T_DogChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3686' u='c' c='_Z7T_BJRunP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3839' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3884' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3887' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3890' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3893' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<dec f='codebrowser/wl_state.cpp' l='43' type='void NewState(objtype * ob, statetype * state)'/>
+<def f='codebrowser/wl_state.cpp' l='115' ll='119' type='void NewState(objtype * ob, statetype * state)'/>
+<use f='codebrowser/wl_state.cpp' l='860' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='866' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='872' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='878' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='887' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='893' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='899' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='907' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='914' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='921' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='925' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='930' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='936' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1023' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1025' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1030' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1032' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1037' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1039' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1044' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1046' u='c' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1314' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1320' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1325' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1331' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1337' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1344' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1351' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1357' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1363' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1370' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1376' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1382' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1388' u='c' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1393' u='c' c='_Z13FirstSightingP9objstruct'/>
+<doc f='codebrowser/wl_state.cpp' l='105'>/*
+===================
+=
+= NewState
+=
+= Changes ob to a new state, setting ticcount to the max for that state
+=
+===================
+*/</doc>

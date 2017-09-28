@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_ca.h' l='6'/>
+<doc f='codebrowser/id_ca.h' l='4'>//===========================================================================</doc>
+<use f='codebrowser/id_ca.cpp' l='65' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='560' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='590' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='602' u='c'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1002' type='int8_t *'/>
+<use f='codebrowser/wl_game.cpp' l='999' u='w' c='_Z15StartDemoRecordi'/>
+<use f='codebrowser/wl_game.cpp' l='1170' u='w' c='_Z8PlayDemoi'/>
+<def f='codebrowser/wl_play.cpp' l='69' type='int8_t *'/>
+<use f='codebrowser/wl_play.cpp' l='438' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='507' u='r' c='_Z12PollControlsv'/>

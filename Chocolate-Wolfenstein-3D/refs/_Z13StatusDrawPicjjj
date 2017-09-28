@@ -1,0 +1,16 @@
+<def f='codebrowser/wl_agent.cpp' l='265' ll='269' type='void StatusDrawPic(unsigned int x, unsigned int y, unsigned int picnum)'/>
+<use f='codebrowser/wl_agent.cpp' l='273' u='c' c='_Z14StatusDrawFacej'/>
+<use f='codebrowser/wl_agent.cpp' l='373' u='c' c='_ZL11LatchNumberiiji'/>
+<use f='codebrowser/wl_agent.cpp' l='382' u='c' c='_ZL11LatchNumberiiji'/>
+<use f='codebrowser/wl_agent.cpp' l='572' u='c' c='_Z10DrawWeaponv'/>
+<use f='codebrowser/wl_agent.cpp' l='588' u='c' c='_Z8DrawKeysv'/>
+<use f='codebrowser/wl_agent.cpp' l='590' u='c' c='_Z8DrawKeysv'/>
+<use f='codebrowser/wl_agent.cpp' l='593' u='c' c='_Z8DrawKeysv'/>
+<use f='codebrowser/wl_agent.cpp' l='595' u='c' c='_Z8DrawKeysv'/>
+<doc f='codebrowser/wl_agent.cpp' l='257'>/*
+==================
+=
+= StatusDrawPic
+=
+==================
+*/</doc>

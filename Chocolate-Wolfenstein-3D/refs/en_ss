@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='669' type='2'/>
+<use f='codebrowser/wl_act2.cpp' l='879' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1007' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_game.cpp' l='433' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='455' u='r' c='_ZL13ScanInfoPlanev'/>

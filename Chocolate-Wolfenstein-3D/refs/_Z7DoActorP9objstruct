@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_play.cpp' l='1147' ll='1240' type='void DoActor(objtype * ob)'/>
+<use f='codebrowser/wl_play.cpp' l='1286' u='c' c='_Z8PlayLoopv'/>
+<doc f='codebrowser/wl_play.cpp' l='1139'>/*
+=====================
+=
+= DoActor
+=
+=====================
+*/</doc>

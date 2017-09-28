@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='142' type='void CheckPause()'/>
+<use f='codebrowser/wl_menu.cpp' l='2813' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3255' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<def f='codebrowser/wl_menu.cpp' l='3890' ll='3910' type='void CheckPause()'/>
+<doc f='codebrowser/wl_menu.cpp' l='3885'>///////////////////////////////////////////////////////////////////////////
+//
+// CHECK FOR PAUSE KEY (FOR MUSIC ONLY)
+//
+///////////////////////////////////////////////////////////////////////////</doc>

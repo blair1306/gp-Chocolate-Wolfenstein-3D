@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='827' type='int32_t'/>
+<offset>32</offset>
+<use f='codebrowser/wl_game.cpp' l='1370' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1493' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='636' u='w' c='_Z11LoadTheGameP8_IO_FILEii'/>

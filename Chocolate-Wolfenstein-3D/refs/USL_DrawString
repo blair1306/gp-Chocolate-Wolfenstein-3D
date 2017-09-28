@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_us.h' l='57' type='void (*)(const char *)'/>
+<def f='codebrowser/id_us_1.cpp' l='41' type='void (*)(const char *)'/>
+<use f='codebrowser/id_us_1.cpp' l='126' u='w' c='_Z19US_SetPrintRoutinesPFvPKcPtS1_EPFvS0_E'/>
+<use f='codebrowser/id_us_1.cpp' l='154' u='r' c='_Z8US_PrintPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='215' u='r' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='253' u='r' c='_Z13US_CPrintLinePKc'/>
+<use f='codebrowser/id_us_1.cpp' l='436' u='r' c='_ZL14USL_XORICursoriiPKct'/>
+<use f='codebrowser/id_us_1.cpp' l='441' u='r' c='_ZL14USL_XORICursoriiPKct'/>
+<use f='codebrowser/id_us_1.cpp' l='709' u='r' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='715' u='r' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='746' u='r' c='_Z12US_LineInputiiPcPKcaii'/>

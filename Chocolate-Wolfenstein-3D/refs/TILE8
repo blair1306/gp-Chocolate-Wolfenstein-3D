@@ -1,0 +1,8 @@
+<dec f='codebrowser/gfxv_apo.h' l='168' type='147'/>
+<doc f='codebrowser/gfxv_apo.h' l='168'>// 147</doc>
+<use f='codebrowser/id_ca.cpp' l='867' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='244' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='245' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='252' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='252' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='252' macro='1' u='w'/>

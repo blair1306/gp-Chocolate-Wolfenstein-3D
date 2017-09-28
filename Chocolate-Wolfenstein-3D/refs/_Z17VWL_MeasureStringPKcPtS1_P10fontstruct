@@ -1,0 +1,2 @@
+<def f='codebrowser/id_vh.cpp' l='96' ll='101' type='void VWL_MeasureString(const char * string, word * width, word * height, fontstruct * font)'/>
+<use f='codebrowser/id_vh.cpp' l='105' u='c' c='_Z20VW_MeasurePropStringPKcPtS1_'/>

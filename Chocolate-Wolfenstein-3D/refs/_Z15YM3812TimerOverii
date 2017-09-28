@@ -1,0 +1,2 @@
+<dec f='codebrowser/fmopl.h' l='50' type='int YM3812TimerOver(int which, int c)'/>
+<def f='codebrowser/fmopl.cpp' l='2143' ll='2146' type='int YM3812TimerOver(int which, int c)'/>

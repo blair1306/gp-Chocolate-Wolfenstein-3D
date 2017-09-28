@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='695' type='boolean'/>
+<offset>0</offset>
+<use f='codebrowser/wl_draw.cpp' l='667' u='r' c='_Z10CalcRotateP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='944' u='r' c='_Z11DrawScaledsv'/>

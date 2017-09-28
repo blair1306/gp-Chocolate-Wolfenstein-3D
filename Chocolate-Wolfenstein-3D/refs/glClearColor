@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='750' type='void glClearColor(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)'/>
+<use f='codebrowser/crt.cpp' l='57' u='c' c='_Z8CRT_Initi'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_vl.h' l='24' type='boolean'/>
+<use f='codebrowser/id_in.cpp' l='385' u='r' c='_Z10IN_Startupv'/>
+<def f='codebrowser/id_vl.cpp' l='20' type='boolean'/>
+<use f='codebrowser/id_vl.cpp' l='106' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/wl_main.cpp' l='1682' u='w' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1685' u='w' c='_Z15CheckParametersiPPc'/>

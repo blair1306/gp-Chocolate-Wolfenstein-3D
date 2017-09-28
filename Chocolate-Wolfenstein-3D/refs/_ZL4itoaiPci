@@ -1,0 +1,13 @@
+<def f='codebrowser/wl_def.h' l='1357' ll='1361' type='char * itoa(int value, char * string, int radix)'/>
+<use f='codebrowser/wl_inter.cpp' l='238' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='242' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='246' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='609' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='702' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='744' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='785' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='823' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='827' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='831' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='1093' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1124' u='c' c='_Z14DrawHighScoresv'/>

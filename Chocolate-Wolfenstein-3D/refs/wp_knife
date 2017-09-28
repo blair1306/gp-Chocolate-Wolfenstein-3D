@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='802' type='0'/>
+<use f='codebrowser/wl_agent.cpp' l='122' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='124' u='r' c='_Z17CheckWeaponChangev'/>
+<use f='codebrowser/wl_agent.cpp' l='1407' u='r' c='_Z8T_AttackP9objstruct'/>

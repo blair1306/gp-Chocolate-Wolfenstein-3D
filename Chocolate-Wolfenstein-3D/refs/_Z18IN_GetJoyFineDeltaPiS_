@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_in.h' l='175' type='void IN_GetJoyFineDelta(int * dx, int * dy)'/>
+<def f='codebrowser/id_in.cpp' l='187' ll='208' type='void IN_GetJoyFineDelta(int * dx, int * dy)'/>
+<doc f='codebrowser/id_in.cpp' l='181'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_GetJoyFineDelta() - Returns the relative movement of the specified
+//      joystick without dividing the results by 256 (from +/-127)
+//
+///////////////////////////////////////////////////////////////////////////</doc>

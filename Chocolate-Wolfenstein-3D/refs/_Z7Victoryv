@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1052' type='void Victory()'/>
+<use f='codebrowser/wl_game.cpp' l='1568' u='c' c='_Z8GameLoopv'/>
+<def f='codebrowser/wl_inter.cpp' l='115' ll='297' type='void Victory()'/>
+<doc f='codebrowser/wl_inter.cpp' l='107'>/*
+==================
+=
+= Victory
+=
+==================
+*/</doc>

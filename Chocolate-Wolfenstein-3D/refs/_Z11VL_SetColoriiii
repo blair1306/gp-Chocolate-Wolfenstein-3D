@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_vl.h' l='47' type='void VL_SetColor(int color, int red, int green, int blue)'/>
+<def f='codebrowser/id_vl.cpp' l='216' ll='229' type='void VL_SetColor(int color, int red, int green, int blue)'/>
+<doc f='codebrowser/id_vl.cpp' l='208'>/*
+=================
+=
+= VL_SetColor
+=
+=================
+*/</doc>

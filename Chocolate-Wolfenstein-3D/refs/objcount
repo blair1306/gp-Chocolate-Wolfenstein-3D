@@ -1,0 +1,14 @@
+<def f='codebrowser/wl_play.cpp' l='777' type='int'/>
+<use f='codebrowser/wl_play.cpp' l='797' u='w' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='839' u='w' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='881' u='w' c='_Z9RemoveObjP9objstruct'/>
+<doc f='codebrowser/wl_play.cpp' l='766'>/*
+=========================
+=
+= InitActorList
+=
+= Call to clear out the actor object lists returning them all to the free
+= list.  Allocates a special spot for the player.
+=
+=========================
+*/</doc>

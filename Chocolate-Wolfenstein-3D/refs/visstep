@@ -1,0 +1,6 @@
+<def f='codebrowser/wl_draw.cpp' l='867' type='visobj_t *'/>
+<use f='codebrowser/wl_draw.cpp' l='971' u='w' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='971' u='r' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='971' u='w' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='973' u='r' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='977' u='r' c='_Z11DrawScaledsv'/>

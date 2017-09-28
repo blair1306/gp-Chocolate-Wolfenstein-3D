@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='1082' type='fixed []'/>
+<use f='codebrowser/wl_act2.cpp' l='316' u='r' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3860' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1032' u='r' c='_Z6Thrustii'/>
+<use f='codebrowser/wl_agent.cpp' l='1033' u='r' c='_Z6Thrustii'/>
+<def f='codebrowser/wl_draw.cpp' l='45' type='fixed [450]'/>
+<use f='codebrowser/wl_draw.cpp' l='46' u='r'/>
+<use f='codebrowser/wl_draw.cpp' l='1498' u='r' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_main.cpp' l='711' u='w' c='_Z11BuildTablesv'/>
+<use f='codebrowser/wl_main.cpp' l='711' u='w' c='_Z11BuildTablesv'/>
+<use f='codebrowser/wl_main.cpp' l='711' u='w' c='_Z11BuildTablesv'/>
+<use f='codebrowser/wl_main.cpp' l='712' u='w' c='_Z11BuildTablesv'/>
+<use f='codebrowser/wl_main.cpp' l='712' u='w' c='_Z11BuildTablesv'/>
+<use f='codebrowser/wl_main.cpp' l='715' u='w' c='_Z11BuildTablesv'/>
+<use f='codebrowser/wl_main.cpp' l='716' u='w' c='_Z11BuildTablesv'/>

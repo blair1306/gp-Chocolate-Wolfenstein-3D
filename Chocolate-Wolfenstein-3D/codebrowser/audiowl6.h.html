@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>audiowl6.h source code [codebrowser/audiowl6.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/audiowl6.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='audiowl6.h.html'>audiowl6.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// MUSE Header for .WL6</i></td></tr>
+<tr><th id="4">4</th><td><i>// Created Tue Jul 14 15:04:53 1992</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>/////////////////////////////////////////////////</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Sound names &amp; indexes</i></td></tr>
+<tr><th id="10">10</th><td><i>//</i></td></tr>
+<tr><th id="11">11</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="12">12</th><td>    <dfn class="enum" id="HITWALLSND" title='HITWALLSND' data-ref="HITWALLSND">HITWALLSND</dfn>,              <i>// 0</i></td></tr>
+<tr><th id="13">13</th><td>    <dfn class="enum" id="SELECTWPNSND" title='SELECTWPNSND' data-ref="SELECTWPNSND">SELECTWPNSND</dfn>,            <i>// 1</i></td></tr>
+<tr><th id="14">14</th><td>    <dfn class="enum" id="SELECTITEMSND" title='SELECTITEMSND' data-ref="SELECTITEMSND">SELECTITEMSND</dfn>,           <i>// 2</i></td></tr>
+<tr><th id="15">15</th><td>    <dfn class="enum" id="HEARTBEATSND" title='HEARTBEATSND' data-ref="HEARTBEATSND">HEARTBEATSND</dfn>,            <i>// 3</i></td></tr>
+<tr><th id="16">16</th><td>    <dfn class="enum" id="MOVEGUN2SND" title='MOVEGUN2SND' data-ref="MOVEGUN2SND">MOVEGUN2SND</dfn>,             <i>// 4</i></td></tr>
+<tr><th id="17">17</th><td>    <dfn class="enum" id="MOVEGUN1SND" title='MOVEGUN1SND' data-ref="MOVEGUN1SND">MOVEGUN1SND</dfn>,             <i>// 5</i></td></tr>
+<tr><th id="18">18</th><td>    <dfn class="enum" id="NOWAYSND" title='NOWAYSND' data-ref="NOWAYSND">NOWAYSND</dfn>,                <i>// 6</i></td></tr>
+<tr><th id="19">19</th><td>    <dfn class="enum" id="NAZIHITPLAYERSND" title='NAZIHITPLAYERSND' data-ref="NAZIHITPLAYERSND">NAZIHITPLAYERSND</dfn>,        <i>// 7</i></td></tr>
+<tr><th id="20">20</th><td>    <dfn class="enum" id="SCHABBSTHROWSND" title='SCHABBSTHROWSND' data-ref="SCHABBSTHROWSND">SCHABBSTHROWSND</dfn>,         <i>// 8</i></td></tr>
+<tr><th id="21">21</th><td>    <dfn class="enum" id="PLAYERDEATHSND" title='PLAYERDEATHSND' data-ref="PLAYERDEATHSND">PLAYERDEATHSND</dfn>,          <i>// 9</i></td></tr>
+<tr><th id="22">22</th><td>    <dfn class="enum" id="DOGDEATHSND" title='DOGDEATHSND' data-ref="DOGDEATHSND">DOGDEATHSND</dfn>,             <i>// 10</i></td></tr>
+<tr><th id="23">23</th><td>    <dfn class="enum" id="ATKGATLINGSND" title='ATKGATLINGSND' data-ref="ATKGATLINGSND">ATKGATLINGSND</dfn>,           <i>// 11</i></td></tr>
+<tr><th id="24">24</th><td>    <dfn class="enum" id="GETKEYSND" title='GETKEYSND' data-ref="GETKEYSND">GETKEYSND</dfn>,               <i>// 12</i></td></tr>
+<tr><th id="25">25</th><td>    <dfn class="enum" id="NOITEMSND" title='NOITEMSND' data-ref="NOITEMSND">NOITEMSND</dfn>,               <i>// 13</i></td></tr>
+<tr><th id="26">26</th><td>    <dfn class="enum" id="WALK1SND" title='WALK1SND' data-ref="WALK1SND">WALK1SND</dfn>,                <i>// 14</i></td></tr>
+<tr><th id="27">27</th><td>    <dfn class="enum" id="WALK2SND" title='WALK2SND' data-ref="WALK2SND">WALK2SND</dfn>,                <i>// 15</i></td></tr>
+<tr><th id="28">28</th><td>    <dfn class="enum" id="TAKEDAMAGESND" title='TAKEDAMAGESND' data-ref="TAKEDAMAGESND">TAKEDAMAGESND</dfn>,           <i>// 16</i></td></tr>
+<tr><th id="29">29</th><td>    <dfn class="enum" id="GAMEOVERSND" title='GAMEOVERSND' data-ref="GAMEOVERSND">GAMEOVERSND</dfn>,             <i>// 17</i></td></tr>
+<tr><th id="30">30</th><td>    <dfn class="enum" id="OPENDOORSND" title='OPENDOORSND' data-ref="OPENDOORSND">OPENDOORSND</dfn>,             <i>// 18</i></td></tr>
+<tr><th id="31">31</th><td>    <dfn class="enum" id="CLOSEDOORSND" title='CLOSEDOORSND' data-ref="CLOSEDOORSND">CLOSEDOORSND</dfn>,            <i>// 19</i></td></tr>
+<tr><th id="32">32</th><td>    <dfn class="enum" id="DONOTHINGSND" title='DONOTHINGSND' data-ref="DONOTHINGSND">DONOTHINGSND</dfn>,            <i>// 20</i></td></tr>
+<tr><th id="33">33</th><td>    <dfn class="enum" id="HALTSND" title='HALTSND' data-ref="HALTSND">HALTSND</dfn>,                 <i>// 21</i></td></tr>
+<tr><th id="34">34</th><td>    <dfn class="enum" id="DEATHSCREAM2SND" title='DEATHSCREAM2SND' data-ref="DEATHSCREAM2SND">DEATHSCREAM2SND</dfn>,         <i>// 22</i></td></tr>
+<tr><th id="35">35</th><td>    <dfn class="enum" id="ATKKNIFESND" title='ATKKNIFESND' data-ref="ATKKNIFESND">ATKKNIFESND</dfn>,             <i>// 23</i></td></tr>
+<tr><th id="36">36</th><td>    <dfn class="enum" id="ATKPISTOLSND" title='ATKPISTOLSND' data-ref="ATKPISTOLSND">ATKPISTOLSND</dfn>,            <i>// 24</i></td></tr>
+<tr><th id="37">37</th><td>    <dfn class="enum" id="DEATHSCREAM3SND" title='DEATHSCREAM3SND' data-ref="DEATHSCREAM3SND">DEATHSCREAM3SND</dfn>,         <i>// 25</i></td></tr>
+<tr><th id="38">38</th><td>    <dfn class="enum" id="ATKMACHINEGUNSND" title='ATKMACHINEGUNSND' data-ref="ATKMACHINEGUNSND">ATKMACHINEGUNSND</dfn>,        <i>// 26</i></td></tr>
+<tr><th id="39">39</th><td>    <dfn class="enum" id="HITENEMYSND" title='HITENEMYSND' data-ref="HITENEMYSND">HITENEMYSND</dfn>,             <i>// 27</i></td></tr>
+<tr><th id="40">40</th><td>    <dfn class="enum" id="SHOOTDOORSND" title='SHOOTDOORSND' data-ref="SHOOTDOORSND">SHOOTDOORSND</dfn>,            <i>// 28</i></td></tr>
+<tr><th id="41">41</th><td>    <dfn class="enum" id="DEATHSCREAM1SND" title='DEATHSCREAM1SND' data-ref="DEATHSCREAM1SND">DEATHSCREAM1SND</dfn>,         <i>// 29</i></td></tr>
+<tr><th id="42">42</th><td>    <dfn class="enum" id="GETMACHINESND" title='GETMACHINESND' data-ref="GETMACHINESND">GETMACHINESND</dfn>,           <i>// 30</i></td></tr>
+<tr><th id="43">43</th><td>    <dfn class="enum" id="GETAMMOSND" title='GETAMMOSND' data-ref="GETAMMOSND">GETAMMOSND</dfn>,              <i>// 31</i></td></tr>
+<tr><th id="44">44</th><td>    <dfn class="enum" id="SHOOTSND" title='SHOOTSND' data-ref="SHOOTSND">SHOOTSND</dfn>,                <i>// 32</i></td></tr>
+<tr><th id="45">45</th><td>    <dfn class="enum" id="HEALTH1SND" title='HEALTH1SND' data-ref="HEALTH1SND">HEALTH1SND</dfn>,              <i>// 33</i></td></tr>
+<tr><th id="46">46</th><td>    <dfn class="enum" id="HEALTH2SND" title='HEALTH2SND' data-ref="HEALTH2SND">HEALTH2SND</dfn>,              <i>// 34</i></td></tr>
+<tr><th id="47">47</th><td>    <dfn class="enum" id="BONUS1SND" title='BONUS1SND' data-ref="BONUS1SND">BONUS1SND</dfn>,               <i>// 35</i></td></tr>
+<tr><th id="48">48</th><td>    <dfn class="enum" id="BONUS2SND" title='BONUS2SND' data-ref="BONUS2SND">BONUS2SND</dfn>,               <i>// 36</i></td></tr>
+<tr><th id="49">49</th><td>    <dfn class="enum" id="BONUS3SND" title='BONUS3SND' data-ref="BONUS3SND">BONUS3SND</dfn>,               <i>// 37</i></td></tr>
+<tr><th id="50">50</th><td>    <dfn class="enum" id="GETGATLINGSND" title='GETGATLINGSND' data-ref="GETGATLINGSND">GETGATLINGSND</dfn>,           <i>// 38</i></td></tr>
+<tr><th id="51">51</th><td>    <dfn class="enum" id="ESCPRESSEDSND" title='ESCPRESSEDSND' data-ref="ESCPRESSEDSND">ESCPRESSEDSND</dfn>,           <i>// 39</i></td></tr>
+<tr><th id="52">52</th><td>    <dfn class="enum" id="LEVELDONESND" title='LEVELDONESND' data-ref="LEVELDONESND">LEVELDONESND</dfn>,            <i>// 40</i></td></tr>
+<tr><th id="53">53</th><td>    <dfn class="enum" id="DOGBARKSND" title='DOGBARKSND' data-ref="DOGBARKSND">DOGBARKSND</dfn>,              <i>// 41</i></td></tr>
+<tr><th id="54">54</th><td>    <dfn class="enum" id="ENDBONUS1SND" title='ENDBONUS1SND' data-ref="ENDBONUS1SND">ENDBONUS1SND</dfn>,            <i>// 42</i></td></tr>
+<tr><th id="55">55</th><td>    <dfn class="enum" id="ENDBONUS2SND" title='ENDBONUS2SND' data-ref="ENDBONUS2SND">ENDBONUS2SND</dfn>,            <i>// 43</i></td></tr>
+<tr><th id="56">56</th><td>    <dfn class="enum" id="BONUS1UPSND" title='BONUS1UPSND' data-ref="BONUS1UPSND">BONUS1UPSND</dfn>,             <i>// 44</i></td></tr>
+<tr><th id="57">57</th><td>    <dfn class="enum" id="BONUS4SND" title='BONUS4SND' data-ref="BONUS4SND">BONUS4SND</dfn>,               <i>// 45</i></td></tr>
+<tr><th id="58">58</th><td>    <dfn class="enum" id="PUSHWALLSND" title='PUSHWALLSND' data-ref="PUSHWALLSND">PUSHWALLSND</dfn>,             <i>// 46</i></td></tr>
+<tr><th id="59">59</th><td>    <dfn class="enum" id="NOBONUSSND" title='NOBONUSSND' data-ref="NOBONUSSND">NOBONUSSND</dfn>,              <i>// 47</i></td></tr>
+<tr><th id="60">60</th><td>    <dfn class="enum" id="PERCENT100SND" title='PERCENT100SND' data-ref="PERCENT100SND">PERCENT100SND</dfn>,           <i>// 48</i></td></tr>
+<tr><th id="61">61</th><td>    <dfn class="enum" id="BOSSACTIVESND" title='BOSSACTIVESND' data-ref="BOSSACTIVESND">BOSSACTIVESND</dfn>,           <i>// 49</i></td></tr>
+<tr><th id="62">62</th><td>    <dfn class="enum" id="MUTTISND" title='MUTTISND' data-ref="MUTTISND">MUTTISND</dfn>,                <i>// 50</i></td></tr>
+<tr><th id="63">63</th><td>    <dfn class="enum" id="SCHUTZADSND" title='SCHUTZADSND' data-ref="SCHUTZADSND">SCHUTZADSND</dfn>,             <i>// 51</i></td></tr>
+<tr><th id="64">64</th><td>    <dfn class="enum" id="AHHHGSND" title='AHHHGSND' data-ref="AHHHGSND">AHHHGSND</dfn>,                <i>// 52</i></td></tr>
+<tr><th id="65">65</th><td>    <dfn class="enum" id="DIESND" title='DIESND' data-ref="DIESND">DIESND</dfn>,                  <i>// 53</i></td></tr>
+<tr><th id="66">66</th><td>    <dfn class="enum" id="EVASND" title='EVASND' data-ref="EVASND">EVASND</dfn>,                  <i>// 54</i></td></tr>
+<tr><th id="67">67</th><td>    <dfn class="enum" id="GUTENTAGSND" title='GUTENTAGSND' data-ref="GUTENTAGSND">GUTENTAGSND</dfn>,             <i>// 55</i></td></tr>
+<tr><th id="68">68</th><td>    <dfn class="enum" id="LEBENSND" title='LEBENSND' data-ref="LEBENSND">LEBENSND</dfn>,                <i>// 56</i></td></tr>
+<tr><th id="69">69</th><td>    <dfn class="enum" id="SCHEISTSND" title='SCHEISTSND' data-ref="SCHEISTSND">SCHEISTSND</dfn>,              <i>// 57</i></td></tr>
+<tr><th id="70">70</th><td>    <dfn class="enum" id="NAZIFIRESND" title='NAZIFIRESND' data-ref="NAZIFIRESND">NAZIFIRESND</dfn>,             <i>// 58</i></td></tr>
+<tr><th id="71">71</th><td>    <dfn class="enum" id="BOSSFIRESND" title='BOSSFIRESND' data-ref="BOSSFIRESND">BOSSFIRESND</dfn>,             <i>// 59</i></td></tr>
+<tr><th id="72">72</th><td>    <dfn class="enum" id="SSFIRESND" title='SSFIRESND' data-ref="SSFIRESND">SSFIRESND</dfn>,               <i>// 60</i></td></tr>
+<tr><th id="73">73</th><td>    <dfn class="enum" id="SLURPIESND" title='SLURPIESND' data-ref="SLURPIESND">SLURPIESND</dfn>,              <i>// 61</i></td></tr>
+<tr><th id="74">74</th><td>    <dfn class="enum" id="TOT_HUNDSND" title='TOT_HUNDSND' data-ref="TOT_HUNDSND">TOT_HUNDSND</dfn>,             <i>// 62</i></td></tr>
+<tr><th id="75">75</th><td>    <dfn class="enum" id="MEINGOTTSND" title='MEINGOTTSND' data-ref="MEINGOTTSND">MEINGOTTSND</dfn>,             <i>// 63</i></td></tr>
+<tr><th id="76">76</th><td>    <dfn class="enum" id="SCHABBSHASND" title='SCHABBSHASND' data-ref="SCHABBSHASND">SCHABBSHASND</dfn>,            <i>// 64</i></td></tr>
+<tr><th id="77">77</th><td>    <dfn class="enum" id="HITLERHASND" title='HITLERHASND' data-ref="HITLERHASND">HITLERHASND</dfn>,             <i>// 65</i></td></tr>
+<tr><th id="78">78</th><td>    <dfn class="enum" id="SPIONSND" title='SPIONSND' data-ref="SPIONSND">SPIONSND</dfn>,                <i>// 66</i></td></tr>
+<tr><th id="79">79</th><td>    <dfn class="enum" id="NEINSOVASSND" title='NEINSOVASSND' data-ref="NEINSOVASSND">NEINSOVASSND</dfn>,            <i>// 67</i></td></tr>
+<tr><th id="80">80</th><td>    <dfn class="enum" id="DOGATTACKSND" title='DOGATTACKSND' data-ref="DOGATTACKSND">DOGATTACKSND</dfn>,            <i>// 68</i></td></tr>
+<tr><th id="81">81</th><td>    <dfn class="enum" id="FLAMETHROWERSND" title='FLAMETHROWERSND' data-ref="FLAMETHROWERSND">FLAMETHROWERSND</dfn>,         <i>// 69</i></td></tr>
+<tr><th id="82">82</th><td>    <dfn class="enum" id="MECHSTEPSND" title='MECHSTEPSND' data-ref="MECHSTEPSND">MECHSTEPSND</dfn>,             <i>// 70</i></td></tr>
+<tr><th id="83">83</th><td>    <dfn class="enum" id="GOOBSSND" title='GOOBSSND' data-ref="GOOBSSND">GOOBSSND</dfn>,                <i>// 71</i></td></tr>
+<tr><th id="84">84</th><td>    <dfn class="enum" id="YEAHSND" title='YEAHSND' data-ref="YEAHSND">YEAHSND</dfn>,                 <i>// 72</i></td></tr>
+<tr><th id="85">85</th><td><u>#<span data-ppcond="85">ifndef</span> <span class="macro" data-ref="_M/APOGEE_1_0">APOGEE_1_0</span></u></td></tr>
+<tr><th id="86">86</th><td>    <dfn class="enum" id="DEATHSCREAM4SND" title='DEATHSCREAM4SND' data-ref="DEATHSCREAM4SND">DEATHSCREAM4SND</dfn>,         <i>// 73</i></td></tr>
+<tr><th id="87">87</th><td>    <dfn class="enum" id="DEATHSCREAM5SND" title='DEATHSCREAM5SND' data-ref="DEATHSCREAM5SND">DEATHSCREAM5SND</dfn>,         <i>// 74</i></td></tr>
+<tr><th id="88">88</th><td>    <dfn class="enum" id="DEATHSCREAM6SND" title='DEATHSCREAM6SND' data-ref="DEATHSCREAM6SND">DEATHSCREAM6SND</dfn>,         <i>// 75</i></td></tr>
+<tr><th id="89">89</th><td>    <dfn class="enum" id="DEATHSCREAM7SND" title='DEATHSCREAM7SND' data-ref="DEATHSCREAM7SND">DEATHSCREAM7SND</dfn>,         <i>// 76</i></td></tr>
+<tr><th id="90">90</th><td>    <dfn class="enum" id="DEATHSCREAM8SND" title='DEATHSCREAM8SND' data-ref="DEATHSCREAM8SND">DEATHSCREAM8SND</dfn>,         <i>// 77</i></td></tr>
+<tr><th id="91">91</th><td>    <dfn class="enum" id="DEATHSCREAM9SND" title='DEATHSCREAM9SND' data-ref="DEATHSCREAM9SND">DEATHSCREAM9SND</dfn>,         <i>// 78</i></td></tr>
+<tr><th id="92">92</th><td>    <dfn class="enum" id="DONNERSND" title='DONNERSND' data-ref="DONNERSND">DONNERSND</dfn>,               <i>// 79</i></td></tr>
+<tr><th id="93">93</th><td>    <dfn class="enum" id="EINESND" title='EINESND' data-ref="EINESND">EINESND</dfn>,                 <i>// 80</i></td></tr>
+<tr><th id="94">94</th><td>    <dfn class="enum" id="ERLAUBENSND" title='ERLAUBENSND' data-ref="ERLAUBENSND">ERLAUBENSND</dfn>,             <i>// 81</i></td></tr>
+<tr><th id="95">95</th><td>    <dfn class="enum" id="KEINSND" title='KEINSND' data-ref="KEINSND">KEINSND</dfn>,                 <i>// 82</i></td></tr>
+<tr><th id="96">96</th><td>    <dfn class="enum" id="MEINSND" title='MEINSND' data-ref="MEINSND">MEINSND</dfn>,                 <i>// 83</i></td></tr>
+<tr><th id="97">97</th><td>    <dfn class="enum" id="ROSESND" title='ROSESND' data-ref="ROSESND">ROSESND</dfn>,                 <i>// 84</i></td></tr>
+<tr><th id="98">98</th><td>    <dfn class="enum" id="MISSILEFIRESND" title='MISSILEFIRESND' data-ref="MISSILEFIRESND">MISSILEFIRESND</dfn>,          <i>// 85</i></td></tr>
+<tr><th id="99">99</th><td>    <dfn class="enum" id="MISSILEHITSND" title='MISSILEHITSND' data-ref="MISSILEHITSND">MISSILEHITSND</dfn>,           <i>// 86</i></td></tr>
+<tr><th id="100">100</th><td><u>#<span data-ppcond="85">endif</span></u></td></tr>
+<tr><th id="101">101</th><td>    <dfn class="enum" id="LASTSOUND" title='LASTSOUND' data-ref="LASTSOUND">LASTSOUND</dfn></td></tr>
+<tr><th id="102">102</th><td>} <dfn class="typedef" id="soundnames" title='soundnames' data-type='enum soundnames' data-ref="soundnames">soundnames</dfn>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><i>//</i></td></tr>
+<tr><th id="105">105</th><td><i>// Base offsets</i></td></tr>
+<tr><th id="106">106</th><td><i>//</i></td></tr>
+<tr><th id="107">107</th><td><u>#define <dfn class="macro" id="_M/STARTPCSOUNDS" data-ref="_M/STARTPCSOUNDS">STARTPCSOUNDS</dfn>       0</u></td></tr>
+<tr><th id="108">108</th><td><u>#define <dfn class="macro" id="_M/STARTADLIBSOUNDS" data-ref="_M/STARTADLIBSOUNDS">STARTADLIBSOUNDS</dfn>    LASTSOUND</u></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/STARTDIGISOUNDS" data-ref="_M/STARTDIGISOUNDS">STARTDIGISOUNDS</dfn>     (2*LASTSOUND)</u></td></tr>
+<tr><th id="110">110</th><td><u>#define <dfn class="macro" id="_M/STARTMUSIC" data-ref="_M/STARTMUSIC">STARTMUSIC</dfn>          (3*LASTSOUND)</u></td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td><i>//</i></td></tr>
+<tr><th id="113">113</th><td><i>// Music names &amp; indexes</i></td></tr>
+<tr><th id="114">114</th><td><i>//</i></td></tr>
+<tr><th id="115">115</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="116">116</th><td>    <dfn class="enum" id="CORNER_MUS" title='CORNER_MUS' data-ref="CORNER_MUS">CORNER_MUS</dfn>,              <i>// 0</i></td></tr>
+<tr><th id="117">117</th><td>    <dfn class="enum" id="DUNGEON_MUS" title='DUNGEON_MUS' data-ref="DUNGEON_MUS">DUNGEON_MUS</dfn>,             <i>// 1</i></td></tr>
+<tr><th id="118">118</th><td>    <dfn class="enum" id="WARMARCH_MUS" title='WARMARCH_MUS' data-ref="WARMARCH_MUS">WARMARCH_MUS</dfn>,            <i>// 2</i></td></tr>
+<tr><th id="119">119</th><td>    <dfn class="enum" id="GETTHEM_MUS" title='GETTHEM_MUS' data-ref="GETTHEM_MUS">GETTHEM_MUS</dfn>,             <i>// 3</i></td></tr>
+<tr><th id="120">120</th><td>    <dfn class="enum" id="HEADACHE_MUS" title='HEADACHE_MUS' data-ref="HEADACHE_MUS">HEADACHE_MUS</dfn>,            <i>// 4</i></td></tr>
+<tr><th id="121">121</th><td>    <dfn class="enum" id="HITLWLTZ_MUS" title='HITLWLTZ_MUS' data-ref="HITLWLTZ_MUS">HITLWLTZ_MUS</dfn>,            <i>// 5</i></td></tr>
+<tr><th id="122">122</th><td>    <dfn class="enum" id="INTROCW3_MUS" title='INTROCW3_MUS' data-ref="INTROCW3_MUS">INTROCW3_MUS</dfn>,            <i>// 6</i></td></tr>
+<tr><th id="123">123</th><td>    <dfn class="enum" id="NAZI_NOR_MUS" title='NAZI_NOR_MUS' data-ref="NAZI_NOR_MUS">NAZI_NOR_MUS</dfn>,            <i>// 7</i></td></tr>
+<tr><th id="124">124</th><td>    <dfn class="enum" id="NAZI_OMI_MUS" title='NAZI_OMI_MUS' data-ref="NAZI_OMI_MUS">NAZI_OMI_MUS</dfn>,            <i>// 8</i></td></tr>
+<tr><th id="125">125</th><td>    <dfn class="enum" id="POW_MUS" title='POW_MUS' data-ref="POW_MUS">POW_MUS</dfn>,                 <i>// 9</i></td></tr>
+<tr><th id="126">126</th><td>    <dfn class="enum" id="SALUTE_MUS" title='SALUTE_MUS' data-ref="SALUTE_MUS">SALUTE_MUS</dfn>,              <i>// 10</i></td></tr>
+<tr><th id="127">127</th><td>    <dfn class="enum" id="SEARCHN_MUS" title='SEARCHN_MUS' data-ref="SEARCHN_MUS">SEARCHN_MUS</dfn>,             <i>// 11</i></td></tr>
+<tr><th id="128">128</th><td>    <dfn class="enum" id="SUSPENSE_MUS" title='SUSPENSE_MUS' data-ref="SUSPENSE_MUS">SUSPENSE_MUS</dfn>,            <i>// 12</i></td></tr>
+<tr><th id="129">129</th><td>    <dfn class="enum" id="VICTORS_MUS" title='VICTORS_MUS' data-ref="VICTORS_MUS">VICTORS_MUS</dfn>,             <i>// 13</i></td></tr>
+<tr><th id="130">130</th><td>    <dfn class="enum" id="WONDERIN_MUS" title='WONDERIN_MUS' data-ref="WONDERIN_MUS">WONDERIN_MUS</dfn>,            <i>// 14</i></td></tr>
+<tr><th id="131">131</th><td>    <dfn class="enum" id="FUNKYOU_MUS" title='FUNKYOU_MUS' data-ref="FUNKYOU_MUS">FUNKYOU_MUS</dfn>,             <i>// 15</i></td></tr>
+<tr><th id="132">132</th><td>    <dfn class="enum" id="ENDLEVEL_MUS" title='ENDLEVEL_MUS' data-ref="ENDLEVEL_MUS">ENDLEVEL_MUS</dfn>,            <i>// 16</i></td></tr>
+<tr><th id="133">133</th><td>    <dfn class="enum" id="GOINGAFT_MUS" title='GOINGAFT_MUS' data-ref="GOINGAFT_MUS">GOINGAFT_MUS</dfn>,            <i>// 17</i></td></tr>
+<tr><th id="134">134</th><td>    <dfn class="enum" id="PREGNANT_MUS" title='PREGNANT_MUS' data-ref="PREGNANT_MUS">PREGNANT_MUS</dfn>,            <i>// 18</i></td></tr>
+<tr><th id="135">135</th><td>    <dfn class="enum" id="ULTIMATE_MUS" title='ULTIMATE_MUS' data-ref="ULTIMATE_MUS">ULTIMATE_MUS</dfn>,            <i>// 19</i></td></tr>
+<tr><th id="136">136</th><td>    <dfn class="enum" id="NAZI_RAP_MUS" title='NAZI_RAP_MUS' data-ref="NAZI_RAP_MUS">NAZI_RAP_MUS</dfn>,            <i>// 20</i></td></tr>
+<tr><th id="137">137</th><td>    <dfn class="enum" id="ZEROHOUR_MUS" title='ZEROHOUR_MUS' data-ref="ZEROHOUR_MUS">ZEROHOUR_MUS</dfn>,            <i>// 21</i></td></tr>
+<tr><th id="138">138</th><td>    <dfn class="enum" id="TWELFTH_MUS" title='TWELFTH_MUS' data-ref="TWELFTH_MUS">TWELFTH_MUS</dfn>,             <i>// 22</i></td></tr>
+<tr><th id="139">139</th><td>    <dfn class="enum" id="ROSTER_MUS" title='ROSTER_MUS' data-ref="ROSTER_MUS">ROSTER_MUS</dfn>,              <i>// 23</i></td></tr>
+<tr><th id="140">140</th><td>    <dfn class="enum" id="URAHERO_MUS" title='URAHERO_MUS' data-ref="URAHERO_MUS">URAHERO_MUS</dfn>,             <i>// 24</i></td></tr>
+<tr><th id="141">141</th><td>    <dfn class="enum" id="VICMARCH_MUS" title='VICMARCH_MUS' data-ref="VICMARCH_MUS">VICMARCH_MUS</dfn>,            <i>// 25</i></td></tr>
+<tr><th id="142">142</th><td>    <dfn class="enum" id="PACMAN_MUS" title='PACMAN_MUS' data-ref="PACMAN_MUS">PACMAN_MUS</dfn>,              <i>// 26</i></td></tr>
+<tr><th id="143">143</th><td>    <dfn class="enum" id="LASTMUSIC" title='LASTMUSIC' data-ref="LASTMUSIC">LASTMUSIC</dfn></td></tr>
+<tr><th id="144">144</th><td>} <dfn class="typedef" id="musicnames" title='musicnames' data-type='enum musicnames' data-ref="musicnames">musicnames</dfn>;</td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/NUMSOUNDS" data-ref="_M/NUMSOUNDS">NUMSOUNDS</dfn>           LASTSOUND</u></td></tr>
+<tr><th id="147">147</th><td><u>#define <dfn class="macro" id="_M/NUMSNDCHUNKS" data-ref="_M/NUMSNDCHUNKS">NUMSNDCHUNKS</dfn>        (STARTMUSIC + LASTMUSIC)</u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><i>/////////////////////////////////////////////////</i></td></tr>
+<tr><th id="150">150</th><td><i>//</i></td></tr>
+<tr><th id="151">151</th><td><i>// Thanks for playing with MUSE!</i></td></tr>
+<tr><th id="152">152</th><td><i>//</i></td></tr>
+<tr><th id="153">153</th><td><i>/////////////////////////////////////////////////</i></td></tr>
+<tr><th id="154">154</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

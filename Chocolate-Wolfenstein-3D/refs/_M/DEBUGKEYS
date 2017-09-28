@@ -1,0 +1,6 @@
+<dec f='codebrowser/version.h' l='34'/>
+<doc f='codebrowser/version.h' l='32'>//#define FIXRAINSNOWLEAKS    // Enables leaking ceilings fix (by Adam Biser, only needed if maps with rain/snow and ceilings exist)</doc>
+<use f='codebrowser/wl_debug.cpp' l='33' u='a'/>
+<use f='codebrowser/wl_main.cpp' l='1621' u='a'/>
+<use f='codebrowser/wl_play.cpp' l='621' u='a'/>
+<use f='codebrowser/wl_play.cpp' l='723' u='a'/>

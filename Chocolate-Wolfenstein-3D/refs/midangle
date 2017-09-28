@@ -1,0 +1,3 @@
+<def f='codebrowser/wl_draw.cpp' l='79' type='short'/>
+<use f='codebrowser/wl_draw.cpp' l='1075' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1497' u='w' c='_Z17CalcViewVariablesv'/>

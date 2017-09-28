@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1207' type='void PushWall(int checkx, int checky, int dir)'/>
+<def f='codebrowser/wl_act1.cpp' l='748' ll='782' type='void PushWall(int checkx, int checky, int dir)'/>
+<doc f='codebrowser/wl_act1.cpp' l='740'>/*
+===============
+=
+= PushWall
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_agent.cpp' l='1134' u='c' c='_Z7Cmd_Usev'/>

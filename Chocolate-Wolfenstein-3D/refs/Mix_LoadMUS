@@ -1,0 +1,1 @@
+<dec f='include/SDL/SDL_mixer.h' l='151' type='Mix_Music * Mix_LoadMUS(const char * file)'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_act2.cpp' l='3750' ll='3775' type='boolean CheckPosition(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='3866' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<doc f='codebrowser/wl_act2.cpp' l='3742'>/*
+===============
+=
+= CheckPosition
+=
+===============
+*/</doc>

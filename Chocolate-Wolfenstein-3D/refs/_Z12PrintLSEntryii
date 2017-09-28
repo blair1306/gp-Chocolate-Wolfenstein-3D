@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_menu.h' l='179' type='void PrintLSEntry(int w, int color)'/>
+<use f='codebrowser/wl_menu.cpp' l='1600' u='c' c='_Z14TrackWhichGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1601' u='c' c='_Z14TrackWhichGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1632' u='c' c='_Z18DrawLoadSaveScreeni'/>
+<def f='codebrowser/wl_menu.cpp' l='1645' ll='1661' type='void PrintLSEntry(int w, int color)'/>
+<use f='codebrowser/wl_menu.cpp' l='1740' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1785' u='c' c='_Z11CP_SaveGamei'/>
+<doc f='codebrowser/wl_menu.cpp' l='1641'>///////////////////////////////////////////
+//
+// PRINT LOAD/SAVE GAME ENTRY W/BOX OUTLINE
+//</doc>

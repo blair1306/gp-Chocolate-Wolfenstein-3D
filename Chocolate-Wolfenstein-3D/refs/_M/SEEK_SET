@@ -1,0 +1,19 @@
+<dec f='include/stdio.h' l='140'/>
+<dec f='include/fcntl.h' l='136'/>
+<doc f='include/stdio.h' l='138'>/* The possibilities for the third argument to `fseek&apos;.
+   These values should not be changed.  */</doc>
+<dec f='include/unistd.h' l='314'/>
+<use f='codebrowser/id_ca.cpp' l='139' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='191' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='480' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='598' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='744' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='758' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='940' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='990' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='1062' u='c'/>
+<use f='codebrowser/id_pm.cpp' l='108' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='1512' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='1553' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='1702' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='1771' u='c'/>

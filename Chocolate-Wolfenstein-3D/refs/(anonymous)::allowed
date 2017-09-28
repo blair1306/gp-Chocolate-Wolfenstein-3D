@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_menu.h' l='109' type='short [4]'/>
+<offset>0</offset>
+<use f='codebrowser/wl_menu.cpp' l='2180' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2371' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2385' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>

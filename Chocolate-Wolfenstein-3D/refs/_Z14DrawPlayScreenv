@@ -1,0 +1,20 @@
+<dec f='codebrowser/wl_def.h' l='934' type='void DrawPlayScreen()'/>
+<dec f='codebrowser/wl_game.cpp' l='56' type='void DrawPlayScreen()'/>
+<def f='codebrowser/wl_game.cpp' l='913' ll='926' type='void DrawPlayScreen()'/>
+<use f='codebrowser/wl_game.cpp' l='1103' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1175' u='c' c='_Z8PlayDemoi'/>
+<use f='codebrowser/wl_game.cpp' l='1365' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1447' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1455' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1560' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1580' u='c' c='_Z8GameLoopv'/>
+<doc f='codebrowser/wl_game.cpp' l='905'>/*
+===================
+=
+= DrawPlayScreen
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_menu.cpp' l='801' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='872' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_play.cpp' l='709' u='c' c='_Z9CheckKeysv'/>

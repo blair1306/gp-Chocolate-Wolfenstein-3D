@@ -1,0 +1,6 @@
+<dec f='codebrowser/crt.h' l='30' type='void CRT_Init(int width)'/>
+<def f='codebrowser/crt.cpp' l='27' ll='60' type='void CRT_Init(int _width)'/>
+<doc f='codebrowser/crt.h' l='27'>/*
+ * CRT aspect ratio is 4:3, height will be infered.
+ */</doc>
+<use f='codebrowser/id_vl.cpp' l='122' u='c' c='_Z18VL_SetVGAPlaneModev'/>

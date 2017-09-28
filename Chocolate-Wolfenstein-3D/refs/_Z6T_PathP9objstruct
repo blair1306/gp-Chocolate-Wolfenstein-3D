@@ -1,0 +1,49 @@
+<dec f='codebrowser/wl_act2.cpp' l='167' type='void T_Path(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='424'/>
+<use f='codebrowser/wl_act2.cpp' l='424'/>
+<use f='codebrowser/wl_act2.cpp' l='426'/>
+<use f='codebrowser/wl_act2.cpp' l='426'/>
+<use f='codebrowser/wl_act2.cpp' l='427'/>
+<use f='codebrowser/wl_act2.cpp' l='427'/>
+<use f='codebrowser/wl_act2.cpp' l='429'/>
+<use f='codebrowser/wl_act2.cpp' l='429'/>
+<use f='codebrowser/wl_act2.cpp' l='507'/>
+<use f='codebrowser/wl_act2.cpp' l='507'/>
+<use f='codebrowser/wl_act2.cpp' l='509'/>
+<use f='codebrowser/wl_act2.cpp' l='509'/>
+<use f='codebrowser/wl_act2.cpp' l='510'/>
+<use f='codebrowser/wl_act2.cpp' l='510'/>
+<use f='codebrowser/wl_act2.cpp' l='512'/>
+<use f='codebrowser/wl_act2.cpp' l='512'/>
+<use f='codebrowser/wl_act2.cpp' l='571'/>
+<use f='codebrowser/wl_act2.cpp' l='571'/>
+<use f='codebrowser/wl_act2.cpp' l='573'/>
+<use f='codebrowser/wl_act2.cpp' l='573'/>
+<use f='codebrowser/wl_act2.cpp' l='574'/>
+<use f='codebrowser/wl_act2.cpp' l='574'/>
+<use f='codebrowser/wl_act2.cpp' l='576'/>
+<use f='codebrowser/wl_act2.cpp' l='576'/>
+<use f='codebrowser/wl_act2.cpp' l='637'/>
+<use f='codebrowser/wl_act2.cpp' l='637'/>
+<use f='codebrowser/wl_act2.cpp' l='639'/>
+<use f='codebrowser/wl_act2.cpp' l='639'/>
+<use f='codebrowser/wl_act2.cpp' l='640'/>
+<use f='codebrowser/wl_act2.cpp' l='640'/>
+<use f='codebrowser/wl_act2.cpp' l='642'/>
+<use f='codebrowser/wl_act2.cpp' l='642'/>
+<use f='codebrowser/wl_act2.cpp' l='706'/>
+<use f='codebrowser/wl_act2.cpp' l='706'/>
+<use f='codebrowser/wl_act2.cpp' l='708'/>
+<use f='codebrowser/wl_act2.cpp' l='708'/>
+<use f='codebrowser/wl_act2.cpp' l='709'/>
+<use f='codebrowser/wl_act2.cpp' l='709'/>
+<use f='codebrowser/wl_act2.cpp' l='711'/>
+<use f='codebrowser/wl_act2.cpp' l='711'/>
+<def f='codebrowser/wl_act2.cpp' l='3391' ll='3447' type='void T_Path(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3383'>/*
+===============
+=
+= T_Path
+=
+===============
+*/</doc>

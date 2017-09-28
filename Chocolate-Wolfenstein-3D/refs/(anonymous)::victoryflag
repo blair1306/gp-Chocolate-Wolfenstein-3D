@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='841' type='boolean'/>
+<offset>560</offset>
+<doc f='codebrowser/wl_def.h' l='841'>// set during victory animations</doc>
+<use f='codebrowser/wl_act1.cpp' l='703' u='r' c='_Z9MoveDoorsv'/>
+<use f='codebrowser/wl_act2.cpp' l='3073' u='r' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3797' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3805' u='w' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='244' u='r' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='416' u='r' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='973' u='w' c='_Z11VictoryTilev'/>
+<use f='codebrowser/wl_agent.cpp' l='1373' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1386' u='r' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1469' u='r' c='_Z8T_PlayerP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1485' u='r' c='_Z8T_PlayerP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='1009' u='r' c='_Z16DrawPlayerWeaponv'/>

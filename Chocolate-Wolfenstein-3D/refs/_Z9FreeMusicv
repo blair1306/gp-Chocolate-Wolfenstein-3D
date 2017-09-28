@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='200' type='void FreeMusic()'/>
+<def f='codebrowser/wl_menu.cpp' l='3858' ll='3862' type='void FreeMusic()'/>
+<use f='codebrowser/wl_text.cpp' l='798' u='c' c='_Z11HelpScreensv'/>
+<use f='codebrowser/wl_text.cpp' l='856' u='c' c='_Z7EndTextv'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/wl_main.cpp' l='352' u='c' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='500' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_play.cpp' l='33' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='102' u='c'/>

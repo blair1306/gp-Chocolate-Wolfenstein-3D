@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_joystick.h' l='106' type='int SDL_JoystickNumButtons(SDL_Joystick * joystick)'/>
+<doc f='include/SDL/SDL_joystick.h' l='103'>/**
+ * Get the number of buttons on a joystick
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='375' u='c' c='_Z10IN_Startupv'/>

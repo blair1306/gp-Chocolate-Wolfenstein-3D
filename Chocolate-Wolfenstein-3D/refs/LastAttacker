@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1147' type='objtype *'/>
+<def f='codebrowser/wl_agent.cpp' l='40' type='objtype *'/>
+<use f='codebrowser/wl_agent.cpp' l='303' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='303' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='414' u='w' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='645' u='w' c='_Z14SetupGameLevelv'/>

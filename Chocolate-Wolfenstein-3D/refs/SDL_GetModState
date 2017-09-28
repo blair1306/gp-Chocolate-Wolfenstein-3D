@@ -1,0 +1,6 @@
+<dec f='include/SDL/SDL_keyboard.h' l='115' type='SDLMod SDL_GetModState()'/>
+<doc f='include/SDL/SDL_keyboard.h' l='112'>/**
+ * Get the current key modifier state
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='254' u='c' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='314' u='c' c='_ZL12processEventP9SDL_Event'/>

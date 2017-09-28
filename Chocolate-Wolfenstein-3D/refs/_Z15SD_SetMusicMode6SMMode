@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_sd.h' l='148' type='boolean SD_SetMusicMode(SMMode mode)'/>
+<def f='codebrowser/id_sd.cpp' l='933' ll='959' type='boolean SD_SetMusicMode(SMMode mode)'/>
+<use f='codebrowser/id_sd.cpp' l='1089' u='c' c='_Z10SD_Startupv'/>
+<doc f='codebrowser/id_sd.cpp' l='928'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_SetMusicMode() - sets the device to use for background music
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='228' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1309' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1317' u='c' c='_Z8CP_Soundi'/>

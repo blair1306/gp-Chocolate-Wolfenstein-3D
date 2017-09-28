@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_vh.h' l='90' type='void LatchDrawPic(unsigned int x, unsigned int y, unsigned int picnum)'/>
+<def f='codebrowser/id_vh.cpp' l='204' ll='207' type='void LatchDrawPic(unsigned int x, unsigned int y, unsigned int picnum)'/>
+<doc f='codebrowser/id_vh.cpp' l='196'>/*
+=====================
+=
+= LatchDrawPic
+=
+=====================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='940' u='c' c='_Z15LatchNumberHEREiiji'/>
+<use f='codebrowser/wl_game.cpp' l='949' u='c' c='_Z15LatchNumberHEREiiji'/>
+<use f='codebrowser/wl_play.cpp' l='666' u='c' c='_Z9CheckKeysv'/>

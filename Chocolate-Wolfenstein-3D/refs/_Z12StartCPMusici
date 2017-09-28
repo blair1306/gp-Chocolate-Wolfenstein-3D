@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_menu.h' l='139' type='int StartCPMusic(int song)'/>
+<use f='codebrowser/wl_inter.cpp' l='159' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='567' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='1211' u='c' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_main.cpp' l='1154' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_main.cpp' l='1540' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1616' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1636' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='397' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='400' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='529' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='794' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='865' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='980' u='c' c='_Z13CP_ViewScoresi'/>
+<use f='codebrowser/wl_menu.cpp' l='990' u='c' c='_Z13CP_ViewScoresi'/>
+<use f='codebrowser/wl_menu.cpp' l='1320' u='c' c='_Z8CP_Soundi'/>
+<def f='codebrowser/wl_menu.cpp' l='3845' ll='3856' type='int StartCPMusic(int song)'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/fmopl.cpp' l='714' ll='720' macro='1' type='void OPL_STATUSMASK_SET(FM_OPL * OPL, int flag)'/>
+<use f='codebrowser/fmopl.cpp' l='1523' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>

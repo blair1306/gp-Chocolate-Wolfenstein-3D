@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='165' type='void DrawChangeView(int view)'/>
+<use f='codebrowser/wl_menu.cpp' l='2808' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2823' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2836' u='c' c='_Z13CP_ChangeViewi'/>
+<def f='codebrowser/wl_menu.cpp' l='2878' ll='2901' type='void DrawChangeView(int view)'/>
+<doc f='codebrowser/wl_menu.cpp' l='2874'>/////////////////////////////
+//
+// DRAW THE CHANGEVIEW SCREEN
+//</doc>

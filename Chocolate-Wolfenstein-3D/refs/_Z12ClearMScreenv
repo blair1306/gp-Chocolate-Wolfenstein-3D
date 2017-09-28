@@ -1,0 +1,25 @@
+<dec f='codebrowser/wl_menu.h' l='131' type='void ClearMScreen()'/>
+<use f='codebrowser/wl_inter.cpp' l='1041' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_main.cpp' l='1123' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='588' u='c' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1141' u='c' c='_Z14DrawNewEpisodev'/>
+<use f='codebrowser/wl_menu.cpp' l='1177' u='c' c='_Z11DrawNewGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='1353' u='c' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1620' u='c' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='1878' u='c' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='2003' u='c' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2505' u='c' c='_Z16DrawCustomScreenv'/>
+<def f='codebrowser/wl_menu.cpp' l='3040' ll='3048' type='void ClearMScreen()'/>
+<doc f='codebrowser/wl_menu.cpp' l='3027'>////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+//
+// SUPPORT ROUTINES
+//
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////
+//
+// Clear Menu screens to dark red
+//
+////////////////////////////////////////////////////////////////////</doc>

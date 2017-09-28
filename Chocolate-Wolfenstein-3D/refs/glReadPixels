@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='1215' type='void glReadPixels(GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLvoid * pixels)'/>
+<use f='codebrowser/crt.cpp' l='133' u='c' c='_Z14CRT_Screenshotv'/>

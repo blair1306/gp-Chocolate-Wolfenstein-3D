@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_agent.cpp' l='103' ll='137' type='void CheckWeaponChange()'/>
+<use f='codebrowser/wl_agent.cpp' l='1476' u='c' c='_Z8T_PlayerP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='93'>/*
+======================
+=
+= CheckWeaponChange
+=
+= Keys 1-4 change weapons
+=
+======================
+*/</doc>

@@ -1,0 +1,18 @@
+<def f='codebrowser/wl_draw.cpp' l='277' type='byte *'/>
+<use f='codebrowser/wl_draw.cpp' l='310' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='326' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='373' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='399' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='436' u='w' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='462' u='w' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='495' u='w' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='525' u='w' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='558' u='w' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='588' u='w' c='_Z11HitVertDoorv'/>
+<doc f='codebrowser/wl_draw.cpp' l='269'>/*
+===================
+=
+= ScalePost
+=
+===================
+*/</doc>

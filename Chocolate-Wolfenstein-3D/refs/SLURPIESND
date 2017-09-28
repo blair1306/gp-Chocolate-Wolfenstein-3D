@@ -1,0 +1,6 @@
+<dec f='codebrowser/audiowl6.h' l='73' type='61'/>
+<doc f='codebrowser/audiowl6.h' l='73'>// 61</doc>
+<use f='codebrowser/wl_act2.cpp' l='2914' u='r' c='_Z9A_SlurpieP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='799' u='r' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_main.cpp' l='915'/>
+<use f='codebrowser/wl_main.cpp' l='915'/>

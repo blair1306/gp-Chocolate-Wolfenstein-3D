@@ -1,0 +1,2 @@
+<def f='codebrowser/wl_draw.cpp' l='1004' ll='1027' type='void DrawPlayerWeapon()'/>
+<use f='codebrowser/wl_draw.cpp' l='1551' u='c' c='_Z13ThreeDRefreshv'/>

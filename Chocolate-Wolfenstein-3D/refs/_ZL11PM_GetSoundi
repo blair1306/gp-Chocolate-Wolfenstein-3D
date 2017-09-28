@@ -1,0 +1,2 @@
+<def f='codebrowser/id_pm.h' l='50' ll='53' type='byte * PM_GetSound(int soundpagenum)'/>
+<use f='codebrowser/id_sd.cpp' l='552' u='c' c='_Z15SD_PrepareSoundi'/>

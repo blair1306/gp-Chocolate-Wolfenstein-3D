@@ -1,0 +1,5 @@
+<dec f='codebrowser/audiowl6.h' l='18' type='6'/>
+<doc f='codebrowser/audiowl6.h' l='18'>// 6</doc>
+<use f='codebrowser/wl_act1.cpp' l='511' u='r' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='764' u='r' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_menu.cpp' l='1032' u='r' c='_Z10CP_NewGamei'/>

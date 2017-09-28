@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='1008' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='149' u='a' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='149' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='180' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='180' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='185' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='222' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='262' u='a' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='262' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1842' u='w' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='2035' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2732' u='r' c='_Z11DrawCustJoyi'/>
+<use f='codebrowser/wl_menu.cpp' l='3631' u='r' c='_Z14ReadAnyControlP10CursorInfo'/>
+<def f='codebrowser/wl_play.cpp' l='51' type='boolean'/>
+<use f='codebrowser/wl_play.cpp' l='456' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='467' u='r' c='_Z12PollControlsv'/>

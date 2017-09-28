@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_vl.h' l='75' type='void VL_MungePic(byte * source, unsigned int width, unsigned int height)'/>
+<def f='codebrowser/id_vh.cpp' l='59' ll='94' type='void VL_MungePic(byte * source, unsigned int width, unsigned int height)'/>
+<doc f='codebrowser/id_vh.cpp' l='51'>/*
+=================
+=
+= VL_MungePic
+=
+=================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='815' u='c' c='_Z12SignonScreenv'/>

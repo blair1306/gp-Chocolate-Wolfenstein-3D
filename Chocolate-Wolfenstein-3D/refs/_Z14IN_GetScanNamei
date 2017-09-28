@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_in.h' l='164' type='const char * IN_GetScanName(ScanCode )'/>
+<use f='codebrowser/wl_menu.cpp' l='2750' u='c' c='_Z14PrintCustKeybdi'/>
+<use f='codebrowser/wl_menu.cpp' l='2773' u='c' c='_Z13PrintCustKeysi'/>
+<def f='codebrowser/wl_menu.cpp' l='3871' ll='3882' type='const char * IN_GetScanName(ScanCode scan)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3865'>///////////////////////////////////////////////////////////////////////////
+//
+//      IN_GetScanName() - Returns a string containing the name of the
+//              specified scan code
+//
+///////////////////////////////////////////////////////////////////////////</doc>

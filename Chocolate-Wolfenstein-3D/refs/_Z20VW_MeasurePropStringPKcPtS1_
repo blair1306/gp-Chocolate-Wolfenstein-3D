@@ -1,0 +1,4 @@
+<dec f='codebrowser/id_vh.h' l='85' type='void VW_MeasurePropString(const char * string, word * width, word * height)'/>
+<use f='codebrowser/id_us_1.cpp' l='40' u='r'/>
+<def f='codebrowser/id_vh.cpp' l='103' ll='106' type='void VW_MeasurePropString(const char * string, word * width, word * height)'/>
+<use f='codebrowser/wl_text.cpp' l='378' u='c' c='_Z10HandleWordv'/>

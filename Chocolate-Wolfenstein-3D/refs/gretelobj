@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_def.h' l='613' type='17'/>
+<use f='codebrowser/wl_act2.cpp' l='972' u='r' c='_Z11SpawnGretelii'/>
+<use f='codebrowser/wl_act2.cpp' l='1142' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3135' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='897' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1349' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1512' c='_Z11SightPlayerP9objstruct'/>

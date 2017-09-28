@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_menu.h' l='195' type='int CustomControls(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='134'/>
+<use f='codebrowser/wl_menu.cpp' l='134'/>
+<use f='codebrowser/wl_menu.cpp' l='134'/>
+<use f='codebrowser/wl_menu.cpp' l='134'/>
+<def f='codebrowser/wl_menu.cpp' l='2071' ll='2104' type='int CustomControls(int )'/>

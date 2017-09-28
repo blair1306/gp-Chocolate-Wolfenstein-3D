@@ -1,0 +1,10 @@
+<def f='codebrowser/wl_agent.cpp' l='1329' ll='1354' type='void VictorySpin()'/>
+<use f='codebrowser/wl_agent.cpp' l='1375' u='c' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1471' u='c' c='_Z8T_PlayerP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='1321'>/*
+===============
+=
+= VictorySpin
+=
+===============
+*/</doc>

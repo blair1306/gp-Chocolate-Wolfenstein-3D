@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1283' type='void SpawnPatrol(enemy_t which, int tilex, int tiley, int dir)'/>
+<def f='codebrowser/wl_act2.cpp' l='989' ll='1055' type='void SpawnPatrol(enemy_t which, int tilex, int tiley, int dir)'/>
+<doc f='codebrowser/wl_act2.cpp' l='981'>/*
+===============
+=
+= SpawnPatrol
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='359' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='408' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='455' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='501' u='c' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='593' u='c' c='_ZL13ScanInfoPlanev'/>

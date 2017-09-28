@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1208' type='void OperateDoor(int door)'/>
+<def f='codebrowser/wl_act1.cpp' l='502' ll='527' type='void OperateDoor(int door)'/>
+<doc f='codebrowser/wl_act1.cpp' l='492'>/*
+=====================
+=
+= OperateDoor
+=
+= The player wants to change the door&apos;s direction
+=
+=====================
+*/</doc>
+<use f='codebrowser/wl_agent.cpp' l='1155' u='c' c='_Z7Cmd_Usev'/>

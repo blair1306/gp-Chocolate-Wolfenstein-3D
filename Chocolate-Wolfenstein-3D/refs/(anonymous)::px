@@ -1,0 +1,4 @@
+<dec f='codebrowser/id_us.h' l='47' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/id_us_1.cpp' l='392' u='w' c='_Z13US_SaveWindowP9WindowRec'/>
+<use f='codebrowser/id_us_1.cpp' l='410' u='r' c='_Z16US_RestoreWindowP9WindowRec'/>

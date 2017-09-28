@@ -1,0 +1,2 @@
+<dec f='include/ctype.h' l='113' type='int isdigit(int )'/>
+<def f='include/ctype.h' l='185' macro='1' type='int isdigit(int __c)'/>

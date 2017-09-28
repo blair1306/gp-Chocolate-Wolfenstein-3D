@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_in.h' l='154' type='void IN_Startup()'/>
+<def f='codebrowser/id_in.cpp' l='362' ll='396' type='void IN_Startup()'/>
+<doc f='codebrowser/id_in.cpp' l='357'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_Startup() - Starts up the Input Mgr
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='1228' u='c' c='_ZL8InitGamev'/>

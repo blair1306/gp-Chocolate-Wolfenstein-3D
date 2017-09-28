@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='898' type='int'/>
+<use f='codebrowser/id_in.cpp' l='370' u='r' c='_Z10IN_Startupv'/>
+<use f='codebrowser/id_in.cpp' l='370' u='r' c='_Z10IN_Startupv'/>
+<use f='codebrowser/id_in.cpp' l='372' u='r' c='_Z10IN_Startupv'/>
+<def f='codebrowser/wl_main.cpp' l='87' type='int'/>
+<use f='codebrowser/wl_main.cpp' l='1200' u='r' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1200' u='r' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1200' u='r' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1772' u='w' c='_Z15CheckParametersiPPc'/>

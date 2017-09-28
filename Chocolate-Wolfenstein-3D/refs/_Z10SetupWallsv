@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_main.cpp' l='787' ll='799' type='void SetupWalls()'/>
+<use f='codebrowser/wl_main.cpp' l='1290' u='c' c='_ZL8InitGamev'/>
+<doc f='codebrowser/wl_main.cpp' l='777'>/*
+===================
+=
+= SetupWalls
+=
+= Map tile values to scaled pics
+=
+===================
+*/</doc>

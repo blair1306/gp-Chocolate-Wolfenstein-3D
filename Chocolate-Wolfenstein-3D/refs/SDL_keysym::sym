@@ -1,0 +1,7 @@
+<dec f='include/SDL/SDL_keyboard.h' l='61' type='SDLKey'/>
+<offset>32</offset>
+<doc f='include/SDL/SDL_keyboard.h' l='61'>/**&lt; SDL virtual keysym */</doc>
+<use f='codebrowser/id_in.cpp' l='246' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='246' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='253' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='307' u='r' c='_ZL12processEventP9SDL_Event'/>

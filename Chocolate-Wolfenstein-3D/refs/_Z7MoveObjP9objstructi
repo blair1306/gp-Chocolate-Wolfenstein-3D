@@ -1,0 +1,27 @@
+<dec f='codebrowser/wl_def.h' l='1126' type='void MoveObj(objtype * ob, int32_t move)'/>
+<use f='codebrowser/wl_act2.cpp' l='2433' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2525' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2617' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3004' u='c' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3200' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3252' u='c' c='_Z8T_GhostsP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3322' u='c' c='_Z10T_DogChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3427' u='c' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3673' u='c' c='_Z7T_BJRunP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3706' u='c' c='_Z8T_BJJumpP9objstruct'/>
+<dec f='codebrowser/wl_state.cpp' l='46' type='void MoveObj(objtype * ob, int32_t move)'/>
+<def f='codebrowser/wl_state.cpp' l='686' ll='787' type='void MoveObj(objtype * ob, int32_t move)'/>
+<doc f='codebrowser/wl_state.cpp' l='671'>/*
+=================
+=
+= MoveObj
+=
+= Moves ob be move global units in ob-&gt;dir direction
+= Actors are not allowed to move inside the player
+= Does NOT check to see if the move is tile map valid
+=
+= ob-&gt;x                 = adjusted for new position
+= ob-&gt;y
+=
+=================
+*/</doc>

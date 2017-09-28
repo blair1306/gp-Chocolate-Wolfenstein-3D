@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_main.cpp' l='241' ll='281' type='void WriteConfig()'/>
+<use f='codebrowser/wl_main.cpp' l='1437' u='c' c='_Z4QuitPKcz'/>
+<doc f='codebrowser/wl_main.cpp' l='233'>/*
+====================
+=
+= WriteConfig
+=
+====================
+*/</doc>

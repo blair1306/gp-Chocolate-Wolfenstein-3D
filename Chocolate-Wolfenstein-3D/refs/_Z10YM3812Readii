@@ -1,0 +1,2 @@
+<dec f='codebrowser/fmopl.h' l='48' type='unsigned char YM3812Read(int which, int a)'/>
+<def f='codebrowser/fmopl.cpp' l='2132' ll='2136' type='unsigned char YM3812Read(int which, int a)'/>

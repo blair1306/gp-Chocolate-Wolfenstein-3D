@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='996' type='objtype *'/>
+<use f='codebrowser/wl_agent.cpp' l='428' u='w' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='646' u='w' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='1227' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1229' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1230' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_menu.cpp' l='754' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='954' u='w' c='_Z10CP_EndGamei'/>
+<def f='codebrowser/wl_play.cpp' l='34' type='objtype *'/>

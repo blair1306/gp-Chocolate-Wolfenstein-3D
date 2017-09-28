@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='151' type='void DrawMenuGun(CP_iteminfo * iteminfo)'/>
+<use f='codebrowser/wl_menu.cpp' l='1446' u='c' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='2055' u='c' c='_Z13DrawCtlScreenv'/>
+<def f='codebrowser/wl_menu.cpp' l='3918' ll='3927' type='void DrawMenuGun(CP_iteminfo * iteminfo)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3913'>///////////////////////////////////////////////////////////////////////////
+//
+// DRAW GUN CURSOR AT CORRECT POSITION IN MENU
+//
+///////////////////////////////////////////////////////////////////////////</doc>

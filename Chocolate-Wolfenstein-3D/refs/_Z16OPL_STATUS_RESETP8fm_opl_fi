@@ -1,0 +1,5 @@
+<def f='codebrowser/fmopl.cpp' l='698' ll='711' macro='1' type='void OPL_STATUS_RESET(FM_OPL * OPL, int flag)'/>
+<use f='codebrowser/fmopl.cpp' l='719' u='c' c='_Z18OPL_STATUSMASK_SETP8fm_opl_fi'/>
+<use f='codebrowser/fmopl.cpp' l='1514' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1522' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1849' u='c' c='_ZL12OPLResetChipP8fm_opl_f'/>

@@ -1,0 +1,25 @@
+<dec f='codebrowser/wl_act2.cpp' l='225' type='void T_Ghosts(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='464'/>
+<use f='codebrowser/wl_act2.cpp' l='464'/>
+<use f='codebrowser/wl_act2.cpp' l='465'/>
+<use f='codebrowser/wl_act2.cpp' l='465'/>
+<use f='codebrowser/wl_act2.cpp' l='467'/>
+<use f='codebrowser/wl_act2.cpp' l='467'/>
+<use f='codebrowser/wl_act2.cpp' l='468'/>
+<use f='codebrowser/wl_act2.cpp' l='468'/>
+<use f='codebrowser/wl_act2.cpp' l='470'/>
+<use f='codebrowser/wl_act2.cpp' l='470'/>
+<use f='codebrowser/wl_act2.cpp' l='471'/>
+<use f='codebrowser/wl_act2.cpp' l='471'/>
+<use f='codebrowser/wl_act2.cpp' l='473'/>
+<use f='codebrowser/wl_act2.cpp' l='473'/>
+<use f='codebrowser/wl_act2.cpp' l='474'/>
+<use f='codebrowser/wl_act2.cpp' l='474'/>
+<def f='codebrowser/wl_act2.cpp' l='3235' ll='3273' type='void T_Ghosts(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3227'>/*
+=================
+=
+= T_Ghosts
+=
+=================
+*/</doc>

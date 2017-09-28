@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='1038' type='int'/>
+<use f='codebrowser/wl_debug.cpp' l='640' u='w' c='_Z9DebugKeysv'/>
+<def f='codebrowser/wl_play.cpp' l='37' type='int'/>
+<use f='codebrowser/wl_play.cpp' l='1317' u='r' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='1319' u='r' c='_Z8PlayLoopv'/>

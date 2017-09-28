@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='605' type='9'/>
+<use f='codebrowser/wl_act2.cpp' l='1132' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2835' u='r' c='_Z15SpawnFakeHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='3538' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='255' u='r' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='276' u='r' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='297' u='r' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='318' u='r' c='_Z7TryWalkP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='923' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1374' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1509' c='_Z11SightPlayerP9objstruct'/>

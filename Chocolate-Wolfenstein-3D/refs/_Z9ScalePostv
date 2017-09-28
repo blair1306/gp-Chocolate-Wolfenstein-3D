@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_debug.cpp' l='40' type='void ScalePost()'/>
+<doc f='codebrowser/wl_debug.cpp' l='38'>// from WL_DRAW.C</doc>
+<def f='codebrowser/wl_draw.cpp' l='280' ll='330' type='void ScalePost()'/>
+<use f='codebrowser/wl_draw.cpp' l='336' u='c' c='_Z15GlobalScalePostPhj'/>
+<use f='codebrowser/wl_draw.cpp' l='366' u='c' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='371' u='c' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='379' u='c' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='429' u='c' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='434' u='c' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='442' u='c' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='488' u='c' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='493' u='c' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='501' u='c' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='551' u='c' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='556' u='c' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='564' u='c' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='1490' u='c' c='_Z11WallRefreshv'/>

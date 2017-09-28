@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_act2.cpp' l='3600' type='void T_BJDone(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='3629'/>
+<use f='codebrowser/wl_act2.cpp' l='3629'/>
+<def f='codebrowser/wl_act2.cpp' l='3732' ll='3735' type='void T_BJDone(objtype * )'/>
+<doc f='codebrowser/wl_act2.cpp' l='3724'>/*
+===============
+=
+= T_BJDone
+=
+===============
+*/</doc>

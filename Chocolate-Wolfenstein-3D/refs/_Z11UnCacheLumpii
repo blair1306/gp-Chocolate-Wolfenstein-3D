@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_menu.h' l='138' type='void UnCacheLump(int lumpstart, int lumpend)'/>
+<use f='codebrowser/wl_inter.cpp' l='288' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='935' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_main.cpp' l='1167' u='c' c='_Z9DoJukeboxv'/>
+<def f='codebrowser/wl_menu.cpp' l='3066' ll='3074' type='void UnCacheLump(int lumpstart, int lumpend)'/>
+<use f='codebrowser/wl_menu.cpp' l='3179' u='c' c='_Z19CleanupControlPanelv'/>

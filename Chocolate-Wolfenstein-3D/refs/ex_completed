@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='848' type='1'/>
+<use f='codebrowser/wl_agent.cpp' l='1148' u='r' c='_Z7Cmd_Usev'/>
+<use f='codebrowser/wl_debug.cpp' l='481' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1445' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='439' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='508' u='r' c='_Z12PollControlsv'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1247' type='statetype'/>
+<dec f='codebrowser/wl_act2.cpp' l='622' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='644' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='644' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='645' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='645' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='650' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='650' u='a'/>
+<def f='codebrowser/wl_act2.cpp' l='652' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='657' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='657' u='a'/>
+<use f='codebrowser/wl_state.cpp' l='1325' u='a' c='_Z13FirstSightingP9objstruct'/>

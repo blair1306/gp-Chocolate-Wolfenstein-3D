@@ -1,0 +1,5 @@
+<dec f='codebrowser/id_sd.h' l='49' type='byte [1]'/>
+<dec f='codebrowser/id_sd.h' l='88' type='byte [1]'/>
+<offset>184</offset>
+<use f='codebrowser/id_ca.cpp' l='785' u='r' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_sd.cpp' l='757' u='r' c='_ZL15SDL_ALPlaySoundP10AdLibSound'/>

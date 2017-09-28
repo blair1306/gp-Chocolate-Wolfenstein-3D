@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_act1.cpp' l='298' ll='310' type='void RecursiveConnect(int areanumber)'/>
+<use f='codebrowser/wl_act1.cpp' l='307' u='c' c='_Z16RecursiveConnecti'/>
+<use f='codebrowser/wl_act1.cpp' l='317' u='c' c='_Z12ConnectAreasv'/>
+<doc f='codebrowser/wl_act1.cpp' l='288'>/*
+==============
+=
+= ConnectAreas
+=
+= Scans outward from playerarea, marking all connected areas
+=
+==============
+*/</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_in.h' l='118' type='boolean'/>
+<offset>16</offset>
+<use f='codebrowser/id_in.cpp' l='481' u='w' c='_Z14IN_ReadControliP10CursorInfo'/>
+<use f='codebrowser/id_us_1.cpp' l='601' u='r' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_menu.cpp' l='2218' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2293' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='3567' u='r' c='_Z9WaitKeyUpv'/>
+<use f='codebrowser/wl_menu.cpp' l='3625' u='w' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_menu.cpp' l='3651' u='w' c='_Z14ReadAnyControlP10CursorInfo'/>

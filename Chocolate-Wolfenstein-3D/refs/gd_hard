@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='814' type='3'/>
+<use f='codebrowser/wl_game.cpp' l='323' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='345' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='372' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='394' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='419' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='441' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='465' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='487' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='558' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='579' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='1094' u='r' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1165' u='r' c='_Z8PlayDemoi'/>

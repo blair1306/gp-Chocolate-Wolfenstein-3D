@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='211' type='4'/>
+<use f='codebrowser/wl_menu.cpp' l='760' u='m' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='956' u='m' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='3127' u='m' c='_Z17SetupControlPanelv'/>

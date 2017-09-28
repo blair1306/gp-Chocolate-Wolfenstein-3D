@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_act2.cpp' l='170' type='void T_DogChase(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='520'/>
+<use f='codebrowser/wl_act2.cpp' l='520'/>
+<use f='codebrowser/wl_act2.cpp' l='522'/>
+<use f='codebrowser/wl_act2.cpp' l='522'/>
+<use f='codebrowser/wl_act2.cpp' l='523'/>
+<use f='codebrowser/wl_act2.cpp' l='523'/>
+<use f='codebrowser/wl_act2.cpp' l='525'/>
+<use f='codebrowser/wl_act2.cpp' l='525'/>
+<def f='codebrowser/wl_act2.cpp' l='3283' ll='3343' type='void T_DogChase(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3275'>/*
+=================
+=
+= T_DogChase
+=
+=================
+*/</doc>

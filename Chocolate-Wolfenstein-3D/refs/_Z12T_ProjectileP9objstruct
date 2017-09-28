@@ -1,0 +1,23 @@
+<dec f='codebrowser/wl_act2.cpp' l='172' type='void T_Projectile(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='187'/>
+<use f='codebrowser/wl_act2.cpp' l='187'/>
+<def f='codebrowser/wl_act2.cpp' l='307' ll='375' type='void T_Projectile(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2085'/>
+<use f='codebrowser/wl_act2.cpp' l='2085'/>
+<use f='codebrowser/wl_act2.cpp' l='2086'/>
+<use f='codebrowser/wl_act2.cpp' l='2086'/>
+<use f='codebrowser/wl_act2.cpp' l='2087'/>
+<use f='codebrowser/wl_act2.cpp' l='2087'/>
+<use f='codebrowser/wl_act2.cpp' l='2088'/>
+<use f='codebrowser/wl_act2.cpp' l='2088'/>
+<use f='codebrowser/wl_act2.cpp' l='2713'/>
+<use f='codebrowser/wl_act2.cpp' l='2713'/>
+<use f='codebrowser/wl_act2.cpp' l='2714'/>
+<use f='codebrowser/wl_act2.cpp' l='2714'/>
+<doc f='codebrowser/wl_act2.cpp' l='299'>/*
+=================
+=
+= T_Projectile
+=
+=================
+*/</doc>

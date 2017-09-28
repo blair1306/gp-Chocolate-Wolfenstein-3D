@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_sd.h' l='34' type='word'/>
+<offset>32</offset>
+<use f='codebrowser/id_ca.cpp' l='766' u='w' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_sd.cpp' l='1192' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/id_sd.cpp' l='1204' u='r' c='_Z12SD_PlaySound10soundnames'/>
+<use f='codebrowser/id_sd.cpp' l='1218' u='r' c='_Z12SD_PlaySound10soundnames'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/gfxv_apo.h' l='166' type='146'/>
+<doc f='codebrowser/gfxv_apo.h' l='166'>// 146</doc>
+<use f='codebrowser/id_ca.cpp' l='522' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='528' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='258' macro='1' u='r'/>
+<use f='codebrowser/wl_inter.cpp' l='987' u='r' c='_Z15PreloadGraphicsv'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='1275' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='3632' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='3839' u='a' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='1012' u='a' c='_Z16DrawPlayerWeaponv'/>

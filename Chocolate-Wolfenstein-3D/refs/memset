@@ -1,0 +1,20 @@
+<dec f='include/string.h' l='62' type='void * memset(void * __s, int __c, size_t __n)'/>
+<doc f='include/string.h' l='61'>/* Set N bytes of S to C.  */</doc>
+<use f='codebrowser/fmopl.cpp' l='1909' u='c' c='_ZL9OPLCreateiii'/>
+<use f='codebrowser/id_in.cpp' l='425' u='c' c='_Z16IN_ClearKeysDownv'/>
+<use f='codebrowser/id_in.cpp' l='502' u='c' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_vl.cpp' l='477' u='c' c='_Z7VL_Hlinjjji'/>
+<use f='codebrowser/id_vl.cpp' l='527' u='c' c='_Z17VL_BarScaledCoordiiiii'/>
+<use f='codebrowser/wl_act1.cpp' l='315' u='c' c='_Z12ConnectAreasv'/>
+<use f='codebrowser/wl_act1.cpp' l='323' u='c' c='_Z9InitAreasv'/>
+<use f='codebrowser/wl_act1.cpp' l='340' u='c' c='_Z12InitDoorListv'/>
+<use f='codebrowser/wl_act1.cpp' l='341' u='c' c='_Z12InitDoorListv'/>
+<use f='codebrowser/wl_draw.cpp' l='630' u='c' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_draw.cpp' l='633' u='c' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_draw.cpp' l='1526' u='c' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_game.cpp' l='664' u='c' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='665' u='c' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_main.cpp' l='298' u='c' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_play.cpp' l='421' u='c' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='830' u='c' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='1264' u='c' c='_Z8PlayLoopv'/>

@@ -1,0 +1,4 @@
+<dec f='include/string.h' l='171' type='char * strdup(const char * __s)'/>
+<doc f='include/string.h' l='170'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
+<use f='codebrowser/id_us_1.cpp' l='139' u='c' c='_Z8US_PrintPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='267' u='c' c='_Z9US_CPrintPKc'/>

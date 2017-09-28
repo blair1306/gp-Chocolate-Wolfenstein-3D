@@ -1,0 +1,11 @@
+<dec f='codebrowser/gfxv_apo.h' l='34' type='24'/>
+<doc f='codebrowser/gfxv_apo.h' l='34'>// 24</doc>
+<use f='codebrowser/wl_menu.cpp' l='780' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='815' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='815' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='815' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='851' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='887' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='887' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='887' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='3240' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>

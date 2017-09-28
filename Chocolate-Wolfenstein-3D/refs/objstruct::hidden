@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='770' type='short'/>
+<offset>536</offset>
+<use f='codebrowser/wl_act2.cpp' l='2391' u='w' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2403' u='w' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2483' u='w' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2495' u='w' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2575' u='w' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2587' u='w' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2978' u='w' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2989' u='w' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3079' u='w' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3167' u='w' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='740' u='r' c='_Z7MoveObjP9objstructi'/>

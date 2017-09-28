@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='1154' type='void GiveWeapon(int weapon)'/>
+<def f='codebrowser/wl_agent.cpp' l='606' ll='615' type='void GiveWeapon(int weapon)'/>
+<use f='codebrowser/wl_agent.cpp' l='759' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='764' u='c' c='_Z8GetBonusP10statstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='598'>/*
+==================
+=
+= GiveWeapon
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_debug.cpp' l='539' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='596' u='c' c='_Z9CheckKeysv'/>

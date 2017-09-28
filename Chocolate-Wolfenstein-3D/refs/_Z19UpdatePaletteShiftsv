@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_play.cpp' l='1062' ll='1107' type='void UpdatePaletteShifts()'/>
+<use f='codebrowser/wl_play.cpp' l='1288' u='c' c='_Z8PlayLoopv'/>
+<doc f='codebrowser/wl_play.cpp' l='1054'>/*
+=====================
+=
+= UpdatePaletteShifts
+=
+=====================
+*/</doc>

@@ -1,0 +1,3 @@
+<dec f='include/SDL/SDL_mixer.h' l='133' type='int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize)'/>
+<use f='codebrowser/id_sd.cpp' l='1057' u='c' c='_Z10SD_Startupv'/>
+<doc f='include/SDL/SDL_mixer.h' l='132'>/* Open the mixer with a certain audio format */</doc>

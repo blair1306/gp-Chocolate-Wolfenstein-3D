@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='643' type='14'/>
+<use f='codebrowser/wl_act1.cpp' l='114'/>
+<use f='codebrowser/wl_act1.cpp' l='114'/>
+<use f='codebrowser/wl_act1.cpp' l='114'/>
+<use f='codebrowser/wl_act1.cpp' l='114'/>
+<use f='codebrowser/wl_agent.cpp' l='739' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_state.cpp' l='861' u='r' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='867' u='r' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='873' u='r' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='882' u='r' c='_Z9KillActorP9objstruct'/>

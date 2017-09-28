@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='105' type='int (*)(int)'/>
+<offset>304</offset>
+<use f='codebrowser/wl_game.cpp' l='1556' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1576' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='514' u='r' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='572' u='w' c='_Z21EnableEndGameMenuItemv'/>
+<use f='codebrowser/wl_menu.cpp' l='957' u='w' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='3411' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3415' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>

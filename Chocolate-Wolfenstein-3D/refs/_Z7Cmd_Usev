@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_agent.cpp' l='1090' ll='1159' type='void Cmd_Use()'/>
+<use f='codebrowser/wl_agent.cpp' l='1479' u='c' c='_Z8T_PlayerP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='1082'>/*
+===============
+=
+= Cmd_Use
+=
+===============
+*/</doc>

@@ -1,0 +1,37 @@
+<dec f='include/SDL/SDL_timer.h' l='52' type='void SDL_Delay(Uint32 ms)'/>
+<use f='codebrowser/id_sd.h' l='126' u='c' c='_Z5Delayi'/>
+<doc f='include/SDL/SDL_timer.h' l='51'>/** Wait a specified number of milliseconds before returning */</doc>
+<use f='codebrowser/id_in.cpp' l='588' u='c' c='_Z12IN_UserInputj'/>
+<use f='codebrowser/id_sd.cpp' l='940' u='c' c='_Z15SD_SetMusicMode6SMMode'/>
+<use f='codebrowser/id_sd.cpp' l='1285' u='c' c='_Z16SD_WaitSoundDonev'/>
+<use f='codebrowser/id_us_1.cpp' l='733' u='c' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_vl.cpp' l='314' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='340' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='365' macro='1' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='384' macro='1' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3795' macro='1' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1054' u='c' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_inter.cpp' l='406' u='c' c='_Z10BJ_Breathev'/>
+<use f='codebrowser/wl_inter.cpp' l='716' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='727' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='758' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='769' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='798' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='809' macro='1' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='1424' macro='1' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='1459' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='1933' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2205' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2251' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2374' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2388' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2814' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3253' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3453' u='c' c='_Z12DrawHalfStepii'/>
+<use f='codebrowser/wl_menu.cpp' l='3495' u='c' c='_Z8TicDelayi'/>
+<use f='codebrowser/wl_menu.cpp' l='3701' u='c' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3906' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='408' u='c' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='1319' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='1323' macro='1' u='c'/>
+<use f='codebrowser/wl_text.cpp' l='672' u='c' c='_Z11ShowArticlePc'/>

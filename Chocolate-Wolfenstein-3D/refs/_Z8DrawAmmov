@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_def.h' l='1172' type='void DrawAmmo()'/>
+<def f='codebrowser/wl_agent.cpp' l='627' ll='631' type='void DrawAmmo()'/>
+<use f='codebrowser/wl_agent.cpp' l='654' u='c' c='_Z8GiveAmmoi'/>
+<use f='codebrowser/wl_agent.cpp' l='1435' u='c' c='_Z8T_AttackP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='619'>/*
+===============
+=
+= DrawAmmo
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_debug.cpp' l='543' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='922' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='971' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1336' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1522' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_play.cpp' l='600' u='c' c='_Z9CheckKeysv'/>

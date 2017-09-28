@@ -1,0 +1,10 @@
+<def f='codebrowser/wl_act1.cpp' l='422' ll='488' type='void CloseDoor(int door)'/>
+<use f='codebrowser/wl_act1.cpp' l='524' u='c' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='545' u='c' c='_Z8DoorOpeni'/>
+<doc f='codebrowser/wl_act1.cpp' l='414'>/*
+=====================
+=
+= CloseDoor
+=
+=====================
+*/</doc>

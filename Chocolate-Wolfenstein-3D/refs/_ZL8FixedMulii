@@ -1,0 +1,32 @@
+<def f='codebrowser/wl_def.h' l='1328' ll='1331' type='fixed FixedMul(fixed a, fixed b)'/>
+<doc f='codebrowser/wl_def.h' l='1320'>/*
+=============================================================================
+
+                             MISC DEFINITIONS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_act2.cpp' l='315' u='c' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='316' u='c' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3859' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3860' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1030' u='c' c='_Z6Thrustii'/>
+<use f='codebrowser/wl_agent.cpp' l='1033' u='c' c='_Z6Thrustii'/>
+<use f='codebrowser/wl_draw.cpp' l='138' u='c' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='139' u='c' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='147' u='c' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='148' u='c' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='207' u='c' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='208' u='c' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='214' u='c' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='215' u='c' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='253' u='c' c='_Z10CalcHeightv'/>
+<use f='codebrowser/wl_draw.cpp' l='253' u='c' c='_Z10CalcHeightv'/>
+<use f='codebrowser/wl_draw.cpp' l='1114' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1117' u='c' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1501' u='c' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_draw.cpp' l='1502' u='c' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_game.cpp' l='139' u='c' c='_Z11SetSoundLocii'/>
+<use f='codebrowser/wl_game.cpp' l='140' u='c' c='_Z11SetSoundLocii'/>
+<use f='codebrowser/wl_game.cpp' l='146' u='c' c='_Z11SetSoundLocii'/>
+<use f='codebrowser/wl_game.cpp' l='147' u='c' c='_Z11SetSoundLocii'/>

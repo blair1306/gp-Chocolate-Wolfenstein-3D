@@ -1,0 +1,8 @@
+<def f='codebrowser/wl_play.cpp' l='34' type='objtype *'/>
+<use f='codebrowser/wl_play.cpp' l='795' u='w' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='832' u='r' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='833' u='r' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='834' u='r' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='837' u='w' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='865' u='r' c='_Z9RemoveObjP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='866' u='w' c='_Z9RemoveObjP9objstruct'/>

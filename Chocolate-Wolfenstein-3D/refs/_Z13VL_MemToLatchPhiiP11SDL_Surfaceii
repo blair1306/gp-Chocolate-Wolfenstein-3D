@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_vl.h' l='77' type='void VL_MemToLatch(byte * source, int width, int height, SDL_Surface * destSurface, int x, int y)'/>
+<use f='codebrowser/id_vh.cpp' l='249' u='c' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/id_vh.cpp' l='273' u='c' c='_Z12LoadLatchMemv'/>
+<def f='codebrowser/id_vl.cpp' l='549' ll='568' type='void VL_MemToLatch(byte * source, int width, int height, SDL_Surface * destSurface, int x, int y)'/>
+<doc f='codebrowser/id_vl.cpp' l='541'>/*
+=================
+=
+= VL_MemToLatch
+=
+=================
+*/</doc>

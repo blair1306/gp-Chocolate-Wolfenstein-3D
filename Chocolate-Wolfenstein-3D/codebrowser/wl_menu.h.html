@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>wl_menu.h source code [codebrowser/wl_menu.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="menuitems "/>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/wl_menu.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='wl_menu.h.html'>wl_menu.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>//</i></td></tr>
+<tr><th id="2">2</th><td><i>// WL_MENU.H</i></td></tr>
+<tr><th id="3">3</th><td><i>//</i></td></tr>
+<tr><th id="4">4</th><td><u>#<span data-ppcond="4">ifdef</span> <span class="macro" data-ref="_M/SPEAR">SPEAR</span></u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#define BORDCOLOR       0x99</u></td></tr>
+<tr><th id="7">7</th><td><u>#define BORD2COLOR      0x93</u></td></tr>
+<tr><th id="8">8</th><td><u>#define DEACTIVE        0x9b</u></td></tr>
+<tr><th id="9">9</th><td><u>#define BKGDCOLOR       0x9d</u></td></tr>
+<tr><th id="10">10</th><td><i>//#define STRIPE                0x9c</i></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><u>#define MenuFadeOut()   VL_FadeOut(0,255,0,0,51,10)</u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><u>#<span data-ppcond="4">else</span></u></td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/BORDCOLOR" data-ref="_M/BORDCOLOR">BORDCOLOR</dfn>       0x29</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/BORD2COLOR" data-ref="_M/BORD2COLOR">BORD2COLOR</dfn>      0x23</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/DEACTIVE" data-ref="_M/DEACTIVE">DEACTIVE</dfn>        0x2b</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/BKGDCOLOR" data-ref="_M/BKGDCOLOR">BKGDCOLOR</dfn>       0x2d</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/STRIPE" data-ref="_M/STRIPE">STRIPE</dfn>          0x2c</u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/MenuFadeOut" data-ref="_M/MenuFadeOut">MenuFadeOut</dfn>()   VL_FadeOut(0,255,43,0,0,10)</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="4">endif</span></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/READCOLOR" data-ref="_M/READCOLOR">READCOLOR</dfn>       0x4a</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/READHCOLOR" data-ref="_M/READHCOLOR">READHCOLOR</dfn>      0x47</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/VIEWCOLOR" data-ref="_M/VIEWCOLOR">VIEWCOLOR</dfn>       0x7f</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/TEXTCOLOR" data-ref="_M/TEXTCOLOR">TEXTCOLOR</dfn>       0x17</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/HIGHLIGHT" data-ref="_M/HIGHLIGHT">HIGHLIGHT</dfn>       0x13</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/MenuFadeIn" data-ref="_M/MenuFadeIn">MenuFadeIn</dfn>()    VL_FadeIn(0,255,gamepal,10)</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/MENUSONG" data-ref="_M/MENUSONG">MENUSONG</dfn>        WONDERIN_MUS</u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="36">ifndef</span> <span class="macro" data-ref="_M/SPEAR">SPEAR</span></u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/INTROSONG" data-ref="_M/INTROSONG">INTROSONG</dfn>       NAZI_NOR_MUS</u></td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="36">else</span></u></td></tr>
+<tr><th id="39">39</th><td><u>#define INTROSONG       XTOWER2_MUS</u></td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="36">endif</span></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/SENSITIVE" data-ref="_M/SENSITIVE">SENSITIVE</dfn>       60</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/CENTERX" data-ref="_M/CENTERX">CENTERX</dfn>         ((int) screenWidth / 2)</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/CENTERY" data-ref="_M/CENTERY">CENTERY</dfn>         ((int) screenHeight / 2)</u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/MENU_X" data-ref="_M/MENU_X">MENU_X</dfn>  76</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/MENU_Y" data-ref="_M/MENU_Y">MENU_Y</dfn>  55</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/MENU_W" data-ref="_M/MENU_W">MENU_W</dfn>  178</u></td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="49">ifndef</span> <span class="macro" data-ref="_M/SPEAR">SPEAR</span></u></td></tr>
+<tr><th id="50">50</th><td><u>#<span data-ppcond="50">ifndef</span> <a class="macro" href="version.h.html#11" data-ref="_M/GOODTIMES">GOODTIMES</a></u></td></tr>
+<tr><th id="51">51</th><td><u>#define MENU_H  13*10+6</u></td></tr>
+<tr><th id="52">52</th><td><u>#<span data-ppcond="50">else</span></u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/MENU_H" data-ref="_M/MENU_H">MENU_H</dfn>  13*9+6</u></td></tr>
+<tr><th id="54">54</th><td><u>#<span data-ppcond="50">endif</span></u></td></tr>
+<tr><th id="55">55</th><td><u>#<span data-ppcond="49">else</span></u></td></tr>
+<tr><th id="56">56</th><td><u>#define MENU_H  13*9+6</u></td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="49">endif</span></u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/SM_X" data-ref="_M/SM_X">SM_X</dfn>    48</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/SM_W" data-ref="_M/SM_W">SM_W</dfn>    250</u></td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/SM_Y1" data-ref="_M/SM_Y1">SM_Y1</dfn>   20</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/SM_H1" data-ref="_M/SM_H1">SM_H1</dfn>   4*13-7</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/SM_Y2" data-ref="_M/SM_Y2">SM_Y2</dfn>   SM_Y1+5*13</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/SM_H2" data-ref="_M/SM_H2">SM_H2</dfn>   4*13-7</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/SM_Y3" data-ref="_M/SM_Y3">SM_Y3</dfn>   SM_Y2+5*13</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/SM_H3" data-ref="_M/SM_H3">SM_H3</dfn>   3*13-7</u></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/CTL_X" data-ref="_M/CTL_X">CTL_X</dfn>   24</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/CTL_Y" data-ref="_M/CTL_Y">CTL_Y</dfn>   86</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/CTL_W" data-ref="_M/CTL_W">CTL_W</dfn>   284</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/CTL_H" data-ref="_M/CTL_H">CTL_H</dfn>   60</u></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/LSM_X" data-ref="_M/LSM_X">LSM_X</dfn>   85</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/LSM_Y" data-ref="_M/LSM_Y">LSM_Y</dfn>   55</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/LSM_W" data-ref="_M/LSM_W">LSM_W</dfn>   175</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/LSM_H" data-ref="_M/LSM_H">LSM_H</dfn>   10*13+10</u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/NM_X" data-ref="_M/NM_X">NM_X</dfn>    50</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/NM_Y" data-ref="_M/NM_Y">NM_Y</dfn>    100</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/NM_W" data-ref="_M/NM_W">NM_W</dfn>    225</u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/NM_H" data-ref="_M/NM_H">NM_H</dfn>    13*4+15</u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/NE_X" data-ref="_M/NE_X">NE_X</dfn>    10</u></td></tr>
+<tr><th id="85">85</th><td><u>#define <dfn class="macro" id="_M/NE_Y" data-ref="_M/NE_Y">NE_Y</dfn>    23</u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/NE_W" data-ref="_M/NE_W">NE_W</dfn>    320-NE_X*2</u></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/NE_H" data-ref="_M/NE_H">NE_H</dfn>    200-NE_Y*2</u></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td><u>#define <dfn class="macro" id="_M/CST_X" data-ref="_M/CST_X">CST_X</dfn>           20</u></td></tr>
+<tr><th id="90">90</th><td><u>#define <dfn class="macro" id="_M/CST_Y" data-ref="_M/CST_Y">CST_Y</dfn>           48</u></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/CST_START" data-ref="_M/CST_START">CST_START</dfn>       60</u></td></tr>
+<tr><th id="92">92</th><td><u>#define <dfn class="macro" id="_M/CST_SPC" data-ref="_M/CST_SPC">CST_SPC</dfn> 60</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><i>//</i></td></tr>
+<tr><th id="96">96</th><td><i>// TYPEDEFS</i></td></tr>
+<tr><th id="97">97</th><td><i>//</i></td></tr>
+<tr><th id="98">98</th><td><b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="99">99</th><td>                <em>short</em> <dfn class="decl" id="(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</dfn>,<dfn class="decl" id="(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</dfn>,<dfn class="decl" id="(anonymous)::amount" title='(anonymous struct)::amount' data-ref="(anonymous)::amount">amount</dfn>,<dfn class="decl" id="(anonymous)::curpos" title='(anonymous struct)::curpos' data-ref="(anonymous)::curpos">curpos</dfn>,<dfn class="decl" id="(anonymous)::indent" title='(anonymous struct)::indent' data-ref="(anonymous)::indent">indent</dfn>;</td></tr>
+<tr><th id="100">100</th><td>                } <dfn class="typedef" id="CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</dfn>;</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td><b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="103">103</th><td>                <em>short</em> <dfn class="decl" id="(anonymous)::active" title='(anonymous struct)::active' data-ref="(anonymous)::active">active</dfn>;</td></tr>
+<tr><th id="104">104</th><td>                <em>char</em> <dfn class="decl" id="(anonymous)::string" title='(anonymous struct)::string' data-ref="(anonymous)::string">string</dfn>[<var>36</var>];</td></tr>
+<tr><th id="105">105</th><td>                <em>int</em> (* <dfn class="decl" id="(anonymous)::routine" title='(anonymous struct)::routine' data-ref="(anonymous)::routine">routine</dfn>)(<em>int</em> <dfn class="local col8 decl" id="11348temp1" title='temp1' data-type='int' data-ref="11348temp1">temp1</dfn>);</td></tr>
+<tr><th id="106">106</th><td>                } <dfn class="typedef" id="CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</dfn>;</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="109">109</th><td>                <em>short</em> <dfn class="decl" id="(anonymous)::allowed" title='(anonymous struct)::allowed' data-ref="(anonymous)::allowed">allowed</dfn>[<var>4</var>];</td></tr>
+<tr><th id="110">110</th><td>                } <dfn class="typedef" id="CustomCtrls" title='CustomCtrls' data-type='struct CustomCtrls' data-ref="CustomCtrls">CustomCtrls</dfn>;</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td><b>extern</b> <a class="typedef" href="#CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</a> <dfn class="decl" id="MainMenu" title='MainMenu' data-ref="MainMenu">MainMenu</dfn>[];</td></tr>
+<tr><th id="113">113</th><td><b>extern</b> <a class="typedef" href="#CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</a> <dfn class="decl" id="MainItems" title='MainItems' data-ref="MainItems">MainItems</dfn>;</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><i>//</i></td></tr>
+<tr><th id="116">116</th><td><i>// FUNCTION PROTOTYPES</i></td></tr>
+<tr><th id="117">117</th><td><i>//</i></td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td><em>void</em> <dfn class="decl" id="_Z15US_ControlPaneli" title='US_ControlPanel' data-ref="_Z15US_ControlPaneli">US_ControlPanel</dfn>(<a class="typedef" href="id_in.h.html#ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</a>);</td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><em>void</em> <dfn class="decl" id="_Z21EnableEndGameMenuItemv" title='EnableEndGameMenuItem' data-ref="_Z21EnableEndGameMenuItemv">EnableEndGameMenuItem</dfn>();</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td><em>void</em> <dfn class="decl" id="_Z17SetupControlPanelv" title='SetupControlPanel' data-ref="_Z17SetupControlPanelv">SetupControlPanel</dfn>(<em>void</em>);</td></tr>
+<tr><th id="124">124</th><td><em>void</em> <dfn class="decl" id="_Z14SetupSaveGamesv" title='SetupSaveGames' data-ref="_Z14SetupSaveGamesv">SetupSaveGames</dfn>();</td></tr>
+<tr><th id="125">125</th><td><em>void</em> <dfn class="decl" id="_Z19CleanupControlPanelv" title='CleanupControlPanel' data-ref="_Z19CleanupControlPanelv">CleanupControlPanel</dfn>(<em>void</em>);</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><em>void</em> <dfn class="decl" id="_Z8DrawMenuP11CP_iteminfoP11CP_itemtype" title='DrawMenu' data-ref="_Z8DrawMenuP11CP_iteminfoP11CP_itemtype">DrawMenu</dfn>(<a class="typedef" href="#CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</a> *<dfn class="local col9 decl" id="11349item_i" title='item_i' data-type='CP_iteminfo *' data-ref="11349item_i">item_i</dfn>,<a class="typedef" href="#CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</a> *<dfn class="local col0 decl" id="11350items" title='items' data-type='CP_itemtype *' data-ref="11350items">items</dfn>);</td></tr>
+<tr><th id="128">128</th><td><em>int</em>  <dfn class="decl" id="_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE" title='HandleMenu' data-ref="_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE">HandleMenu</dfn>(<a class="typedef" href="#CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</a> *<dfn class="local col1 decl" id="11351item_i" title='item_i' data-type='CP_iteminfo *' data-ref="11351item_i">item_i</dfn>,</td></tr>
+<tr><th id="129">129</th><td>                <a class="typedef" href="#CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</a> *<dfn class="local col2 decl" id="11352items" title='items' data-type='CP_itemtype *' data-ref="11352items">items</dfn>,</td></tr>
+<tr><th id="130">130</th><td>                <em>void</em> (*<dfn class="local col3 decl" id="11353routine" title='routine' data-type='void (*)(int)' data-ref="11353routine">routine</dfn>)(<em>int</em> <dfn class="local col4 decl" id="11354w" title='w' data-type='int' data-ref="11354w">w</dfn>));</td></tr>
+<tr><th id="131">131</th><td><em>void</em> <dfn class="decl" id="_Z12ClearMScreenv" title='ClearMScreen' data-ref="_Z12ClearMScreenv">ClearMScreen</dfn>(<em>void</em>);</td></tr>
+<tr><th id="132">132</th><td><em>void</em> <dfn class="decl" id="_Z10DrawWindowiiiii" title='DrawWindow' data-ref="_Z10DrawWindowiiiii">DrawWindow</dfn>(<em>int</em> <dfn class="local col5 decl" id="11355x" title='x' data-type='int' data-ref="11355x">x</dfn>,<em>int</em> <dfn class="local col6 decl" id="11356y" title='y' data-type='int' data-ref="11356y">y</dfn>,<em>int</em> <dfn class="local col7 decl" id="11357w" title='w' data-type='int' data-ref="11357w">w</dfn>,<em>int</em> <dfn class="local col8 decl" id="11358h" title='h' data-type='int' data-ref="11358h">h</dfn>,<em>int</em> <dfn class="local col9 decl" id="11359wcolor" title='wcolor' data-type='int' data-ref="11359wcolor">wcolor</dfn>);</td></tr>
+<tr><th id="133">133</th><td><em>void</em> <dfn class="decl" id="_Z11DrawOutlineiiiiii" title='DrawOutline' data-ref="_Z11DrawOutlineiiiiii">DrawOutline</dfn>(<em>int</em> <dfn class="local col0 decl" id="11360x" title='x' data-type='int' data-ref="11360x">x</dfn>,<em>int</em> <dfn class="local col1 decl" id="11361y" title='y' data-type='int' data-ref="11361y">y</dfn>,<em>int</em> <dfn class="local col2 decl" id="11362w" title='w' data-type='int' data-ref="11362w">w</dfn>,<em>int</em> <dfn class="local col3 decl" id="11363h" title='h' data-type='int' data-ref="11363h">h</dfn>,<em>int</em> <dfn class="local col4 decl" id="11364color1" title='color1' data-type='int' data-ref="11364color1">color1</dfn>,<em>int</em> <dfn class="local col5 decl" id="11365color2" title='color2' data-type='int' data-ref="11365color2">color2</dfn>);</td></tr>
+<tr><th id="134">134</th><td><em>void</em> <dfn class="decl" id="_Z9WaitKeyUpv" title='WaitKeyUp' data-ref="_Z9WaitKeyUpv">WaitKeyUp</dfn>(<em>void</em>);</td></tr>
+<tr><th id="135">135</th><td><em>void</em> <dfn class="decl" id="_Z14ReadAnyControlP10CursorInfo" title='ReadAnyControl' data-ref="_Z14ReadAnyControlP10CursorInfo">ReadAnyControl</dfn>(<a class="typedef" href="id_in.h.html#ControlInfo" title='ControlInfo' data-type='CursorInfo' data-ref="ControlInfo">ControlInfo</a> *<dfn class="local col6 decl" id="11366ci" title='ci' data-type='ControlInfo *' data-ref="11366ci">ci</dfn>);</td></tr>
+<tr><th id="136">136</th><td><em>void</em> <dfn class="decl" id="_Z8TicDelayi" title='TicDelay' data-ref="_Z8TicDelayi">TicDelay</dfn>(<em>int</em> <dfn class="local col7 decl" id="11367count" title='count' data-type='int' data-ref="11367count">count</dfn>);</td></tr>
+<tr><th id="137">137</th><td><em>void</em> <dfn class="decl" id="_Z9CacheLumpii" title='CacheLump' data-ref="_Z9CacheLumpii">CacheLump</dfn>(<em>int</em> <dfn class="local col8 decl" id="11368lumpstart" title='lumpstart' data-type='int' data-ref="11368lumpstart">lumpstart</dfn>,<em>int</em> <dfn class="local col9 decl" id="11369lumpend" title='lumpend' data-type='int' data-ref="11369lumpend">lumpend</dfn>);</td></tr>
+<tr><th id="138">138</th><td><em>void</em> <dfn class="decl" id="_Z11UnCacheLumpii" title='UnCacheLump' data-ref="_Z11UnCacheLumpii">UnCacheLump</dfn>(<em>int</em> <dfn class="local col0 decl" id="11370lumpstart" title='lumpstart' data-type='int' data-ref="11370lumpstart">lumpstart</dfn>,<em>int</em> <dfn class="local col1 decl" id="11371lumpend" title='lumpend' data-type='int' data-ref="11371lumpend">lumpend</dfn>);</td></tr>
+<tr><th id="139">139</th><td><em>int</em> <dfn class="decl" id="_Z12StartCPMusici" title='StartCPMusic' data-ref="_Z12StartCPMusici">StartCPMusic</dfn>(<em>int</em> <dfn class="local col2 decl" id="11372song" title='song' data-type='int' data-ref="11372song">song</dfn>);</td></tr>
+<tr><th id="140">140</th><td><em>int</em>  <dfn class="decl" id="_Z7ConfirmPKc" title='Confirm' data-ref="_Z7ConfirmPKc">Confirm</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="11373string" title='string' data-type='const char *' data-ref="11373string">string</dfn>);</td></tr>
+<tr><th id="141">141</th><td><em>void</em> <dfn class="decl" id="_Z7MessagePKc" title='Message' data-ref="_Z7MessagePKc">Message</dfn>(<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="11374string" title='string' data-type='const char *' data-ref="11374string">string</dfn>);</td></tr>
+<tr><th id="142">142</th><td><em>void</em> <dfn class="decl" id="_Z10CheckPausev" title='CheckPause' data-ref="_Z10CheckPausev">CheckPause</dfn>(<em>void</em>);</td></tr>
+<tr><th id="143">143</th><td><em>void</em> <dfn class="decl" id="_Z8ShootSndv" title='ShootSnd' data-ref="_Z8ShootSndv">ShootSnd</dfn>(<em>void</em>);</td></tr>
+<tr><th id="144">144</th><td><em>void</em> <dfn class="decl" id="_Z19CheckSecretMissionsv" title='CheckSecretMissions' data-ref="_Z19CheckSecretMissionsv">CheckSecretMissions</dfn>(<em>void</em>);</td></tr>
+<tr><th id="145">145</th><td><em>void</em> <dfn class="decl" id="_Z7BossKeyv" title='BossKey' data-ref="_Z7BossKeyv">BossKey</dfn>(<em>void</em>);</td></tr>
+<tr><th id="146">146</th><td></td></tr>
+<tr><th id="147">147</th><td><em>void</em> <dfn class="decl" id="_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE" title='DrawGun' data-ref="_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE">DrawGun</dfn>(<a class="typedef" href="#CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</a> *<dfn class="local col5 decl" id="11375item_i" title='item_i' data-type='CP_iteminfo *' data-ref="11375item_i">item_i</dfn>,<a class="typedef" href="#CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</a> *<dfn class="local col6 decl" id="11376items" title='items' data-type='CP_itemtype *' data-ref="11376items">items</dfn>,<em>int</em> <dfn class="local col7 decl" id="11377x" title='x' data-type='int' data-ref="11377x">x</dfn>,<em>int</em> *<dfn class="local col8 decl" id="11378y" title='y' data-type='int *' data-ref="11378y">y</dfn>,<em>int</em> <dfn class="local col9 decl" id="11379which" title='which' data-type='int' data-ref="11379which">which</dfn>,<em>int</em> <dfn class="local col0 decl" id="11380basey" title='basey' data-type='int' data-ref="11380basey">basey</dfn>,<em>void</em> (*<dfn class="local col1 decl" id="11381routine" title='routine' data-type='void (*)(int)' data-ref="11381routine">routine</dfn>)(<em>int</em> <dfn class="local col2 decl" id="11382w" title='w' data-type='int' data-ref="11382w">w</dfn>));</td></tr>
+<tr><th id="148">148</th><td><em>void</em> <dfn class="decl" id="_Z12DrawHalfStepii" title='DrawHalfStep' data-ref="_Z12DrawHalfStepii">DrawHalfStep</dfn>(<em>int</em> <dfn class="local col3 decl" id="11383x" title='x' data-type='int' data-ref="11383x">x</dfn>,<em>int</em> <dfn class="local col4 decl" id="11384y" title='y' data-type='int' data-ref="11384y">y</dfn>);</td></tr>
+<tr><th id="149">149</th><td><em>void</em> <dfn class="decl" id="_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii" title='EraseGun' data-ref="_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii">EraseGun</dfn>(<a class="typedef" href="#CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</a> *<dfn class="local col5 decl" id="11385item_i" title='item_i' data-type='CP_iteminfo *' data-ref="11385item_i">item_i</dfn>,<a class="typedef" href="#CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</a> *<dfn class="local col6 decl" id="11386items" title='items' data-type='CP_itemtype *' data-ref="11386items">items</dfn>,<em>int</em> <dfn class="local col7 decl" id="11387x" title='x' data-type='int' data-ref="11387x">x</dfn>,<em>int</em> <dfn class="local col8 decl" id="11388y" title='y' data-type='int' data-ref="11388y">y</dfn>,<em>int</em> <dfn class="local col9 decl" id="11389which" title='which' data-type='int' data-ref="11389which">which</dfn>);</td></tr>
+<tr><th id="150">150</th><td><em>void</em> <dfn class="decl" id="_Z12SetTextColorP11CP_itemtypei" title='SetTextColor' data-ref="_Z12SetTextColorP11CP_itemtypei">SetTextColor</dfn>(<a class="typedef" href="#CP_itemtype" title='CP_itemtype' data-type='struct CP_itemtype' data-ref="CP_itemtype">CP_itemtype</a> *<dfn class="local col0 decl" id="11390items" title='items' data-type='CP_itemtype *' data-ref="11390items">items</dfn>,<em>int</em> <dfn class="local col1 decl" id="11391hlight" title='hlight' data-type='int' data-ref="11391hlight">hlight</dfn>);</td></tr>
+<tr><th id="151">151</th><td><em>void</em> <dfn class="decl" id="_Z11DrawMenuGunP11CP_iteminfo" title='DrawMenuGun' data-ref="_Z11DrawMenuGunP11CP_iteminfo">DrawMenuGun</dfn>(<a class="typedef" href="#CP_iteminfo" title='CP_iteminfo' data-type='struct CP_iteminfo' data-ref="CP_iteminfo">CP_iteminfo</a> *<dfn class="local col2 decl" id="11392iteminfo" title='iteminfo' data-type='CP_iteminfo *' data-ref="11392iteminfo">iteminfo</dfn>);</td></tr>
+<tr><th id="152">152</th><td><em>void</em> <dfn class="decl" id="_Z11DrawStripesi" title='DrawStripes' data-ref="_Z11DrawStripesi">DrawStripes</dfn>(<em>int</em> <dfn class="local col3 decl" id="11393y" title='y' data-type='int' data-ref="11393y">y</dfn>);</td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td><em>void</em> <dfn class="decl" id="_Z15DefineMouseBtnsv" title='DefineMouseBtns' data-ref="_Z15DefineMouseBtnsv">DefineMouseBtns</dfn>(<em>void</em>);</td></tr>
+<tr><th id="155">155</th><td><em>void</em> <dfn class="decl" id="_Z13DefineJoyBtnsv" title='DefineJoyBtns' data-ref="_Z13DefineJoyBtnsv">DefineJoyBtns</dfn>(<em>void</em>);</td></tr>
+<tr><th id="156">156</th><td><em>void</em> <dfn class="decl" id="_Z13DefineKeyBtnsv" title='DefineKeyBtns' data-ref="_Z13DefineKeyBtnsv">DefineKeyBtns</dfn>(<em>void</em>);</td></tr>
+<tr><th id="157">157</th><td><em>void</em> <dfn class="decl" id="_Z13DefineKeyMovev" title='DefineKeyMove' data-ref="_Z13DefineKeyMovev">DefineKeyMove</dfn>(<em>void</em>);</td></tr>
+<tr><th id="158">158</th><td><em>void</em> <dfn class="decl" id="_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i" title='EnterCtrlData' data-ref="_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i">EnterCtrlData</dfn>(<em>int</em> <dfn class="local col4 decl" id="11394index" title='index' data-type='int' data-ref="11394index">index</dfn>,<a class="typedef" href="#CustomCtrls" title='CustomCtrls' data-type='struct CustomCtrls' data-ref="CustomCtrls">CustomCtrls</a> *<dfn class="local col5 decl" id="11395cust" title='cust' data-type='CustomCtrls *' data-ref="11395cust">cust</dfn>,<em>void</em> (*<dfn class="local col6 decl" id="11396DrawRtn" title='DrawRtn' data-type='void (*)(int)' data-ref="11396DrawRtn">DrawRtn</dfn>)(<em>int</em>),<em>void</em> (*<dfn class="local col7 decl" id="11397PrintRtn" title='PrintRtn' data-type='void (*)(int)' data-ref="11397PrintRtn">PrintRtn</dfn>)(<em>int</em>),<em>int</em> <dfn class="local col8 decl" id="11398type" title='type' data-type='int' data-ref="11398type">type</dfn>);</td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td><em>void</em> <dfn class="decl" id="_Z12DrawMainMenuv" title='DrawMainMenu' data-ref="_Z12DrawMainMenuv">DrawMainMenu</dfn>(<em>void</em>);</td></tr>
+<tr><th id="161">161</th><td><em>void</em> <dfn class="decl" id="_Z13DrawSoundMenuv" title='DrawSoundMenu' data-ref="_Z13DrawSoundMenuv">DrawSoundMenu</dfn>(<em>void</em>);</td></tr>
+<tr><th id="162">162</th><td><em>void</em> <dfn class="decl" id="_Z18DrawLoadSaveScreeni" title='DrawLoadSaveScreen' data-ref="_Z18DrawLoadSaveScreeni">DrawLoadSaveScreen</dfn>(<em>int</em> <dfn class="local col9 decl" id="11399loadsave" title='loadsave' data-type='int' data-ref="11399loadsave">loadsave</dfn>);</td></tr>
+<tr><th id="163">163</th><td><em>void</em> <dfn class="decl" id="_Z14DrawNewEpisodev" title='DrawNewEpisode' data-ref="_Z14DrawNewEpisodev">DrawNewEpisode</dfn>(<em>void</em>);</td></tr>
+<tr><th id="164">164</th><td><em>void</em> <dfn class="decl" id="_Z11DrawNewGamev" title='DrawNewGame' data-ref="_Z11DrawNewGamev">DrawNewGame</dfn>(<em>void</em>);</td></tr>
+<tr><th id="165">165</th><td><em>void</em> <dfn class="decl" id="_Z14DrawChangeViewi" title='DrawChangeView' data-ref="_Z14DrawChangeViewi">DrawChangeView</dfn>(<em>int</em> <dfn class="local col0 decl" id="11400view" title='view' data-type='int' data-ref="11400view">view</dfn>);</td></tr>
+<tr><th id="166">166</th><td><em>void</em> <dfn class="decl" id="_Z13DrawMouseSensv" title='DrawMouseSens' data-ref="_Z13DrawMouseSensv">DrawMouseSens</dfn>(<em>void</em>);</td></tr>
+<tr><th id="167">167</th><td><em>void</em> <dfn class="decl" id="_Z13DrawCtlScreenv" title='DrawCtlScreen' data-ref="_Z13DrawCtlScreenv">DrawCtlScreen</dfn>(<em>void</em>);</td></tr>
+<tr><th id="168">168</th><td><em>void</em> <dfn class="decl" id="_Z16DrawCustomScreenv" title='DrawCustomScreen' data-ref="_Z16DrawCustomScreenv">DrawCustomScreen</dfn>(<em>void</em>);</td></tr>
+<tr><th id="169">169</th><td><em>void</em> <dfn class="decl" id="_Z12DrawLSActioni" title='DrawLSAction' data-ref="_Z12DrawLSActioni">DrawLSAction</dfn>(<em>int</em> <dfn class="local col1 decl" id="11401which" title='which' data-type='int' data-ref="11401which">which</dfn>);</td></tr>
+<tr><th id="170">170</th><td><em>void</em> <dfn class="decl" id="_Z13DrawCustMousei" title='DrawCustMouse' data-ref="_Z13DrawCustMousei">DrawCustMouse</dfn>(<em>int</em> <dfn class="local col2 decl" id="11402hilight" title='hilight' data-type='int' data-ref="11402hilight">hilight</dfn>);</td></tr>
+<tr><th id="171">171</th><td><em>void</em> <dfn class="decl" id="_Z11DrawCustJoyi" title='DrawCustJoy' data-ref="_Z11DrawCustJoyi">DrawCustJoy</dfn>(<em>int</em> <dfn class="local col3 decl" id="11403hilight" title='hilight' data-type='int' data-ref="11403hilight">hilight</dfn>);</td></tr>
+<tr><th id="172">172</th><td><em>void</em> <dfn class="decl" id="_Z13DrawCustKeybdi" title='DrawCustKeybd' data-ref="_Z13DrawCustKeybdi">DrawCustKeybd</dfn>(<em>int</em> <dfn class="local col4 decl" id="11404hilight" title='hilight' data-type='int' data-ref="11404hilight">hilight</dfn>);</td></tr>
+<tr><th id="173">173</th><td><em>void</em> <dfn class="decl" id="_Z12DrawCustKeysi" title='DrawCustKeys' data-ref="_Z12DrawCustKeysi">DrawCustKeys</dfn>(<em>int</em> <dfn class="local col5 decl" id="11405hilight" title='hilight' data-type='int' data-ref="11405hilight">hilight</dfn>);</td></tr>
+<tr><th id="174">174</th><td><em>void</em> <dfn class="decl" id="_Z14PrintCustMousei" title='PrintCustMouse' data-ref="_Z14PrintCustMousei">PrintCustMouse</dfn>(<em>int</em> <dfn class="local col6 decl" id="11406i" title='i' data-type='int' data-ref="11406i">i</dfn>);</td></tr>
+<tr><th id="175">175</th><td><em>void</em> <dfn class="decl" id="_Z12PrintCustJoyi" title='PrintCustJoy' data-ref="_Z12PrintCustJoyi">PrintCustJoy</dfn>(<em>int</em> <dfn class="local col7 decl" id="11407i" title='i' data-type='int' data-ref="11407i">i</dfn>);</td></tr>
+<tr><th id="176">176</th><td><em>void</em> <dfn class="decl" id="_Z14PrintCustKeybdi" title='PrintCustKeybd' data-ref="_Z14PrintCustKeybdi">PrintCustKeybd</dfn>(<em>int</em> <dfn class="local col8 decl" id="11408i" title='i' data-type='int' data-ref="11408i">i</dfn>);</td></tr>
+<tr><th id="177">177</th><td><em>void</em> <dfn class="decl" id="_Z13PrintCustKeysi" title='PrintCustKeys' data-ref="_Z13PrintCustKeysi">PrintCustKeys</dfn>(<em>int</em> <dfn class="local col9 decl" id="11409i" title='i' data-type='int' data-ref="11409i">i</dfn>);</td></tr>
+<tr><th id="178">178</th><td></td></tr>
+<tr><th id="179">179</th><td><em>void</em> <dfn class="decl" id="_Z12PrintLSEntryii" title='PrintLSEntry' data-ref="_Z12PrintLSEntryii">PrintLSEntry</dfn>(<em>int</em> <dfn class="local col0 decl" id="11410w" title='w' data-type='int' data-ref="11410w">w</dfn>,<em>int</em> <dfn class="local col1 decl" id="11411color" title='color' data-type='int' data-ref="11411color">color</dfn>);</td></tr>
+<tr><th id="180">180</th><td><em>void</em> <dfn class="decl" id="_Z14TrackWhichGamei" title='TrackWhichGame' data-ref="_Z14TrackWhichGamei">TrackWhichGame</dfn>(<em>int</em> <dfn class="local col2 decl" id="11412w" title='w' data-type='int' data-ref="11412w">w</dfn>);</td></tr>
+<tr><th id="181">181</th><td><em>void</em> <dfn class="decl" id="_Z15DrawNewGameDiffi" title='DrawNewGameDiff' data-ref="_Z15DrawNewGameDiffi">DrawNewGameDiff</dfn>(<em>int</em> <dfn class="local col3 decl" id="11413w" title='w' data-type='int' data-ref="11413w">w</dfn>);</td></tr>
+<tr><th id="182">182</th><td><em>void</em> <dfn class="decl" id="_Z11FixupCustomi" title='FixupCustom' data-ref="_Z11FixupCustomi">FixupCustom</dfn>(<em>int</em> <dfn class="local col4 decl" id="11414w" title='w' data-type='int' data-ref="11414w">w</dfn>);</td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td><em>int</em> <dfn class="decl" id="_Z10CP_NewGamei" title='CP_NewGame' data-ref="_Z10CP_NewGamei">CP_NewGame</dfn>(<em>int</em>);</td></tr>
+<tr><th id="185">185</th><td><em>int</em> <dfn class="decl" id="_Z8CP_Soundi" title='CP_Sound' data-ref="_Z8CP_Soundi">CP_Sound</dfn>(<em>int</em>);</td></tr>
+<tr><th id="186">186</th><td><em>int</em>  <dfn class="decl" id="_Z11CP_LoadGamei" title='CP_LoadGame' data-ref="_Z11CP_LoadGamei">CP_LoadGame</dfn>(<em>int</em> <dfn class="local col5 decl" id="11415quick" title='quick' data-type='int' data-ref="11415quick">quick</dfn>);</td></tr>
+<tr><th id="187">187</th><td><em>int</em>  <dfn class="decl" id="_Z11CP_SaveGamei" title='CP_SaveGame' data-ref="_Z11CP_SaveGamei">CP_SaveGame</dfn>(<em>int</em> <dfn class="local col6 decl" id="11416quick" title='quick' data-type='int' data-ref="11416quick">quick</dfn>);</td></tr>
+<tr><th id="188">188</th><td><em>int</em> <dfn class="decl" id="_Z10CP_Controli" title='CP_Control' data-ref="_Z10CP_Controli">CP_Control</dfn>(<em>int</em>);</td></tr>
+<tr><th id="189">189</th><td><em>int</em> <dfn class="decl" id="_Z13CP_ChangeViewi" title='CP_ChangeView' data-ref="_Z13CP_ChangeViewi">CP_ChangeView</dfn>(<em>int</em>);</td></tr>
+<tr><th id="190">190</th><td><em>int</em> <dfn class="decl" id="_Z14CP_ExitOptionsi" title='CP_ExitOptions' data-ref="_Z14CP_ExitOptionsi">CP_ExitOptions</dfn>(<em>int</em>);</td></tr>
+<tr><th id="191">191</th><td><em>int</em> <dfn class="decl" id="_Z7CP_Quiti" title='CP_Quit' data-ref="_Z7CP_Quiti">CP_Quit</dfn>(<em>int</em>);</td></tr>
+<tr><th id="192">192</th><td><em>int</em> <dfn class="decl" id="_Z13CP_ViewScoresi" title='CP_ViewScores' data-ref="_Z13CP_ViewScoresi">CP_ViewScores</dfn>(<em>int</em>);</td></tr>
+<tr><th id="193">193</th><td><em>int</em>  <dfn class="decl" id="_Z10CP_EndGamei" title='CP_EndGame' data-ref="_Z10CP_EndGamei">CP_EndGame</dfn>(<em>int</em>);</td></tr>
+<tr><th id="194">194</th><td><em>int</em>  <dfn class="decl" id="_Z13CP_CheckQuicki" title='CP_CheckQuick' data-ref="_Z13CP_CheckQuicki">CP_CheckQuick</dfn>(<a class="typedef" href="id_in.h.html#ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</a> <dfn class="local col7 decl" id="11417scancode" title='scancode' data-type='ScanCode' data-ref="11417scancode">scancode</dfn>);</td></tr>
+<tr><th id="195">195</th><td><em>int</em> <dfn class="decl" id="_Z14CustomControlsi" title='CustomControls' data-ref="_Z14CustomControlsi">CustomControls</dfn>(<em>int</em>);</td></tr>
+<tr><th id="196">196</th><td><em>int</em> <dfn class="decl" id="_Z16MouseSensitivityi" title='MouseSensitivity' data-ref="_Z16MouseSensitivityi">MouseSensitivity</dfn>(<em>int</em>);</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><em>void</em> <dfn class="decl" id="_Z16CheckForEpisodesv" title='CheckForEpisodes' data-ref="_Z16CheckForEpisodesv">CheckForEpisodes</dfn>(<em>void</em>);</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td><em>void</em> <dfn class="decl" id="_Z9FreeMusicv" title='FreeMusic' data-ref="_Z9FreeMusicv">FreeMusic</dfn>(<em>void</em>);</td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td><b>enum</b> {<dfn class="enum" id="MOUSE" title='MOUSE' data-ref="MOUSE">MOUSE</dfn>,<dfn class="enum" id="JOYSTICK" title='JOYSTICK' data-ref="JOYSTICK">JOYSTICK</dfn>,<dfn class="enum" id="KEYBOARDBTNS" title='KEYBOARDBTNS' data-ref="KEYBOARDBTNS">KEYBOARDBTNS</dfn>,<dfn class="enum" id="KEYBOARDMOVE" title='KEYBOARDMOVE' data-ref="KEYBOARDMOVE">KEYBOARDMOVE</dfn>};        <i>// FOR INPUT TYPES</i></td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td><b>enum</b> <dfn class="type def" id="menuitems" title='menuitems' data-ref="menuitems">menuitems</dfn></td></tr>
+<tr><th id="206">206</th><td>{</td></tr>
+<tr><th id="207">207</th><td>        <dfn class="enum" id="menuitems::newgame" title='menuitems::newgame' data-ref="menuitems::newgame">newgame</dfn>,</td></tr>
+<tr><th id="208">208</th><td>        <dfn class="enum" id="menuitems::soundmenu" title='menuitems::soundmenu' data-ref="menuitems::soundmenu">soundmenu</dfn>,</td></tr>
+<tr><th id="209">209</th><td>        <dfn class="enum" id="menuitems::control" title='menuitems::control' data-ref="menuitems::control">control</dfn>,</td></tr>
+<tr><th id="210">210</th><td>        <dfn class="enum" id="menuitems::loadgame" title='menuitems::loadgame' data-ref="menuitems::loadgame">loadgame</dfn>,</td></tr>
+<tr><th id="211">211</th><td>        <dfn class="enum" id="menuitems::savegame" title='menuitems::savegame' data-ref="menuitems::savegame">savegame</dfn>,</td></tr>
+<tr><th id="212">212</th><td>        <dfn class="enum" id="menuitems::changeview" title='menuitems::changeview' data-ref="menuitems::changeview">changeview</dfn>,</td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td><u>#<span data-ppcond="214">ifndef</span> <a class="macro" href="version.h.html#11" data-ref="_M/GOODTIMES">GOODTIMES</a></u></td></tr>
+<tr><th id="215">215</th><td><u>#ifndef SPEAR</u></td></tr>
+<tr><th id="216">216</th><td>        readthis,</td></tr>
+<tr><th id="217">217</th><td><u>#endif</u></td></tr>
+<tr><th id="218">218</th><td><u>#<span data-ppcond="214">endif</span></u></td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td>        <dfn class="enum" id="menuitems::viewscores" title='menuitems::viewscores' data-ref="menuitems::viewscores">viewscores</dfn>,</td></tr>
+<tr><th id="221">221</th><td>        <dfn class="enum" id="menuitems::backtodemo" title='menuitems::backtodemo' data-ref="menuitems::backtodemo">backtodemo</dfn>,</td></tr>
+<tr><th id="222">222</th><td>        <dfn class="enum" id="menuitems::quit" title='menuitems::quit' data-ref="menuitems::quit">quit</dfn></td></tr>
+<tr><th id="223">223</th><td>};</td></tr>
+<tr><th id="224">224</th><td></td></tr>
+<tr><th id="225">225</th><td><i>//</i></td></tr>
+<tr><th id="226">226</th><td><i>// WL_INTER</i></td></tr>
+<tr><th id="227">227</th><td><i>//</i></td></tr>
+<tr><th id="228">228</th><td><b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="229">229</th><td>                <em>int</em> <dfn class="decl" id="(anonymous)::kill" title='(anonymous struct)::kill' data-ref="(anonymous)::kill">kill</dfn>,<dfn class="decl" id="(anonymous)::secret" title='(anonymous struct)::secret' data-ref="(anonymous)::secret">secret</dfn>,<dfn class="decl" id="(anonymous)::treasure" title='(anonymous struct)::treasure' data-ref="(anonymous)::treasure">treasure</dfn>;</td></tr>
+<tr><th id="230">230</th><td>                <a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::time" title='(anonymous struct)::time' data-ref="(anonymous)::time">time</dfn>;</td></tr>
+<tr><th id="231">231</th><td>                } <dfn class="typedef" id="LRstruct" title='LRstruct' data-type='struct LRstruct' data-ref="LRstruct">LRstruct</dfn>;</td></tr>
+<tr><th id="232">232</th><td></td></tr>
+<tr><th id="233">233</th><td><b>extern</b> <a class="typedef" href="#LRstruct" title='LRstruct' data-type='struct LRstruct' data-ref="LRstruct">LRstruct</a> <dfn class="decl" id="LevelRatios" title='LevelRatios' data-ref="LevelRatios">LevelRatios</dfn>[];</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td><em>void</em> <dfn class="decl" id="_Z5WriteiiPKc" title='Write' data-ref="_Z5WriteiiPKc">Write</dfn> (<em>int</em> <dfn class="local col8 decl" id="11418x" title='x' data-type='int' data-ref="11418x">x</dfn>,<em>int</em> <dfn class="local col9 decl" id="11419y" title='y' data-type='int' data-ref="11419y">y</dfn>,<em>const</em> <em>char</em> *<dfn class="local col0 decl" id="11420string" title='string' data-type='const char *' data-ref="11420string">string</dfn>);</td></tr>
+<tr><th id="236">236</th><td><em>void</em> <dfn class="decl" id="_Z12NonSharewarev" title='NonShareware' data-ref="_Z12NonSharewarev">NonShareware</dfn>(<em>void</em>);</td></tr>
+<tr><th id="237">237</th><td><em>int</em> <dfn class="decl" id="_Z7GetYorNiii" title='GetYorN' data-ref="_Z7GetYorNiii">GetYorN</dfn>(<em>int</em> <dfn class="local col1 decl" id="11421x" title='x' data-type='int' data-ref="11421x">x</dfn>,<em>int</em> <dfn class="local col2 decl" id="11422y" title='y' data-type='int' data-ref="11422y">y</dfn>,<em>int</em> <dfn class="local col3 decl" id="11423pic" title='pic' data-type='int' data-ref="11423pic">pic</dfn>);</td></tr>
+<tr><th id="238">238</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

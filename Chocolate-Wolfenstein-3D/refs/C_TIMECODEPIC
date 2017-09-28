@@ -1,0 +1,6 @@
+<dec f='codebrowser/gfxv_apo.h' l='60' type='49'/>
+<doc f='codebrowser/gfxv_apo.h' l='60'>// 49</doc>
+<use f='codebrowser/wl_inter.cpp' l='165' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='286' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='286' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='286' u='w' c='_Z7Victoryv'/>

@@ -1,0 +1,30 @@
+<dec f='codebrowser/id_us.h' l='85' type='void US_PrintUnsigned(longword n)'/>
+<def f='codebrowser/id_us_1.cpp' l='176' ll='183' type='void US_PrintUnsigned(longword n)'/>
+<doc f='codebrowser/id_us_1.cpp' l='171'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_PrintUnsigned() - Prints an unsigned long
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_debug.cpp' l='77' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='91' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='94' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='105' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='108' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='487' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='488' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='489' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='490' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='491' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='492' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='493' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='494' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='496' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='497' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='500' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='502' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='579' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='581' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='585' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='587' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='589' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='591' u='c' c='_Z9DebugKeysv'/>

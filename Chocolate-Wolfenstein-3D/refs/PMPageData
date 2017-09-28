@@ -1,0 +1,7 @@
+<def f='codebrowser/id_pm.cpp' l='10' type='uint32_t *'/>
+<use f='codebrowser/id_pm.cpp' l='75' u='w' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='76' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='82' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='87' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='124' u='r' c='_Z11PM_Shutdownv'/>
+<doc f='codebrowser/id_pm.cpp' l='9'>// holds the whole VSWAP</doc>

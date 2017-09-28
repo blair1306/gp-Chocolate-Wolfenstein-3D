@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='975' type='byte [64][64]'/>
+<use f='codebrowser/wl_act1.cpp' l='147' u='a' c='_Z11SpawnStaticiii'/>
+<use f='codebrowser/wl_act1.cpp' l='242' u='a' c='_Z13PlaceItemTypeiii'/>
+<use f='codebrowser/wl_debug.cpp' l='193' u='r' c='_Z13BasicOverheadv'/>
+<use f='codebrowser/wl_debug.cpp' l='500' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_draw.cpp' l='918' u='a' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1308' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1463' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1526' u='r' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1527' u='w' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_main.cpp' l='451' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='568' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<def f='codebrowser/wl_play.cpp' l='40' type='byte [64][64]'/>

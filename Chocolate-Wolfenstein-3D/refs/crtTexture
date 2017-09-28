@@ -1,0 +1,4 @@
+<def f='codebrowser/crt.cpp' l='23' type='GLuint'/>
+<use f='codebrowser/crt.cpp' l='32' u='a' c='_Z8CRT_Initi'/>
+<use f='codebrowser/crt.cpp' l='33' u='r' c='_Z8CRT_Initi'/>
+<use f='codebrowser/crt.cpp' l='79' u='r' c='_Z7CRT_DACv'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_ca.h' l='43' type='void CA_Startup()'/>
+<def f='codebrowser/id_ca.cpp' l='665' ll='677' type='void CA_Startup()'/>
+<doc f='codebrowser/id_ca.cpp' l='655'>/*
+======================
+=
+= CA_Startup
+=
+= Open all files and load in headers
+=
+======================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1231' u='c' c='_ZL8InitGamev'/>

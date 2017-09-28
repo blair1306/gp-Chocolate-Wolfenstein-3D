@@ -1,0 +1,3 @@
+<dec f='include/SDL/SDL_mixer.h' l='557' type='int Mix_HaltChannel(int channel)'/>
+<use f='codebrowser/id_sd.cpp' l='495' u='c' c='_Z16SD_StopDigitizedv'/>
+<doc f='include/SDL/SDL_mixer.h' l='556'>/* Halt playing of a particular channel */</doc>

@@ -1,0 +1,7 @@
+<def f='codebrowser/wl_draw.cpp' l='88' type='word'/>
+<use f='codebrowser/wl_draw.cpp' l='1116' u='w' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1178' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1179' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1308' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1311' u='w' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1328' u='w' c='_Z10AsmRefreshv'/>

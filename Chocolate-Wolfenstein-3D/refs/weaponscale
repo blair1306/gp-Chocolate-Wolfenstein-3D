@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_draw.cpp' l='1001' ll='1002' type='int [4]'/>
+<use f='codebrowser/wl_draw.cpp' l='1021' u='r' c='_Z16DrawPlayerWeaponv'/>
+<doc f='codebrowser/wl_draw.cpp' l='991'>/*
+==============
+=
+= DrawPlayerWeapon
+=
+= Draw the player&apos;s hands
+=
+==============
+*/</doc>

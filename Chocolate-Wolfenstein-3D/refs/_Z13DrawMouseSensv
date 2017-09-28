@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_menu.h' l='166' type='void DrawMouseSens()'/>
+<def f='codebrowser/wl_menu.cpp' l='1872' ll='1915' type='void DrawMouseSens()'/>
+<use f='codebrowser/wl_menu.cpp' l='1930' u='c' c='_Z16MouseSensitivityi'/>
+<doc f='codebrowser/wl_menu.cpp' l='1868'>////////////////////////////////
+//
+// DRAW MOUSE SENSITIVITY SCREEN
+//</doc>

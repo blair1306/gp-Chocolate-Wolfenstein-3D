@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='910' type='boolean SetViewSize(unsigned int width, unsigned int height)'/>
+<def f='codebrowser/wl_main.cpp' l='1319' ll='1340' type='boolean SetViewSize(unsigned int width, unsigned int height)'/>
+<use f='codebrowser/wl_main.cpp' l='1378' u='c' c='_Z11NewViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1380' u='c' c='_Z11NewViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1382' u='c' c='_Z11NewViewSizei'/>
+<doc f='codebrowser/wl_main.cpp' l='1311'>/*
+==========================
+=
+= SetViewSize
+=
+==========================
+*/</doc>

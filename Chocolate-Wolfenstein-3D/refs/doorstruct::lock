@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='734' type='byte'/>
+<offset>24</offset>
+<use f='codebrowser/wl_act1.cpp' l='367' u='w' c='_Z9SpawnDooriiai'/>
+<use f='codebrowser/wl_act1.cpp' l='506' u='r' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_draw.cpp' l='509' u='r' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='572' u='r' c='_Z11HitVertDoorv'/>

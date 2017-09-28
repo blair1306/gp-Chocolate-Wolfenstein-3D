@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_menu.h' l='119' type='void US_ControlPanel(ScanCode )'/>
+<doc f='codebrowser/wl_menu.h' l='115'>//
+// FUNCTION PROTOTYPES
+//</doc>
+<use f='codebrowser/wl_main.cpp' l='1625' u='c' c='_ZL8DemoLoopv'/>
+<def f='codebrowser/wl_menu.cpp' l='388' ll='568' type='void US_ControlPanel(ScanCode scancode)'/>
+<doc f='codebrowser/wl_menu.cpp' l='383'>////////////////////////////////////////////////////////////////////
+//
+// Wolfenstein Control Panel!  Ta Da!
+//
+////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_play.cpp' l='688' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='703' u='c' c='_Z9CheckKeysv'/>

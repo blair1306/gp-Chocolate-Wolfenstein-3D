@@ -1,0 +1,12 @@
+<dec f='codebrowser/gfxv_apo.h' l='46' type='36'/>
+<doc f='codebrowser/gfxv_apo.h' l='46'>// 36</doc>
+<use f='codebrowser/wl_main.cpp' l='318' u='r' c='_Z12DiskFlopAnimii'/>
+<use f='codebrowser/wl_menu.cpp' l='781' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='816' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='816' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='816' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='852' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='888' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='888' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='888' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1464' u='r' c='_Z12DrawLSActioni'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='616' type='20'/>
+<use f='codebrowser/wl_act2.cpp' l='332' u='r' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='358' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2357' u='r' c='_Z11T_GiftThrowP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='656' u='r' c='_Z10CalcRotateP9objstruct'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/id_us.h' l='28' type='word'/>
+<dec f='codebrowser/wl_def.h' l='837' type='short'/>
+<offset>352</offset>
+<use f='codebrowser/wl_draw.cpp' l='624' u='r' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='657' u='r' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='658' u='r' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='1500' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_inter.cpp' l='615' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='626' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='627' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='1192' u='w' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_inter.cpp' l='1192' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_main.cpp' l='306' u='w' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_main.cpp' l='1503' u='w' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='923' u='r' c='_Z10StartMusicv'/>
+<use f='codebrowser/wl_play.cpp' l='930' u='r' c='_Z13ContinueMusici'/>
+<use f='codebrowser/wl_text.cpp' l='832' u='r' c='_Z7EndTextv'/>

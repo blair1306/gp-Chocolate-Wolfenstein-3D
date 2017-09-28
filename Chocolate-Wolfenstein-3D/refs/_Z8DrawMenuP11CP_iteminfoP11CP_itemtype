@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_menu.h' l='127' type='void DrawMenu(CP_iteminfo * item_i, CP_itemtype * items)'/>
+<use f='codebrowser/wl_main.cpp' l='1134' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_main.cpp' l='1156' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='643' u='c' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1156' u='c' c='_Z14DrawNewEpisodev'/>
+<use f='codebrowser/wl_menu.cpp' l='1197' u='c' c='_Z11DrawNewGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='1375' u='c' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1634' u='c' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='2024' u='c' c='_Z13DrawCtlScreenv'/>
+<def f='codebrowser/wl_menu.cpp' l='3507' ll='3534' type='void DrawMenu(CP_iteminfo * item_i, CP_itemtype * items)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3502'>////////////////////////////////////////////////////////////////////
+//
+// Draw a menu
+//
+////////////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<def f='codebrowser/fmopl.cpp' l='724' ll='742' macro='1' type='void advance_lfo(FM_OPL * OPL)'/>
+<use f='codebrowser/fmopl.cpp' l='2190' u='c' c='_Z15YM3812UpdateOneiPsi'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/wl_def.h' l='1187' type='word [64]'/>
+<def f='codebrowser/wl_act1.cpp' l='280' type='word [64]'/>
+<use f='codebrowser/wl_act1.cpp' l='363' u='w' c='_Z9SpawnDooriiai'/>
+<use f='codebrowser/wl_act1.cpp' l='564' u='r' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='614' u='w' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='643' u='r' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='683' u='w' c='_Z11DoorClosingi'/>
+<doc f='codebrowser/wl_act1.cpp' l='280'>// leading edge of door 0=closed</doc>
+<use f='codebrowser/wl_draw.cpp' l='482' u='r' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='545' u='r' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='1187' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1342' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_main.cpp' l='457' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='457' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='458' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='458' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='573' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='573' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='574' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='574' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_state.cpp' l='1140' u='r' c='_Z9CheckLineP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1194' u='r' c='_Z9CheckLineP9objstruct'/>

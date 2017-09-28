@@ -1,0 +1,4 @@
+<dec f='codebrowser/audiowl6.h' l='139' type='23'/>
+<doc f='codebrowser/audiowl6.h' l='139'>// 23</doc>
+<use f='codebrowser/wl_inter.cpp' l='1211' u='r' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_menu.cpp' l='980' u='r' c='_Z13CP_ViewScoresi'/>

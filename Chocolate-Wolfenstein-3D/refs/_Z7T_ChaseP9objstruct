@@ -1,0 +1,73 @@
+<dec f='codebrowser/wl_act2.cpp' l='171' type='void T_Chase(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='438'/>
+<use f='codebrowser/wl_act2.cpp' l='438'/>
+<use f='codebrowser/wl_act2.cpp' l='440'/>
+<use f='codebrowser/wl_act2.cpp' l='440'/>
+<use f='codebrowser/wl_act2.cpp' l='441'/>
+<use f='codebrowser/wl_act2.cpp' l='441'/>
+<use f='codebrowser/wl_act2.cpp' l='443'/>
+<use f='codebrowser/wl_act2.cpp' l='443'/>
+<use f='codebrowser/wl_act2.cpp' l='585'/>
+<use f='codebrowser/wl_act2.cpp' l='585'/>
+<use f='codebrowser/wl_act2.cpp' l='587'/>
+<use f='codebrowser/wl_act2.cpp' l='587'/>
+<use f='codebrowser/wl_act2.cpp' l='588'/>
+<use f='codebrowser/wl_act2.cpp' l='588'/>
+<use f='codebrowser/wl_act2.cpp' l='590'/>
+<use f='codebrowser/wl_act2.cpp' l='590'/>
+<use f='codebrowser/wl_act2.cpp' l='652'/>
+<use f='codebrowser/wl_act2.cpp' l='652'/>
+<use f='codebrowser/wl_act2.cpp' l='654'/>
+<use f='codebrowser/wl_act2.cpp' l='654'/>
+<use f='codebrowser/wl_act2.cpp' l='655'/>
+<use f='codebrowser/wl_act2.cpp' l='655'/>
+<use f='codebrowser/wl_act2.cpp' l='657'/>
+<use f='codebrowser/wl_act2.cpp' l='657'/>
+<use f='codebrowser/wl_act2.cpp' l='726'/>
+<use f='codebrowser/wl_act2.cpp' l='726'/>
+<use f='codebrowser/wl_act2.cpp' l='728'/>
+<use f='codebrowser/wl_act2.cpp' l='728'/>
+<use f='codebrowser/wl_act2.cpp' l='729'/>
+<use f='codebrowser/wl_act2.cpp' l='729'/>
+<use f='codebrowser/wl_act2.cpp' l='731'/>
+<use f='codebrowser/wl_act2.cpp' l='731'/>
+<use f='codebrowser/wl_act2.cpp' l='769'/>
+<use f='codebrowser/wl_act2.cpp' l='769'/>
+<use f='codebrowser/wl_act2.cpp' l='771'/>
+<use f='codebrowser/wl_act2.cpp' l='771'/>
+<use f='codebrowser/wl_act2.cpp' l='772'/>
+<use f='codebrowser/wl_act2.cpp' l='772'/>
+<use f='codebrowser/wl_act2.cpp' l='774'/>
+<use f='codebrowser/wl_act2.cpp' l='774'/>
+<use f='codebrowser/wl_act2.cpp' l='820'/>
+<use f='codebrowser/wl_act2.cpp' l='820'/>
+<use f='codebrowser/wl_act2.cpp' l='822'/>
+<use f='codebrowser/wl_act2.cpp' l='822'/>
+<use f='codebrowser/wl_act2.cpp' l='823'/>
+<use f='codebrowser/wl_act2.cpp' l='823'/>
+<use f='codebrowser/wl_act2.cpp' l='825'/>
+<use f='codebrowser/wl_act2.cpp' l='825'/>
+<use f='codebrowser/wl_act2.cpp' l='2768'/>
+<use f='codebrowser/wl_act2.cpp' l='2768'/>
+<use f='codebrowser/wl_act2.cpp' l='2770'/>
+<use f='codebrowser/wl_act2.cpp' l='2770'/>
+<use f='codebrowser/wl_act2.cpp' l='2771'/>
+<use f='codebrowser/wl_act2.cpp' l='2771'/>
+<use f='codebrowser/wl_act2.cpp' l='2773'/>
+<use f='codebrowser/wl_act2.cpp' l='2773'/>
+<use f='codebrowser/wl_act2.cpp' l='2788'/>
+<use f='codebrowser/wl_act2.cpp' l='2788'/>
+<use f='codebrowser/wl_act2.cpp' l='2790'/>
+<use f='codebrowser/wl_act2.cpp' l='2790'/>
+<use f='codebrowser/wl_act2.cpp' l='2791'/>
+<use f='codebrowser/wl_act2.cpp' l='2791'/>
+<use f='codebrowser/wl_act2.cpp' l='2793'/>
+<use f='codebrowser/wl_act2.cpp' l='2793'/>
+<def f='codebrowser/wl_act2.cpp' l='3067' ll='3224' type='void T_Chase(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3059'>/*
+=================
+=
+= T_Chase
+=
+=================
+*/</doc>

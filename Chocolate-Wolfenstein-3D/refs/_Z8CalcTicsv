@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='1097' type='void CalcTics()'/>
+<dec f='codebrowser/wl_draw.cpp' l='60' type='void CalcTics()'/>
+<def f='codebrowser/wl_draw.cpp' l='1041' ll='1062' type='void CalcTics()'/>
+<doc f='codebrowser/wl_draw.cpp' l='1033'>/*
+=====================
+=
+= CalcTics
+=
+=====================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='1276' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1298' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_play.cpp' l='416' u='c' c='_Z12PollControlsv'/>

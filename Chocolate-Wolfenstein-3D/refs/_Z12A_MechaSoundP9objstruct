@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_act2.cpp' l='229' type='void A_MechaSound(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2768'/>
+<use f='codebrowser/wl_act2.cpp' l='2768'/>
+<use f='codebrowser/wl_act2.cpp' l='2771'/>
+<use f='codebrowser/wl_act2.cpp' l='2771'/>
+<def f='codebrowser/wl_act2.cpp' l='2906' ll='2910' type='void A_MechaSound(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2900'>////////////////////////////////////////////////////////
+//
+// A_MechaSound
+// A_Slurpie
+//
+////////////////////////////////////////////////////////</doc>

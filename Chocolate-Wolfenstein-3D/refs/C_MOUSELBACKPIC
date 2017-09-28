@@ -1,0 +1,19 @@
+<dec f='codebrowser/gfxv_apo.h' l='40' type='30'/>
+<doc f='codebrowser/gfxv_apo.h' l='40'>// 30</doc>
+<use f='codebrowser/wl_main.cpp' l='1124' u='r' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='590' u='r' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='784' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='819' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='819' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='819' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='855' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='891' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='891' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='891' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1142' u='r' c='_Z14DrawNewEpisodev'/>
+<use f='codebrowser/wl_menu.cpp' l='1178' u='r' c='_Z11DrawNewGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='1354' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1622' u='r' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='1879' u='r' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='2006' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2508' u='r' c='_Z16DrawCustomScreenv'/>

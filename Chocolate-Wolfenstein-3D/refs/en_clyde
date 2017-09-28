@@ -1,0 +1,3 @@
+<dec f='codebrowser/wl_def.h' l='677' type='10'/>
+<use f='codebrowser/wl_act2.cpp' l='2003' c='_Z11SpawnGhostsiii'/>
+<use f='codebrowser/wl_game.cpp' l='604' u='r' c='_ZL13ScanInfoPlanev'/>

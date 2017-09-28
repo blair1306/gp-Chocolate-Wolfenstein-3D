@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_act1.cpp' l='542' ll='546' type='void DoorOpen(int door)'/>
+<use f='codebrowser/wl_act1.cpp' l='711' u='c' c='_Z9MoveDoorsv'/>
+<doc f='codebrowser/wl_act1.cpp' l='532'>/*
+===============
+=
+= DoorOpen
+=
+= Close the door after three seconds
+=
+===============
+*/</doc>

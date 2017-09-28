@@ -1,0 +1,31 @@
+<def f='codebrowser/wl_def.h' l='746' ll='772'/>
+<size>85</size>
+<doc f='codebrowser/wl_def.h' l='740'>//--------------------
+//
+// thinking actor structure
+//
+//--------------------</doc>
+<mbr r='objstruct::active' o='0' t='activetype'/>
+<mbr r='objstruct::ticcount' o='32' t='short'/>
+<mbr r='objstruct::obclass' o='48' t='classtype'/>
+<mbr r='objstruct::state' o='80' t='statetype *'/>
+<mbr r='objstruct::flags' o='144' t='uint32_t'/>
+<mbr r='objstruct::distance' o='176' t='int32_t'/>
+<mbr r='objstruct::dir' o='208' t='dirtype'/>
+<mbr r='objstruct::x' o='240' t='fixed'/>
+<mbr r='objstruct::y' o='272' t='fixed'/>
+<mbr r='objstruct::tilex' o='304' t='word'/>
+<mbr r='objstruct::tiley' o='320' t='word'/>
+<mbr r='objstruct::areanumber' o='336' t='byte'/>
+<mbr r='objstruct::viewx' o='344' t='short'/>
+<mbr r='objstruct::viewheight' o='360' t='word'/>
+<mbr r='objstruct::transx' o='376' t='fixed'/>
+<mbr r='objstruct::transy' o='408' t='fixed'/>
+<mbr r='objstruct::angle' o='440' t='short'/>
+<mbr r='objstruct::hitpoints' o='456' t='short'/>
+<mbr r='objstruct::speed' o='472' t='int32_t'/>
+<mbr r='objstruct::temp1' o='504' t='short'/>
+<mbr r='objstruct::temp2' o='520' t='short'/>
+<mbr r='objstruct::hidden' o='536' t='short'/>
+<mbr r='objstruct::next' o='552' t='struct objstruct *'/>
+<mbr r='objstruct::prev' o='616' t='struct objstruct *'/>

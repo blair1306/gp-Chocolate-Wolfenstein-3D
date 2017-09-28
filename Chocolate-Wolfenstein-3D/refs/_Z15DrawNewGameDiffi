@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_menu.h' l='181' type='void DrawNewGameDiff(int w)'/>
+<use f='codebrowser/wl_menu.cpp' l='1090' u='r' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1198' u='c' c='_Z11DrawNewGamev'/>
+<def f='codebrowser/wl_menu.cpp' l='1209' ll='1213' type='void DrawNewGameDiff(int w)'/>
+<doc f='codebrowser/wl_menu.cpp' l='1205'>////////////////////////
+//
+// DRAW NEW GAME GRAPHIC
+//</doc>

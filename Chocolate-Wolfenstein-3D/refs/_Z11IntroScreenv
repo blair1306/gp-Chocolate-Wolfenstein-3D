@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='1048' type='void IntroScreen()'/>
+<doc f='codebrowser/wl_def.h' l='1040'>/*
+=============================================================================
+
+                                WL_INTER
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1278' u='c' c='_ZL8InitGamev'/>
+<def f='codebrowser/wl_menu.cpp' l='2941' ll='3024' type='void IntroScreen()'/>
+<doc f='codebrowser/wl_menu.cpp' l='2936'>////////////////////////////////////////////////////////////////////
+//
+// HANDLE INTRO SCREEN (SYSTEM CONFIG)
+//
+////////////////////////////////////////////////////////////////////</doc>

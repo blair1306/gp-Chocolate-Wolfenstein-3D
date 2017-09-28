@@ -1,0 +1,10 @@
+<dec f='include/SDL/SDL_joystick.h' l='114' type='void SDL_JoystickUpdate()'/>
+<doc f='include/SDL/SDL_joystick.h' l='108'>/**
+ * Update the current state of the open joysticks.
+ *
+ * This is called automatically by the event loop if any joystick
+ * events are enabled.
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='153' u='c' c='_Z14IN_GetJoyDeltaPiS_'/>
+<use f='codebrowser/id_in.cpp' l='196' u='c' c='_Z18IN_GetJoyFineDeltaPiS_'/>
+<use f='codebrowser/id_in.cpp' l='222' u='c' c='_Z13IN_JoyButtonsv'/>

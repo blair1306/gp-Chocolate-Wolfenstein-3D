@@ -1,0 +1,4 @@
+<dec f='codebrowser/gfxv_apo.h' l='163' type='143'/>
+<doc f='codebrowser/gfxv_apo.h' l='163'>// 143</doc>
+<use f='codebrowser/wl_agent.cpp' l='290' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='767' u='r' c='_Z8GetBonusP10statstruct'/>

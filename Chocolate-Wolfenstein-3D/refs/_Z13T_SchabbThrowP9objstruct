@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_act2.cpp' l='222' type='void T_SchabbThrow(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2083'/>
+<use f='codebrowser/wl_act2.cpp' l='2083'/>
+<def f='codebrowser/wl_act2.cpp' l='2296' ll='2326' type='void T_SchabbThrow(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2288'>/*
+=================
+=
+= T_SchabbThrow
+=
+=================
+*/</doc>

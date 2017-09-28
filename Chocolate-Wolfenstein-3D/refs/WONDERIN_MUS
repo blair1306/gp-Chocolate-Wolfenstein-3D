@@ -1,0 +1,8 @@
+<dec f='codebrowser/audiowl6.h' l='130' type='14'/>
+<doc f='codebrowser/audiowl6.h' l='130'>// 14</doc>
+<use f='codebrowser/wl_menu.cpp' l='397' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='400' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='794' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='865' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='990' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='1320' macro='1' u='r'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1125' type='void SelectRunDir(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2450' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2542' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2634' u='c' c='_Z5T_FatP9objstruct'/>
+<def f='codebrowser/wl_state.cpp' l='612' ll='668' type='void SelectRunDir(objtype * ob)'/>
+<doc f='codebrowser/wl_state.cpp' l='602'>/*
+============================
+=
+= SelectRunDir
+=
+= Run Away from player
+=
+============================
+*/</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_agent.cpp' l='80' type='boolean TryMove(objtype * ob)'/>
+<def f='codebrowser/wl_agent.cpp' l='827' ll='910' type='boolean TryMove(objtype * ob)'/>
+<use f='codebrowser/wl_agent.cpp' l='930' u='c' c='_Z8ClipMoveP9objstructii'/>
+<use f='codebrowser/wl_agent.cpp' l='945' u='c' c='_Z8ClipMoveP9objstructii'/>
+<use f='codebrowser/wl_agent.cpp' l='950' u='c' c='_Z8ClipMoveP9objstructii'/>
+<doc f='codebrowser/wl_agent.cpp' l='78'>//----------</doc>
+<doc f='codebrowser/wl_agent.cpp' l='817'>/*
+===================
+=
+= TryMove
+=
+= returns true if move ok
+= debug: use pointers to optimize
+===================
+*/</doc>

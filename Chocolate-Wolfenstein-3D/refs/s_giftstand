@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_act2.cpp' l='2094' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='2125' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='2125' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2125' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2249' u='a' c='_Z9SpawnGiftii'/>
+<doc f='codebrowser/wl_act2.cpp' l='2091'>//
+// gift
+//</doc>

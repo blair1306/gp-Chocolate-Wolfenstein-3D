@@ -1,0 +1,10 @@
+<def f='codebrowser/wl_main.cpp' l='811' ll='817' type='void SignonScreen()'/>
+<use f='codebrowser/wl_main.cpp' l='1209' u='c' c='_ZL8InitGamev'/>
+<doc f='codebrowser/wl_main.cpp' l='803'>/*
+==========================
+=
+= SignonScreen
+=
+==========================
+*/</doc>
+<doc f='codebrowser/wl_main.cpp' l='811'>// VGA version</doc>

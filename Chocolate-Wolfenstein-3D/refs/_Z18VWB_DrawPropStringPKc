@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_vh.h' l='49' type='void VWB_DrawPropString(const char * string)'/>
+<doc f='codebrowser/id_vh.h' l='43'>//
+// mode independant routines
+// coordinates in pixels, rounded to best screen res
+// regions marked in double buffer
+//</doc>
+<use f='codebrowser/id_us_1.cpp' l='41'/>
+<def f='codebrowser/id_vh.cpp' l='13' ll='49' type='void VWB_DrawPropString(const char * string)'/>
+<doc f='codebrowser/id_vh.cpp' l='11'>//==========================================================================</doc>
+<use f='codebrowser/wl_text.cpp' l='391' u='c' c='_Z10HandleWordv'/>
+<use f='codebrowser/wl_text.cpp' l='494' u='c' c='_Z10PageLayouta'/>

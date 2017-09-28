@@ -1,0 +1,13 @@
+<def f='codebrowser/wl_draw.cpp' l='85' type='short'/>
+<use f='codebrowser/wl_draw.cpp' l='356' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='391' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='1080' u='w' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1089' u='w' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1098' u='w' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1107' u='w' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1115' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1125' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1126' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1309' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1318' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1319' u='r' c='_Z10AsmRefreshv'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='1165' type='void HealSelf(int points)'/>
+<def f='codebrowser/wl_agent.cpp' l='457' ll='465' type='void HealSelf(int points)'/>
+<use f='codebrowser/wl_agent.cpp' l='700' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='773' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='784' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='792' u='c' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='800' u='c' c='_Z8GetBonusP10statstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='449'>/*
+===============
+=
+= HealSelf
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_debug.cpp' l='537' u='c' c='_Z9DebugKeysv'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_vh.h' l='51' type='void VWB_DrawTile8(int x, int y, int tile)'/>
+<use f='codebrowser/id_us_1.cpp' l='369' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='369' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='371' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='371' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='372' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='372' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='375' u='c' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='375' u='c' c='_Z13US_DrawWindowtttt'/>
+<def f='codebrowser/id_vh.cpp' l='123' ll='126' type='void VWB_DrawTile8(int x, int y, int tile)'/>

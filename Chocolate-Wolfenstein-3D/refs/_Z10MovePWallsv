@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1204' type='void MovePWalls()'/>
+<def f='codebrowser/wl_act1.cpp' l='794' ll='854' type='void MovePWalls()'/>
+<doc f='codebrowser/wl_act1.cpp' l='786'>/*
+=================
+=
+= MovePWalls
+=
+=================
+*/</doc>
+<use f='codebrowser/wl_play.cpp' l='1283' u='c' c='_Z8PlayLoopv'/>

@@ -1,0 +1,17 @@
+<dec f='include/SDL/SDL_video.h' l='101' type='void *'/>
+<use f='codebrowser/crt.cpp' l='71' u='r' c='_Z7CRT_DACv'/>
+<offset>256</offset>
+<doc f='include/SDL/SDL_video.h' l='101'>/**&lt; Read-write */</doc>
+<use f='codebrowser/id_vl.cpp' l='410' u='r' c='_Z14VL_LockSurfaceP11SDL_Surface'/>
+<use f='codebrowser/id_vl.cpp' l='436' u='r' c='_Z7VL_Plotiii'/>
+<use f='codebrowser/id_vl.cpp' l='455' u='r' c='_Z11VL_GetPixelii'/>
+<use f='codebrowser/id_vl.cpp' l='476' u='r' c='_Z7VL_Hlinjjji'/>
+<use f='codebrowser/id_vl.cpp' l='497' u='r' c='_Z7VL_Vliniiii'/>
+<use f='codebrowser/id_vl.cpp' l='523' u='r' c='_Z17VL_BarScaledCoordiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='558' u='r' c='_Z13VL_MemToLatchPhiiP11SDL_Surfaceii'/>
+<use f='codebrowser/id_vl.cpp' l='590' u='r' c='_Z25VL_MemToScreenScaledCoordPhiiii'/>
+<use f='codebrowser/id_vl.cpp' l='629' u='r' c='_Z25VL_MemToScreenScaledCoordPhiiiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='677' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='681' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='703' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='707' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>

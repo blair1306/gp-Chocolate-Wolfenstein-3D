@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_sd.h' l='131' type='void SD_Shutdown()'/>
+<def f='codebrowser/id_sd.cpp' l='1102' ll='1120' type='void SD_Shutdown()'/>
+<doc f='codebrowser/id_sd.cpp' l='1096'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_Shutdown() - shuts down the Sound Mgr
+//              Removes sound ISR and turns off whatever sound hardware was active
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='662' u='c' c='_Z10ShutdownIdv'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/audiowl6.h' l='56' type='44'/>
+<doc f='codebrowser/audiowl6.h' l='56'>// 44</doc>
+<use f='codebrowser/wl_agent.cpp' l='521' u='r' c='_Z12GiveExtraManv'/>
+<use f='codebrowser/wl_agent.cpp' l='772' u='r' c='_Z8GetBonusP10statstruct'/>

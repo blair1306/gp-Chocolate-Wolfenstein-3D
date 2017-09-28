@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='177' type='void PrintCustKeys(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2151' u='r' c='_Z13DefineKeyMovev'/>
+<def f='codebrowser/wl_menu.cpp' l='2769' ll='2774' type='void PrintCustKeys(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2789' u='c' c='_Z12DrawCustKeysi'/>

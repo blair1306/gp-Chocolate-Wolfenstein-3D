@@ -1,0 +1,4 @@
+<dec f='codebrowser/id_pm.h' l='11' type='bool'/>
+<def f='codebrowser/id_pm.cpp' l='7' type='bool'/>
+<use f='codebrowser/id_pm.cpp' l='93' u='w' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_sd.cpp' l='686' u='r' c='_Z13SDL_SetupDigiv'/>

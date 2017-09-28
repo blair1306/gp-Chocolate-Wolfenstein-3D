@@ -1,0 +1,17 @@
+<def f='codebrowser/fmopl.cpp' l='1361' ll='1374' macro='1' type='void FM_KEYOFF(OPL_SLOT * SLOT, UINT32 key_clr)'/>
+<use f='codebrowser/fmopl.cpp' l='1641' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1642' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1646' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1649' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1652' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1655' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1660' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1661' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1663' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1665' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1667' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1669' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1691' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1692' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='2046' u='c' c='_Z14CSMKeyControllP6OPL_CH'/>
+<use f='codebrowser/fmopl.cpp' l='2047' u='c' c='_Z14CSMKeyControllP6OPL_CH'/>

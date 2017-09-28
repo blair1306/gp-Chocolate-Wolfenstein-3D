@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='1027' type='void ContinueMusic(int offs)'/>
+<use f='codebrowser/wl_game.cpp' l='1388' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='804' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='875' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1526' u='c' c='_Z11CP_LoadGamei'/>
+<dec f='codebrowser/wl_play.cpp' l='90' type='void ContinueMusic(int offs)'/>
+<use f='codebrowser/wl_play.cpp' l='670' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='711' u='c' c='_Z9CheckKeysv'/>
+<def f='codebrowser/wl_play.cpp' l='927' ll='932' type='void ContinueMusic(int offs)'/>

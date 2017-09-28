@@ -1,0 +1,3 @@
+<dec f='include/SDL/SDL_keysym.h' l='260' type='291'/>
+<use f='codebrowser/wl_menu.cpp' l='901' macro='1' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_play.cpp' l='682' macro='1' u='r'/>

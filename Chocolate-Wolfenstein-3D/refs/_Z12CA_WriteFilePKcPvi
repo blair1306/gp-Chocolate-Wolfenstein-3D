@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_ca.h' l='37' type='boolean CA_WriteFile(const char * filename, void * ptr, int32_t length)'/>
+<def f='codebrowser/id_ca.cpp' l='155' ll='168' type='boolean CA_WriteFile(const char * filename, void * ptr, int32_t length)'/>
+<doc f='codebrowser/id_ca.cpp' l='145'>/*
+==========================
+=
+= CA_WriteFile
+=
+= Writes a file from a memory buffer
+=
+==========================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='1042' u='c' c='_Z16FinishDemoRecordv'/>

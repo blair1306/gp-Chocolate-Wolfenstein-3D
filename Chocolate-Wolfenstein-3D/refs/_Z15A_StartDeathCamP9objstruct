@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_act2.cpp' l='164' type='void A_StartDeathCam(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2080'/>
+<use f='codebrowser/wl_act2.cpp' l='2080'/>
+<use f='codebrowser/wl_act2.cpp' l='2141'/>
+<use f='codebrowser/wl_act2.cpp' l='2141'/>
+<use f='codebrowser/wl_act2.cpp' l='2197'/>
+<use f='codebrowser/wl_act2.cpp' l='2197'/>
+<use f='codebrowser/wl_act2.cpp' l='2806'/>
+<use f='codebrowser/wl_act2.cpp' l='2806'/>
+<def f='codebrowser/wl_act2.cpp' l='3786' ll='3897' type='void A_StartDeathCam(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3778'>/*
+===============
+=
+= A_StartDeathCam
+=
+===============
+*/</doc>

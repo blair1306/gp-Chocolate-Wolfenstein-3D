@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_act2.cpp' l='185' type='void A_Smoke(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='187'/>
+<use f='codebrowser/wl_act2.cpp' l='187'/>
+<def f='codebrowser/wl_act2.cpp' l='239' ll='258' type='void A_Smoke(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='231'>/*
+=================
+=
+= A_Smoke
+=
+=================
+*/</doc>

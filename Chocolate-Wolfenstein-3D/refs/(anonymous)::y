@@ -1,0 +1,22 @@
+<dec f='codebrowser/wl_def.h' l='69' type='int'/>
+<dec f='codebrowser/id_in.h' l='119' type='short'/>
+<dec f='codebrowser/id_us.h' l='45' type='int'/>
+<dec f='codebrowser/wl_menu.h' l='99' type='short'/>
+<offset>16</offset>
+<use f='codebrowser/id_in.cpp' l='477' u='w' c='_Z14IN_ReadControliP10CursorInfo'/>
+<use f='codebrowser/id_us_1.cpp' l='211' u='r' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='211' u='r' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='214' u='r' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='229' u='w' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='231' u='w' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='231' u='r' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='388' u='w' c='_Z13US_SaveWindowP9WindowRec'/>
+<use f='codebrowser/id_us_1.cpp' l='406' u='r' c='_Z16US_RestoreWindowP9WindowRec'/>
+<use f='codebrowser/wl_menu.cpp' l='3205' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3213' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3391' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3438' u='r' c='_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3470' u='r' c='_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3514' u='r' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3522' u='r' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3925' u='r' c='_Z11DrawMenuGunP11CP_iteminfo'/>

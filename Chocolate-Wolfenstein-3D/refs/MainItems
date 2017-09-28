@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_menu.h' l='113' type='CP_iteminfo'/>
+<use f='codebrowser/wl_main.cpp' l='194' u='m' c='_Z10ReadConfigv'/>
+<def f='codebrowser/wl_menu.cpp' l='239' type='CP_iteminfo'/>
+<use f='codebrowser/wl_menu.cpp' l='461' u='a' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='643' u='a' c='_Z12DrawMainMenuv'/>

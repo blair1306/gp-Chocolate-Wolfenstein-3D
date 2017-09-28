@@ -1,0 +1,6 @@
+<dec f='include/SDL/SDL_joystick.h' l='53' type='int SDL_NumJoysticks()'/>
+<doc f='include/SDL/SDL_joystick.h' l='50'>/**
+ * Count the number of joysticks attached to the system
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='370' u='c' c='_Z10IN_Startupv'/>
+<use f='codebrowser/wl_main.cpp' l='1199' u='c' c='_ZL8InitGamev'/>

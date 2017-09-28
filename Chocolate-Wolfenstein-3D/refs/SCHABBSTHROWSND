@@ -1,0 +1,4 @@
+<dec f='codebrowser/audiowl6.h' l='20' type='8'/>
+<doc f='codebrowser/audiowl6.h' l='20'>// 8</doc>
+<use f='codebrowser/wl_act2.cpp' l='2325' u='r' c='_Z13T_SchabbThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3536' u='r' c='_Z7T_ShootP9objstruct'/>

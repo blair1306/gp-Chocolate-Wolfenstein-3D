@@ -1,0 +1,79 @@
+<dec f='codebrowser/wl_act2.cpp' l='168' type='void T_Shoot(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='435'/>
+<use f='codebrowser/wl_act2.cpp' l='435'/>
+<use f='codebrowser/wl_act2.cpp' l='582'/>
+<use f='codebrowser/wl_act2.cpp' l='582'/>
+<use f='codebrowser/wl_act2.cpp' l='647'/>
+<use f='codebrowser/wl_act2.cpp' l='647'/>
+<use f='codebrowser/wl_act2.cpp' l='649'/>
+<use f='codebrowser/wl_act2.cpp' l='649'/>
+<use f='codebrowser/wl_act2.cpp' l='717'/>
+<use f='codebrowser/wl_act2.cpp' l='717'/>
+<use f='codebrowser/wl_act2.cpp' l='719'/>
+<use f='codebrowser/wl_act2.cpp' l='719'/>
+<use f='codebrowser/wl_act2.cpp' l='721'/>
+<use f='codebrowser/wl_act2.cpp' l='721'/>
+<use f='codebrowser/wl_act2.cpp' l='723'/>
+<use f='codebrowser/wl_act2.cpp' l='723'/>
+<use f='codebrowser/wl_act2.cpp' l='782'/>
+<use f='codebrowser/wl_act2.cpp' l='782'/>
+<use f='codebrowser/wl_act2.cpp' l='783'/>
+<use f='codebrowser/wl_act2.cpp' l='783'/>
+<use f='codebrowser/wl_act2.cpp' l='784'/>
+<use f='codebrowser/wl_act2.cpp' l='784'/>
+<use f='codebrowser/wl_act2.cpp' l='785'/>
+<use f='codebrowser/wl_act2.cpp' l='785'/>
+<use f='codebrowser/wl_act2.cpp' l='786'/>
+<use f='codebrowser/wl_act2.cpp' l='786'/>
+<use f='codebrowser/wl_act2.cpp' l='787'/>
+<use f='codebrowser/wl_act2.cpp' l='787'/>
+<use f='codebrowser/wl_act2.cpp' l='833'/>
+<use f='codebrowser/wl_act2.cpp' l='833'/>
+<use f='codebrowser/wl_act2.cpp' l='834'/>
+<use f='codebrowser/wl_act2.cpp' l='834'/>
+<use f='codebrowser/wl_act2.cpp' l='835'/>
+<use f='codebrowser/wl_act2.cpp' l='835'/>
+<use f='codebrowser/wl_act2.cpp' l='836'/>
+<use f='codebrowser/wl_act2.cpp' l='836'/>
+<use f='codebrowser/wl_act2.cpp' l='837'/>
+<use f='codebrowser/wl_act2.cpp' l='837'/>
+<use f='codebrowser/wl_act2.cpp' l='838'/>
+<use f='codebrowser/wl_act2.cpp' l='838'/>
+<use f='codebrowser/wl_act2.cpp' l='2201'/>
+<use f='codebrowser/wl_act2.cpp' l='2201'/>
+<use f='codebrowser/wl_act2.cpp' l='2202'/>
+<use f='codebrowser/wl_act2.cpp' l='2202'/>
+<use f='codebrowser/wl_act2.cpp' l='2203'/>
+<use f='codebrowser/wl_act2.cpp' l='2203'/>
+<use f='codebrowser/wl_act2.cpp' l='2204'/>
+<use f='codebrowser/wl_act2.cpp' l='2204'/>
+<use f='codebrowser/wl_act2.cpp' l='2781'/>
+<use f='codebrowser/wl_act2.cpp' l='2781'/>
+<use f='codebrowser/wl_act2.cpp' l='2782'/>
+<use f='codebrowser/wl_act2.cpp' l='2782'/>
+<use f='codebrowser/wl_act2.cpp' l='2783'/>
+<use f='codebrowser/wl_act2.cpp' l='2783'/>
+<use f='codebrowser/wl_act2.cpp' l='2784'/>
+<use f='codebrowser/wl_act2.cpp' l='2784'/>
+<use f='codebrowser/wl_act2.cpp' l='2785'/>
+<use f='codebrowser/wl_act2.cpp' l='2785'/>
+<use f='codebrowser/wl_act2.cpp' l='2809'/>
+<use f='codebrowser/wl_act2.cpp' l='2809'/>
+<use f='codebrowser/wl_act2.cpp' l='2810'/>
+<use f='codebrowser/wl_act2.cpp' l='2810'/>
+<use f='codebrowser/wl_act2.cpp' l='2811'/>
+<use f='codebrowser/wl_act2.cpp' l='2811'/>
+<use f='codebrowser/wl_act2.cpp' l='2812'/>
+<use f='codebrowser/wl_act2.cpp' l='2812'/>
+<use f='codebrowser/wl_act2.cpp' l='2813'/>
+<use f='codebrowser/wl_act2.cpp' l='2813'/>
+<def f='codebrowser/wl_act2.cpp' l='3469' ll='3545' type='void T_Shoot(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3459'>/*
+===============
+=
+= T_Shoot
+=
+= Try to damage the player, based on skill level and player&apos;s speed
+=
+===============
+*/</doc>

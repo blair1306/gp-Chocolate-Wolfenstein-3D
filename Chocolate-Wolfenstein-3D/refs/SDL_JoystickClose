@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_joystick.h' l='178' type='void SDL_JoystickClose(SDL_Joystick * joystick)'/>
+<doc f='include/SDL/SDL_joystick.h' l='175'>/**
+ * Close a joystick previously opened with SDL_JoystickOpen()
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='410' u='c' c='_Z11IN_Shutdownv'/>

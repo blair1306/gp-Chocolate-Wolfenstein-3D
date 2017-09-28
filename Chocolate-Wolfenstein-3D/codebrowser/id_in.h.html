@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>id_in.h source code [codebrowser/id_in.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/id_in.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='id_in.h.html'>id_in.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>//</i></td></tr>
+<tr><th id="2">2</th><td><i>//  ID Engine</i></td></tr>
+<tr><th id="3">3</th><td><i>//  ID_IN.h - Header file for Input Manager</i></td></tr>
+<tr><th id="4">4</th><td><i>//  v1.0d1</i></td></tr>
+<tr><th id="5">5</th><td><i>//  By Jason Blochowiak</i></td></tr>
+<tr><th id="6">6</th><td><i>//</i></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#<span data-ppcond="8">ifndef</span> <span class="macro" data-ref="_M/__ID_IN__">__ID_IN__</span></u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/__ID_IN__" data-ref="_M/__ID_IN__">__ID_IN__</dfn></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifdef</span>  <span class="macro" data-ref="_M/__DEBUG__">__DEBUG__</span></u></td></tr>
+<tr><th id="12">12</th><td><u>#define __DEBUG_InputMgr__</u></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><b>typedef</b> <em>int</em>     <dfn class="typedef" id="ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</dfn>;</td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/sc_None" data-ref="_M/sc_None">sc_None</dfn>         0</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/sc_Bad" data-ref="_M/sc_Bad">sc_Bad</dfn>          0xff</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/sc_Return" data-ref="_M/sc_Return">sc_Return</dfn>       SDLK_RETURN</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/sc_Enter" data-ref="_M/sc_Enter">sc_Enter</dfn>        sc_Return</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/sc_Escape" data-ref="_M/sc_Escape">sc_Escape</dfn>       SDLK_ESCAPE</u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/sc_Space" data-ref="_M/sc_Space">sc_Space</dfn>        SDLK_SPACE</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/sc_BackSpace" data-ref="_M/sc_BackSpace">sc_BackSpace</dfn>    SDLK_BACKSPACE</u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/sc_Tab" data-ref="_M/sc_Tab">sc_Tab</dfn>          SDLK_TAB</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/sc_Alt" data-ref="_M/sc_Alt">sc_Alt</dfn>          SDLK_LALT</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/sc_Control" data-ref="_M/sc_Control">sc_Control</dfn>      SDLK_LCTRL</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/sc_CapsLock" data-ref="_M/sc_CapsLock">sc_CapsLock</dfn>     SDLK_CAPSLOCK</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/sc_LShift" data-ref="_M/sc_LShift">sc_LShift</dfn>       SDLK_LSHIFT</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/sc_RShift" data-ref="_M/sc_RShift">sc_RShift</dfn>       SDLK_RSHIFT</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/sc_UpArrow" data-ref="_M/sc_UpArrow">sc_UpArrow</dfn>      SDLK_UP</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/sc_DownArrow" data-ref="_M/sc_DownArrow">sc_DownArrow</dfn>    SDLK_DOWN</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/sc_LeftArrow" data-ref="_M/sc_LeftArrow">sc_LeftArrow</dfn>    SDLK_LEFT</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/sc_RightArrow" data-ref="_M/sc_RightArrow">sc_RightArrow</dfn>   SDLK_RIGHT</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/sc_Insert" data-ref="_M/sc_Insert">sc_Insert</dfn>       SDLK_INSERT</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/sc_Delete" data-ref="_M/sc_Delete">sc_Delete</dfn>       SDLK_DELETE</u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/sc_Home" data-ref="_M/sc_Home">sc_Home</dfn>         SDLK_HOME</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/sc_End" data-ref="_M/sc_End">sc_End</dfn>          SDLK_END</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/sc_PgUp" data-ref="_M/sc_PgUp">sc_PgUp</dfn>         SDLK_PAGEUP</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/sc_PgDn" data-ref="_M/sc_PgDn">sc_PgDn</dfn>         SDLK_PAGEDOWN</u></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/sc_F1" data-ref="_M/sc_F1">sc_F1</dfn>           SDLK_F1</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/sc_F2" data-ref="_M/sc_F2">sc_F2</dfn>           SDLK_F2</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/sc_F3" data-ref="_M/sc_F3">sc_F3</dfn>           SDLK_F3</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/sc_F4" data-ref="_M/sc_F4">sc_F4</dfn>           SDLK_F4</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/sc_F5" data-ref="_M/sc_F5">sc_F5</dfn>           SDLK_F5</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/sc_F6" data-ref="_M/sc_F6">sc_F6</dfn>           SDLK_F6</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/sc_F7" data-ref="_M/sc_F7">sc_F7</dfn>           SDLK_F7</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/sc_F8" data-ref="_M/sc_F8">sc_F8</dfn>           SDLK_F8</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/sc_F9" data-ref="_M/sc_F9">sc_F9</dfn>           SDLK_F9</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/sc_F10" data-ref="_M/sc_F10">sc_F10</dfn>          SDLK_F10</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/sc_F11" data-ref="_M/sc_F11">sc_F11</dfn>          SDLK_F11</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/sc_F12" data-ref="_M/sc_F12">sc_F12</dfn>          SDLK_F12</u></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/sc_ScrollLock" data-ref="_M/sc_ScrollLock">sc_ScrollLock</dfn>       SDLK_SCROLLOCK</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/sc_PrintScreen" data-ref="_M/sc_PrintScreen">sc_PrintScreen</dfn>      SDLK_PRINT</u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/sc_1" data-ref="_M/sc_1">sc_1</dfn>            SDLK_1</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/sc_2" data-ref="_M/sc_2">sc_2</dfn>            SDLK_2</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/sc_3" data-ref="_M/sc_3">sc_3</dfn>            SDLK_3</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/sc_4" data-ref="_M/sc_4">sc_4</dfn>            SDLK_4</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/sc_5" data-ref="_M/sc_5">sc_5</dfn>            SDLK_5</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/sc_6" data-ref="_M/sc_6">sc_6</dfn>            SDLK_6</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/sc_7" data-ref="_M/sc_7">sc_7</dfn>            SDLK_7</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/sc_8" data-ref="_M/sc_8">sc_8</dfn>            SDLK_8</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/sc_9" data-ref="_M/sc_9">sc_9</dfn>            SDLK_9</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/sc_0" data-ref="_M/sc_0">sc_0</dfn>            SDLK_0</u></td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/sc_A" data-ref="_M/sc_A">sc_A</dfn>            SDLK_a</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/sc_B" data-ref="_M/sc_B">sc_B</dfn>            SDLK_b</u></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/sc_C" data-ref="_M/sc_C">sc_C</dfn>            SDLK_c</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/sc_D" data-ref="_M/sc_D">sc_D</dfn>            SDLK_d</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/sc_E" data-ref="_M/sc_E">sc_E</dfn>            SDLK_e</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/sc_F" data-ref="_M/sc_F">sc_F</dfn>            SDLK_f</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/sc_G" data-ref="_M/sc_G">sc_G</dfn>            SDLK_g</u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/sc_H" data-ref="_M/sc_H">sc_H</dfn>            SDLK_h</u></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/sc_I" data-ref="_M/sc_I">sc_I</dfn>            SDLK_i</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/sc_J" data-ref="_M/sc_J">sc_J</dfn>            SDLK_j</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/sc_K" data-ref="_M/sc_K">sc_K</dfn>            SDLK_k</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/sc_L" data-ref="_M/sc_L">sc_L</dfn>            SDLK_l</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/sc_M" data-ref="_M/sc_M">sc_M</dfn>            SDLK_m</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/sc_N" data-ref="_M/sc_N">sc_N</dfn>            SDLK_n</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/sc_O" data-ref="_M/sc_O">sc_O</dfn>            SDLK_o</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/sc_P" data-ref="_M/sc_P">sc_P</dfn>            SDLK_p</u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/sc_Q" data-ref="_M/sc_Q">sc_Q</dfn>            SDLK_q</u></td></tr>
+<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/sc_R" data-ref="_M/sc_R">sc_R</dfn>            SDLK_r</u></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/sc_S" data-ref="_M/sc_S">sc_S</dfn>            SDLK_s</u></td></tr>
+<tr><th id="85">85</th><td><u>#define <dfn class="macro" id="_M/sc_T" data-ref="_M/sc_T">sc_T</dfn>            SDLK_t</u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/sc_U" data-ref="_M/sc_U">sc_U</dfn>            SDLK_u</u></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/sc_V" data-ref="_M/sc_V">sc_V</dfn>            SDLK_v</u></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/sc_W" data-ref="_M/sc_W">sc_W</dfn>            SDLK_w</u></td></tr>
+<tr><th id="89">89</th><td><u>#define <dfn class="macro" id="_M/sc_X" data-ref="_M/sc_X">sc_X</dfn>            SDLK_x</u></td></tr>
+<tr><th id="90">90</th><td><u>#define <dfn class="macro" id="_M/sc_Y" data-ref="_M/sc_Y">sc_Y</dfn>            SDLK_y</u></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/sc_Z" data-ref="_M/sc_Z">sc_Z</dfn>            SDLK_z</u></td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><u>#define <dfn class="macro" id="_M/key_None" data-ref="_M/key_None">key_None</dfn>        0</u></td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><b>typedef</b> <b>enum</b>        {</td></tr>
+<tr><th id="96">96</th><td>                        <dfn class="enum" id="demo_Off" title='demo_Off' data-ref="demo_Off">demo_Off</dfn>,<dfn class="enum" id="demo_Record" title='demo_Record' data-ref="demo_Record">demo_Record</dfn>,<dfn class="enum" id="demo_Playback" title='demo_Playback' data-ref="demo_Playback">demo_Playback</dfn>,<dfn class="enum" id="demo_PlayDone" title='demo_PlayDone' data-ref="demo_PlayDone">demo_PlayDone</dfn></td></tr>
+<tr><th id="97">97</th><td>                    } <dfn class="typedef" id="Demo" title='Demo' data-type='enum Demo' data-ref="Demo">Demo</dfn>;</td></tr>
+<tr><th id="98">98</th><td><b>typedef</b> <b>enum</b>        {</td></tr>
+<tr><th id="99">99</th><td>                        <dfn class="enum" id="ctrl_Keyboard" title='ctrl_Keyboard' data-ref="ctrl_Keyboard">ctrl_Keyboard</dfn>,</td></tr>
+<tr><th id="100">100</th><td>                        <dfn class="enum" id="ctrl_Keyboard1" title='ctrl_Keyboard1' data-ref="ctrl_Keyboard1">ctrl_Keyboard1</dfn> = <a class="enum" href="#ctrl_Keyboard" title='ctrl_Keyboard' data-ref="ctrl_Keyboard">ctrl_Keyboard</a>,<dfn class="enum" id="ctrl_Keyboard2" title='ctrl_Keyboard2' data-ref="ctrl_Keyboard2">ctrl_Keyboard2</dfn>,</td></tr>
+<tr><th id="101">101</th><td>                        <dfn class="enum" id="ctrl_Joystick" title='ctrl_Joystick' data-ref="ctrl_Joystick">ctrl_Joystick</dfn>,</td></tr>
+<tr><th id="102">102</th><td>                        <dfn class="enum" id="ctrl_Joystick1" title='ctrl_Joystick1' data-ref="ctrl_Joystick1">ctrl_Joystick1</dfn> = <a class="enum" href="#ctrl_Joystick" title='ctrl_Joystick' data-ref="ctrl_Joystick">ctrl_Joystick</a>,<dfn class="enum" id="ctrl_Joystick2" title='ctrl_Joystick2' data-ref="ctrl_Joystick2">ctrl_Joystick2</dfn>,</td></tr>
+<tr><th id="103">103</th><td>                        <dfn class="enum" id="ctrl_Mouse" title='ctrl_Mouse' data-ref="ctrl_Mouse">ctrl_Mouse</dfn></td></tr>
+<tr><th id="104">104</th><td>                    } <dfn class="typedef" id="ControlType" title='ControlType' data-type='enum ControlType' data-ref="ControlType">ControlType</dfn>;</td></tr>
+<tr><th id="105">105</th><td><b>typedef</b> <b>enum</b>        {</td></tr>
+<tr><th id="106">106</th><td>                        <dfn class="enum" id="motion_Left" title='motion_Left' data-ref="motion_Left">motion_Left</dfn> = -<var>1</var>,<dfn class="enum" id="motion_Up" title='motion_Up' data-ref="motion_Up">motion_Up</dfn> = -<var>1</var>,</td></tr>
+<tr><th id="107">107</th><td>                        <dfn class="enum" id="motion_None" title='motion_None' data-ref="motion_None">motion_None</dfn> = <var>0</var>,</td></tr>
+<tr><th id="108">108</th><td>                        <dfn class="enum" id="motion_Right" title='motion_Right' data-ref="motion_Right">motion_Right</dfn> = <var>1</var>,<dfn class="enum" id="motion_Down" title='motion_Down' data-ref="motion_Down">motion_Down</dfn> = <var>1</var></td></tr>
+<tr><th id="109">109</th><td>                    } <dfn class="typedef" id="Motion" title='Motion' data-type='enum Motion' data-ref="Motion">Motion</dfn>;</td></tr>
+<tr><th id="110">110</th><td><b>typedef</b> <b>enum</b>        {</td></tr>
+<tr><th id="111">111</th><td>                        <dfn class="enum" id="dir_North" title='dir_North' data-ref="dir_North">dir_North</dfn>,<dfn class="enum" id="dir_NorthEast" title='dir_NorthEast' data-ref="dir_NorthEast">dir_NorthEast</dfn>,</td></tr>
+<tr><th id="112">112</th><td>                        <dfn class="enum" id="dir_East" title='dir_East' data-ref="dir_East">dir_East</dfn>,<dfn class="enum" id="dir_SouthEast" title='dir_SouthEast' data-ref="dir_SouthEast">dir_SouthEast</dfn>,</td></tr>
+<tr><th id="113">113</th><td>                        <dfn class="enum" id="dir_South" title='dir_South' data-ref="dir_South">dir_South</dfn>,<dfn class="enum" id="dir_SouthWest" title='dir_SouthWest' data-ref="dir_SouthWest">dir_SouthWest</dfn>,</td></tr>
+<tr><th id="114">114</th><td>                        <dfn class="enum" id="dir_West" title='dir_West' data-ref="dir_West">dir_West</dfn>,<dfn class="enum" id="dir_NorthWest" title='dir_NorthWest' data-ref="dir_NorthWest">dir_NorthWest</dfn>,</td></tr>
+<tr><th id="115">115</th><td>                        <dfn class="enum" id="dir_None" title='dir_None' data-ref="dir_None">dir_None</dfn></td></tr>
+<tr><th id="116">116</th><td>                    } <dfn class="typedef" id="Direction" title='Direction' data-type='enum Direction' data-ref="Direction">Direction</dfn>;</td></tr>
+<tr><th id="117">117</th><td><b>typedef</b> <b>struct</b>      {</td></tr>
+<tr><th id="118">118</th><td>                        <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>     <dfn class="decl" id="(anonymous)::button0" title='(anonymous struct)::button0' data-ref="(anonymous)::button0">button0</dfn>,<dfn class="decl" id="(anonymous)::button1" title='(anonymous struct)::button1' data-ref="(anonymous)::button1">button1</dfn>,<dfn class="decl" id="(anonymous)::button2" title='(anonymous struct)::button2' data-ref="(anonymous)::button2">button2</dfn>,<dfn class="decl" id="(anonymous)::button3" title='(anonymous struct)::button3' data-ref="(anonymous)::button3">button3</dfn>;</td></tr>
+<tr><th id="119">119</th><td>                        <em>short</em>       <dfn class="decl" id="(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</dfn>,<dfn class="decl" id="(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</dfn>;</td></tr>
+<tr><th id="120">120</th><td>                        <a class="typedef" href="#Motion" title='Motion' data-type='enum Motion' data-ref="Motion">Motion</a>      <dfn class="decl" id="(anonymous)::xaxis" title='(anonymous struct)::xaxis' data-ref="(anonymous)::xaxis">xaxis</dfn>,<dfn class="decl" id="(anonymous)::yaxis" title='(anonymous struct)::yaxis' data-ref="(anonymous)::yaxis">yaxis</dfn>;</td></tr>
+<tr><th id="121">121</th><td>                        <a class="typedef" href="#Direction" title='Direction' data-type='enum Direction' data-ref="Direction">Direction</a>   <dfn class="decl" id="(anonymous)::dir" title='(anonymous struct)::dir' data-ref="(anonymous)::dir">dir</dfn>;</td></tr>
+<tr><th id="122">122</th><td>                    } <dfn class="typedef" id="CursorInfo" title='CursorInfo' data-type='struct CursorInfo' data-ref="CursorInfo">CursorInfo</dfn>;</td></tr>
+<tr><th id="123">123</th><td><b>typedef</b> <a class="typedef" href="#CursorInfo" title='CursorInfo' data-type='struct CursorInfo' data-ref="CursorInfo">CursorInfo</a>  <dfn class="typedef" id="ControlInfo" title='ControlInfo' data-type='CursorInfo' data-ref="ControlInfo">ControlInfo</dfn>;</td></tr>
+<tr><th id="124">124</th><td><b>typedef</b> <b>struct</b>      {</td></tr>
+<tr><th id="125">125</th><td>                        <a class="typedef" href="#ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</a>    <dfn class="decl" id="(anonymous)::button0" title='(anonymous struct)::button0' data-ref="(anonymous)::button0">button0</dfn>,<dfn class="decl" id="(anonymous)::button1" title='(anonymous struct)::button1' data-ref="(anonymous)::button1">button1</dfn>,</td></tr>
+<tr><th id="126">126</th><td>                                    <dfn class="decl" id="(anonymous)::upleft" title='(anonymous struct)::upleft' data-ref="(anonymous)::upleft">upleft</dfn>,     <dfn class="decl" id="(anonymous)::up" title='(anonymous struct)::up' data-ref="(anonymous)::up">up</dfn>,     <dfn class="decl" id="(anonymous)::upright" title='(anonymous struct)::upright' data-ref="(anonymous)::upright">upright</dfn>,</td></tr>
+<tr><th id="127">127</th><td>                                    <dfn class="decl" id="(anonymous)::left" title='(anonymous struct)::left' data-ref="(anonymous)::left">left</dfn>,               <dfn class="decl" id="(anonymous)::right" title='(anonymous struct)::right' data-ref="(anonymous)::right">right</dfn>,</td></tr>
+<tr><th id="128">128</th><td>                                    <dfn class="decl" id="(anonymous)::downleft" title='(anonymous struct)::downleft' data-ref="(anonymous)::downleft">downleft</dfn>,   <dfn class="decl" id="(anonymous)::down" title='(anonymous struct)::down' data-ref="(anonymous)::down">down</dfn>,   <dfn class="decl" id="(anonymous)::downright" title='(anonymous struct)::downright' data-ref="(anonymous)::downright">downright</dfn>;</td></tr>
+<tr><th id="129">129</th><td>                    } <dfn class="typedef" id="KeyboardDef" title='KeyboardDef' data-type='struct KeyboardDef' data-ref="KeyboardDef">KeyboardDef</dfn>;</td></tr>
+<tr><th id="130">130</th><td><b>typedef</b> <b>struct</b>      {</td></tr>
+<tr><th id="131">131</th><td>                        <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>        <dfn class="decl" id="(anonymous)::joyMinX" title='(anonymous struct)::joyMinX' data-ref="(anonymous)::joyMinX">joyMinX</dfn>,<dfn class="decl" id="(anonymous)::joyMinY" title='(anonymous struct)::joyMinY' data-ref="(anonymous)::joyMinY">joyMinY</dfn>,</td></tr>
+<tr><th id="132">132</th><td>                                    <dfn class="decl" id="(anonymous)::threshMinX" title='(anonymous struct)::threshMinX' data-ref="(anonymous)::threshMinX">threshMinX</dfn>,<dfn class="decl" id="(anonymous)::threshMinY" title='(anonymous struct)::threshMinY' data-ref="(anonymous)::threshMinY">threshMinY</dfn>,</td></tr>
+<tr><th id="133">133</th><td>                                    <dfn class="decl" id="(anonymous)::threshMaxX" title='(anonymous struct)::threshMaxX' data-ref="(anonymous)::threshMaxX">threshMaxX</dfn>,<dfn class="decl" id="(anonymous)::threshMaxY" title='(anonymous struct)::threshMaxY' data-ref="(anonymous)::threshMaxY">threshMaxY</dfn>,</td></tr>
+<tr><th id="134">134</th><td>                                    <dfn class="decl" id="(anonymous)::joyMaxX" title='(anonymous struct)::joyMaxX' data-ref="(anonymous)::joyMaxX">joyMaxX</dfn>,<dfn class="decl" id="(anonymous)::joyMaxY" title='(anonymous struct)::joyMaxY' data-ref="(anonymous)::joyMaxY">joyMaxY</dfn>,</td></tr>
+<tr><th id="135">135</th><td>                                    <dfn class="decl" id="(anonymous)::joyMultXL" title='(anonymous struct)::joyMultXL' data-ref="(anonymous)::joyMultXL">joyMultXL</dfn>,<dfn class="decl" id="(anonymous)::joyMultYL" title='(anonymous struct)::joyMultYL' data-ref="(anonymous)::joyMultYL">joyMultYL</dfn>,</td></tr>
+<tr><th id="136">136</th><td>                                    <dfn class="decl" id="(anonymous)::joyMultXH" title='(anonymous struct)::joyMultXH' data-ref="(anonymous)::joyMultXH">joyMultXH</dfn>,<dfn class="decl" id="(anonymous)::joyMultYH" title='(anonymous struct)::joyMultYH' data-ref="(anonymous)::joyMultYH">joyMultYH</dfn>;</td></tr>
+<tr><th id="137">137</th><td>                    } <dfn class="typedef" id="JoystickDef" title='JoystickDef' data-type='struct JoystickDef' data-ref="JoystickDef">JoystickDef</dfn>;</td></tr>
+<tr><th id="138">138</th><td><i>// Global variables</i></td></tr>
+<tr><th id="139">139</th><td><b>extern</b>  <em>volatile</em> <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>    <dfn class="decl" id="Keyboard" title='Keyboard' data-ref="Keyboard">Keyboard</dfn>[];;</td></tr>
+<tr><th id="140">140</th><td><b>extern</b>           <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>    <dfn class="decl" id="MousePresent" title='MousePresent' data-ref="MousePresent">MousePresent</dfn>;</td></tr>
+<tr><th id="141">141</th><td><b>extern</b>  <em>volatile</em> <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>    <dfn class="decl" id="Paused" title='Paused' data-ref="Paused">Paused</dfn>;</td></tr>
+<tr><th id="142">142</th><td><b>extern</b>  <em>volatile</em> <em>char</em>       <dfn class="decl" id="LastASCII" title='LastASCII' data-ref="LastASCII">LastASCII</dfn>;</td></tr>
+<tr><th id="143">143</th><td><b>extern</b>  <em>volatile</em> <a class="typedef" href="#ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</a>   <dfn class="decl" id="LastScan" title='LastScan' data-ref="LastScan">LastScan</dfn>;</td></tr>
+<tr><th id="144">144</th><td><b>extern</b>           <em>int</em>        <dfn class="decl" id="JoyNumButtons" title='JoyNumButtons' data-ref="JoyNumButtons">JoyNumButtons</dfn>;</td></tr>
+<tr><th id="145">145</th><td><b>extern</b>           <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>    <dfn class="decl" id="forcegrabmouse" title='forcegrabmouse' data-ref="forcegrabmouse">forcegrabmouse</dfn>;</td></tr>
+<tr><th id="146">146</th><td></td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td><i>// Function prototypes</i></td></tr>
+<tr><th id="149">149</th><td><u>#define <dfn class="macro" id="_M/IN_KeyDown" data-ref="_M/IN_KeyDown">IN_KeyDown</dfn>(code)    (Keyboard[(code)])</u></td></tr>
+<tr><th id="150">150</th><td><u>#define <dfn class="macro" id="_M/IN_ClearKey" data-ref="_M/IN_ClearKey">IN_ClearKey</dfn>(code)   {Keyboard[code] = false;\</u></td></tr>
+<tr><th id="151">151</th><td><u>                            if (code == LastScan) LastScan = sc_None;}</u></td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><i>// DEBUG - put names in prototypes</i></td></tr>
+<tr><th id="154">154</th><td><b>extern</b>  <em>void</em>        <dfn class="decl" id="_Z10IN_Startupv" title='IN_Startup' data-ref="_Z10IN_Startupv">IN_Startup</dfn>(<em>void</em>),<dfn class="decl" id="_Z11IN_Shutdownv" title='IN_Shutdown' data-ref="_Z11IN_Shutdownv">IN_Shutdown</dfn>(<em>void</em>);</td></tr>
+<tr><th id="155">155</th><td><b>extern</b>  <em>void</em>        <dfn class="decl" id="_Z16IN_ClearKeysDownv" title='IN_ClearKeysDown' data-ref="_Z16IN_ClearKeysDownv">IN_ClearKeysDown</dfn>(<em>void</em>);</td></tr>
+<tr><th id="156">156</th><td><b>extern</b>  <em>void</em>        <dfn class="decl" id="_Z14IN_ReadControliP10CursorInfo" title='IN_ReadControl' data-ref="_Z14IN_ReadControliP10CursorInfo">IN_ReadControl</dfn>(<em>int</em>,<a class="typedef" href="#ControlInfo" title='ControlInfo' data-type='CursorInfo' data-ref="ControlInfo">ControlInfo</a> *);</td></tr>
+<tr><th id="157">157</th><td><b>extern</b>  <em>void</em>        <dfn class="decl" id="_Z12IN_GetJoyAbstPtS_" title='IN_GetJoyAbs' data-ref="_Z12IN_GetJoyAbstPtS_">IN_GetJoyAbs</dfn>(<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col1 decl" id="11231joy" title='joy' data-type='word' data-ref="11231joy">joy</dfn>,<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col2 decl" id="11232xp" title='xp' data-type='word *' data-ref="11232xp">xp</dfn>,<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col3 decl" id="11233yp" title='yp' data-type='word *' data-ref="11233yp">yp</dfn>);</td></tr>
+<tr><th id="158">158</th><td><b>extern</b>  <em>void</em>        <dfn class="decl" id="_Z11IN_SetupJoyttttt" title='IN_SetupJoy' data-ref="_Z11IN_SetupJoyttttt">IN_SetupJoy</dfn>(<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col4 decl" id="11234joy" title='joy' data-type='word' data-ref="11234joy">joy</dfn>,<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col5 decl" id="11235minx" title='minx' data-type='word' data-ref="11235minx">minx</dfn>,<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col6 decl" id="11236maxx" title='maxx' data-type='word' data-ref="11236maxx">maxx</dfn>,</td></tr>
+<tr><th id="159">159</th><td>                                <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col7 decl" id="11237miny" title='miny' data-type='word' data-ref="11237miny">miny</dfn>,<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col8 decl" id="11238maxy" title='maxy' data-type='word' data-ref="11238maxy">maxy</dfn>);</td></tr>
+<tr><th id="160">160</th><td><b>extern</b>  <em>void</em>        <dfn class="decl" id="_Z11IN_StopDemov" title='IN_StopDemo' data-ref="_Z11IN_StopDemov">IN_StopDemo</dfn>(<em>void</em>),<dfn class="decl" id="_Z17IN_FreeDemoBufferv" title='IN_FreeDemoBuffer' data-ref="_Z17IN_FreeDemoBufferv">IN_FreeDemoBuffer</dfn>(<em>void</em>),</td></tr>
+<tr><th id="161">161</th><td>                    <dfn class="decl" id="_Z6IN_Ackv" title='IN_Ack' data-ref="_Z6IN_Ackv">IN_Ack</dfn>(<em>void</em>);</td></tr>
+<tr><th id="162">162</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>     <dfn class="decl" id="_Z12IN_UserInputj" title='IN_UserInput' data-ref="_Z12IN_UserInputj">IN_UserInput</dfn>(<a class="typedef" href="wl_def.h.html#longword" title='longword' data-type='uint32_t' data-ref="longword">longword</a> <dfn class="local col9 decl" id="11239delay" title='delay' data-type='longword' data-ref="11239delay">delay</dfn>);</td></tr>
+<tr><th id="163">163</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>        <dfn class="decl" id="_Z18IN_GetJoyButtonsDBt" title='IN_GetJoyButtonsDB' data-ref="_Z18IN_GetJoyButtonsDBt">IN_GetJoyButtonsDB</dfn>(<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col0 decl" id="11240joy" title='joy' data-type='word' data-ref="11240joy">joy</dfn>);</td></tr>
+<tr><th id="164">164</th><td><b>extern</b>  <em>const</em> <em>char</em> *<dfn class="decl" id="_Z14IN_GetScanNamei" title='IN_GetScanName' data-ref="_Z14IN_GetScanNamei">IN_GetScanName</dfn>(<a class="typedef" href="#ScanCode" title='ScanCode' data-type='int' data-ref="ScanCode">ScanCode</a>);</td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td><em>void</em>    <dfn class="decl" id="_Z23IN_WaitAndProcessEventsv" title='IN_WaitAndProcessEvents' data-ref="_Z23IN_WaitAndProcessEventsv">IN_WaitAndProcessEvents</dfn>();</td></tr>
+<tr><th id="167">167</th><td><em>void</em>    <dfn class="decl" id="_Z16IN_ProcessEventsv" title='IN_ProcessEvents' data-ref="_Z16IN_ProcessEventsv">IN_ProcessEvents</dfn>();</td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td><em>int</em>     <dfn class="decl" id="_Z15IN_MouseButtonsv" title='IN_MouseButtons' data-ref="_Z15IN_MouseButtonsv">IN_MouseButtons</dfn> (<em>void</em>);</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z13IN_JoyPresentv" title='IN_JoyPresent' data-ref="_Z13IN_JoyPresentv">IN_JoyPresent</dfn>();</td></tr>
+<tr><th id="172">172</th><td><em>void</em>    <dfn class="decl" id="_Z16IN_SetJoyCurrenti" title='IN_SetJoyCurrent' data-ref="_Z16IN_SetJoyCurrenti">IN_SetJoyCurrent</dfn>(<em>int</em> <dfn class="local col1 decl" id="11241joyIndex" title='joyIndex' data-type='int' data-ref="11241joyIndex">joyIndex</dfn>);</td></tr>
+<tr><th id="173">173</th><td><em>int</em>     <dfn class="decl" id="_Z13IN_JoyButtonsv" title='IN_JoyButtons' data-ref="_Z13IN_JoyButtonsv">IN_JoyButtons</dfn> (<em>void</em>);</td></tr>
+<tr><th id="174">174</th><td><em>void</em>    <dfn class="decl" id="_Z14IN_GetJoyDeltaPiS_" title='IN_GetJoyDelta' data-ref="_Z14IN_GetJoyDeltaPiS_">IN_GetJoyDelta</dfn>(<em>int</em> *<dfn class="local col2 decl" id="11242dx" title='dx' data-type='int *' data-ref="11242dx">dx</dfn>,<em>int</em> *<dfn class="local col3 decl" id="11243dy" title='dy' data-type='int *' data-ref="11243dy">dy</dfn>);</td></tr>
+<tr><th id="175">175</th><td><em>void</em>    <dfn class="decl" id="_Z18IN_GetJoyFineDeltaPiS_" title='IN_GetJoyFineDelta' data-ref="_Z18IN_GetJoyFineDeltaPiS_">IN_GetJoyFineDelta</dfn>(<em>int</em> *<dfn class="local col4 decl" id="11244dx" title='dx' data-type='int *' data-ref="11244dx">dx</dfn>, <em>int</em> *<dfn class="local col5 decl" id="11245dy" title='dy' data-type='int *' data-ref="11245dy">dy</dfn>);</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><em>void</em>    <dfn class="decl" id="_Z11IN_StartAckv" title='IN_StartAck' data-ref="_Z11IN_StartAckv">IN_StartAck</dfn>(<em>void</em>);</td></tr>
+<tr><th id="178">178</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z11IN_CheckAckv" title='IN_CheckAck' data-ref="_Z11IN_CheckAckv">IN_CheckAck</dfn> (<em>void</em>);</td></tr>
+<tr><th id="179">179</th><td><em>bool</em>    <dfn class="decl" id="_Z17IN_IsInputGrabbedv" title='IN_IsInputGrabbed' data-ref="_Z17IN_IsInputGrabbedv">IN_IsInputGrabbed</dfn>();</td></tr>
+<tr><th id="180">180</th><td><em>void</em>    <dfn class="decl" id="_Z14IN_CenterMousev" title='IN_CenterMouse' data-ref="_Z14IN_CenterMousev">IN_CenterMouse</dfn>();</td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><u>#<span data-ppcond="8">endif</span></u></td></tr>
+<tr><th id="183">183</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

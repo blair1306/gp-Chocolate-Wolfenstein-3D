@@ -1,0 +1,2 @@
+<def f='codebrowser/id_ca.cpp' l='750' ll='788' type='void CA_CacheAdlibSoundChunk(int chunk)'/>
+<use f='codebrowser/id_ca.cpp' l='841' u='c' c='_Z16CA_LoadAllSoundsv'/>

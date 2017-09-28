@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='227' type='16'/>
+<use f='codebrowser/wl_state.cpp' l='1007' u='r' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1016' u='r' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1437' u='r' c='_Z13FirstSightingP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1458' u='r' c='_Z11SightPlayerP9objstruct'/>

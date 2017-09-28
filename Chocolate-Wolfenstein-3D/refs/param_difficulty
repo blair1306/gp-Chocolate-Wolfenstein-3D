@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_def.h' l='896' type='int'/>
+<def f='codebrowser/wl_main.cpp' l='85' type='int'/>
+<use f='codebrowser/wl_main.cpp' l='1500' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1663' u='w' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1665' u='w' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1667' u='w' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1669' u='w' c='_Z15CheckParametersiPPc'/>
+<doc f='codebrowser/wl_main.cpp' l='85'>// default is &quot;normal&quot;</doc>

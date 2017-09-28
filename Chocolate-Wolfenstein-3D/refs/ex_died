@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='849' type='2'/>
+<use f='codebrowser/wl_agent.cpp' l='427' u='r' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1539' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='753' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='953' u='r' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_play.cpp' l='1336' u='r' c='_Z8PlayLoopv'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_text.cpp' l='333' ll='344' type='void HandleCtrls()'/>
+<use f='codebrowser/wl_text.cpp' l='474' u='c' c='_Z10PageLayouta'/>
+<doc f='codebrowser/wl_text.cpp' l='325'>/*
+=====================
+=
+= HandleCtrls
+=
+=====================
+*/</doc>

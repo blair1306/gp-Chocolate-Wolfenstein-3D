@@ -1,0 +1,20 @@
+<dec f='codebrowser/id_us.h' l='79' type='void US_CPrint(const char * s)'/>
+<def f='codebrowser/id_us_1.cpp' l='263' ll='288' type='void US_CPrint(const char * sorg)'/>
+<use f='codebrowser/id_us_1.cpp' l='325' u='c' c='_Z10US_CPrintfPKcz'/>
+<doc f='codebrowser/id_us_1.cpp' l='257'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_CPrint() - Prints a string centered in the current window.
+//      Newlines are supported.
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='842' u='c' c='_Z12FinishSignonv'/>
+<use f='codebrowser/wl_main.cpp' l='861' u='c' c='_Z12FinishSignonv'/>
+<use f='codebrowser/wl_main.cpp' l='1140' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='1151' u='c' c='_Z14DrawNewEpisodev'/>
+<use f='codebrowser/wl_menu.cpp' l='1890' u='c' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='2521' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2558' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2598' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2896' u='c' c='_Z14DrawChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2897' u='c' c='_Z14DrawChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2898' u='c' c='_Z14DrawChangeViewi'/>

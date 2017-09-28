@@ -1,0 +1,7 @@
+<def f='codebrowser/wl_draw.cpp' l='76' type='short'/>
+<use f='codebrowser/wl_draw.cpp' l='1071' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1115' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1132' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1134' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1146' u='r' c='_Z10AsmRefreshv'/>
+<use f='codebrowser/wl_draw.cpp' l='1504' u='w' c='_Z17CalcViewVariablesv'/>

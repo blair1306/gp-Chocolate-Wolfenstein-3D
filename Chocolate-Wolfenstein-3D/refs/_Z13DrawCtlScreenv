@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_menu.h' l='167' type='void DrawCtlScreen()'/>
+<use f='codebrowser/wl_menu.cpp' l='1823' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='1836' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='1843' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='1850' u='c' c='_Z10CP_Controli'/>
+<def f='codebrowser/wl_menu.cpp' l='1995' ll='2057' type='void DrawCtlScreen()'/>
+<doc f='codebrowser/wl_menu.cpp' l='1991'>///////////////////////////
+//
+// DRAW CONTROL MENU SCREEN
+//</doc>

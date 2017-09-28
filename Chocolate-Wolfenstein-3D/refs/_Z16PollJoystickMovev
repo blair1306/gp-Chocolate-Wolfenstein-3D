@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_play.cpp' l='358' ll='374' type='void PollJoystickMove()'/>
+<use f='codebrowser/wl_play.cpp' l='468' u='c' c='_Z12PollControlsv'/>
+<doc f='codebrowser/wl_play.cpp' l='350'>/*
+===================
+=
+= PollJoystickMove
+=
+===================
+*/</doc>

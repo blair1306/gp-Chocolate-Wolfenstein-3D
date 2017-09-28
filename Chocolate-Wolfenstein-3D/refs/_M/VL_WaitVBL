@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_vl.h' l='39'/>
+<doc f='codebrowser/id_vl.h' l='33'>//===========================================================================
+
+//
+// VGA hardware routines
+//</doc>
+<use f='codebrowser/id_vl.cpp' l='314' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='340' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='365' u='c'/>
+<use f='codebrowser/id_vl.cpp' l='384' u='c'/>

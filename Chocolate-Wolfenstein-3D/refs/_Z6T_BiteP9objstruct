@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_act2.cpp' l='169' type='void T_Bite(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='515'/>
+<use f='codebrowser/wl_act2.cpp' l='515'/>
+<def f='codebrowser/wl_act2.cpp' l='3556' ll='3581' type='void T_Bite(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3548'>/*
+===============
+=
+= T_Bite
+=
+===============
+*/</doc>

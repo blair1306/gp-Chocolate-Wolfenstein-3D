@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='1268' type='statetype'/>
+<dec f='codebrowser/wl_act2.cpp' l='546' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='578' type='statetype'/>
+<use f='codebrowser/wl_state.cpp' l='1030' u='a' c='_Z11DamageActorP9objstructj'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1200' type='void InitStaticList()'/>
+<def f='codebrowser/wl_act1.cpp' l='127' ll='130' type='void InitStaticList()'/>
+<doc f='codebrowser/wl_act1.cpp' l='119'>/*
+===============
+=
+= InitStaticList
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='692' u='c' c='_Z14SetupGameLevelv'/>

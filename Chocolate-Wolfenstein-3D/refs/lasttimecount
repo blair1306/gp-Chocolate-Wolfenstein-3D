@@ -1,0 +1,18 @@
+<dec f='codebrowser/wl_def.h' l='1086' type='int32_t'/>
+<def f='codebrowser/wl_draw.cpp' l='31' type='int32_t'/>
+<use f='codebrowser/wl_draw.cpp' l='1046' u='r' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1047' u='w' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1050' u='r' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1054' u='r' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1058' u='w' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1568' u='w' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_menu.cpp' l='808' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='880' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_play.cpp' l='405' u='w' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='406' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='411' u='w' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='673' u='w' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='714' u='w' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='735' u='w' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1259' u='w' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='1320' u='w' c='_Z8PlayLoopv'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='749' type='short'/>
+<offset>32</offset>
+<use f='codebrowser/wl_act2.cpp' l='248' u='w' c='_Z7A_SmokeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2311' u='w' c='_Z13T_SchabbThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2351' u='w' c='_Z11T_GiftThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2946' u='w' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1161' u='r' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1187' u='w' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1188' u='r' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1211' u='w' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='1215' u='w' c='_Z7DoActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='86' u='w' c='_Z11SpawnNewObjjjP11statestruct'/>
+<use f='codebrowser/wl_state.cpp' l='90' u='w' c='_Z11SpawnNewObjjjP11statestruct'/>
+<use f='codebrowser/wl_state.cpp' l='118' u='w' c='_Z8NewStateP9objstructP11statestruct'/>

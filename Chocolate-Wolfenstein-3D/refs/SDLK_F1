@@ -1,0 +1,4 @@
+<dec f='include/SDL/SDL_keysym.h' l='251' type='282'/>
+<doc f='include/SDL/SDL_keysym.h' l='250'>/*@{*/</doc>
+<use f='codebrowser/wl_menu.cpp' l='408' macro='1' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_play.cpp' l='697' macro='1' u='r'/>

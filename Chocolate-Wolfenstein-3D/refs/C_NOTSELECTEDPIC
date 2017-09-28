@@ -1,0 +1,5 @@
+<dec f='codebrowser/gfxv_apo.h' l='35' type='25'/>
+<doc f='codebrowser/gfxv_apo.h' l='35'>// 25</doc>
+<use f='codebrowser/wl_menu.cpp' l='1443' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='2032' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2038' u='r' c='_Z13DrawCtlScreenv'/>

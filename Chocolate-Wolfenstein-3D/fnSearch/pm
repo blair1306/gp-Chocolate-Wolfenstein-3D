@@ -1,0 +1,8 @@
+_ZL9PM_GetEndv|PM_GetEnd
+_ZL10PM_GetPagei|PM_GetPage
+_ZL14PM_GetPageSizei|PM_GetPageSize
+_ZL11PM_GetSoundi|PM_GetSound
+_ZL12PM_GetSpritei|PM_GetSprite
+_ZL13PM_GetTexturei|PM_GetTexture
+_Z11PM_Shutdownv|PM_Shutdown
+_Z10PM_Startupv|PM_Startup

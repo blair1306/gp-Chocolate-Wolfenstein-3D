@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='911' type='boolean LoadTheGame(FILE * file, int x, int y)'/>
+<def f='codebrowser/wl_main.cpp' l='497' ll='645' type='boolean LoadTheGame(FILE * file, int x, int y)'/>
+<doc f='codebrowser/wl_main.cpp' l='489'>/*
+==================
+=
+= LoadTheGame
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_menu.cpp' l='1514' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1558' u='c' c='_Z11CP_LoadGamei'/>

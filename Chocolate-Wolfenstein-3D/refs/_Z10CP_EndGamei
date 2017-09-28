@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_menu.h' l='193' type='int CP_EndGame(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='516' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='940' ll='963' type='int CP_EndGame(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='935'>////////////////////////////////////////////////////////////////////
+//
+// END THE CURRENT GAME
+//
+////////////////////////////////////////////////////////////////////</doc>

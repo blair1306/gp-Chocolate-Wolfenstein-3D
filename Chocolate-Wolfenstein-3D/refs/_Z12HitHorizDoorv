@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_draw.cpp' l='475' ll='526' type='void HitHorizDoor()'/>
+<use f='codebrowser/wl_draw.cpp' l='1347' u='c' c='_Z10AsmRefreshv'/>
+<doc f='codebrowser/wl_draw.cpp' l='467'>/*
+====================
+=
+= HitHorizDoor
+=
+====================
+*/</doc>

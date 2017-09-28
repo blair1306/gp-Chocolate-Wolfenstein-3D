@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_menu.h' l='191' type='int CP_Quit(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='535' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='2909' ll='2933' type='int CP_Quit(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='2904'>////////////////////////////////////////////////////////////////////
+//
+// QUIT THIS INFERNAL GAME!
+//
+////////////////////////////////////////////////////////////////////</doc>

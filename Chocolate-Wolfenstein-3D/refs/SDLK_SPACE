@@ -1,0 +1,6 @@
+<dec f='include/SDL/SDL_keysym.h' l='44' type='32'/>
+<use f='codebrowser/wl_menu.cpp' l='1968' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3372' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3567' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='53' macro='1'/>
+<use f='codebrowser/wl_play.cpp' l='53' macro='1'/>

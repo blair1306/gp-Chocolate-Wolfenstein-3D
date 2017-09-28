@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_menu.h' l='162' type='void DrawLoadSaveScreen(int loadsave)'/>
+<use f='codebrowser/wl_menu.cpp' l='1537' u='c' c='_Z11CP_LoadGamei'/>
+<def f='codebrowser/wl_menu.cpp' l='1611' ll='1638' type='void DrawLoadSaveScreen(int loadsave)'/>
+<use f='codebrowser/wl_menu.cpp' l='1716' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1734' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1739' u='c' c='_Z11CP_SaveGamei'/>
+<doc f='codebrowser/wl_menu.cpp' l='1607'>////////////////////////////
+//
+// DRAW THE LOAD/SAVE SCREEN
+//</doc>

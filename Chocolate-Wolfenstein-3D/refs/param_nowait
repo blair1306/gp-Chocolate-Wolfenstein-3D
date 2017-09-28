@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_def.h' l='895' type='boolean'/>
+<def f='codebrowser/wl_main.cpp' l='84' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='849' u='r' c='_Z12FinishSignonv'/>
+<use f='codebrowser/wl_main.cpp' l='1498' u='w' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1543' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1551' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1633' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1671' u='w' c='_Z15CheckParametersiPPc'/>

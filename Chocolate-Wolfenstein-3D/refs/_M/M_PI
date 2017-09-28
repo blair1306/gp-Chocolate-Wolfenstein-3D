@@ -1,0 +1,13 @@
+<dec f='include/math.h' l='418'/>
+<use f='codebrowser/wl_def.h' l='157' u='w'/>
+<dec f='codebrowser/wl_def.h' l='159'/>
+<use f='codebrowser/wl_act2.cpp' l='2306' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2307' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2346' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2347' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2941' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='2942' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3849' u='c'/>
+<use f='codebrowser/wl_act2.cpp' l='3851' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1234' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1236' u='c'/>

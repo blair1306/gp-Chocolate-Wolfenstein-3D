@@ -1,0 +1,10 @@
+<dec f='include/ctype.h' l='127' type='int toupper(int __c)'/>
+<def f='include/ctype.h' l='220' ll='224' macro='1' type='int toupper(int __c)'/>
+<doc f='include/ctype.h' l='126'>/* Return the uppercase version of C.  */</doc>
+<use f='codebrowser/wl_text.cpp' l='197' u='c' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='217' u='c' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='224' u='c' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='309' u='c' c='_Z7NewLinev'/>
+<use f='codebrowser/wl_text.cpp' l='451' u='c' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='518' u='c' c='_Z8BackPagev'/>
+<use f='codebrowser/wl_text.cpp' l='550' u='c' c='_Z19CacheLayoutGraphicsv'/>

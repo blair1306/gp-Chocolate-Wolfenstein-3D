@@ -1,0 +1,30 @@
+<dec f='codebrowser/id_in.h' l='140' type='boolean'/>
+<def f='codebrowser/id_in.cpp' l='35' type='boolean'/>
+<use f='codebrowser/id_in.cpp' l='393' u='w' c='_Z10IN_Startupv'/>
+<use f='codebrowser/id_in.cpp' l='506' u='r' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_in.cpp' l='526' u='r' c='_Z11IN_CheckAckv'/>
+<use f='codebrowser/id_in.cpp' l='541' u='r' c='_Z11IN_CheckAckv'/>
+<use f='codebrowser/id_in.cpp' l='604' u='r' c='_Z15IN_MouseButtonsv'/>
+<doc f='codebrowser/id_in.cpp' l='23'>/*
+=============================================================================
+
+                    GLOBAL VARIABLES
+
+=============================================================================
+*/
+
+
+//
+// configuration variables
+//</doc>
+<use f='codebrowser/wl_main.cpp' l='182' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='218' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='810' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='882' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2016' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3010' u='r' c='_Z11IntroScreenv'/>
+<use f='codebrowser/wl_play.cpp' l='671' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='715' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='732' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1267' u='r' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_text.cpp' l='853' u='r' c='_Z7EndTextv'/>

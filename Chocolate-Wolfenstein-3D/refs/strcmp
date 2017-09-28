@@ -1,0 +1,25 @@
+<dec f='include/string.h' l='140' type='int strcmp(const char * __s1, const char * __s2)'/>
+<doc f='include/string.h' l='139'>/* Compare S1 and S2.  */</doc>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1645' u='c' c='_Z15CheckParametersiPPc'/>

@@ -1,0 +1,12 @@
+<def f='codebrowser/id_ca.cpp' l='137' ll='142' type='void CAL_GetGrChunkLength(int chunk)'/>
+<use f='codebrowser/id_ca.cpp' l='524' u='c' c='_Z15CAL_SetupGrFilev'/>
+<doc f='codebrowser/id_ca.cpp' l='126'>/*
+============================
+=
+= CAL_GetGrChunkLength
+=
+= Gets the length of an explicit length chunk (not tiles)
+= The file pointer is positioned so the compressed data can be read in next.
+=
+============================
+*/</doc>

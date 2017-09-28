@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='1169' type='void DrawScore()'/>
+<def f='codebrowser/wl_agent.cpp' l='534' ll='538' type='void DrawScore()'/>
+<use f='codebrowser/wl_agent.cpp' l='556' u='c' c='_Z10GivePointsi'/>
+<doc f='codebrowser/wl_agent.cpp' l='526'>/*
+===============
+=
+= DrawScore
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='925' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='974' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1371' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_inter.cpp' l='891' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1525' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_play.cpp' l='601' u='c' c='_Z9CheckKeysv'/>

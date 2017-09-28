@@ -1,0 +1,4 @@
+<def f='codebrowser/id_vl.h' l='84' ll='87' type='void VL_MemToScreen(byte * source, int width, int height, int x, int y)'/>
+<use f='codebrowser/id_vh.cpp' l='130' u='c' c='_Z14VWB_DrawTile8Miii'/>
+<use f='codebrowser/id_vh.cpp' l='143' u='c' c='_Z11VWB_DrawPiciii'/>
+<use f='codebrowser/wl_main.cpp' l='816' u='c' c='_Z12SignonScreenv'/>

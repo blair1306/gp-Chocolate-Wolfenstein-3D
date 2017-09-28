@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='827' type='int32_t'/>
+<offset>96</offset>
+<use f='codebrowser/wl_agent.cpp' l='551' u='r' c='_Z10GivePointsi'/>
+<use f='codebrowser/wl_agent.cpp' l='553' u='w' c='_Z10GivePointsi'/>
+<use f='codebrowser/wl_main.cpp' l='305' u='w' c='_Z7NewGameii'/>

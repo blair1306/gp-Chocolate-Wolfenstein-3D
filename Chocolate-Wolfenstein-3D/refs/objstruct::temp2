@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='770' type='short'/>
+<offset>520</offset>
+<use f='codebrowser/wl_state.cpp' l='1461' u='r' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1466' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1467' u='r' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1469' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1492' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1495' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1498' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1501' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1504' u='w' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1521' u='w' c='_Z11SightPlayerP9objstruct'/>

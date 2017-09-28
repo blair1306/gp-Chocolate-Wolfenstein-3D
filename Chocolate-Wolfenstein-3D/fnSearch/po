@@ -1,0 +1,7 @@
+_Z12PollControlsv|PollControls
+_Z19PollJoystickButtonsv|PollJoystickButtons
+_Z16PollJoystickMovev|PollJoystickMove
+_Z19PollKeyboardButtonsv|PollKeyboardButtons
+_Z16PollKeyboardMovev|PollKeyboardMove
+_Z16PollMouseButtonsv|PollMouseButtons
+_Z13PollMouseMovev|PollMouseMove

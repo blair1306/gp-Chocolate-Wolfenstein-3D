@@ -1,0 +1,21 @@
+<dec f='codebrowser/id_us.h' l='92' type='boolean US_LineInput(int x, int y, char * buf, const char * def, boolean escok, int maxchars, int maxwidth)'/>
+<def f='codebrowser/id_us_1.cpp' l='474' ll='752' type='boolean US_LineInput(int x, int y, char * buf, const char * def, boolean escok, int maxchars, int maxwidth)'/>
+<doc f='codebrowser/id_us_1.cpp' l='464'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_LineInput() - Gets a line of user input at (x,y), the string defaults
+//      to whatever is pointed at by def. Input is restricted to maxchars
+//      chars or maxwidth pixels wide. If the user hits escape (and escok is
+//      true), nothing is copied into buf, and false is returned. If the
+//      user hits return, the current string is copied into buf, and true is
+//      returned
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_debug.cpp' l='438' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='553' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='635' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='655' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='674' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1036' u='c' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1081' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_inter.cpp' l='1227' u='c' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_menu.cpp' l='1756' u='c' c='_Z11CP_SaveGamei'/>

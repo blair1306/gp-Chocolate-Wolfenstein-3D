@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1203' type='void MoveDoors()'/>
+<def f='codebrowser/wl_act1.cpp' l='699' ll='723' type='void MoveDoors()'/>
+<doc f='codebrowser/wl_act1.cpp' l='689'>/*
+=====================
+=
+= MoveDoors
+=
+= Called from PlayLoop
+=
+=====================
+*/</doc>
+<use f='codebrowser/wl_play.cpp' l='1282' u='c' c='_Z8PlayLoopv'/>

@@ -1,0 +1,3 @@
+<dec f='include/SDL/SDL_mixer.h' l='526' type='int Mix_GroupOldest(int tag)'/>
+<use f='codebrowser/id_sd.cpp' l='505' u='c' c='_Z20SD_GetChannelForDigii'/>
+<doc f='include/SDL/SDL_mixer.h' l='525'>/* Finds the &quot;oldest&quot; sample playing in a group of channels */</doc>

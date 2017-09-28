@@ -1,0 +1,4 @@
+<dec f='codebrowser/gfxv_apo.h' l='63' type='52'/>
+<doc f='codebrowser/gfxv_apo.h' l='63'>// 52</doc>
+<use f='codebrowser/wl_inter.cpp' l='1035' u='r' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1050' u='r' c='_Z14DrawHighScoresv'/>

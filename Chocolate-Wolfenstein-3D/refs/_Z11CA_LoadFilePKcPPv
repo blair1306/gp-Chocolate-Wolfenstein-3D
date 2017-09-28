@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_ca.h' l='36' type='boolean CA_LoadFile(const char * filename, memptr * ptr)'/>
+<doc f='codebrowser/id_ca.h' l='34'>//===========================================================================</doc>
+<def f='codebrowser/id_ca.cpp' l='182' ll='201' type='boolean CA_LoadFile(const char * filename, memptr * ptr)'/>
+<use f='codebrowser/id_ca.cpp' l='637' u='c' c='_Z18CAL_SetupAudioFilev'/>
+<doc f='codebrowser/id_ca.cpp' l='172'>/*
+==========================
+=
+= CA_LoadFile
+=
+= Allocate space for and load a file
+=
+==========================
+*/</doc>

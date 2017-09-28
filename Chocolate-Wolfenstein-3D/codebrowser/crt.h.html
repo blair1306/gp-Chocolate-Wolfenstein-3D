@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>crt.h source code [codebrowser/crt.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/crt.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='crt.h.html'>crt.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>//</i></td></tr>
+<tr><th id="2">2</th><td><i>//  crt.h</i></td></tr>
+<tr><th id="3">3</th><td><i>//  Chocolate Wolfenstein 3D</i></td></tr>
+<tr><th id="4">4</th><td><i>//</i></td></tr>
+<tr><th id="5">5</th><td><i>//  Created by fabien sanglard on 2014-08-26.</i></td></tr>
+<tr><th id="6">6</th><td><i>//</i></td></tr>
+<tr><th id="7">7</th><td><i>//</i></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="9">ifndef</span> <span class="macro" data-ref="_M/Chocolate_Wolfenstein_3D_crt_h">Chocolate_Wolfenstein_3D_crt_h</span></u></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/Chocolate_Wolfenstein_3D_crt_h" data-ref="_M/Chocolate_Wolfenstein_3D_crt_h">Chocolate_Wolfenstein_3D_crt_h</dfn></u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><i>// Win32</i></td></tr>
+<tr><th id="14">14</th><td><u>#<span data-ppcond="14">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="15">15</th><td><u>#include &lt;WTypes.h&gt;</u></td></tr>
+<tr><th id="16">16</th><td><u>#include &lt;gl\GL.h&gt;</u></td></tr>
+<tr><th id="17">17</th><td><u>#include "SDL.h"</u></td></tr>
+<tr><th id="18">18</th><td><u>#<span data-ppcond="14">elif</span> <span class="macro" title="1" data-ref="_M/__linux__">__linux__</span></u></td></tr>
+<tr><th id="19">19</th><td><u>#include <a href="../include/GL/gl.h.html">&lt;GL/gl.h&gt;</a></u></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="../include/SDL/SDL.h.html">"SDL/SDL.h"</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#<span data-ppcond="14">else</span></u></td></tr>
+<tr><th id="22">22</th><td><u>#include &lt;OpenGL/gl.h&gt;</u></td></tr>
+<tr><th id="23">23</th><td><u>#include "SDL/SDL.h"</u></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="14">endif</span></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><b>extern</b> <a class="typedef" href="../include/SDL/SDL_video.h.html#SDL_Color" title='SDL_Color' data-type='struct SDL_Color' data-ref="SDL_Color">SDL_Color</a> <dfn class="decl" id="curpal" title='curpal' data-ref="curpal">curpal</dfn>[<var>256</var>];</td></tr>
+<tr><th id="27">27</th><td><i>/*</i></td></tr>
+<tr><th id="28">28</th><td><i> * CRT aspect ratio is 4:3, height will be infered.</i></td></tr>
+<tr><th id="29">29</th><td><i> */</i></td></tr>
+<tr><th id="30">30</th><td><em>void</em> <a class="decl" href="crt.cpp.html#_Z8CRT_Initi" title='CRT_Init' data-ref="_Z8CRT_Initi" id="_Z8CRT_Initi">CRT_Init</a>(<em>int</em> <dfn class="local col2 decl" id="10582width" title='width' data-type='int' data-ref="10582width">width</dfn>);</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><i>/*</i></td></tr>
+<tr><th id="33">33</th><td><i> *   Trigger the Digital To Analogic convertion</i></td></tr>
+<tr><th id="34">34</th><td><i> */</i></td></tr>
+<tr><th id="35">35</th><td><em>void</em> <a class="decl" href="crt.cpp.html#_Z7CRT_DACv" title='CRT_DAC' data-ref="_Z7CRT_DACv" id="_Z7CRT_DACv">CRT_DAC</a>(<em>void</em>);</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><em>void</em> <a class="decl" href="crt.cpp.html#_Z14CRT_Screenshotv" title='CRT_Screenshot' data-ref="_Z14CRT_Screenshotv" id="_Z14CRT_Screenshotv">CRT_Screenshot</a>(<em>void</em>);</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="9">endif</span></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

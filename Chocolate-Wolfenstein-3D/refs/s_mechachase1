@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1251' type='statetype'/>
+<dec f='codebrowser/wl_act2.cpp' l='2719' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='2768' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='2773' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2773' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2785' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2785' u='a'/>
+<doc f='codebrowser/wl_act2.cpp' l='2716'>//
+// hitler
+//</doc>
+<use f='codebrowser/wl_state.cpp' l='1382' u='a' c='_Z13FirstSightingP9objstruct'/>

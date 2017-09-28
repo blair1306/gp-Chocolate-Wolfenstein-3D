@@ -1,0 +1,3 @@
+<dec f='include/GL/gl.h' l='866' type='void glMatrixMode(GLenum mode)'/>
+<use f='codebrowser/crt.cpp' l='48' u='c' c='_Z8CRT_Initi'/>
+<use f='codebrowser/crt.cpp' l='51' u='c' c='_Z8CRT_Initi'/>

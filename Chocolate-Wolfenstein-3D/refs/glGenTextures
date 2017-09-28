@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='1307' type='void glGenTextures(GLsizei n, GLuint * textures)'/>
+<use f='codebrowser/crt.cpp' l='32' u='c' c='_Z8CRT_Initi'/>

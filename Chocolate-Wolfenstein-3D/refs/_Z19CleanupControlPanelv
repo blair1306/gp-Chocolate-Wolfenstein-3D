@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='125' type='void CleanupControlPanel()'/>
+<use f='codebrowser/wl_menu.cpp' l='441' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='555' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='3175' ll='3185' type='void CleanupControlPanel()'/>
+<doc f='codebrowser/wl_menu.cpp' l='3170'>////////////////////////////////////////////////////////////////////
+//
+// Clean up all the Control Panel stuff
+//
+////////////////////////////////////////////////////////////////////</doc>

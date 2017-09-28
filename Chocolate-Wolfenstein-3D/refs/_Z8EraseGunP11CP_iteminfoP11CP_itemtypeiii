@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_menu.h' l='149' type='void EraseGun(CP_iteminfo * item_i, CP_itemtype * items, int x, int y, int which)'/>
+<use f='codebrowser/wl_menu.cpp' l='3271' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3287' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3308' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3344' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<def f='codebrowser/wl_menu.cpp' l='3431' ll='3441' type='void EraseGun(CP_iteminfo * item_i, CP_itemtype * items, int x, int y, int which)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3428'>//
+// ERASE GUN &amp; DE-HIGHLIGHT STRING
+//</doc>

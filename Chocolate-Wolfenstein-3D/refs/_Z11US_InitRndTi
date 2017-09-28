@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_us.h' l='98' type='void US_InitRndT(int randomize)'/>
+<use f='codebrowser/id_us_1.cpp' l='92' u='c' c='_Z10US_Startupv'/>
+<def f='codebrowser/id_us_1.cpp' l='761' ll='767' type='void US_InitRndT(int randomize)'/>
+<doc f='codebrowser/id_us_1.cpp' l='754'>///////////////////////////////////////////////////////////////////////////
+//
+// US_InitRndT - Initializes the pseudo random number generator.
+//      If randomize is true, the seed will be initialized depending on the
+//      current time
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_game.cpp' l='650' u='c' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='652' u='c' c='_Z14SetupGameLevelv'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='1026' type='void StartMusic()'/>
+<use f='codebrowser/wl_game.cpp' l='1110' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1181' u='c' c='_Z8PlayDemoi'/>
+<use f='codebrowser/wl_game.cpp' l='1391' u='c' c='_Z8GameLoopv'/>
+<dec f='codebrowser/wl_play.cpp' l='89' type='void StartMusic()'/>
+<def f='codebrowser/wl_play.cpp' l='920' ll='925' type='void StartMusic()'/>
+<doc f='codebrowser/wl_play.cpp' l='912'>/*
+=================
+=
+= StartMusic
+=
+=================
+*/</doc>

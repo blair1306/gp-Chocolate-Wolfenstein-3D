@@ -1,0 +1,46 @@
+<dec f='codebrowser/id_us.h' l='51' type='boolean'/>
+<dec f='codebrowser/wl_def.h' l='871' type='boolean'/>
+<doc f='codebrowser/wl_def.h' l='863'>/*
+=============================================================================
+
+                             WL_MAIN DEFINITIONS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_act1.cpp' l='162' u='r' c='_Z11SpawnStaticiii'/>
+<use f='codebrowser/wl_act2.cpp' l='861' u='r' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='868' u='r' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='875' u='r' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='882' u='r' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='955' u='r' c='_Z9SpawnBossii'/>
+<use f='codebrowser/wl_act2.cpp' l='976' u='r' c='_Z11SpawnGretelii'/>
+<use f='codebrowser/wl_act2.cpp' l='996' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1003' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1010' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1017' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1024' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2019' u='r' c='_Z11SpawnGhostsiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2229' u='r' c='_Z12SpawnSchabbsii'/>
+<use f='codebrowser/wl_act2.cpp' l='2256' u='r' c='_Z9SpawnGiftii'/>
+<use f='codebrowser/wl_act2.cpp' l='2283' u='r' c='_Z8SpawnFatii'/>
+<use f='codebrowser/wl_act2.cpp' l='2839' u='r' c='_Z15SpawnFakeHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='2867' u='r' c='_Z11SpawnHitlerii'/>
+<use f='codebrowser/wl_game.cpp' l='312' u='r' c='_ZL13ScanInfoPlanev'/>
+<use f='codebrowser/wl_game.cpp' l='635' u='r' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='1369' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1374' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1386' u='r' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1389' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1440' u='r' c='_Z8GameLoopv'/>
+<def f='codebrowser/wl_main.cpp' l='74' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='1630' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='560' u='r' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='803' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='806' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='874' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='877' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1513' u='w' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1515' u='w' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1556' u='w' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_play.cpp' l='710' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='712' u='r' c='_Z9CheckKeysv'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='176' type='void PrintCustKeybd(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2139' u='r' c='_Z13DefineKeyBtnsv'/>
+<def f='codebrowser/wl_menu.cpp' l='2746' ll='2751' type='void PrintCustKeybd(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2766' u='c' c='_Z13DrawCustKeybdi'/>

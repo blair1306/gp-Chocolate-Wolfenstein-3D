@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='748' type='activetype'/>
+<offset>0</offset>
+<use f='codebrowser/wl_act2.cpp' l='255' u='w' c='_Z7A_SmokeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1034' u='w' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2323' u='w' c='_Z13T_SchabbThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2362' u='w' c='_Z11T_GiftThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2957' u='w' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1182' u='w' c='_Z11SpawnPlayeriii'/>
+<use f='codebrowser/wl_debug.cpp' l='98' u='r' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_draw.cpp' l='934' u='w' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_main.cpp' l='438' u='w' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='549' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_play.cpp' l='836' u='w' c='_Z11GetNewActorv'/>
+<use f='codebrowser/wl_play.cpp' l='1151' u='r' c='_Z7DoActorP9objstruct'/>

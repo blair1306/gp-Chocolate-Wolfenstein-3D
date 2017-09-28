@@ -1,0 +1,17 @@
+<dec f='codebrowser/id_sd.h' l='137' type='void SD_StopSound()'/>
+<use f='codebrowser/id_sd.cpp' l='892' u='c' c='_Z15SD_SetSoundMode6SDMode'/>
+<use f='codebrowser/id_sd.cpp' l='1109' u='c' c='_Z11SD_Shutdownv'/>
+<def f='codebrowser/id_sd.cpp' l='1255' ll='1274' type='void SD_StopSound()'/>
+<doc f='codebrowser/id_sd.cpp' l='1250'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_StopSound() - if a sound is playing, stops it
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_inter.cpp' l='717' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='728' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='759' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='770' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='799' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='810' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_menu.cpp' l='919' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2926' u='c' c='_Z7CP_Quiti'/>

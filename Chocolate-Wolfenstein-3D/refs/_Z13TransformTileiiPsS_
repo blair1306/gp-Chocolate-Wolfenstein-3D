@@ -1,0 +1,22 @@
+<def f='codebrowser/wl_draw.cpp' l='194' ll='237' type='boolean TransformTile(int tx, int ty, short * dispx, short * dispheight)'/>
+<use f='codebrowser/wl_draw.cpp' l='891' u='c' c='_Z11DrawScaledsv'/>
+<doc f='codebrowser/wl_draw.cpp' l='173'>/*
+========================
+=
+= TransformTile
+=
+= Takes paramaters:
+=   tx,ty               : tile the object is centered in
+=
+= globals:
+=   viewx,viewy         : point of view
+=   viewcos,viewsin     : sin/cos of viewangle
+=   scale               : conversion from global value to screen value
+=
+= sets:
+=   screenx,transx,transy,screenheight: projected edge location and size
+=
+= Returns true if the tile is withing getting distance
+=
+========================
+*/</doc>

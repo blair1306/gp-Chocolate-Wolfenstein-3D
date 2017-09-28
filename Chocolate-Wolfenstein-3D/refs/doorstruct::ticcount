@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='736' type='short'/>
+<offset>64</offset>
+<use f='codebrowser/wl_act1.cpp' l='408' u='w' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='544' u='w' c='_Z8DoorOpeni'/>
+<use f='codebrowser/wl_act1.cpp' l='609' u='w' c='_Z11DoorOpeningi'/>

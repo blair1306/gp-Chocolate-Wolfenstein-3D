@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='789' type='12'/>
+<use f='codebrowser/wl_agent.cpp' l='166' u='r' c='_Z15ControlMovementP9objstruct'/>
+<use f='codebrowser/wl_play.cpp' l='57'/>
+<use f='codebrowser/wl_play.cpp' l='57'/>

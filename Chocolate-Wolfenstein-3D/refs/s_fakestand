@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_act2.cpp' l='2658' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='2687' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='2687' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2687' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2832' u='a' c='_Z15SpawnFakeHitlerii'/>
+<doc f='codebrowser/wl_act2.cpp' l='2646'>/*
+=============================================================================
+
+                                    HITLERS
+
+=============================================================================
+*/
+
+
+//
+// fake
+//</doc>

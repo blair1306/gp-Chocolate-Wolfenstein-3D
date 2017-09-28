@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1094' type='fixed'/>
+<def f='codebrowser/wl_draw.cpp' l='53' type='fixed'/>
+<use f='codebrowser/wl_draw.cpp' l='139' u='r' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='147' u='r' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='208' u='r' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='214' u='r' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='253' u='r' c='_Z10CalcHeightv'/>
+<use f='codebrowser/wl_draw.cpp' l='1498' u='w' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_draw.cpp' l='1502' u='r' c='_Z17CalcViewVariablesv'/>
+<use f='codebrowser/wl_game.cpp' l='140' u='r' c='_Z11SetSoundLocii'/>
+<use f='codebrowser/wl_game.cpp' l='146' u='r' c='_Z11SetSoundLocii'/>

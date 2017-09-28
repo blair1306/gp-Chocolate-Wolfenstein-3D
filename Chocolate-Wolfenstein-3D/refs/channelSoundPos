@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_sd.h' l='110' type='globalsoundpos []'/>
+<def f='codebrowser/id_sd.cpp' l='74' type='globalsoundpos [8]'/>
+<use f='codebrowser/id_sd.cpp' l='619' u='m' c='_Z18SD_ChannelFinishedi'/>
+<use f='codebrowser/wl_game.cpp' l='183' u='m' c='_Z18PlaySoundLocGlobaltii'/>
+<use f='codebrowser/wl_game.cpp' l='184' u='m' c='_Z18PlaySoundLocGlobaltii'/>
+<use f='codebrowser/wl_game.cpp' l='185' u='m' c='_Z18PlaySoundLocGlobaltii'/>
+<use f='codebrowser/wl_game.cpp' l='199' u='m' c='_Z14UpdateSoundLocv'/>
+<use f='codebrowser/wl_game.cpp' l='201' u='m' c='_Z14UpdateSoundLocv'/>
+<use f='codebrowser/wl_game.cpp' l='202' u='m' c='_Z14UpdateSoundLocv'/>

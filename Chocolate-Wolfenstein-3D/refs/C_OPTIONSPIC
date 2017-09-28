@@ -1,0 +1,8 @@
+<dec f='codebrowser/gfxv_apo.h' l='32' type='22'/>
+<doc f='codebrowser/gfxv_apo.h' l='31'>// Lump Start</doc>
+<doc f='codebrowser/gfxv_apo.h' l='32'>// 22</doc>
+<use f='codebrowser/wl_main.cpp' l='1118' macro='1' u='r'/>
+<use f='codebrowser/wl_main.cpp' l='1167' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='592' u='r' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='3113' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3179' macro='1' u='r'/>

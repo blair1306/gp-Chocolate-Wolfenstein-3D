@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='990' type='objtype [150]'/>
+<use f='codebrowser/wl_main.cpp' l='410' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='530' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<def f='codebrowser/wl_play.cpp' l='33' type='objtype [150]'/>
+<use f='codebrowser/wl_play.cpp' l='788' u='m' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='788' u='a' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='789' u='m' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='792' u='m' c='_Z13InitActorListv'/>
+<use f='codebrowser/wl_play.cpp' l='794' u='a' c='_Z13InitActorListv'/>

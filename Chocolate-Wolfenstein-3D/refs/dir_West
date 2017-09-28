@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_in.h' l='114' type='6'/>
+<use f='codebrowser/id_in.cpp' l='115'/>
+<use f='codebrowser/id_in.cpp' l='115'/>
+<use f='codebrowser/id_us_1.cpp' l='533' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_menu.cpp' l='1938' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2364' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2819' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3609' u='r' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_menu.cpp' l='3642' u='r' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_text.cpp' l='706' c='_Z11ShowArticlePc'/>

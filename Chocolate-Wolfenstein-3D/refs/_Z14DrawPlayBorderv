@@ -1,0 +1,20 @@
+<dec f='codebrowser/wl_def.h' l='932' type='void DrawPlayBorder()'/>
+<use f='codebrowser/wl_act2.cpp' l='3876' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_debug.cpp' l='456' u='c' c='_Z9DebugKeysv'/>
+<def f='codebrowser/wl_game.cpp' l='865' ll='902' type='void DrawPlayBorder()'/>
+<use f='codebrowser/wl_game.cpp' l='916' u='c' c='_Z14DrawPlayScreenv'/>
+<doc f='codebrowser/wl_game.cpp' l='857'>/*
+===================
+=
+= DrawPlayBorder
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_inter.cpp' l='933' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='1002' u='c' c='_Z15PreloadGraphicsv'/>
+<use f='codebrowser/wl_main.cpp' l='1360' u='c' c='_Z12ShowViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1366' u='c' c='_Z12ShowViewSizei'/>
+<use f='codebrowser/wl_menu.cpp' l='925' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_play.cpp' l='615' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='656' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='730' u='c' c='_Z9CheckKeysv'/>

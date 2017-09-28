@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_vl.h' l='62' type='void VL_Hlin(unsigned int x, unsigned int y, unsigned int width, int color)'/>
+<use f='codebrowser/id_vh.cpp' l='174' macro='1' u='c'/>
+<def f='codebrowser/id_vl.cpp' l='469' ll='479' type='void VL_Hlin(unsigned int x, unsigned int y, unsigned int width, int color)'/>
+<doc f='codebrowser/id_vl.cpp' l='461'>/*
+=================
+=
+= VL_Hlin
+=
+=================
+*/</doc>

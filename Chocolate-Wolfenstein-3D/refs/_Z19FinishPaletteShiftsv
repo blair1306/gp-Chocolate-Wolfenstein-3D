@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1021' type='void FinishPaletteShifts()'/>
+<use f='codebrowser/wl_act2.cpp' l='3793' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1305' u='c' c='_Z4Diedv'/>
+<def f='codebrowser/wl_play.cpp' l='1120' ll='1127' type='void FinishPaletteShifts()'/>
+<use f='codebrowser/wl_play.cpp' l='1337' u='c' c='_Z8PlayLoopv'/>
+<doc f='codebrowser/wl_play.cpp' l='1110'>/*
+=====================
+=
+= FinishPaletteShifts
+=
+= Resets palette to normal if needed
+=
+=====================
+*/</doc>

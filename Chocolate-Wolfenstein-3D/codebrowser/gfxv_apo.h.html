@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>gfxv_apo.h source code [codebrowser/gfxv_apo.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/gfxv_apo.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='gfxv_apo.h.html'>gfxv_apo.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>//////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// Graphics .H file for Apogee v1.4</i></td></tr>
+<tr><th id="4">4</th><td><i>// IGRAB-ed on Sun May 03 01:19:32 1992</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>//////////////////////////////////////</i></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="9">9</th><td>    <i>// Lump Start</i></td></tr>
+<tr><th id="10">10</th><td>    <dfn class="enum" id="H_BJPIC" title='H_BJPIC' data-ref="H_BJPIC">H_BJPIC</dfn>=<var>3</var>,</td></tr>
+<tr><th id="11">11</th><td>    <dfn class="enum" id="H_CASTLEPIC" title='H_CASTLEPIC' data-ref="H_CASTLEPIC">H_CASTLEPIC</dfn>,                 <i>// 4</i></td></tr>
+<tr><th id="12">12</th><td>    <dfn class="enum" id="H_KEYBOARDPIC" title='H_KEYBOARDPIC' data-ref="H_KEYBOARDPIC">H_KEYBOARDPIC</dfn>,               <i>// 5</i></td></tr>
+<tr><th id="13">13</th><td>    <dfn class="enum" id="H_JOYPIC" title='H_JOYPIC' data-ref="H_JOYPIC">H_JOYPIC</dfn>,                    <i>// 6</i></td></tr>
+<tr><th id="14">14</th><td>    <dfn class="enum" id="H_HEALPIC" title='H_HEALPIC' data-ref="H_HEALPIC">H_HEALPIC</dfn>,                   <i>// 7</i></td></tr>
+<tr><th id="15">15</th><td>    <dfn class="enum" id="H_TREASUREPIC" title='H_TREASUREPIC' data-ref="H_TREASUREPIC">H_TREASUREPIC</dfn>,               <i>// 8</i></td></tr>
+<tr><th id="16">16</th><td>    <dfn class="enum" id="H_GUNPIC" title='H_GUNPIC' data-ref="H_GUNPIC">H_GUNPIC</dfn>,                    <i>// 9</i></td></tr>
+<tr><th id="17">17</th><td>    <dfn class="enum" id="H_KEYPIC" title='H_KEYPIC' data-ref="H_KEYPIC">H_KEYPIC</dfn>,                    <i>// 10</i></td></tr>
+<tr><th id="18">18</th><td>    <dfn class="enum" id="H_BLAZEPIC" title='H_BLAZEPIC' data-ref="H_BLAZEPIC">H_BLAZEPIC</dfn>,                  <i>// 11</i></td></tr>
+<tr><th id="19">19</th><td>    <dfn class="enum" id="H_WEAPON1234PIC" title='H_WEAPON1234PIC' data-ref="H_WEAPON1234PIC">H_WEAPON1234PIC</dfn>,             <i>// 12</i></td></tr>
+<tr><th id="20">20</th><td>    <dfn class="enum" id="H_WOLFLOGOPIC" title='H_WOLFLOGOPIC' data-ref="H_WOLFLOGOPIC">H_WOLFLOGOPIC</dfn>,               <i>// 13</i></td></tr>
+<tr><th id="21">21</th><td>    <dfn class="enum" id="H_VISAPIC" title='H_VISAPIC' data-ref="H_VISAPIC">H_VISAPIC</dfn>,                   <i>// 14</i></td></tr>
+<tr><th id="22">22</th><td>    <dfn class="enum" id="H_MCPIC" title='H_MCPIC' data-ref="H_MCPIC">H_MCPIC</dfn>,                     <i>// 15</i></td></tr>
+<tr><th id="23">23</th><td>    <dfn class="enum" id="H_IDLOGOPIC" title='H_IDLOGOPIC' data-ref="H_IDLOGOPIC">H_IDLOGOPIC</dfn>,                 <i>// 16</i></td></tr>
+<tr><th id="24">24</th><td>    <dfn class="enum" id="H_TOPWINDOWPIC" title='H_TOPWINDOWPIC' data-ref="H_TOPWINDOWPIC">H_TOPWINDOWPIC</dfn>,              <i>// 17</i></td></tr>
+<tr><th id="25">25</th><td>    <dfn class="enum" id="H_LEFTWINDOWPIC" title='H_LEFTWINDOWPIC' data-ref="H_LEFTWINDOWPIC">H_LEFTWINDOWPIC</dfn>,             <i>// 18</i></td></tr>
+<tr><th id="26">26</th><td>    <dfn class="enum" id="H_RIGHTWINDOWPIC" title='H_RIGHTWINDOWPIC' data-ref="H_RIGHTWINDOWPIC">H_RIGHTWINDOWPIC</dfn>,            <i>// 19</i></td></tr>
+<tr><th id="27">27</th><td>    <dfn class="enum" id="H_BOTTOMINFOPIC" title='H_BOTTOMINFOPIC' data-ref="H_BOTTOMINFOPIC">H_BOTTOMINFOPIC</dfn>,             <i>// 20</i></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">if</span> !defined(<span class="macro" data-ref="_M/APOGEE_1_0">APOGEE_1_0</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/APOGEE_1_1">APOGEE_1_1</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/APOGEE_1_2">APOGEE_1_2</span>)</u></td></tr>
+<tr><th id="29">29</th><td>    <dfn class="enum" id="H_SPEARADPIC" title='H_SPEARADPIC' data-ref="H_SPEARADPIC">H_SPEARADPIC</dfn>,                <i>// 21</i></td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="31">31</th><td>    <i>// Lump Start</i></td></tr>
+<tr><th id="32">32</th><td>    <dfn class="enum" id="C_OPTIONSPIC" title='C_OPTIONSPIC' data-ref="C_OPTIONSPIC">C_OPTIONSPIC</dfn>,                <i>// 22</i></td></tr>
+<tr><th id="33">33</th><td>    <dfn class="enum" id="C_CURSOR1PIC" title='C_CURSOR1PIC' data-ref="C_CURSOR1PIC">C_CURSOR1PIC</dfn>,                <i>// 23</i></td></tr>
+<tr><th id="34">34</th><td>    <dfn class="enum" id="C_CURSOR2PIC" title='C_CURSOR2PIC' data-ref="C_CURSOR2PIC">C_CURSOR2PIC</dfn>,                <i>// 24</i></td></tr>
+<tr><th id="35">35</th><td>    <dfn class="enum" id="C_NOTSELECTEDPIC" title='C_NOTSELECTEDPIC' data-ref="C_NOTSELECTEDPIC">C_NOTSELECTEDPIC</dfn>,            <i>// 25</i></td></tr>
+<tr><th id="36">36</th><td>    <dfn class="enum" id="C_SELECTEDPIC" title='C_SELECTEDPIC' data-ref="C_SELECTEDPIC">C_SELECTEDPIC</dfn>,               <i>// 26</i></td></tr>
+<tr><th id="37">37</th><td>    <dfn class="enum" id="C_FXTITLEPIC" title='C_FXTITLEPIC' data-ref="C_FXTITLEPIC">C_FXTITLEPIC</dfn>,                <i>// 27</i></td></tr>
+<tr><th id="38">38</th><td>    <dfn class="enum" id="C_DIGITITLEPIC" title='C_DIGITITLEPIC' data-ref="C_DIGITITLEPIC">C_DIGITITLEPIC</dfn>,              <i>// 28</i></td></tr>
+<tr><th id="39">39</th><td>    <dfn class="enum" id="C_MUSICTITLEPIC" title='C_MUSICTITLEPIC' data-ref="C_MUSICTITLEPIC">C_MUSICTITLEPIC</dfn>,             <i>// 29</i></td></tr>
+<tr><th id="40">40</th><td>    <dfn class="enum" id="C_MOUSELBACKPIC" title='C_MOUSELBACKPIC' data-ref="C_MOUSELBACKPIC">C_MOUSELBACKPIC</dfn>,             <i>// 30</i></td></tr>
+<tr><th id="41">41</th><td>    <dfn class="enum" id="C_BABYMODEPIC" title='C_BABYMODEPIC' data-ref="C_BABYMODEPIC">C_BABYMODEPIC</dfn>,               <i>// 31</i></td></tr>
+<tr><th id="42">42</th><td>    <dfn class="enum" id="C_EASYPIC" title='C_EASYPIC' data-ref="C_EASYPIC">C_EASYPIC</dfn>,                   <i>// 32</i></td></tr>
+<tr><th id="43">43</th><td>    <dfn class="enum" id="C_NORMALPIC" title='C_NORMALPIC' data-ref="C_NORMALPIC">C_NORMALPIC</dfn>,                 <i>// 33</i></td></tr>
+<tr><th id="44">44</th><td>    <dfn class="enum" id="C_HARDPIC" title='C_HARDPIC' data-ref="C_HARDPIC">C_HARDPIC</dfn>,                   <i>// 34</i></td></tr>
+<tr><th id="45">45</th><td>    <dfn class="enum" id="C_LOADSAVEDISKPIC" title='C_LOADSAVEDISKPIC' data-ref="C_LOADSAVEDISKPIC">C_LOADSAVEDISKPIC</dfn>,           <i>// 35</i></td></tr>
+<tr><th id="46">46</th><td>    <dfn class="enum" id="C_DISKLOADING1PIC" title='C_DISKLOADING1PIC' data-ref="C_DISKLOADING1PIC">C_DISKLOADING1PIC</dfn>,           <i>// 36</i></td></tr>
+<tr><th id="47">47</th><td>    <dfn class="enum" id="C_DISKLOADING2PIC" title='C_DISKLOADING2PIC' data-ref="C_DISKLOADING2PIC">C_DISKLOADING2PIC</dfn>,           <i>// 37</i></td></tr>
+<tr><th id="48">48</th><td>    <dfn class="enum" id="C_CONTROLPIC" title='C_CONTROLPIC' data-ref="C_CONTROLPIC">C_CONTROLPIC</dfn>,                <i>// 38</i></td></tr>
+<tr><th id="49">49</th><td>    <dfn class="enum" id="C_CUSTOMIZEPIC" title='C_CUSTOMIZEPIC' data-ref="C_CUSTOMIZEPIC">C_CUSTOMIZEPIC</dfn>,              <i>// 39</i></td></tr>
+<tr><th id="50">50</th><td>    <dfn class="enum" id="C_LOADGAMEPIC" title='C_LOADGAMEPIC' data-ref="C_LOADGAMEPIC">C_LOADGAMEPIC</dfn>,               <i>// 40</i></td></tr>
+<tr><th id="51">51</th><td>    <dfn class="enum" id="C_SAVEGAMEPIC" title='C_SAVEGAMEPIC' data-ref="C_SAVEGAMEPIC">C_SAVEGAMEPIC</dfn>,               <i>// 41</i></td></tr>
+<tr><th id="52">52</th><td>    <dfn class="enum" id="C_EPISODE1PIC" title='C_EPISODE1PIC' data-ref="C_EPISODE1PIC">C_EPISODE1PIC</dfn>,               <i>// 42</i></td></tr>
+<tr><th id="53">53</th><td>    <dfn class="enum" id="C_EPISODE2PIC" title='C_EPISODE2PIC' data-ref="C_EPISODE2PIC">C_EPISODE2PIC</dfn>,               <i>// 43</i></td></tr>
+<tr><th id="54">54</th><td>    <dfn class="enum" id="C_EPISODE3PIC" title='C_EPISODE3PIC' data-ref="C_EPISODE3PIC">C_EPISODE3PIC</dfn>,               <i>// 44</i></td></tr>
+<tr><th id="55">55</th><td>    <dfn class="enum" id="C_EPISODE4PIC" title='C_EPISODE4PIC' data-ref="C_EPISODE4PIC">C_EPISODE4PIC</dfn>,               <i>// 45</i></td></tr>
+<tr><th id="56">56</th><td>    <dfn class="enum" id="C_EPISODE5PIC" title='C_EPISODE5PIC' data-ref="C_EPISODE5PIC">C_EPISODE5PIC</dfn>,               <i>// 46</i></td></tr>
+<tr><th id="57">57</th><td>    <dfn class="enum" id="C_EPISODE6PIC" title='C_EPISODE6PIC' data-ref="C_EPISODE6PIC">C_EPISODE6PIC</dfn>,               <i>// 47</i></td></tr>
+<tr><th id="58">58</th><td>    <dfn class="enum" id="C_CODEPIC" title='C_CODEPIC' data-ref="C_CODEPIC">C_CODEPIC</dfn>,                   <i>// 48</i></td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="59">ifndef</span> <span class="macro" data-ref="_M/APOGEE_1_0">APOGEE_1_0</span></u></td></tr>
+<tr><th id="60">60</th><td>    <dfn class="enum" id="C_TIMECODEPIC" title='C_TIMECODEPIC' data-ref="C_TIMECODEPIC">C_TIMECODEPIC</dfn>,               <i>// 49</i></td></tr>
+<tr><th id="61">61</th><td>    <dfn class="enum" id="C_LEVELPIC" title='C_LEVELPIC' data-ref="C_LEVELPIC">C_LEVELPIC</dfn>,                  <i>// 50</i></td></tr>
+<tr><th id="62">62</th><td>    <dfn class="enum" id="C_NAMEPIC" title='C_NAMEPIC' data-ref="C_NAMEPIC">C_NAMEPIC</dfn>,                   <i>// 51</i></td></tr>
+<tr><th id="63">63</th><td>    <dfn class="enum" id="C_SCOREPIC" title='C_SCOREPIC' data-ref="C_SCOREPIC">C_SCOREPIC</dfn>,                  <i>// 52</i></td></tr>
+<tr><th id="64">64</th><td><u>#<span data-ppcond="64">if</span> !defined(<span class="macro" data-ref="_M/APOGEE_1_1">APOGEE_1_1</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/APOGEE_1_2">APOGEE_1_2</span>)</u></td></tr>
+<tr><th id="65">65</th><td>    <dfn class="enum" id="C_JOY1PIC" title='C_JOY1PIC' data-ref="C_JOY1PIC">C_JOY1PIC</dfn>,                   <i>// 53</i></td></tr>
+<tr><th id="66">66</th><td>    <dfn class="enum" id="C_JOY2PIC" title='C_JOY2PIC' data-ref="C_JOY2PIC">C_JOY2PIC</dfn>,                   <i>// 54</i></td></tr>
+<tr><th id="67">67</th><td><u>#<span data-ppcond="64">endif</span></u></td></tr>
+<tr><th id="68">68</th><td><u>#<span data-ppcond="59">else</span></u></td></tr>
+<tr><th id="69">69</th><td>    C_TIMECODEPIC=C_CODEPIC,     <i>// 47</i></td></tr>
+<tr><th id="70">70</th><td><u>#<span data-ppcond="59">endif</span></u></td></tr>
+<tr><th id="71">71</th><td>    <i>// Lump Start</i></td></tr>
+<tr><th id="72">72</th><td>    <dfn class="enum" id="L_GUYPIC" title='L_GUYPIC' data-ref="L_GUYPIC">L_GUYPIC</dfn>,                    <i>// 55</i></td></tr>
+<tr><th id="73">73</th><td>    <dfn class="enum" id="L_COLONPIC" title='L_COLONPIC' data-ref="L_COLONPIC">L_COLONPIC</dfn>,                  <i>// 56</i></td></tr>
+<tr><th id="74">74</th><td>    <dfn class="enum" id="L_NUM0PIC" title='L_NUM0PIC' data-ref="L_NUM0PIC">L_NUM0PIC</dfn>,                   <i>// 57</i></td></tr>
+<tr><th id="75">75</th><td>    <dfn class="enum" id="L_NUM1PIC" title='L_NUM1PIC' data-ref="L_NUM1PIC">L_NUM1PIC</dfn>,                   <i>// 58</i></td></tr>
+<tr><th id="76">76</th><td>    <dfn class="enum" id="L_NUM2PIC" title='L_NUM2PIC' data-ref="L_NUM2PIC">L_NUM2PIC</dfn>,                   <i>// 59</i></td></tr>
+<tr><th id="77">77</th><td>    <dfn class="enum" id="L_NUM3PIC" title='L_NUM3PIC' data-ref="L_NUM3PIC">L_NUM3PIC</dfn>,                   <i>// 60</i></td></tr>
+<tr><th id="78">78</th><td>    <dfn class="enum" id="L_NUM4PIC" title='L_NUM4PIC' data-ref="L_NUM4PIC">L_NUM4PIC</dfn>,                   <i>// 61</i></td></tr>
+<tr><th id="79">79</th><td>    <dfn class="enum" id="L_NUM5PIC" title='L_NUM5PIC' data-ref="L_NUM5PIC">L_NUM5PIC</dfn>,                   <i>// 62</i></td></tr>
+<tr><th id="80">80</th><td>    <dfn class="enum" id="L_NUM6PIC" title='L_NUM6PIC' data-ref="L_NUM6PIC">L_NUM6PIC</dfn>,                   <i>// 63</i></td></tr>
+<tr><th id="81">81</th><td>    <dfn class="enum" id="L_NUM7PIC" title='L_NUM7PIC' data-ref="L_NUM7PIC">L_NUM7PIC</dfn>,                   <i>// 64</i></td></tr>
+<tr><th id="82">82</th><td>    <dfn class="enum" id="L_NUM8PIC" title='L_NUM8PIC' data-ref="L_NUM8PIC">L_NUM8PIC</dfn>,                   <i>// 65</i></td></tr>
+<tr><th id="83">83</th><td>    <dfn class="enum" id="L_NUM9PIC" title='L_NUM9PIC' data-ref="L_NUM9PIC">L_NUM9PIC</dfn>,                   <i>// 66</i></td></tr>
+<tr><th id="84">84</th><td>    <dfn class="enum" id="L_PERCENTPIC" title='L_PERCENTPIC' data-ref="L_PERCENTPIC">L_PERCENTPIC</dfn>,                <i>// 67</i></td></tr>
+<tr><th id="85">85</th><td>    <dfn class="enum" id="L_APIC" title='L_APIC' data-ref="L_APIC">L_APIC</dfn>,                      <i>// 68</i></td></tr>
+<tr><th id="86">86</th><td>    <dfn class="enum" id="L_BPIC" title='L_BPIC' data-ref="L_BPIC">L_BPIC</dfn>,                      <i>// 69</i></td></tr>
+<tr><th id="87">87</th><td>    <dfn class="enum" id="L_CPIC" title='L_CPIC' data-ref="L_CPIC">L_CPIC</dfn>,                      <i>// 70</i></td></tr>
+<tr><th id="88">88</th><td>    <dfn class="enum" id="L_DPIC" title='L_DPIC' data-ref="L_DPIC">L_DPIC</dfn>,                      <i>// 71</i></td></tr>
+<tr><th id="89">89</th><td>    <dfn class="enum" id="L_EPIC" title='L_EPIC' data-ref="L_EPIC">L_EPIC</dfn>,                      <i>// 72</i></td></tr>
+<tr><th id="90">90</th><td>    <dfn class="enum" id="L_FPIC" title='L_FPIC' data-ref="L_FPIC">L_FPIC</dfn>,                      <i>// 73</i></td></tr>
+<tr><th id="91">91</th><td>    <dfn class="enum" id="L_GPIC" title='L_GPIC' data-ref="L_GPIC">L_GPIC</dfn>,                      <i>// 74</i></td></tr>
+<tr><th id="92">92</th><td>    <dfn class="enum" id="L_HPIC" title='L_HPIC' data-ref="L_HPIC">L_HPIC</dfn>,                      <i>// 75</i></td></tr>
+<tr><th id="93">93</th><td>    <dfn class="enum" id="L_IPIC" title='L_IPIC' data-ref="L_IPIC">L_IPIC</dfn>,                      <i>// 76</i></td></tr>
+<tr><th id="94">94</th><td>    <dfn class="enum" id="L_JPIC" title='L_JPIC' data-ref="L_JPIC">L_JPIC</dfn>,                      <i>// 77</i></td></tr>
+<tr><th id="95">95</th><td>    <dfn class="enum" id="L_KPIC" title='L_KPIC' data-ref="L_KPIC">L_KPIC</dfn>,                      <i>// 78</i></td></tr>
+<tr><th id="96">96</th><td>    <dfn class="enum" id="L_LPIC" title='L_LPIC' data-ref="L_LPIC">L_LPIC</dfn>,                      <i>// 79</i></td></tr>
+<tr><th id="97">97</th><td>    <dfn class="enum" id="L_MPIC" title='L_MPIC' data-ref="L_MPIC">L_MPIC</dfn>,                      <i>// 80</i></td></tr>
+<tr><th id="98">98</th><td>    <dfn class="enum" id="L_NPIC" title='L_NPIC' data-ref="L_NPIC">L_NPIC</dfn>,                      <i>// 81</i></td></tr>
+<tr><th id="99">99</th><td>    <dfn class="enum" id="L_OPIC" title='L_OPIC' data-ref="L_OPIC">L_OPIC</dfn>,                      <i>// 82</i></td></tr>
+<tr><th id="100">100</th><td>    <dfn class="enum" id="L_PPIC" title='L_PPIC' data-ref="L_PPIC">L_PPIC</dfn>,                      <i>// 83</i></td></tr>
+<tr><th id="101">101</th><td>    <dfn class="enum" id="L_QPIC" title='L_QPIC' data-ref="L_QPIC">L_QPIC</dfn>,                      <i>// 84</i></td></tr>
+<tr><th id="102">102</th><td>    <dfn class="enum" id="L_RPIC" title='L_RPIC' data-ref="L_RPIC">L_RPIC</dfn>,                      <i>// 85</i></td></tr>
+<tr><th id="103">103</th><td>    <dfn class="enum" id="L_SPIC" title='L_SPIC' data-ref="L_SPIC">L_SPIC</dfn>,                      <i>// 86</i></td></tr>
+<tr><th id="104">104</th><td>    <dfn class="enum" id="L_TPIC" title='L_TPIC' data-ref="L_TPIC">L_TPIC</dfn>,                      <i>// 87</i></td></tr>
+<tr><th id="105">105</th><td>    <dfn class="enum" id="L_UPIC" title='L_UPIC' data-ref="L_UPIC">L_UPIC</dfn>,                      <i>// 88</i></td></tr>
+<tr><th id="106">106</th><td>    <dfn class="enum" id="L_VPIC" title='L_VPIC' data-ref="L_VPIC">L_VPIC</dfn>,                      <i>// 89</i></td></tr>
+<tr><th id="107">107</th><td>    <dfn class="enum" id="L_WPIC" title='L_WPIC' data-ref="L_WPIC">L_WPIC</dfn>,                      <i>// 90</i></td></tr>
+<tr><th id="108">108</th><td>    <dfn class="enum" id="L_XPIC" title='L_XPIC' data-ref="L_XPIC">L_XPIC</dfn>,                      <i>// 91</i></td></tr>
+<tr><th id="109">109</th><td>    <dfn class="enum" id="L_YPIC" title='L_YPIC' data-ref="L_YPIC">L_YPIC</dfn>,                      <i>// 92</i></td></tr>
+<tr><th id="110">110</th><td>    <dfn class="enum" id="L_ZPIC" title='L_ZPIC' data-ref="L_ZPIC">L_ZPIC</dfn>,                      <i>// 93</i></td></tr>
+<tr><th id="111">111</th><td>    <dfn class="enum" id="L_EXPOINTPIC" title='L_EXPOINTPIC' data-ref="L_EXPOINTPIC">L_EXPOINTPIC</dfn>,                <i>// 94</i></td></tr>
+<tr><th id="112">112</th><td><u>#<span data-ppcond="112">ifndef</span> <span class="macro" data-ref="_M/APOGEE_1_0">APOGEE_1_0</span></u></td></tr>
+<tr><th id="113">113</th><td>    <dfn class="enum" id="L_APOSTROPHEPIC" title='L_APOSTROPHEPIC' data-ref="L_APOSTROPHEPIC">L_APOSTROPHEPIC</dfn>,             <i>// 95</i></td></tr>
+<tr><th id="114">114</th><td><u>#<span data-ppcond="112">endif</span></u></td></tr>
+<tr><th id="115">115</th><td>    <dfn class="enum" id="L_GUY2PIC" title='L_GUY2PIC' data-ref="L_GUY2PIC">L_GUY2PIC</dfn>,                   <i>// 96</i></td></tr>
+<tr><th id="116">116</th><td>    <dfn class="enum" id="L_BJWINSPIC" title='L_BJWINSPIC' data-ref="L_BJWINSPIC">L_BJWINSPIC</dfn>,                 <i>// 97</i></td></tr>
+<tr><th id="117">117</th><td>    <dfn class="enum" id="STATUSBARPIC" title='STATUSBARPIC' data-ref="STATUSBARPIC">STATUSBARPIC</dfn>,                <i>// 98</i></td></tr>
+<tr><th id="118">118</th><td>    <dfn class="enum" id="TITLEPIC" title='TITLEPIC' data-ref="TITLEPIC">TITLEPIC</dfn>,                    <i>// 99</i></td></tr>
+<tr><th id="119">119</th><td>    <dfn class="enum" id="PG13PIC" title='PG13PIC' data-ref="PG13PIC">PG13PIC</dfn>,                     <i>// 100</i></td></tr>
+<tr><th id="120">120</th><td>    <dfn class="enum" id="CREDITSPIC" title='CREDITSPIC' data-ref="CREDITSPIC">CREDITSPIC</dfn>,                  <i>// 101</i></td></tr>
+<tr><th id="121">121</th><td>    <dfn class="enum" id="HIGHSCORESPIC" title='HIGHSCORESPIC' data-ref="HIGHSCORESPIC">HIGHSCORESPIC</dfn>,               <i>// 102</i></td></tr>
+<tr><th id="122">122</th><td>    <i>// Lump Start</i></td></tr>
+<tr><th id="123">123</th><td>    <dfn class="enum" id="KNIFEPIC" title='KNIFEPIC' data-ref="KNIFEPIC">KNIFEPIC</dfn>,                    <i>// 103</i></td></tr>
+<tr><th id="124">124</th><td>    <dfn class="enum" id="GUNPIC" title='GUNPIC' data-ref="GUNPIC">GUNPIC</dfn>,                      <i>// 104</i></td></tr>
+<tr><th id="125">125</th><td>    <dfn class="enum" id="MACHINEGUNPIC" title='MACHINEGUNPIC' data-ref="MACHINEGUNPIC">MACHINEGUNPIC</dfn>,               <i>// 105</i></td></tr>
+<tr><th id="126">126</th><td>    <dfn class="enum" id="GATLINGGUNPIC" title='GATLINGGUNPIC' data-ref="GATLINGGUNPIC">GATLINGGUNPIC</dfn>,               <i>// 106</i></td></tr>
+<tr><th id="127">127</th><td>    <dfn class="enum" id="NOKEYPIC" title='NOKEYPIC' data-ref="NOKEYPIC">NOKEYPIC</dfn>,                    <i>// 107</i></td></tr>
+<tr><th id="128">128</th><td>    <dfn class="enum" id="GOLDKEYPIC" title='GOLDKEYPIC' data-ref="GOLDKEYPIC">GOLDKEYPIC</dfn>,                  <i>// 108</i></td></tr>
+<tr><th id="129">129</th><td>    <dfn class="enum" id="SILVERKEYPIC" title='SILVERKEYPIC' data-ref="SILVERKEYPIC">SILVERKEYPIC</dfn>,                <i>// 109</i></td></tr>
+<tr><th id="130">130</th><td>    <dfn class="enum" id="N_BLANKPIC" title='N_BLANKPIC' data-ref="N_BLANKPIC">N_BLANKPIC</dfn>,                  <i>// 110</i></td></tr>
+<tr><th id="131">131</th><td>    <dfn class="enum" id="N_0PIC" title='N_0PIC' data-ref="N_0PIC">N_0PIC</dfn>,                      <i>// 111</i></td></tr>
+<tr><th id="132">132</th><td>    <dfn class="enum" id="N_1PIC" title='N_1PIC' data-ref="N_1PIC">N_1PIC</dfn>,                      <i>// 112</i></td></tr>
+<tr><th id="133">133</th><td>    <dfn class="enum" id="N_2PIC" title='N_2PIC' data-ref="N_2PIC">N_2PIC</dfn>,                      <i>// 113</i></td></tr>
+<tr><th id="134">134</th><td>    <dfn class="enum" id="N_3PIC" title='N_3PIC' data-ref="N_3PIC">N_3PIC</dfn>,                      <i>// 114</i></td></tr>
+<tr><th id="135">135</th><td>    <dfn class="enum" id="N_4PIC" title='N_4PIC' data-ref="N_4PIC">N_4PIC</dfn>,                      <i>// 115</i></td></tr>
+<tr><th id="136">136</th><td>    <dfn class="enum" id="N_5PIC" title='N_5PIC' data-ref="N_5PIC">N_5PIC</dfn>,                      <i>// 116</i></td></tr>
+<tr><th id="137">137</th><td>    <dfn class="enum" id="N_6PIC" title='N_6PIC' data-ref="N_6PIC">N_6PIC</dfn>,                      <i>// 117</i></td></tr>
+<tr><th id="138">138</th><td>    <dfn class="enum" id="N_7PIC" title='N_7PIC' data-ref="N_7PIC">N_7PIC</dfn>,                      <i>// 118</i></td></tr>
+<tr><th id="139">139</th><td>    <dfn class="enum" id="N_8PIC" title='N_8PIC' data-ref="N_8PIC">N_8PIC</dfn>,                      <i>// 119</i></td></tr>
+<tr><th id="140">140</th><td>    <dfn class="enum" id="N_9PIC" title='N_9PIC' data-ref="N_9PIC">N_9PIC</dfn>,                      <i>// 120</i></td></tr>
+<tr><th id="141">141</th><td>    <dfn class="enum" id="FACE1APIC" title='FACE1APIC' data-ref="FACE1APIC">FACE1APIC</dfn>,                   <i>// 121</i></td></tr>
+<tr><th id="142">142</th><td>    <dfn class="enum" id="FACE1BPIC" title='FACE1BPIC' data-ref="FACE1BPIC">FACE1BPIC</dfn>,                   <i>// 122</i></td></tr>
+<tr><th id="143">143</th><td>    <dfn class="enum" id="FACE1CPIC" title='FACE1CPIC' data-ref="FACE1CPIC">FACE1CPIC</dfn>,                   <i>// 123</i></td></tr>
+<tr><th id="144">144</th><td>    <dfn class="enum" id="FACE2APIC" title='FACE2APIC' data-ref="FACE2APIC">FACE2APIC</dfn>,                   <i>// 124</i></td></tr>
+<tr><th id="145">145</th><td>    <dfn class="enum" id="FACE2BPIC" title='FACE2BPIC' data-ref="FACE2BPIC">FACE2BPIC</dfn>,                   <i>// 125</i></td></tr>
+<tr><th id="146">146</th><td>    <dfn class="enum" id="FACE2CPIC" title='FACE2CPIC' data-ref="FACE2CPIC">FACE2CPIC</dfn>,                   <i>// 126</i></td></tr>
+<tr><th id="147">147</th><td>    <dfn class="enum" id="FACE3APIC" title='FACE3APIC' data-ref="FACE3APIC">FACE3APIC</dfn>,                   <i>// 127</i></td></tr>
+<tr><th id="148">148</th><td>    <dfn class="enum" id="FACE3BPIC" title='FACE3BPIC' data-ref="FACE3BPIC">FACE3BPIC</dfn>,                   <i>// 128</i></td></tr>
+<tr><th id="149">149</th><td>    <dfn class="enum" id="FACE3CPIC" title='FACE3CPIC' data-ref="FACE3CPIC">FACE3CPIC</dfn>,                   <i>// 129</i></td></tr>
+<tr><th id="150">150</th><td>    <dfn class="enum" id="FACE4APIC" title='FACE4APIC' data-ref="FACE4APIC">FACE4APIC</dfn>,                   <i>// 130</i></td></tr>
+<tr><th id="151">151</th><td>    <dfn class="enum" id="FACE4BPIC" title='FACE4BPIC' data-ref="FACE4BPIC">FACE4BPIC</dfn>,                   <i>// 131</i></td></tr>
+<tr><th id="152">152</th><td>    <dfn class="enum" id="FACE4CPIC" title='FACE4CPIC' data-ref="FACE4CPIC">FACE4CPIC</dfn>,                   <i>// 132</i></td></tr>
+<tr><th id="153">153</th><td>    <dfn class="enum" id="FACE5APIC" title='FACE5APIC' data-ref="FACE5APIC">FACE5APIC</dfn>,                   <i>// 133</i></td></tr>
+<tr><th id="154">154</th><td>    <dfn class="enum" id="FACE5BPIC" title='FACE5BPIC' data-ref="FACE5BPIC">FACE5BPIC</dfn>,                   <i>// 134</i></td></tr>
+<tr><th id="155">155</th><td>    <dfn class="enum" id="FACE5CPIC" title='FACE5CPIC' data-ref="FACE5CPIC">FACE5CPIC</dfn>,                   <i>// 135</i></td></tr>
+<tr><th id="156">156</th><td>    <dfn class="enum" id="FACE6APIC" title='FACE6APIC' data-ref="FACE6APIC">FACE6APIC</dfn>,                   <i>// 136</i></td></tr>
+<tr><th id="157">157</th><td>    <dfn class="enum" id="FACE6BPIC" title='FACE6BPIC' data-ref="FACE6BPIC">FACE6BPIC</dfn>,                   <i>// 137</i></td></tr>
+<tr><th id="158">158</th><td>    <dfn class="enum" id="FACE6CPIC" title='FACE6CPIC' data-ref="FACE6CPIC">FACE6CPIC</dfn>,                   <i>// 138</i></td></tr>
+<tr><th id="159">159</th><td>    <dfn class="enum" id="FACE7APIC" title='FACE7APIC' data-ref="FACE7APIC">FACE7APIC</dfn>,                   <i>// 139</i></td></tr>
+<tr><th id="160">160</th><td>    <dfn class="enum" id="FACE7BPIC" title='FACE7BPIC' data-ref="FACE7BPIC">FACE7BPIC</dfn>,                   <i>// 140</i></td></tr>
+<tr><th id="161">161</th><td>    <dfn class="enum" id="FACE7CPIC" title='FACE7CPIC' data-ref="FACE7CPIC">FACE7CPIC</dfn>,                   <i>// 141</i></td></tr>
+<tr><th id="162">162</th><td>    <dfn class="enum" id="FACE8APIC" title='FACE8APIC' data-ref="FACE8APIC">FACE8APIC</dfn>,                   <i>// 142</i></td></tr>
+<tr><th id="163">163</th><td>    <dfn class="enum" id="GOTGATLINGPIC" title='GOTGATLINGPIC' data-ref="GOTGATLINGPIC">GOTGATLINGPIC</dfn>,               <i>// 143</i></td></tr>
+<tr><th id="164">164</th><td>    <dfn class="enum" id="MUTANTBJPIC" title='MUTANTBJPIC' data-ref="MUTANTBJPIC">MUTANTBJPIC</dfn>,                 <i>// 144</i></td></tr>
+<tr><th id="165">165</th><td>    <dfn class="enum" id="PAUSEDPIC" title='PAUSEDPIC' data-ref="PAUSEDPIC">PAUSEDPIC</dfn>,                   <i>// 145</i></td></tr>
+<tr><th id="166">166</th><td>    <dfn class="enum" id="GETPSYCHEDPIC" title='GETPSYCHEDPIC' data-ref="GETPSYCHEDPIC">GETPSYCHEDPIC</dfn>,               <i>// 146</i></td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td>    <dfn class="enum" id="TILE8" title='TILE8' data-ref="TILE8">TILE8</dfn>,                       <i>// 147</i></td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td>    <dfn class="enum" id="ORDERSCREEN" title='ORDERSCREEN' data-ref="ORDERSCREEN">ORDERSCREEN</dfn>,                 <i>// 148</i></td></tr>
+<tr><th id="171">171</th><td>    <dfn class="enum" id="ERRORSCREEN" title='ERRORSCREEN' data-ref="ERRORSCREEN">ERRORSCREEN</dfn>,                 <i>// 149</i></td></tr>
+<tr><th id="172">172</th><td>    <dfn class="enum" id="T_HELPART" title='T_HELPART' data-ref="T_HELPART">T_HELPART</dfn>,                   <i>// 150</i></td></tr>
+<tr><th id="173">173</th><td><u>#<span data-ppcond="173">ifdef</span> <span class="macro" data-ref="_M/APOGEE_1_0">APOGEE_1_0</span></u></td></tr>
+<tr><th id="174">174</th><td>    T_ENDART1,                   <i>// 143</i></td></tr>
+<tr><th id="175">175</th><td><u>#<span data-ppcond="173">endif</span></u></td></tr>
+<tr><th id="176">176</th><td>    <dfn class="enum" id="T_DEMO0" title='T_DEMO0' data-ref="T_DEMO0">T_DEMO0</dfn>,                     <i>// 151</i></td></tr>
+<tr><th id="177">177</th><td>    <dfn class="enum" id="T_DEMO1" title='T_DEMO1' data-ref="T_DEMO1">T_DEMO1</dfn>,                     <i>// 152</i></td></tr>
+<tr><th id="178">178</th><td>    <dfn class="enum" id="T_DEMO2" title='T_DEMO2' data-ref="T_DEMO2">T_DEMO2</dfn>,                     <i>// 153</i></td></tr>
+<tr><th id="179">179</th><td>    <dfn class="enum" id="T_DEMO3" title='T_DEMO3' data-ref="T_DEMO3">T_DEMO3</dfn>,                     <i>// 154</i></td></tr>
+<tr><th id="180">180</th><td><u>#<span data-ppcond="180">ifndef</span> <span class="macro" data-ref="_M/APOGEE_1_0">APOGEE_1_0</span></u></td></tr>
+<tr><th id="181">181</th><td>    <dfn class="enum" id="T_ENDART1" title='T_ENDART1' data-ref="T_ENDART1">T_ENDART1</dfn>,                   <i>// 155</i></td></tr>
+<tr><th id="182">182</th><td>    <dfn class="enum" id="T_ENDART2" title='T_ENDART2' data-ref="T_ENDART2">T_ENDART2</dfn>,                   <i>// 156</i></td></tr>
+<tr><th id="183">183</th><td>    <dfn class="enum" id="T_ENDART3" title='T_ENDART3' data-ref="T_ENDART3">T_ENDART3</dfn>,                   <i>// 157</i></td></tr>
+<tr><th id="184">184</th><td>    <dfn class="enum" id="T_ENDART4" title='T_ENDART4' data-ref="T_ENDART4">T_ENDART4</dfn>,                   <i>// 158</i></td></tr>
+<tr><th id="185">185</th><td>    <dfn class="enum" id="T_ENDART5" title='T_ENDART5' data-ref="T_ENDART5">T_ENDART5</dfn>,                   <i>// 159</i></td></tr>
+<tr><th id="186">186</th><td>    <dfn class="enum" id="T_ENDART6" title='T_ENDART6' data-ref="T_ENDART6">T_ENDART6</dfn>,                   <i>// 160</i></td></tr>
+<tr><th id="187">187</th><td><u>#<span data-ppcond="180">endif</span></u></td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td>    <dfn class="enum" id="ENUMEND" title='ENUMEND' data-ref="ENUMEND">ENUMEND</dfn></td></tr>
+<tr><th id="190">190</th><td>} <dfn class="typedef" id="graphicnums" title='graphicnums' data-type='enum graphicnums' data-ref="graphicnums">graphicnums</dfn>;</td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><i>//</i></td></tr>
+<tr><th id="193">193</th><td><i>// Data LUMPs</i></td></tr>
+<tr><th id="194">194</th><td><i>//</i></td></tr>
+<tr><th id="195">195</th><td><u>#define <dfn class="macro" id="_M/README_LUMP_START" data-ref="_M/README_LUMP_START">README_LUMP_START</dfn>       H_BJPIC</u></td></tr>
+<tr><th id="196">196</th><td><u>#define <dfn class="macro" id="_M/README_LUMP_END" data-ref="_M/README_LUMP_END">README_LUMP_END</dfn>         H_BOTTOMINFOPIC</u></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><u>#define <dfn class="macro" id="_M/CONTROLS_LUMP_START" data-ref="_M/CONTROLS_LUMP_START">CONTROLS_LUMP_START</dfn>     C_OPTIONSPIC</u></td></tr>
+<tr><th id="199">199</th><td><u>#define <dfn class="macro" id="_M/CONTROLS_LUMP_END" data-ref="_M/CONTROLS_LUMP_END">CONTROLS_LUMP_END</dfn>       (L_GUYPIC - 1)</u></td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td><u>#define <dfn class="macro" id="_M/LEVELEND_LUMP_START" data-ref="_M/LEVELEND_LUMP_START">LEVELEND_LUMP_START</dfn>     L_GUYPIC</u></td></tr>
+<tr><th id="202">202</th><td><u>#define <dfn class="macro" id="_M/LEVELEND_LUMP_END" data-ref="_M/LEVELEND_LUMP_END">LEVELEND_LUMP_END</dfn>       L_BJWINSPIC</u></td></tr>
+<tr><th id="203">203</th><td></td></tr>
+<tr><th id="204">204</th><td><u>#define <dfn class="macro" id="_M/LATCHPICS_LUMP_START" data-ref="_M/LATCHPICS_LUMP_START">LATCHPICS_LUMP_START</dfn>    KNIFEPIC</u></td></tr>
+<tr><th id="205">205</th><td><u>#define <dfn class="macro" id="_M/LATCHPICS_LUMP_END" data-ref="_M/LATCHPICS_LUMP_END">LATCHPICS_LUMP_END</dfn>      GETPSYCHEDPIC</u></td></tr>
+<tr><th id="206">206</th><td></td></tr>
+<tr><th id="207">207</th><td></td></tr>
+<tr><th id="208">208</th><td><i>//</i></td></tr>
+<tr><th id="209">209</th><td><i>// Amount of each data item</i></td></tr>
+<tr><th id="210">210</th><td><i>//</i></td></tr>
+<tr><th id="211">211</th><td><u>#define <dfn class="macro" id="_M/NUMCHUNKS" data-ref="_M/NUMCHUNKS">NUMCHUNKS</dfn>    ENUMEND</u></td></tr>
+<tr><th id="212">212</th><td><u>#define <dfn class="macro" id="_M/NUMFONT" data-ref="_M/NUMFONT">NUMFONT</dfn>      2</u></td></tr>
+<tr><th id="213">213</th><td><u>#define <dfn class="macro" id="_M/NUMFONTM" data-ref="_M/NUMFONTM">NUMFONTM</dfn>     0</u></td></tr>
+<tr><th id="214">214</th><td><u>#define <dfn class="macro" id="_M/NUMPICS" data-ref="_M/NUMPICS">NUMPICS</dfn>      (GETPSYCHEDPIC - NUMFONT)</u></td></tr>
+<tr><th id="215">215</th><td><u>#define <dfn class="macro" id="_M/NUMPICM" data-ref="_M/NUMPICM">NUMPICM</dfn>      0</u></td></tr>
+<tr><th id="216">216</th><td><u>#define <dfn class="macro" id="_M/NUMSPRITES" data-ref="_M/NUMSPRITES">NUMSPRITES</dfn>   0</u></td></tr>
+<tr><th id="217">217</th><td><u>#define <dfn class="macro" id="_M/NUMTILE8" data-ref="_M/NUMTILE8">NUMTILE8</dfn>     72</u></td></tr>
+<tr><th id="218">218</th><td><u>#define <dfn class="macro" id="_M/NUMTILE8M" data-ref="_M/NUMTILE8M">NUMTILE8M</dfn>    0</u></td></tr>
+<tr><th id="219">219</th><td><u>#define <dfn class="macro" id="_M/NUMTILE16" data-ref="_M/NUMTILE16">NUMTILE16</dfn>    0</u></td></tr>
+<tr><th id="220">220</th><td><u>#define <dfn class="macro" id="_M/NUMTILE16M" data-ref="_M/NUMTILE16M">NUMTILE16M</dfn>   0</u></td></tr>
+<tr><th id="221">221</th><td><u>#define <dfn class="macro" id="_M/NUMTILE32" data-ref="_M/NUMTILE32">NUMTILE32</dfn>    0</u></td></tr>
+<tr><th id="222">222</th><td><u>#define <dfn class="macro" id="_M/NUMTILE32M" data-ref="_M/NUMTILE32M">NUMTILE32M</dfn>   0</u></td></tr>
+<tr><th id="223">223</th><td><u>#define <dfn class="macro" id="_M/NUMEXTERNS" data-ref="_M/NUMEXTERNS">NUMEXTERNS</dfn>   13</u></td></tr>
+<tr><th id="224">224</th><td><i>//</i></td></tr>
+<tr><th id="225">225</th><td><i>// File offsets for data items</i></td></tr>
+<tr><th id="226">226</th><td><i>//</i></td></tr>
+<tr><th id="227">227</th><td><u>#define <dfn class="macro" id="_M/STRUCTPIC" data-ref="_M/STRUCTPIC">STRUCTPIC</dfn>    0</u></td></tr>
+<tr><th id="228">228</th><td></td></tr>
+<tr><th id="229">229</th><td><u>#define <dfn class="macro" id="_M/STARTFONT" data-ref="_M/STARTFONT">STARTFONT</dfn>    1</u></td></tr>
+<tr><th id="230">230</th><td><u>#define <dfn class="macro" id="_M/STARTFONTM" data-ref="_M/STARTFONTM">STARTFONTM</dfn>   3</u></td></tr>
+<tr><th id="231">231</th><td><u>#define <dfn class="macro" id="_M/STARTPICS" data-ref="_M/STARTPICS">STARTPICS</dfn>    3</u></td></tr>
+<tr><th id="232">232</th><td><u>#define <dfn class="macro" id="_M/STARTPICM" data-ref="_M/STARTPICM">STARTPICM</dfn>    TILE8</u></td></tr>
+<tr><th id="233">233</th><td><u>#define <dfn class="macro" id="_M/STARTSPRITES" data-ref="_M/STARTSPRITES">STARTSPRITES</dfn> TILE8</u></td></tr>
+<tr><th id="234">234</th><td><u>#define <dfn class="macro" id="_M/STARTTILE8" data-ref="_M/STARTTILE8">STARTTILE8</dfn>   TILE8</u></td></tr>
+<tr><th id="235">235</th><td><u>#define <dfn class="macro" id="_M/STARTTILE8M" data-ref="_M/STARTTILE8M">STARTTILE8M</dfn>  ORDERSCREEN</u></td></tr>
+<tr><th id="236">236</th><td><u>#define <dfn class="macro" id="_M/STARTTILE16" data-ref="_M/STARTTILE16">STARTTILE16</dfn>  ORDERSCREEN</u></td></tr>
+<tr><th id="237">237</th><td><u>#define <dfn class="macro" id="_M/STARTTILE16M" data-ref="_M/STARTTILE16M">STARTTILE16M</dfn> ORDERSCREEN</u></td></tr>
+<tr><th id="238">238</th><td><u>#define <dfn class="macro" id="_M/STARTTILE32" data-ref="_M/STARTTILE32">STARTTILE32</dfn>  ORDERSCREEN</u></td></tr>
+<tr><th id="239">239</th><td><u>#define <dfn class="macro" id="_M/STARTTILE32M" data-ref="_M/STARTTILE32M">STARTTILE32M</dfn> ORDERSCREEN</u></td></tr>
+<tr><th id="240">240</th><td><u>#define <dfn class="macro" id="_M/STARTEXTERNS" data-ref="_M/STARTEXTERNS">STARTEXTERNS</dfn> ORDERSCREEN</u></td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td><i>//</i></td></tr>
+<tr><th id="243">243</th><td><i>// Thank you for using IGRAB!</i></td></tr>
+<tr><th id="244">244</th><td><i>//</i></td></tr>
+<tr><th id="245">245</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

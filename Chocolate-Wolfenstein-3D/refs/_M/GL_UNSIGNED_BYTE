@@ -1,0 +1,4 @@
+<dec f='include/GL/gl.h' l='149'/>
+<use f='codebrowser/crt.cpp' l='44' u='c'/>
+<use f='codebrowser/crt.cpp' l='87' u='c'/>
+<use f='codebrowser/crt.cpp' l='133' u='c'/>

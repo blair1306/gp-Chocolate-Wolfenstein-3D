@@ -1,0 +1,10 @@
+<dec f='codebrowser/id_pm.h' l='9' type='int'/>
+<use f='codebrowser/id_pm.h' l='52' u='r' c='_ZL11PM_GetSoundi'/>
+<def f='codebrowser/id_pm.cpp' l='5' type='int'/>
+<use f='codebrowser/id_pm.cpp' l='30' u='w' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='31' u='a' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='63' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_pm.cpp' l='85' u='r' c='_Z10PM_Startupv'/>
+<use f='codebrowser/id_sd.cpp' l='676' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='677' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='682' u='r' c='_Z13SDL_SetupDigiv'/>

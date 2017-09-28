@@ -1,0 +1,25 @@
+<dec f='codebrowser/wl_act2.cpp' l='224' type='void T_FakeFire(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2703'/>
+<use f='codebrowser/wl_act2.cpp' l='2703'/>
+<use f='codebrowser/wl_act2.cpp' l='2704'/>
+<use f='codebrowser/wl_act2.cpp' l='2704'/>
+<use f='codebrowser/wl_act2.cpp' l='2705'/>
+<use f='codebrowser/wl_act2.cpp' l='2705'/>
+<use f='codebrowser/wl_act2.cpp' l='2706'/>
+<use f='codebrowser/wl_act2.cpp' l='2706'/>
+<use f='codebrowser/wl_act2.cpp' l='2707'/>
+<use f='codebrowser/wl_act2.cpp' l='2707'/>
+<use f='codebrowser/wl_act2.cpp' l='2708'/>
+<use f='codebrowser/wl_act2.cpp' l='2708'/>
+<use f='codebrowser/wl_act2.cpp' l='2709'/>
+<use f='codebrowser/wl_act2.cpp' l='2709'/>
+<use f='codebrowser/wl_act2.cpp' l='2710'/>
+<use f='codebrowser/wl_act2.cpp' l='2710'/>
+<def f='codebrowser/wl_act2.cpp' l='2925' ll='2960' type='void T_FakeFire(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2917'>/*
+=================
+=
+= T_FakeFire
+=
+=================
+*/</doc>

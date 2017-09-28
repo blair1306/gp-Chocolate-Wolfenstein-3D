@@ -1,0 +1,16 @@
+<def f='codebrowser/wl_draw.cpp' l='278' type='int'/>
+<use f='codebrowser/wl_draw.cpp' l='288' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='293' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='312' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='367' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='374' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='386' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='430' u='w' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='437' u='w' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='449' u='w' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='489' u='w' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='496' u='w' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='507' u='w' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='552' u='w' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='559' u='w' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='570' u='w' c='_Z11HitVertDoorv'/>

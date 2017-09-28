@@ -1,0 +1,3 @@
+<dec f='codebrowser/fmopl.h' l='44' type='int YM3812Init(int num, int clock, int rate)'/>
+<def f='codebrowser/fmopl.cpp' l='2083' ll='2107' type='int YM3812Init(int num, int clock, int rate)'/>
+<use f='codebrowser/id_sd.cpp' l='1070' u='c' c='_Z10SD_Startupv'/>

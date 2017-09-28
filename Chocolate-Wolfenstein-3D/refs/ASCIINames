@@ -1,0 +1,13 @@
+<def f='codebrowser/id_in.cpp' l='72' ll='83' type='byte [128]'/>
+<use f='codebrowser/id_in.cpp' l='290' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='290' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='290' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='291' u='r' c='_ZL12processEventP9SDL_Event'/>
+<doc f='codebrowser/id_in.cpp' l='65'>/*
+=============================================================================
+
+                    LOCAL VARIABLES
+
+=============================================================================
+*/</doc>
+<doc f='codebrowser/id_in.cpp' l='72'>// Unshifted ASCII for scan codes       // TODO: keypad</doc>

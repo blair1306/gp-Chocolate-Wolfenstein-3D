@@ -1,0 +1,4 @@
+<def f='codebrowser/wl_menu.cpp' l='239' ll='247' type='CP_iteminfo'/>
+<use f='codebrowser/wl_menu.cpp' l='1090' u='a' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1197' u='a' c='_Z11DrawNewGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='1198' u='m' c='_Z11DrawNewGamev'/>

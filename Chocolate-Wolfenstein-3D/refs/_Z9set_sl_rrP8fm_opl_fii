@@ -1,0 +1,2 @@
+<def f='codebrowser/fmopl.cpp' l='1459' ll='1469' macro='1' type='void set_sl_rr(FM_OPL * OPL, int slot, int v)'/>
+<use f='codebrowser/fmopl.cpp' l='1621' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>

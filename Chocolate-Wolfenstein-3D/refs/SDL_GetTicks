@@ -1,0 +1,39 @@
+<dec f='include/SDL/SDL_timer.h' l='49' type='Uint32 SDL_GetTicks()'/>
+<doc f='include/SDL/SDL_timer.h' l='45'>/**
+ * Get the number of milliseconds since the SDL library initialization.
+ * Note that this value wraps if the program runs for more than ~49 days.
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='581' macro='1' u='c'/>
+<use f='codebrowser/id_in.cpp' l='589' macro='1' u='c'/>
+<use f='codebrowser/id_us_1.cpp' l='501' macro='1' u='c'/>
+<use f='codebrowser/id_us_1.cpp' l='519' macro='1' u='c'/>
+<use f='codebrowser/id_us_1.cpp' l='764' u='c' c='_Z11US_InitRndTi'/>
+<use f='codebrowser/id_vh.cpp' l='354' macro='1' u='c'/>
+<use f='codebrowser/id_vh.cpp' l='439' macro='1' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1012' macro='1' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1046' macro='1' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1047' macro='1' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1049' u='c' c='_Z8CalcTicsv'/>
+<use f='codebrowser/wl_draw.cpp' l='1568' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='408' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='413' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='894' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='808' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='880' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='2221' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='2235' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='2248' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3226' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3235' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3237' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3492' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3498' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3679' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3685' macro='1' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3699' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='404' u='c' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='673' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='714' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='735' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='1259' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='1320' macro='1' u='c'/>

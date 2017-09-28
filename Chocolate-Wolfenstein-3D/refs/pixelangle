@@ -1,0 +1,21 @@
+<dec f='codebrowser/wl_def.h' l='1080' type='short *'/>
+<doc f='codebrowser/wl_def.h' l='1069'>/*
+=============================================================================
+
+                            WL_DRAW DEFINITIONS
+
+=============================================================================
+*/
+
+//
+// math tables
+//</doc>
+<use f='codebrowser/id_vl.cpp' l='147' u='w' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='148' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<def f='codebrowser/wl_draw.cpp' l='43' type='short *'/>
+<use f='codebrowser/wl_draw.cpp' l='1075' u='r' c='_Z10AsmRefreshv'/>
+<doc f='codebrowser/wl_draw.cpp' l='40'>//
+// math tables
+//</doc>
+<use f='codebrowser/wl_main.cpp' l='768' u='r' c='_Z14CalcProjectioni'/>
+<use f='codebrowser/wl_main.cpp' l='769' u='r' c='_Z14CalcProjectioni'/>

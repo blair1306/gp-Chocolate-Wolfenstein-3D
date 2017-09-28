@@ -1,0 +1,4 @@
+<dec f='codebrowser/gfxv_apo.h' l='25' type='18'/>
+<doc f='codebrowser/gfxv_apo.h' l='25'>// 18</doc>
+<use f='codebrowser/wl_text.cpp' l='429' u='r' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='557' u='r' c='_Z19CacheLayoutGraphicsv'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/wl_def.h' l='838' type='short'/>
+<offset>448</offset>
+<use f='codebrowser/wl_act2.cpp' l='862' u='w' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='869' u='w' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='876' u='w' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='883' u='w' c='_Z10SpawnStand7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='956' u='w' c='_Z9SpawnBossii'/>
+<use f='codebrowser/wl_act2.cpp' l='977' u='w' c='_Z11SpawnGretelii'/>
+<use f='codebrowser/wl_act2.cpp' l='997' u='w' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1004' u='w' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1011' u='w' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1018' u='w' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='1025' u='w' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2021' u='w' c='_Z11SpawnGhostsiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2230' u='w' c='_Z12SpawnSchabbsii'/>
+<use f='codebrowser/wl_act2.cpp' l='2257' u='w' c='_Z9SpawnGiftii'/>
+<use f='codebrowser/wl_act2.cpp' l='2284' u='w' c='_Z8SpawnFatii'/>
+<use f='codebrowser/wl_act2.cpp' l='2840' u='w' c='_Z15SpawnFakeHitlerii'/>
+<use f='codebrowser/wl_act2.cpp' l='2868' u='w' c='_Z11SpawnHitlerii'/>
+<use f='codebrowser/wl_game.cpp' l='639' u='w' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_inter.cpp' l='655' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='656' u='r' c='_Z14LevelCompletedv'/>

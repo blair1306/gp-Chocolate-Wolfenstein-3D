@@ -1,0 +1,12 @@
+<dec f='codebrowser/audiowl6.h' l='128' type='12'/>
+<doc f='codebrowser/audiowl6.h' l='128'>// 12</doc>
+<use f='codebrowser/wl_main.cpp' l='1068' u='r' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_main.cpp' l='1068' u='r' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_play.cpp' l='115'/>
+<use f='codebrowser/wl_play.cpp' l='119'/>
+<use f='codebrowser/wl_play.cpp' l='160'/>
+<use f='codebrowser/wl_play.cpp' l='164'/>
+<use f='codebrowser/wl_play.cpp' l='115'/>
+<use f='codebrowser/wl_play.cpp' l='119'/>
+<use f='codebrowser/wl_play.cpp' l='160'/>
+<use f='codebrowser/wl_play.cpp' l='164'/>

@@ -1,0 +1,36 @@
+<dec f='codebrowser/wl_def.h' l='875' type='int'/>
+<use f='codebrowser/wl_draw.cpp' l='291' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='295' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='298' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='629' u='r' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_draw.cpp' l='632' u='r' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_draw.cpp' l='697' u='r' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='752' u='r' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='753' u='r' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='791' u='r' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='828' u='r' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='828' u='r' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='1013' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1022' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1026' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_draw.cpp' l='1487' u='r' c='_Z11WallRefreshv'/>
+<use f='codebrowser/wl_game.cpp' l='789' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='880' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='885' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='886' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='892' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='893' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='894' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='895' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='900' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='1309' u='r' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1313' u='r' c='_Z4Diedv'/>
+<def f='codebrowser/wl_main.cpp' l='64' type='int'/>
+<use f='codebrowser/wl_main.cpp' l='1322' u='w' c='_Z11SetViewSizejj'/>
+<use f='codebrowser/wl_main.cpp' l='1325' u='r' c='_Z11SetViewSizejj'/>
+<use f='codebrowser/wl_main.cpp' l='1330' u='r' c='_Z11SetViewSizejj'/>
+<use f='codebrowser/wl_main.cpp' l='1348' u='r' c='_Z12ShowViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1353' u='w' c='_Z12ShowViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1359' u='w' c='_Z12ShowViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1365' u='w' c='_Z12ShowViewSizei'/>
+<use f='codebrowser/wl_main.cpp' l='1370' u='w' c='_Z12ShowViewSizei'/>

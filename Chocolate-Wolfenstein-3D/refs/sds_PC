@@ -1,0 +1,4 @@
+<dec f='codebrowser/id_sd.h' l='28' type='1'/>
+<use f='codebrowser/id_sd.cpp' l='485' u='r' c='_Z16SD_StopDigitizedv'/>
+<use f='codebrowser/id_sd.cpp' l='490' c='_Z16SD_StopDigitizedv'/>
+<use f='codebrowser/id_sd.cpp' l='1166' u='r' c='_Z12SD_PlaySound10soundnames'/>

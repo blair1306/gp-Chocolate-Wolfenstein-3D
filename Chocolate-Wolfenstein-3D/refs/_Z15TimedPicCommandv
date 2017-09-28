@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_text.cpp' l='163' ll='181' type='void TimedPicCommand()'/>
+<use f='codebrowser/wl_text.cpp' l='247' u='c' c='_Z13HandleCommandv'/>
+<doc f='codebrowser/wl_text.cpp' l='152'>/*
+=====================
+=
+= TimedPicCommand
+=
+= Call with text pointing just after a ^P
+= Upon exit text points to the start of next line
+=
+=====================
+*/</doc>

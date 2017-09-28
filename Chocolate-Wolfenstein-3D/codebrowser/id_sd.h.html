@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>id_sd.h source code [codebrowser/id_sd.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/id_sd.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='id_sd.h.html'>id_sd.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>//</i></td></tr>
+<tr><th id="2">2</th><td><i>//      ID Engine</i></td></tr>
+<tr><th id="3">3</th><td><i>//      ID_SD.h - Sound Manager Header</i></td></tr>
+<tr><th id="4">4</th><td><i>//      Version for Wolfenstein</i></td></tr>
+<tr><th id="5">5</th><td><i>//      By Jason Blochowiak</i></td></tr>
+<tr><th id="6">6</th><td><i>//</i></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#<span data-ppcond="8">ifndef</span> <span class="macro" data-ref="_M/__ID_SD__">__ID_SD__</span></u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/__ID_SD__" data-ref="_M/__ID_SD__">__ID_SD__</dfn></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/alOut" data-ref="_M/alOut">alOut</dfn>(n,b) YM3812Write(0, n, b)</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/TickBase" data-ref="_M/TickBase">TickBase</dfn>        70      // 70Hz per tick - used as a base for timer 0</u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="16">16</th><td>{</td></tr>
+<tr><th id="17">17</th><td>    <dfn class="enum" id="sdm_Off" title='sdm_Off' data-ref="sdm_Off">sdm_Off</dfn>,</td></tr>
+<tr><th id="18">18</th><td>    <dfn class="enum" id="sdm_PC" title='sdm_PC' data-ref="sdm_PC">sdm_PC</dfn>,<dfn class="enum" id="sdm_AdLib" title='sdm_AdLib' data-ref="sdm_AdLib">sdm_AdLib</dfn>,</td></tr>
+<tr><th id="19">19</th><td>} <dfn class="typedef" id="SDMode" title='SDMode' data-type='enum SDMode' data-ref="SDMode">SDMode</dfn>;</td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="22">22</th><td>{</td></tr>
+<tr><th id="23">23</th><td>    <dfn class="enum" id="smm_Off" title='smm_Off' data-ref="smm_Off">smm_Off</dfn>,<dfn class="enum" id="smm_AdLib" title='smm_AdLib' data-ref="smm_AdLib">smm_AdLib</dfn></td></tr>
+<tr><th id="24">24</th><td>} <dfn class="typedef" id="SMMode" title='SMMode' data-type='enum SMMode' data-ref="SMMode">SMMode</dfn>;</td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="27">27</th><td>{</td></tr>
+<tr><th id="28">28</th><td>    <dfn class="enum" id="sds_Off" title='sds_Off' data-ref="sds_Off">sds_Off</dfn>,<dfn class="enum" id="sds_PC" title='sds_PC' data-ref="sds_PC">sds_PC</dfn>,<dfn class="enum" id="sds_SoundBlaster" title='sds_SoundBlaster' data-ref="sds_SoundBlaster">sds_SoundBlaster</dfn></td></tr>
+<tr><th id="29">29</th><td>} <dfn class="typedef" id="SDSMode" title='SDSMode' data-type='enum SDSMode' data-ref="SDSMode">SDSMode</dfn>;</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="32">32</th><td>{</td></tr>
+<tr><th id="33">33</th><td>    <a class="typedef" href="wl_def.h.html#longword" title='longword' data-type='uint32_t' data-ref="longword">longword</a>        <dfn class="decl" id="(anonymous)::length" title='(anonymous struct)::length' data-ref="(anonymous)::length">length</dfn>;</td></tr>
+<tr><th id="34">34</th><td>    <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>            <dfn class="decl" id="(anonymous)::priority" title='(anonymous struct)::priority' data-ref="(anonymous)::priority">priority</dfn>;</td></tr>
+<tr><th id="35">35</th><td>} <dfn class="typedef" id="SoundCommon" title='SoundCommon' data-type='struct SoundCommon' data-ref="SoundCommon">SoundCommon</dfn>;</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/ORIG_SOUNDCOMMON_SIZE" data-ref="_M/ORIG_SOUNDCOMMON_SIZE">ORIG_SOUNDCOMMON_SIZE</dfn> 6</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><i>//      PC Sound stuff</i></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/pcTimer" data-ref="_M/pcTimer">pcTimer</dfn>         0x42</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/pcTAccess" data-ref="_M/pcTAccess">pcTAccess</dfn>       0x43</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/pcSpeaker" data-ref="_M/pcSpeaker">pcSpeaker</dfn>       0x61</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/pcSpkBits" data-ref="_M/pcSpkBits">pcSpkBits</dfn>       3</u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td>    <a class="typedef" href="#SoundCommon" title='SoundCommon' data-type='struct SoundCommon' data-ref="SoundCommon">SoundCommon</a>     <dfn class="decl" id="(anonymous)::common" title='(anonymous struct)::common' data-ref="(anonymous)::common">common</dfn>;</td></tr>
+<tr><th id="49">49</th><td>    <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>            <dfn class="decl" id="(anonymous)::data" title='(anonymous struct)::data' data-ref="(anonymous)::data">data</dfn>[<var>1</var>];</td></tr>
+<tr><th id="50">50</th><td>} <dfn class="typedef" id="PCSound" title='PCSound' data-type='struct PCSound' data-ref="PCSound">PCSound</dfn>;</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><i>//      Register addresses</i></td></tr>
+<tr><th id="53">53</th><td><i>// Operator stuff</i></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/alChar" data-ref="_M/alChar">alChar</dfn>          0x20</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/alScale" data-ref="_M/alScale">alScale</dfn>         0x40</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/alAttack" data-ref="_M/alAttack">alAttack</dfn>        0x60</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/alSus" data-ref="_M/alSus">alSus</dfn>           0x80</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/alWave" data-ref="_M/alWave">alWave</dfn>          0xe0</u></td></tr>
+<tr><th id="59">59</th><td><i>// Channel stuff</i></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/alFreqL" data-ref="_M/alFreqL">alFreqL</dfn>         0xa0</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/alFreqH" data-ref="_M/alFreqH">alFreqH</dfn>         0xb0</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/alFeedCon" data-ref="_M/alFeedCon">alFeedCon</dfn>       0xc0</u></td></tr>
+<tr><th id="63">63</th><td><i>// Global stuff</i></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/alEffects" data-ref="_M/alEffects">alEffects</dfn>       0xbd</u></td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="67">67</th><td>{</td></tr>
+<tr><th id="68">68</th><td>    <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>    <dfn class="decl" id="(anonymous)::mChar" title='(anonymous struct)::mChar' data-ref="(anonymous)::mChar">mChar</dfn>,<dfn class="decl" id="(anonymous)::cChar" title='(anonymous struct)::cChar' data-ref="(anonymous)::cChar">cChar</dfn>,</td></tr>
+<tr><th id="69">69</th><td>            <dfn class="decl" id="(anonymous)::mScale" title='(anonymous struct)::mScale' data-ref="(anonymous)::mScale">mScale</dfn>,<dfn class="decl" id="(anonymous)::cScale" title='(anonymous struct)::cScale' data-ref="(anonymous)::cScale">cScale</dfn>,</td></tr>
+<tr><th id="70">70</th><td>            <dfn class="decl" id="(anonymous)::mAttack" title='(anonymous struct)::mAttack' data-ref="(anonymous)::mAttack">mAttack</dfn>,<dfn class="decl" id="(anonymous)::cAttack" title='(anonymous struct)::cAttack' data-ref="(anonymous)::cAttack">cAttack</dfn>,</td></tr>
+<tr><th id="71">71</th><td>            <dfn class="decl" id="(anonymous)::mSus" title='(anonymous struct)::mSus' data-ref="(anonymous)::mSus">mSus</dfn>,<dfn class="decl" id="(anonymous)::cSus" title='(anonymous struct)::cSus' data-ref="(anonymous)::cSus">cSus</dfn>,</td></tr>
+<tr><th id="72">72</th><td>            <dfn class="decl" id="(anonymous)::mWave" title='(anonymous struct)::mWave' data-ref="(anonymous)::mWave">mWave</dfn>,<dfn class="decl" id="(anonymous)::cWave" title='(anonymous struct)::cWave' data-ref="(anonymous)::cWave">cWave</dfn>,</td></tr>
+<tr><th id="73">73</th><td>            <dfn class="decl" id="(anonymous)::nConn" title='(anonymous struct)::nConn' data-ref="(anonymous)::nConn">nConn</dfn>,</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td>            <i>// These are only for Muse - these bytes are really unused</i></td></tr>
+<tr><th id="76">76</th><td>            <dfn class="decl" id="(anonymous)::voice" title='(anonymous struct)::voice' data-ref="(anonymous)::voice">voice</dfn>,</td></tr>
+<tr><th id="77">77</th><td>            <dfn class="decl" id="(anonymous)::mode" title='(anonymous struct)::mode' data-ref="(anonymous)::mode">mode</dfn>;</td></tr>
+<tr><th id="78">78</th><td>    <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>    <dfn class="decl" id="(anonymous)::unused" title='(anonymous struct)::unused' data-ref="(anonymous)::unused">unused</dfn>[<var>3</var>];</td></tr>
+<tr><th id="79">79</th><td>} <dfn class="typedef" id="Instrument" title='Instrument' data-type='struct Instrument' data-ref="Instrument">Instrument</dfn>;</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/ORIG_INSTRUMENT_SIZE" data-ref="_M/ORIG_INSTRUMENT_SIZE">ORIG_INSTRUMENT_SIZE</dfn> 16</u></td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="84">84</th><td>{</td></tr>
+<tr><th id="85">85</th><td>    <a class="typedef" href="#SoundCommon" title='SoundCommon' data-type='struct SoundCommon' data-ref="SoundCommon">SoundCommon</a>     <dfn class="decl" id="(anonymous)::common" title='(anonymous struct)::common' data-ref="(anonymous)::common">common</dfn>;</td></tr>
+<tr><th id="86">86</th><td>    <a class="typedef" href="#Instrument" title='Instrument' data-type='struct Instrument' data-ref="Instrument">Instrument</a>      <dfn class="decl" id="(anonymous)::inst" title='(anonymous struct)::inst' data-ref="(anonymous)::inst">inst</dfn>;</td></tr>
+<tr><th id="87">87</th><td>    <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>            <dfn class="decl" id="(anonymous)::block" title='(anonymous struct)::block' data-ref="(anonymous)::block">block</dfn>;</td></tr>
+<tr><th id="88">88</th><td>    <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>            <dfn class="decl" id="(anonymous)::data" title='(anonymous struct)::data' data-ref="(anonymous)::data">data</dfn>[<var>1</var>];</td></tr>
+<tr><th id="89">89</th><td>} <dfn class="typedef" id="AdLibSound" title='AdLibSound' data-type='struct AdLibSound' data-ref="AdLibSound">AdLibSound</dfn>;</td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/ORIG_ADLIBSOUND_SIZE" data-ref="_M/ORIG_ADLIBSOUND_SIZE">ORIG_ADLIBSOUND_SIZE</dfn> (ORIG_SOUNDCOMMON_SIZE + ORIG_INSTRUMENT_SIZE + 2)</u></td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><i>//</i></td></tr>
+<tr><th id="94">94</th><td><i>//      Sequencing stuff</i></td></tr>
+<tr><th id="95">95</th><td><i>//</i></td></tr>
+<tr><th id="96">96</th><td><u>#define <dfn class="macro" id="_M/sqMaxTracks" data-ref="_M/sqMaxTracks">sqMaxTracks</dfn>     10</u></td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="99">99</th><td>{</td></tr>
+<tr><th id="100">100</th><td>    <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>    <dfn class="decl" id="(anonymous)::length" title='(anonymous struct)::length' data-ref="(anonymous)::length">length</dfn>;</td></tr>
+<tr><th id="101">101</th><td>    <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>    <dfn class="decl" id="(anonymous)::values" title='(anonymous struct)::values' data-ref="(anonymous)::values">values</dfn>[<var>1</var>];</td></tr>
+<tr><th id="102">102</th><td>} <dfn class="typedef" id="MusicGroup" title='MusicGroup' data-type='struct MusicGroup' data-ref="MusicGroup">MusicGroup</dfn>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="105">105</th><td>{</td></tr>
+<tr><th id="106">106</th><td>    <em>int</em> <dfn class="decl" id="(anonymous)::valid" title='(anonymous struct)::valid' data-ref="(anonymous)::valid">valid</dfn>;</td></tr>
+<tr><th id="107">107</th><td>    <a class="typedef" href="wl_def.h.html#fixed" title='fixed' data-type='int32_t' data-ref="fixed">fixed</a> <dfn class="decl" id="(anonymous)::globalsoundx" title='(anonymous struct)::globalsoundx' data-ref="(anonymous)::globalsoundx">globalsoundx</dfn>, <dfn class="decl" id="(anonymous)::globalsoundy" title='(anonymous struct)::globalsoundy' data-ref="(anonymous)::globalsoundy">globalsoundy</dfn>;</td></tr>
+<tr><th id="108">108</th><td>} <dfn class="typedef" id="globalsoundpos" title='globalsoundpos' data-type='struct globalsoundpos' data-ref="globalsoundpos">globalsoundpos</dfn>;</td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><b>extern</b> <a class="typedef" href="#globalsoundpos" title='globalsoundpos' data-type='struct globalsoundpos' data-ref="globalsoundpos">globalsoundpos</a> <dfn class="decl" id="channelSoundPos" title='channelSoundPos' data-ref="channelSoundPos">channelSoundPos</dfn>[];</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td><i>// Global variables</i></td></tr>
+<tr><th id="113">113</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a>         <dfn class="decl" id="AdLibPresent" title='AdLibPresent' data-ref="AdLibPresent">AdLibPresent</dfn>,</td></tr>
+<tr><th id="114">114</th><td>                        <dfn class="decl" id="SoundBlasterPresent" title='SoundBlasterPresent' data-ref="SoundBlasterPresent">SoundBlasterPresent</dfn>,</td></tr>
+<tr><th id="115">115</th><td>                        <dfn class="decl" id="SoundPositioned" title='SoundPositioned' data-ref="SoundPositioned">SoundPositioned</dfn>;</td></tr>
+<tr><th id="116">116</th><td><b>extern</b>  <a class="typedef" href="#SDMode" title='SDMode' data-type='enum SDMode' data-ref="SDMode">SDMode</a>          <dfn class="decl" id="SoundMode" title='SoundMode' data-ref="SoundMode">SoundMode</dfn>;</td></tr>
+<tr><th id="117">117</th><td><b>extern</b>  <a class="typedef" href="#SDSMode" title='SDSMode' data-type='enum SDSMode' data-ref="SDSMode">SDSMode</a>         <dfn class="decl" id="DigiMode" title='DigiMode' data-ref="DigiMode">DigiMode</dfn>;</td></tr>
+<tr><th id="118">118</th><td><b>extern</b>  <a class="typedef" href="#SMMode" title='SMMode' data-type='enum SMMode' data-ref="SMMode">SMMode</a>          <dfn class="decl" id="MusicMode" title='MusicMode' data-ref="MusicMode">MusicMode</dfn>;</td></tr>
+<tr><th id="119">119</th><td><b>extern</b>  <em>int</em>             <dfn class="decl" id="DigiMap" title='DigiMap' data-ref="DigiMap">DigiMap</dfn>[];</td></tr>
+<tr><th id="120">120</th><td><b>extern</b>  <em>int</em>             <dfn class="decl" id="DigiChannel" title='DigiChannel' data-ref="DigiChannel">DigiChannel</dfn>[];</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td><u>#define <dfn class="macro" id="_M/GetTimeCount" data-ref="_M/GetTimeCount">GetTimeCount</dfn>()  ((SDL_GetTicks()*7)/100)</u></td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><b>inline</b> <em>void</em> <dfn class="decl def" id="_Z5Delayi" title='Delay' data-ref="_Z5Delayi">Delay</dfn>(<em>int</em> <dfn class="local col4 decl" id="11214wolfticks" title='wolfticks' data-type='int' data-ref="11214wolfticks">wolfticks</dfn>)</td></tr>
+<tr><th id="125">125</th><td>{</td></tr>
+<tr><th id="126">126</th><td>    <b>if</b>(<a class="local col4 ref" href="#11214wolfticks" title='wolfticks' data-ref="11214wolfticks">wolfticks</a>&gt;<var>0</var>) <a class="ref" href="../include/SDL/SDL_timer.h.html#SDL_Delay" title='SDL_Delay' data-ref="SDL_Delay">SDL_Delay</a>(<a class="local col4 ref" href="#11214wolfticks" title='wolfticks' data-ref="11214wolfticks">wolfticks</a> * <var>100</var> / <var>7</var>);</td></tr>
+<tr><th id="127">127</th><td>}</td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><i>// Function prototypes</i></td></tr>
+<tr><th id="130">130</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z10SD_Startupv" title='SD_Startup' data-ref="_Z10SD_Startupv">SD_Startup</dfn>(<em>void</em>),</td></tr>
+<tr><th id="131">131</th><td>                <dfn class="decl" id="_Z11SD_Shutdownv" title='SD_Shutdown' data-ref="_Z11SD_Shutdownv">SD_Shutdown</dfn>(<em>void</em>);</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><b>extern</b>  <em>int</em>     <dfn class="decl" id="_Z20SD_GetChannelForDigii" title='SD_GetChannelForDigi' data-ref="_Z20SD_GetChannelForDigii">SD_GetChannelForDigi</dfn>(<em>int</em> <dfn class="local col5 decl" id="11215which" title='which' data-type='int' data-ref="11215which">which</dfn>);</td></tr>
+<tr><th id="134">134</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z16SD_PositionSoundii" title='SD_PositionSound' data-ref="_Z16SD_PositionSoundii">SD_PositionSound</dfn>(<em>int</em> <dfn class="local col6 decl" id="11216leftvol" title='leftvol' data-type='int' data-ref="11216leftvol">leftvol</dfn>,<em>int</em> <dfn class="local col7 decl" id="11217rightvol" title='rightvol' data-type='int' data-ref="11217rightvol">rightvol</dfn>);</td></tr>
+<tr><th id="135">135</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z12SD_PlaySound10soundnames" title='SD_PlaySound' data-ref="_Z12SD_PlaySound10soundnames">SD_PlaySound</dfn>(<a class="typedef" href="audiowl6.h.html#soundnames" title='soundnames' data-type='enum soundnames' data-ref="soundnames">soundnames</a> <dfn class="local col8 decl" id="11218sound" title='sound' data-type='soundnames' data-ref="11218sound">sound</dfn>);</td></tr>
+<tr><th id="136">136</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z14SD_SetPositioniii" title='SD_SetPosition' data-ref="_Z14SD_SetPositioniii">SD_SetPosition</dfn>(<em>int</em> <dfn class="local col9 decl" id="11219channel" title='channel' data-type='int' data-ref="11219channel">channel</dfn>, <em>int</em> <dfn class="local col0 decl" id="11220leftvol" title='leftvol' data-type='int' data-ref="11220leftvol">leftvol</dfn>,<em>int</em> <dfn class="local col1 decl" id="11221rightvol" title='rightvol' data-type='int' data-ref="11221rightvol">rightvol</dfn>);</td></tr>
+<tr><th id="137">137</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z12SD_StopSoundv" title='SD_StopSound' data-ref="_Z12SD_StopSoundv">SD_StopSound</dfn>(<em>void</em>),</td></tr>
+<tr><th id="138">138</th><td>                <dfn class="decl" id="_Z16SD_WaitSoundDonev" title='SD_WaitSoundDone' data-ref="_Z16SD_WaitSoundDonev">SD_WaitSoundDone</dfn>(<em>void</em>);</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z13SD_StartMusici" title='SD_StartMusic' data-ref="_Z13SD_StartMusici">SD_StartMusic</dfn>(<em>int</em> <dfn class="local col2 decl" id="11222chunk" title='chunk' data-type='int' data-ref="11222chunk">chunk</dfn>);</td></tr>
+<tr><th id="141">141</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z16SD_ContinueMusicii" title='SD_ContinueMusic' data-ref="_Z16SD_ContinueMusicii">SD_ContinueMusic</dfn>(<em>int</em> <dfn class="local col3 decl" id="11223chunk" title='chunk' data-type='int' data-ref="11223chunk">chunk</dfn>, <em>int</em> <dfn class="local col4 decl" id="11224startoffs" title='startoffs' data-type='int' data-ref="11224startoffs">startoffs</dfn>);</td></tr>
+<tr><th id="142">142</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z10SD_MusicOnv" title='SD_MusicOn' data-ref="_Z10SD_MusicOnv">SD_MusicOn</dfn>(<em>void</em>),</td></tr>
+<tr><th id="143">143</th><td>                <dfn class="decl" id="_Z15SD_FadeOutMusicv" title='SD_FadeOutMusic' data-ref="_Z15SD_FadeOutMusicv">SD_FadeOutMusic</dfn>(<em>void</em>);</td></tr>
+<tr><th id="144">144</th><td><b>extern</b>  <em>int</em>     <dfn class="decl" id="_Z11SD_MusicOffv" title='SD_MusicOff' data-ref="_Z11SD_MusicOffv">SD_MusicOff</dfn>(<em>void</em>);</td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z15SD_MusicPlayingv" title='SD_MusicPlaying' data-ref="_Z15SD_MusicPlayingv">SD_MusicPlaying</dfn>(<em>void</em>);</td></tr>
+<tr><th id="147">147</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z15SD_SetSoundMode6SDMode" title='SD_SetSoundMode' data-ref="_Z15SD_SetSoundMode6SDMode">SD_SetSoundMode</dfn>(<a class="typedef" href="#SDMode" title='SDMode' data-type='enum SDMode' data-ref="SDMode">SDMode</a> <dfn class="local col5 decl" id="11225mode" title='mode' data-type='SDMode' data-ref="11225mode">mode</dfn>);</td></tr>
+<tr><th id="148">148</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z15SD_SetMusicMode6SMMode" title='SD_SetMusicMode' data-ref="_Z15SD_SetMusicMode6SMMode">SD_SetMusicMode</dfn>(<a class="typedef" href="#SMMode" title='SMMode' data-type='enum SMMode' data-ref="SMMode">SMMode</a> <dfn class="local col6 decl" id="11226mode" title='mode' data-type='SMMode' data-ref="11226mode">mode</dfn>);</td></tr>
+<tr><th id="149">149</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>    <dfn class="decl" id="_Z15SD_SoundPlayingv" title='SD_SoundPlaying' data-ref="_Z15SD_SoundPlayingv">SD_SoundPlaying</dfn>(<em>void</em>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z16SD_SetDigiDevice7SDSMode" title='SD_SetDigiDevice' data-ref="_Z16SD_SetDigiDevice7SDSMode">SD_SetDigiDevice</dfn>(<a class="typedef" href="#SDSMode" title='SDSMode' data-type='enum SDSMode' data-ref="SDSMode">SDSMode</a>);</td></tr>
+<tr><th id="152">152</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z15SD_PrepareSoundi" title='SD_PrepareSound' data-ref="_Z15SD_PrepareSoundi">SD_PrepareSound</dfn>(<em>int</em> <dfn class="local col7 decl" id="11227which" title='which' data-type='int' data-ref="11227which">which</dfn>);</td></tr>
+<tr><th id="153">153</th><td><b>extern</b>  <em>int</em>     <dfn class="decl" id="_Z16SD_PlayDigitizedtii" title='SD_PlayDigitized' data-ref="_Z16SD_PlayDigitizedtii">SD_PlayDigitized</dfn>(<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col8 decl" id="11228which" title='which' data-type='word' data-ref="11228which">which</dfn>,<em>int</em> <dfn class="local col9 decl" id="11229leftpos" title='leftpos' data-type='int' data-ref="11229leftpos">leftpos</dfn>,<em>int</em> <dfn class="local col0 decl" id="11230rightpos" title='rightpos' data-type='int' data-ref="11230rightpos">rightpos</dfn>);</td></tr>
+<tr><th id="154">154</th><td><b>extern</b>  <em>void</em>    <dfn class="decl" id="_Z16SD_StopDigitizedv" title='SD_StopDigitized' data-ref="_Z16SD_StopDigitizedv">SD_StopDigitized</dfn>(<em>void</em>);</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><u>#<span data-ppcond="8">endif</span></u></td></tr>
+<tr><th id="157">157</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

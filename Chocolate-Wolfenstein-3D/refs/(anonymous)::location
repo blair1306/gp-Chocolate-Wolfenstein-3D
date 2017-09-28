@@ -1,0 +1,3 @@
+<dec f='codebrowser/id_vh.h' l='26' type='int16_t [256]'/>
+<offset>16</offset>
+<use f='codebrowser/id_vh.cpp' l='29' u='r' c='_Z18VWB_DrawPropStringPKc'/>

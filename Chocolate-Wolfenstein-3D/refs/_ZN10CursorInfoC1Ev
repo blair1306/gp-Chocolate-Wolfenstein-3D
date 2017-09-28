@@ -1,0 +1,9 @@
+<use f='codebrowser/id_us_1.cpp' l='489' u='c' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_menu.cpp' l='1925' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2168' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2802' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3200' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3490' u='c' c='_Z8TicDelayi'/>
+<use f='codebrowser/wl_menu.cpp' l='3564' u='c' c='_Z9WaitKeyUpv'/>
+<use f='codebrowser/wl_menu.cpp' l='3668' u='c' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_text.cpp' l='632' u='c' c='_Z11ShowArticlePc'/>

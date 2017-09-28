@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_menu.h' l='188' type='int CP_Control(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='69'/>
+<use f='codebrowser/wl_menu.cpp' l='69'/>
+<use f='codebrowser/wl_menu.cpp' l='69'/>
+<use f='codebrowser/wl_menu.cpp' l='69'/>
+<use f='codebrowser/wl_menu.cpp' l='437' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='1813' ll='1865' type='int CP_Control(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='1808'>////////////////////////////////////////////////////////////////////
+//
+// DEFINE CONTROLS
+//
+////////////////////////////////////////////////////////////////////</doc>

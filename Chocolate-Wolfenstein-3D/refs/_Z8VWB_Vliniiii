@@ -1,0 +1,4 @@
+<dec f='codebrowser/id_vh.h' l='63' type='void VWB_Vlin(int y1, int y2, int x, int color)'/>
+<def f='codebrowser/id_vh.cpp' l='179' ll='185' type='void VWB_Vlin(int y1, int y2, int x, int color)'/>
+<use f='codebrowser/wl_menu.cpp' l='3094' u='c' c='_Z11DrawOutlineiiiiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3096' u='c' c='_Z11DrawOutlineiiiiii'/>

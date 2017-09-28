@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='104'/>
+<doc f='codebrowser/wl_def.h' l='96'>/*
+=============================================================================
+
+                            GLOBAL CONSTANTS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_draw.cpp' l='1060' u='c'/>
+<use f='codebrowser/wl_draw.cpp' l='1061' u='c'/>

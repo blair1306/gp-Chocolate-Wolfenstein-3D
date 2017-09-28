@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1145' type='word'/>
+<use f='codebrowser/wl_act2.cpp' l='3868' u='w' c='_Z15A_StartDeathCamP9objstruct'/>
+<def f='codebrowser/wl_agent.cpp' l='36' type='word'/>
+<use f='codebrowser/wl_agent.cpp' l='1390' u='w' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1489' u='w' c='_Z8T_PlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1088' u='r' c='_Z9CheckLineP9objstruct'/>

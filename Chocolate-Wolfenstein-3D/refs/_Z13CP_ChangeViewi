@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_menu.h' l='189' type='int CP_ChangeView(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='72'/>
+<use f='codebrowser/wl_menu.cpp' l='72'/>
+<use f='codebrowser/wl_menu.cpp' l='72'/>
+<use f='codebrowser/wl_menu.cpp' l='72'/>
+<use f='codebrowser/wl_menu.cpp' l='433' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='2798' ll='2871' type='int CP_ChangeView(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='2793'>////////////////////////////////////////////////////////////////////
+//
+// CHANGE SCREEN VIEWING SIZE
+//
+////////////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,18 @@
+<dec f='include/string.h' l='42' type='void * memcpy(void *__restrict __dest, const void *__restrict __src, size_t __n)'/>
+<use f='include/string.h' l='652' u='c' c='__mempcpy_inline'/>
+<doc f='include/string.h' l='41'>/* Copy N bytes of SRC to DEST.  */</doc>
+<use f='codebrowser/id_sd.cpp' l='568' u='c' c='_Z15SD_PrepareSoundi'/>
+<use f='codebrowser/id_sd.cpp' l='569' u='c' c='_Z15SD_PrepareSoundi'/>
+<use f='codebrowser/id_vh.cpp' l='74' u='c' c='_Z11VL_MungePicPhjj'/>
+<use f='codebrowser/id_vh.cpp' l='419' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vl.cpp' l='119' u='c' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='261' u='c' c='_Z13VL_SetPaletteP9SDL_Colorb'/>
+<use f='codebrowser/id_vl.cpp' l='289' u='c' c='_Z13VL_GetPaletteP9SDL_Color'/>
+<use f='codebrowser/id_vl.cpp' l='316' u='c' c='_Z10VL_FadeOutiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='367' u='c' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/wl_main.cpp' l='426' u='c' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='434' u='c' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='450' u='c' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='554' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='569' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_play.cpp' l='420' u='c' c='_Z12PollControlsv'/>

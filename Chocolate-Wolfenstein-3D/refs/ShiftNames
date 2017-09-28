@@ -1,0 +1,6 @@
+<def f='codebrowser/id_in.cpp' l='84' ll='95' type='byte [128]'/>
+<use f='codebrowser/id_in.cpp' l='285' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='285' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='285' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='286' u='r' c='_ZL12processEventP9SDL_Event'/>
+<doc f='codebrowser/id_in.cpp' l='84'>// Shifted ASCII for scan codes</doc>

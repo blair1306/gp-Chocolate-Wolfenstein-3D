@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_sd.h' l='130' type='void SD_Startup()'/>
+<def f='codebrowser/id_sd.cpp' l='1049' ll='1094' type='void SD_Startup()'/>
+<doc f='codebrowser/id_sd.cpp' l='1043'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_Startup() - starts up the Sound Mgr
+//              Detects all additional sound hardware and installs my ISR
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='1230' u='c' c='_ZL8InitGamev'/>

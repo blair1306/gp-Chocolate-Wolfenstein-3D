@@ -1,0 +1,13 @@
+<def f='codebrowser/wl_text.cpp' l='133' ll='139' type='void ParsePicCommand()'/>
+<use f='codebrowser/wl_text.cpp' l='251' u='c' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='567' u='c' c='_Z19CacheLayoutGraphicsv'/>
+<doc f='codebrowser/wl_text.cpp' l='122'>/*
+=====================
+=
+= ParsePicCommand
+=
+= Call with text pointing just after a ^P
+= Upon exit text points to the start of next line
+=
+=====================
+*/</doc>

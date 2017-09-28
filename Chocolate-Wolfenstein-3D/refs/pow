@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='153' type='double pow(double __x, double __y)'/>
+<use f='codebrowser/fmopl.cpp' l='1179' u='c' c='_ZL11init_tablesv'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/id_vl.h' l='100' ll='103' type='void VL_LatchToScreenScaledCoord(SDL_Surface * source, int scx, int scy)'/>
+<use f='codebrowser/id_vh.cpp' l='211' u='c' c='_Z23LatchDrawPicScaledCoordjjj'/>

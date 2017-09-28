@@ -1,0 +1,12 @@
+<dec f='include/stdlib.h' l='543' type='void exit(int __status)'/>
+<doc f='include/stdlib.h' l='540'>/* Call all functions registered with `atexit&apos; and `on_exit&apos;,
+   in the reverse of the order in which they were registered,
+   perform stdio cleanup, and terminate program execution with STATUS.  */</doc>
+<use f='codebrowser/id_vl.cpp' l='112' u='c' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='133' u='c' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/wl_main.cpp' l='1195' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1206' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1426' u='c' c='_Z4QuitPKcz'/>
+<use f='codebrowser/wl_main.cpp' l='1460' u='c' c='_Z4QuitPKcz'/>
+<use f='codebrowser/wl_main.cpp' l='1473' u='c' c='_Z4QuitPKcz'/>
+<use f='codebrowser/wl_main.cpp' l='1901' u='c' c='_Z15CheckParametersiPPc'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_us.h' l='67' type='void US_Shutdown()'/>
+<def f='codebrowser/id_us_1.cpp' l='103' ll='110' type='void US_Shutdown()'/>
+<doc f='codebrowser/id_us_1.cpp' l='98'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_Shutdown() - Shuts down the User Mgr
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='661' u='c' c='_Z10ShutdownIdv'/>

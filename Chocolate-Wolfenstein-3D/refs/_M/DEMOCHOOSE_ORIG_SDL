@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='1334'/>
+<use f='codebrowser/wl_agent.cpp' l='1028' u='c'/>
+<use f='codebrowser/wl_agent.cpp' l='1031' u='c'/>
+<use f='codebrowser/wl_state.cpp' l='86' u='c'/>

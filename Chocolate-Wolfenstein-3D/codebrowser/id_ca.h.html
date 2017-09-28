@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>id_ca.h source code [codebrowser/id_ca.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/id_ca.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='id_ca.h.html'>id_ca.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/__ID_CA__">__ID_CA__</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/__ID_CA__" data-ref="_M/__ID_CA__">__ID_CA__</dfn></u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#define <dfn class="macro" id="_M/NUMMAPS" data-ref="_M/NUMMAPS">NUMMAPS</dfn>         60</u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/MAPPLANES" data-ref="_M/MAPPLANES">MAPPLANES</dfn>       2</u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/UNCACHEGRCHUNK" data-ref="_M/UNCACHEGRCHUNK">UNCACHEGRCHUNK</dfn>(chunk) {if(grsegs[chunk]) {free(grsegs[chunk]); grsegs[chunk]=NULL;}}</u></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/UNCACHEAUDIOCHUNK" data-ref="_M/UNCACHEAUDIOCHUNK">UNCACHEAUDIOCHUNK</dfn>(chunk) {if(audiosegs[chunk]) {free(audiosegs[chunk]); audiosegs[chunk]=NULL;}}</u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="15">15</th><td>{</td></tr>
+<tr><th id="16">16</th><td>    <a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::planestart" title='(anonymous struct)::planestart' data-ref="(anonymous)::planestart">planestart</dfn>[<var>3</var>];</td></tr>
+<tr><th id="17">17</th><td>    <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>    <dfn class="decl" id="(anonymous)::planelength" title='(anonymous struct)::planelength' data-ref="(anonymous)::planelength">planelength</dfn>[<var>3</var>];</td></tr>
+<tr><th id="18">18</th><td>    <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a>    <dfn class="decl" id="(anonymous)::width" title='(anonymous struct)::width' data-ref="(anonymous)::width">width</dfn>,<dfn class="decl" id="(anonymous)::height" title='(anonymous struct)::height' data-ref="(anonymous)::height">height</dfn>;</td></tr>
+<tr><th id="19">19</th><td>    <em>char</em>    <dfn class="decl" id="(anonymous)::name" title='(anonymous struct)::name' data-ref="(anonymous)::name">name</dfn>[<var>16</var>];</td></tr>
+<tr><th id="20">20</th><td>} <dfn class="typedef" id="maptype" title='maptype' data-type='struct maptype' data-ref="maptype">maptype</dfn>;</td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><b>extern</b>  <em>int</em>   <dfn class="decl" id="mapon" title='mapon' data-ref="mapon">mapon</dfn>;</td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="decl" id="mapsegs" title='mapsegs' data-ref="mapsegs">mapsegs</dfn>[<a class="macro" href="#7" title="2" data-ref="_M/MAPPLANES">MAPPLANES</a>];</td></tr>
+<tr><th id="27">27</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a> *<dfn class="decl" id="audiosegs" title='audiosegs' data-ref="audiosegs">audiosegs</dfn>[<a class="macro" href="audiowl6.h.html#147" title="((3*LASTSOUND) + LASTMUSIC)" data-ref="_M/NUMSNDCHUNKS">NUMSNDCHUNKS</a>];</td></tr>
+<tr><th id="28">28</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a> *<dfn class="decl" id="grsegs" title='grsegs' data-ref="grsegs">grsegs</dfn>[<a class="macro" href="gfxv_apo.h.html#211" title="ENUMEND" data-ref="_M/NUMCHUNKS">NUMCHUNKS</a>];</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><b>extern</b>  <em>char</em>  <dfn class="decl" id="extension" title='extension' data-ref="extension">extension</dfn>[<var>5</var>];</td></tr>
+<tr><th id="31">31</th><td><b>extern</b>  <em>char</em>  <dfn class="decl" id="graphext" title='graphext' data-ref="graphext">graphext</dfn>[<var>5</var>];</td></tr>
+<tr><th id="32">32</th><td><b>extern</b>  <em>char</em>  <dfn class="decl" id="audioext" title='audioext' data-ref="audioext">audioext</dfn>[<var>5</var>];</td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z11CA_LoadFilePKcPPv" title='CA_LoadFile' data-ref="_Z11CA_LoadFilePKcPPv">CA_LoadFile</dfn> (<em>const</em> <em>char</em> *<dfn class="local col0 decl" id="11330filename" title='filename' data-type='const char *' data-ref="11330filename">filename</dfn>, <a class="typedef" href="wl_def.h.html#memptr" title='memptr' data-type='void *' data-ref="memptr">memptr</a> *<dfn class="local col1 decl" id="11331ptr" title='ptr' data-type='memptr *' data-ref="11331ptr">ptr</dfn>);</td></tr>
+<tr><th id="37">37</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z12CA_WriteFilePKcPvi" title='CA_WriteFile' data-ref="_Z12CA_WriteFilePKcPvi">CA_WriteFile</dfn> (<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="11332filename" title='filename' data-type='const char *' data-ref="11332filename">filename</dfn>, <em>void</em> *<dfn class="local col3 decl" id="11333ptr" title='ptr' data-type='void *' data-ref="11333ptr">ptr</dfn>, <a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="local col4 decl" id="11334length" title='length' data-type='int32_t' data-ref="11334length">length</dfn>);</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="_Z15CA_RLEWCompressPtiS_t" title='CA_RLEWCompress' data-ref="_Z15CA_RLEWCompressPtiS_t">CA_RLEWCompress</dfn> (<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col5 decl" id="11335source" title='source' data-type='word *' data-ref="11335source">source</dfn>, <a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="local col6 decl" id="11336length" title='length' data-type='int32_t' data-ref="11336length">length</dfn>, <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col7 decl" id="11337dest" title='dest' data-type='word *' data-ref="11337dest">dest</dfn>, <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col8 decl" id="11338rlewtag" title='rlewtag' data-type='word' data-ref="11338rlewtag">rlewtag</dfn>);</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><em>void</em> <dfn class="decl" id="_Z13CA_RLEWexpandPtS_it" title='CA_RLEWexpand' data-ref="_Z13CA_RLEWexpandPtS_it">CA_RLEWexpand</dfn> (<a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col9 decl" id="11339source" title='source' data-type='word *' data-ref="11339source">source</dfn>, <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col0 decl" id="11340dest" title='dest' data-type='word *' data-ref="11340dest">dest</dfn>, <a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="local col1 decl" id="11341length" title='length' data-type='int32_t' data-ref="11341length">length</dfn>, <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> <dfn class="local col2 decl" id="11342rlewtag" title='rlewtag' data-type='word' data-ref="11342rlewtag">rlewtag</dfn>);</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><em>void</em> <dfn class="decl" id="_Z10CA_Startupv" title='CA_Startup' data-ref="_Z10CA_Startupv">CA_Startup</dfn> (<em>void</em>);</td></tr>
+<tr><th id="44">44</th><td><em>void</em> <dfn class="decl" id="_Z11CA_Shutdownv" title='CA_Shutdown' data-ref="_Z11CA_Shutdownv">CA_Shutdown</dfn> (<em>void</em>);</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><a class="typedef" href="../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="_Z18CA_CacheAudioChunki" title='CA_CacheAudioChunk' data-ref="_Z18CA_CacheAudioChunki">CA_CacheAudioChunk</dfn> (<em>int</em> <dfn class="local col3 decl" id="11343chunk" title='chunk' data-type='int' data-ref="11343chunk">chunk</dfn>);</td></tr>
+<tr><th id="47">47</th><td><em>void</em> <dfn class="decl" id="_Z16CA_LoadAllSoundsv" title='CA_LoadAllSounds' data-ref="_Z16CA_LoadAllSoundsv">CA_LoadAllSounds</dfn> (<em>void</em>);</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><em>void</em> <dfn class="decl" id="_Z15CA_CacheGrChunki" title='CA_CacheGrChunk' data-ref="_Z15CA_CacheGrChunki">CA_CacheGrChunk</dfn> (<em>int</em> <dfn class="local col4 decl" id="11344chunk" title='chunk' data-type='int' data-ref="11344chunk">chunk</dfn>);</td></tr>
+<tr><th id="50">50</th><td><em>void</em> <dfn class="decl" id="_Z11CA_CacheMapi" title='CA_CacheMap' data-ref="_Z11CA_CacheMapi">CA_CacheMap</dfn> (<em>int</em> <dfn class="local col5 decl" id="11345mapnum" title='mapnum' data-type='int' data-ref="11345mapnum">mapnum</dfn>);</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><em>void</em> <dfn class="decl" id="_Z14CA_CacheScreeni" title='CA_CacheScreen' data-ref="_Z14CA_CacheScreeni">CA_CacheScreen</dfn> (<em>int</em> <dfn class="local col6 decl" id="11346chunk" title='chunk' data-type='int' data-ref="11346chunk">chunk</dfn>);</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><em>void</em> <dfn class="decl" id="_Z13CA_CannotOpenPKc" title='CA_CannotOpen' data-ref="_Z13CA_CannotOpenPKc">CA_CannotOpen</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="11347name" title='name' data-type='const char *' data-ref="11347name">name</dfn>);</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="1">endif</span></u></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

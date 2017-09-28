@@ -1,0 +1,36 @@
+<dec f='codebrowser/wl_def.h' l='1302' type='void A_DeathScream(objtype * ob)'/>
+<dec f='codebrowser/wl_act2.cpp' l='175' type='void A_DeathScream(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='445'/>
+<use f='codebrowser/wl_act2.cpp' l='445'/>
+<use f='codebrowser/wl_act2.cpp' l='527'/>
+<use f='codebrowser/wl_act2.cpp' l='527'/>
+<use f='codebrowser/wl_act2.cpp' l='592'/>
+<use f='codebrowser/wl_act2.cpp' l='592'/>
+<use f='codebrowser/wl_act2.cpp' l='659'/>
+<use f='codebrowser/wl_act2.cpp' l='659'/>
+<use f='codebrowser/wl_act2.cpp' l='733'/>
+<use f='codebrowser/wl_act2.cpp' l='733'/>
+<use f='codebrowser/wl_act2.cpp' l='776'/>
+<use f='codebrowser/wl_act2.cpp' l='776'/>
+<use f='codebrowser/wl_act2.cpp' l='827'/>
+<use f='codebrowser/wl_act2.cpp' l='827'/>
+<def f='codebrowser/wl_act2.cpp' l='1067' ll='1173' type='void A_DeathScream(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2075'/>
+<use f='codebrowser/wl_act2.cpp' l='2075'/>
+<use f='codebrowser/wl_act2.cpp' l='2136'/>
+<use f='codebrowser/wl_act2.cpp' l='2136'/>
+<use f='codebrowser/wl_act2.cpp' l='2192'/>
+<use f='codebrowser/wl_act2.cpp' l='2192'/>
+<use f='codebrowser/wl_act2.cpp' l='2696'/>
+<use f='codebrowser/wl_act2.cpp' l='2696'/>
+<use f='codebrowser/wl_act2.cpp' l='2775'/>
+<use f='codebrowser/wl_act2.cpp' l='2775'/>
+<use f='codebrowser/wl_act2.cpp' l='2797'/>
+<use f='codebrowser/wl_act2.cpp' l='2797'/>
+<doc f='codebrowser/wl_act2.cpp' l='1059'>/*
+==================
+=
+= A_DeathScream
+=
+==================
+*/</doc>

@@ -1,0 +1,46 @@
+<dec f='codebrowser/id_vl.h' l='64' type='void VL_BarScaledCoord(int scx, int scy, int scwidth, int scheight, int color)'/>
+<use f='codebrowser/id_vl.h' l='67' u='c' c='_Z6VL_Bariiiii'/>
+<def f='codebrowser/id_vl.cpp' l='516' ll='531' type='void VL_BarScaledCoord(int scx, int scy, int scwidth, int scheight, int color)'/>
+<doc f='codebrowser/id_vl.cpp' l='508'>/*
+=================
+=
+= VL_Bar
+=
+=================
+*/</doc>
+<use f='codebrowser/wl_act2.cpp' l='3807' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='798' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='799' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='804' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='805' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='811' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='812' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='813' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='814' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='815' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='820' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='837' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='838' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='840' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='841' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='844' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='846' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='848' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='850' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='852' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='874' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='876' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='882' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='886' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='891' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='892' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='893' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='894' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='895' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='900' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1309' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_inter.cpp' l='958' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='963' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='965' macro='1' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='985' macro='1' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='1354' macro='1' u='c'/>

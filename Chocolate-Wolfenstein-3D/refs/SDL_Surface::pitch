@@ -1,0 +1,12 @@
+<dec f='include/SDL/SDL_video.h' l='100' type='Uint16'/>
+<offset>192</offset>
+<doc f='include/SDL/SDL_video.h' l='100'>/**&lt; Read-only */</doc>
+<use f='codebrowser/id_vh.cpp' l='412' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='413' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='417' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='419' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vl.cpp' l='137' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='138' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='557' u='r' c='_Z13VL_MemToLatchPhiiP11SDL_Surfaceii'/>
+<use f='codebrowser/id_vl.cpp' l='678' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='704' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/id_sd.cpp' l='97' type='word'/>
+<use f='codebrowser/id_sd.cpp' l='593' u='r' c='_Z16SD_PlayDigitizedtii'/>
+<use f='codebrowser/id_sd.cpp' l='656' u='w' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='658' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='660' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='668' u='w' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='673' u='r' c='_Z13SDL_SetupDigiv'/>

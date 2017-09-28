@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='837' type='short'/>
+<offset>384</offset>
+<use f='codebrowser/wl_agent.cpp' l='714' u='w' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='719' u='w' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='724' u='w' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='729' u='w' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='776' u='w' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_game.cpp' l='643' u='w' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_inter.cpp' l='660' u='r' c='_Z14LevelCompletedv'/>

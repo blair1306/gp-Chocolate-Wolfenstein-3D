@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='886' type='boolean'/>
+<use f='codebrowser/wl_game.cpp' l='1106' u='w' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1177' u='w' c='_Z8PlayDemoi'/>
+<use f='codebrowser/wl_game.cpp' l='1373' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_game.cpp' l='1440' u='r' c='_Z8GameLoopv'/>
+<def f='codebrowser/wl_main.cpp' l='73' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='308' u='w' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_main.cpp' l='1630' u='r' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='560' u='r' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='803' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='874' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_play.cpp' l='710' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1334' u='r' c='_Z8PlayLoopv'/>

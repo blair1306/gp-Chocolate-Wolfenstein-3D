@@ -1,0 +1,37 @@
+<dec f='include/unistd.h' l='363' type='ssize_t read(int __fd, void * __buf, size_t __nbytes)'/>
+<use f='codebrowser/id_ca.cpp' l='140' u='c' c='_Z20CAL_GetGrChunkLengthi'/>
+<use f='codebrowser/id_ca.cpp' l='194' u='c' c='_Z11CA_LoadFilePKcPPv'/>
+<use f='codebrowser/id_ca.cpp' l='468' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='496' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='527' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='563' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='599' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='745' u='c' c='_Z18CA_CacheAudioChunki'/>
+<use f='codebrowser/id_ca.cpp' l='759' u='c' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='785' u='c' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='944' u='c' c='_Z15CA_CacheGrChunki'/>
+<use f='codebrowser/id_ca.cpp' l='951' u='c' c='_Z15CA_CacheGrChunki'/>
+<use f='codebrowser/id_ca.cpp' l='994' u='c' c='_Z14CA_CacheScreeni'/>
+<use f='codebrowser/id_ca.cpp' l='1072' u='c' c='_Z11CA_CacheMapi'/>
+<doc f='include/unistd.h' l='358'>/* Read NBYTES into BUF from FD.  Return the
+   number read, -1 for errors or 0 for EOF.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/wl_main.cpp' l='136' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='142' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='144' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='145' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='146' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='148' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='149' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='151' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='153' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='155' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='157' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='158' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='159' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='160' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='162' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='163' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='3162' u='c' c='_Z14SetupSaveGamesv'/>

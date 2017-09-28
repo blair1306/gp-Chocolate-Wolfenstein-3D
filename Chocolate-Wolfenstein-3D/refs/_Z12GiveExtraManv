@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='1168' type='void GiveExtraMan()'/>
+<def f='codebrowser/wl_agent.cpp' l='516' ll='522' type='void GiveExtraMan()'/>
+<use f='codebrowser/wl_agent.cpp' l='554' u='c' c='_Z10GivePointsi'/>
+<use f='codebrowser/wl_agent.cpp' l='775' u='c' c='_Z8GetBonusP10statstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='508'>/*
+===============
+=
+= GiveExtraMan
+=
+===============
+*/</doc>

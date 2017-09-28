@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_menu.h' l='170' type='void DrawCustMouse(int hilight)'/>
+<use f='codebrowser/wl_menu.cpp' l='2084' u='c' c='_Z14CustomControlsi'/>
+<use f='codebrowser/wl_menu.cpp' l='2115' u='r' c='_Z15DefineMouseBtnsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2428' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2458' u='c' c='_Z11FixupCustomi'/>
+<use f='codebrowser/wl_menu.cpp' l='2549' u='c' c='_Z16DrawCustomScreenv'/>
+<def f='codebrowser/wl_menu.cpp' l='2684' ll='2706' type='void DrawCustMouse(int hilight)'/>

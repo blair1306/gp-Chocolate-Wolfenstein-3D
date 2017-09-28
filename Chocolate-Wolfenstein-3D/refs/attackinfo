@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_agent.cpp' l='57' ll='66' type='struct atkinf [4][14]'/>
+<use f='codebrowser/wl_agent.cpp' l='1075' u='m' c='_Z8Cmd_Firev'/>
+<use f='codebrowser/wl_agent.cpp' l='1077' u='m' c='_Z8Cmd_Firev'/>
+<use f='codebrowser/wl_agent.cpp' l='1400' u='a' c='_Z8T_AttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1451' u='m' c='_Z8T_AttackP9objstruct'/>

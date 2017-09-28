@@ -1,0 +1,4 @@
+<dec f='include/SDL/SDL_keysym.h' l='244' type='279'/>
+<use f='codebrowser/id_in.cpp' l='54' macro='1' u='r'/>
+<use f='codebrowser/id_in.cpp' l='54' macro='1' u='r'/>
+<use f='codebrowser/id_us_1.cpp' l='636' macro='1' c='_Z12US_LineInputiiPcPKcaii'/>

@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/bits/fcntl-linux.h' l='43'/>
+<use f='codebrowser/id_ca.cpp' l='186' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='464' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='475' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='514' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='556' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='575' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='647' u='c'/>
+<use f='codebrowser/wl_debug.cpp' l='133' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='129' u='c'/>
+<use f='codebrowser/wl_menu.cpp' l='3156' u='c'/>

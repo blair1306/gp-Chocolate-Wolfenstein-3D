@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='877' type='int32_t'/>
+<use f='codebrowser/wl_draw.cpp' l='168' u='r' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='227' u='r' c='_Z13TransformTileiiPsS_'/>
+<use f='codebrowser/wl_draw.cpp' l='259' u='r' c='_Z10CalcHeightv'/>
+<def f='codebrowser/wl_main.cpp' l='68' type='int32_t'/>
+<use f='codebrowser/wl_main.cpp' l='756' u='w' c='_Z14CalcProjectioni'/>

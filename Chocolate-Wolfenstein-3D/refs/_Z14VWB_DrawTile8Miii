@@ -1,0 +1,2 @@
+<dec f='codebrowser/id_vh.h' l='52' type='void VWB_DrawTile8M(int x, int y, int tile)'/>
+<def f='codebrowser/id_vh.cpp' l='128' ll='131' type='void VWB_DrawTile8M(int x, int y, int tile)'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/id_in.h' l='169' type='int IN_MouseButtons()'/>
+<use f='codebrowser/id_in.cpp' l='507' u='c' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_in.cpp' l='527' u='c' c='_Z11IN_CheckAckv'/>
+<use f='codebrowser/id_in.cpp' l='542' u='c' c='_Z11IN_CheckAckv'/>
+<def f='codebrowser/id_in.cpp' l='602' ll='608' type='int IN_MouseButtons()'/>
+<doc f='codebrowser/id_in.cpp' l='595'>/*
+===================
+=
+= IN_MouseButtons
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_menu.cpp' l='2259' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_play.cpp' l='271' u='c' c='_Z16PollMouseButtonsv'/>

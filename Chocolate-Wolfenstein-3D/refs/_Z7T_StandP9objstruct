@@ -1,0 +1,31 @@
+<dec f='codebrowser/wl_act2.cpp' l='173' type='void T_Stand(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='422'/>
+<use f='codebrowser/wl_act2.cpp' l='422'/>
+<use f='codebrowser/wl_act2.cpp' l='569'/>
+<use f='codebrowser/wl_act2.cpp' l='569'/>
+<use f='codebrowser/wl_act2.cpp' l='635'/>
+<use f='codebrowser/wl_act2.cpp' l='635'/>
+<use f='codebrowser/wl_act2.cpp' l='704'/>
+<use f='codebrowser/wl_act2.cpp' l='704'/>
+<use f='codebrowser/wl_act2.cpp' l='767'/>
+<use f='codebrowser/wl_act2.cpp' l='767'/>
+<use f='codebrowser/wl_act2.cpp' l='818'/>
+<use f='codebrowser/wl_act2.cpp' l='818'/>
+<use f='codebrowser/wl_act2.cpp' l='2064'/>
+<use f='codebrowser/wl_act2.cpp' l='2064'/>
+<use f='codebrowser/wl_act2.cpp' l='2125'/>
+<use f='codebrowser/wl_act2.cpp' l='2125'/>
+<use f='codebrowser/wl_act2.cpp' l='2181'/>
+<use f='codebrowser/wl_act2.cpp' l='2181'/>
+<use f='codebrowser/wl_act2.cpp' l='2687'/>
+<use f='codebrowser/wl_act2.cpp' l='2687'/>
+<use f='codebrowser/wl_act2.cpp' l='2766'/>
+<use f='codebrowser/wl_act2.cpp' l='2766'/>
+<def f='codebrowser/wl_act2.cpp' l='3045' ll='3048' type='void T_Stand(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3037'>/*
+===============
+=
+= T_Stand
+=
+===============
+*/</doc>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/wl_act2.cpp' l='390' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='422' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='422' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='422' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='859' u='a' c='_Z10SpawnStand7enemy_tiii'/>
+<doc f='codebrowser/wl_act2.cpp' l='378'>/*
+=============================================================================
+
+GUARD
+
+=============================================================================
+*/
+
+//
+// guards
+//</doc>
+<dec f='codebrowser/wl_main.cpp' l='343' type='statetype'/>
+<use f='codebrowser/wl_main.cpp' l='435' u='a' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='552' u='a' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<doc f='codebrowser/wl_main.cpp' l='335'>/*
+==================
+=
+= SaveTheGame
+=
+==================
+*/</doc>

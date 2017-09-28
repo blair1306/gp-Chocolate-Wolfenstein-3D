@@ -1,0 +1,3 @@
+<dec f='codebrowser/crt.h' l='37' type='void CRT_Screenshot()'/>
+<use f='codebrowser/crt.cpp' l='107' u='c' c='_Z7CRT_DACv'/>
+<def f='codebrowser/crt.cpp' l='114' ll='149' type='void CRT_Screenshot()'/>

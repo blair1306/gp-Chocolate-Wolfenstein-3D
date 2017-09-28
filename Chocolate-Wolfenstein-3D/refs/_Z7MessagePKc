@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_menu.h' l='141' type='void Message(const char * string)'/>
+<use f='codebrowser/wl_main.cpp' l='628' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_menu.cpp' l='771' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1033' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='2861' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3670' u='c' c='_Z7ConfirmPKc'/>
+<def f='codebrowser/wl_menu.cpp' l='3801' ll='3836' type='void Message(const char * string)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3796'>////////////////////////////////////////////////////////////////////
+//
+// PRINT A MESSAGE IN A WINDOW
+//
+////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_play.cpp' l='607' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='628' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='647' u='c' c='_Z9CheckKeysv'/>

@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='1194' type='void glPixelStorei(GLenum pname, GLint param)'/>
+<use f='codebrowser/crt.cpp' l='122' u='c' c='_Z14CRT_Screenshotv'/>

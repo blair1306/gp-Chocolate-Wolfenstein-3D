@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_draw.cpp' l='622' ll='635' type='void VGAClearScreen()'/>
+<use f='codebrowser/wl_draw.cpp' l='1538' u='c' c='_Z13ThreeDRefreshv'/>
+<doc f='codebrowser/wl_draw.cpp' l='614'>/*
+=====================
+=
+= VGAClearScreen
+=
+=====================
+*/</doc>

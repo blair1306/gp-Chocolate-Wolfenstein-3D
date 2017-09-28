@@ -1,0 +1,8 @@
+<def f='codebrowser/wl_def.h' l='730' ll='737'/>
+<size>10</size>
+<mbr r='doorstruct::tilex' o='0' t='byte'/>
+<mbr r='doorstruct::tiley' o='8' t='byte'/>
+<mbr r='doorstruct::vertical' o='16' t='boolean'/>
+<mbr r='doorstruct::lock' o='24' t='byte'/>
+<mbr r='doorstruct::action' o='32' t='doortype'/>
+<mbr r='doorstruct::ticcount' o='64' t='short'/>

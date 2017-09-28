@@ -1,0 +1,5 @@
+<dec f='codebrowser/version.h' l='37'/>
+<use f='codebrowser/wl_def.h' l='1333' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='3084' u='a'/>
+<use f='codebrowser/wl_state.cpp' l='168' u='a'/>
+<use f='codebrowser/wl_state.cpp' l='346' u='a'/>

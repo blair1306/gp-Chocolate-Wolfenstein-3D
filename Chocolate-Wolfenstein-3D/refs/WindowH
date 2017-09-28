@@ -1,0 +1,20 @@
+<dec f='codebrowser/id_us.h' l='54' type='word'/>
+<def f='codebrowser/id_us_1.cpp' l='33' type='word'/>
+<use f='codebrowser/id_us_1.cpp' l='231' u='r' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='337' u='r' c='_Z14US_ClearWindowv'/>
+<use f='codebrowser/id_us_1.cpp' l='357' u='w' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='390' u='r' c='_Z13US_SaveWindowP9WindowRec'/>
+<use f='codebrowser/id_us_1.cpp' l='408' u='w' c='_Z16US_RestoreWindowP9WindowRec'/>
+<use f='codebrowser/wl_inter.cpp' l='27' u='w' c='_Z13ClearSplitVWBv'/>
+<use f='codebrowser/wl_inter.cpp' l='958' u='r' c='_Z13PreloadUpdatejj'/>
+<use f='codebrowser/wl_inter.cpp' l='963' u='r' c='_Z13PreloadUpdatejj'/>
+<use f='codebrowser/wl_inter.cpp' l='965' u='r' c='_Z13PreloadUpdatejj'/>
+<use f='codebrowser/wl_inter.cpp' l='992' u='w' c='_Z15PreloadGraphicsv'/>
+<use f='codebrowser/wl_menu.cpp' l='746' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='758' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='906' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='926' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2806' u='w' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3120' u='w' c='_Z17SetupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3516' u='w' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3828' u='r' c='_Z7MessagePKc'/>

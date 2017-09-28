@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_act1.cpp' l='626' ll='684' type='void DoorClosing(int door)'/>
+<use f='codebrowser/wl_act1.cpp' l='719' u='c' c='_Z9MoveDoorsv'/>
+<doc f='codebrowser/wl_act1.cpp' l='618'>/*
+===============
+=
+= DoorClosing
+=
+===============
+*/</doc>

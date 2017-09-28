@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_menu.h' l='152' type='void DrawStripes(int y)'/>
+<use f='codebrowser/wl_inter.cpp' l='1042' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_main.cpp' l='1125' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='591' u='c' c='_Z12DrawMainMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='1624' u='c' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='2004' u='c' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2509' u='c' c='_Z16DrawCustomScreenv'/>
+<def f='codebrowser/wl_menu.cpp' l='3935' ll='3945' type='void DrawStripes(int y)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3930'>///////////////////////////////////////////////////////////////////////////
+//
+// DRAW SCREEN TITLE STRIPES
+//
+///////////////////////////////////////////////////////////////////////////</doc>

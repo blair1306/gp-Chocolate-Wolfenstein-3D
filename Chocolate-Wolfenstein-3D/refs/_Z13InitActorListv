@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='1014' type='void InitActorList()'/>
+<use f='codebrowser/wl_game.cpp' l='690' u='c' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_main.cpp' l='539' u='c' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<def f='codebrowser/wl_play.cpp' l='779' ll='805' type='void InitActorList()'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='121' type='void EnableEndGameMenuItem()'/>
+<use f='codebrowser/wl_main.cpp' l='1499' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='561' u='c' c='_Z15US_ControlPaneli'/>
+<def f='codebrowser/wl_menu.cpp' l='570' ll='576' type='void EnableEndGameMenuItem()'/>

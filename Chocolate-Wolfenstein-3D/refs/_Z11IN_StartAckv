@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_in.h' l='177' type='void IN_StartAck()'/>
+<def f='codebrowser/id_in.cpp' l='495' ll='512' type='void IN_StartAck()'/>
+<use f='codebrowser/id_in.cpp' l='559' u='c' c='_Z6IN_Ackv'/>
+<use f='codebrowser/id_in.cpp' l='582' u='c' c='_Z12IN_UserInputj'/>
+<use f='codebrowser/id_vh.cpp' l='352' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/wl_inter.cpp' l='573' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='895' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_play.cpp' l='1271' u='c' c='_Z8PlayLoopv'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/gfxv_apo.h' l='74' type='57'/>
+<doc f='codebrowser/gfxv_apo.h' l='74'>// 57</doc>
+<use f='codebrowser/wl_inter.cpp' l='227' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='229' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='233' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='235' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='336' u='r' c='_Z5WriteiiPKc'/>
+<use f='codebrowser/wl_inter.cpp' l='336' u='r' c='_Z5WriteiiPKc'/>
+<use f='codebrowser/wl_inter.cpp' l='637' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='639' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='643' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='645' u='r' c='_Z14LevelCompletedv'/>

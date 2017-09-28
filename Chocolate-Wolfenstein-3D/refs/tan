@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='67' type='double tan(double __x)'/>
+<use f='codebrowser/wl_main.cpp' l='696' u='c' c='_Z11BuildTablesv'/>

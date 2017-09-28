@@ -1,0 +1,5 @@
+<dec f='codebrowser/id_vl.h' l='25' type='unsigned int'/>
+<def f='codebrowser/id_vl.cpp' l='33' type='unsigned int'/>
+<use f='codebrowser/id_vl.cpp' l='138' u='w' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='141' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/wl_draw.cpp' l='1531' u='r' c='_Z13ThreeDRefreshv'/>

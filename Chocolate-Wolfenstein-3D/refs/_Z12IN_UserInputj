@@ -1,0 +1,18 @@
+<dec f='codebrowser/id_in.h' l='162' type='boolean IN_UserInput(longword delay)'/>
+<def f='codebrowser/id_in.cpp' l='577' ll='591' type='boolean IN_UserInput(longword delay)'/>
+<doc f='codebrowser/id_in.cpp' l='569'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_UserInput() - Waits for the specified delay time (in ticks) or the
+//      user pressing a key or a mouse button. If the clear flag is set, it
+//      then either clears the key or waits for the user to let the mouse
+//      button up.
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_act2.cpp' l='3834' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1315' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_inter.cpp' l='324' u='c' c='_Z4PG13v'/>
+<use f='codebrowser/wl_inter.cpp' l='999' u='c' c='_Z15PreloadGraphicsv'/>
+<use f='codebrowser/wl_inter.cpp' l='1241' u='c' c='_Z14CheckHighScoreit'/>
+<use f='codebrowser/wl_main.cpp' l='1579' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1588' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1598' u='c' c='_ZL8DemoLoopv'/>

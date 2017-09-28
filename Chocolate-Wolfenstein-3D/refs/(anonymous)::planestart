@@ -1,0 +1,3 @@
+<dec f='codebrowser/id_ca.h' l='16' type='int32_t [3]'/>
+<offset>0</offset>
+<use f='codebrowser/id_ca.cpp' l='1057' u='r' c='_Z11CA_CacheMapi'/>

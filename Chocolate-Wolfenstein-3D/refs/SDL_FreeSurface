@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_video.h' l='560' type='void SDL_FreeSurface(SDL_Surface * surface)'/>
+<use f='codebrowser/id_vh.cpp' l='370' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='371' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='448' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='449' u='c' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>

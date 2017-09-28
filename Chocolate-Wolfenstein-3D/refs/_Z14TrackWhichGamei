@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_menu.h' l='180' type='void TrackWhichGame(int w)'/>
+<use f='codebrowser/wl_menu.cpp' l='1541' u='r' c='_Z11CP_LoadGamei'/>
+<def f='codebrowser/wl_menu.cpp' l='1595' ll='1604' type='void TrackWhichGame(int w)'/>
+<use f='codebrowser/wl_menu.cpp' l='1720' u='r' c='_Z11CP_SaveGamei'/>
+<doc f='codebrowser/wl_menu.cpp' l='1591'>///////////////////////////////////
+//
+// HIGHLIGHT CURRENT SELECTED ENTRY
+//</doc>

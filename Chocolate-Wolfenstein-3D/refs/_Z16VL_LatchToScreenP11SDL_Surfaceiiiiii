@@ -1,0 +1,2 @@
+<def f='codebrowser/id_vl.h' l='94' ll='99' type='void VL_LatchToScreen(SDL_Surface * source, int xsrc, int ysrc, int width, int height, int xdest, int ydest)'/>
+<use f='codebrowser/id_vh.cpp' l='125' macro='1' u='c'/>

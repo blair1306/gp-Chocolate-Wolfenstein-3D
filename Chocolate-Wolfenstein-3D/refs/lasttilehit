@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_draw.cpp' l='70' type='int'/>
+<use f='codebrowser/wl_draw.cpp' l='362' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='362' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='383' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='425' u='r' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='425' u='r' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='446' u='w' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='484' u='r' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='504' u='w' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='547' u='r' c='_Z11HitVertDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='567' u='w' c='_Z11HitVertDoorv'/>

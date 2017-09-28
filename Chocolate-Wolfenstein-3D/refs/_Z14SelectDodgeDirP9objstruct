@@ -1,0 +1,36 @@
+<dec f='codebrowser/wl_def.h' l='1124' type='void SelectDodgeDir(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2408' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2452' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2500' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2544' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2592' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2636' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2993' u='c' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3020' u='c' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3172' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3217' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3291' u='c' c='_Z10T_DogChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3338' u='c' c='_Z10T_DogChaseP9objstruct'/>
+<def f='codebrowser/wl_state.cpp' l='386' ll='489' type='void SelectDodgeDir(objtype * ob)'/>
+<doc f='codebrowser/wl_state.cpp' l='363'>/*
+==================================
+=
+= SelectDodgeDir
+=
+= Attempts to choose and initiate a movement for ob that sends it towards
+= the player while dodging
+=
+= If there is no possible move (ob is totally surrounded)
+=
+= ob-&gt;dir           =       nodir
+=
+= Otherwise
+=
+= ob-&gt;dir           = new direction to follow
+= ob-&gt;distance      = TILEGLOBAL or -doornumber
+= ob-&gt;tilex         = new destination
+= ob-&gt;tiley
+= ob-&gt;areanumber    = the floor tile number (0-(NUMAREAS-1)) of destination
+=
+==================================
+*/</doc>

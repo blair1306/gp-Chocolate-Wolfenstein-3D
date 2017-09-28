@@ -1,0 +1,6 @@
+<dec f='codebrowser/audiowl6.h' l='12' type='0'/>
+<doc f='codebrowser/audiowl6.h' l='12'>// 0</doc>
+<use f='codebrowser/wl_agent.cpp' l='941' u='r' c='_Z8ClipMoveP9objstructii'/>
+<use f='codebrowser/wl_menu.cpp' l='2245' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2826' u='r' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2840' u='r' c='_Z13CP_ChangeViewi'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/fmopl.h' l='55' type='void YM3812SetUpdateHandler(int which, OPL_UPDATEHANDLER UpdateHandler, int param)'/>
+<def f='codebrowser/fmopl.cpp' l='2156' ll='2159' type='void YM3812SetUpdateHandler(int which, OPL_UPDATEHANDLER UpdateHandler, int param)'/>

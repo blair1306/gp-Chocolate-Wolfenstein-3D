@@ -1,0 +1,5 @@
+<def f='codebrowser/id_pm.h' l='39' ll='42' type='byte * PM_GetTexture(int wallpic)'/>
+<use f='codebrowser/wl_draw.cpp' l='399' u='c' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='462' u='c' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='525' u='c' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='588' u='c' c='_Z11HitVertDoorv'/>

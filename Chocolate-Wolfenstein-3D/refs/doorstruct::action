@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_def.h' l='735' type='doortype'/>
+<offset>32</offset>
+<use f='codebrowser/wl_act1.cpp' l='368' u='w' c='_Z9SpawnDooriiai'/>
+<use f='codebrowser/wl_act1.cpp' l='407' u='r' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='410' u='w' c='_Z8OpenDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='483' u='w' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='516' u='r' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='610' u='w' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='656' u='w' c='_Z11DoorClosingi'/>
+<use f='codebrowser/wl_act1.cpp' l='708' u='r' c='_Z9MoveDoorsv'/>
+<use f='codebrowser/wl_act2.cpp' l='2425' u='r' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2517' u='r' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2609' u='r' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3189' u='r' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3416' u='r' c='_Z6T_PathP9objstruct'/>

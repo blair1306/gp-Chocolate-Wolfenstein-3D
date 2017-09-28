@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='1003' type='memptr'/>
+<use f='codebrowser/wl_game.cpp' l='996' u='w' c='_Z15StartDemoRecordi'/>
+<use f='codebrowser/wl_game.cpp' l='997' u='r' c='_Z15StartDemoRecordi'/>
+<use f='codebrowser/wl_game.cpp' l='998' u='r' c='_Z15StartDemoRecordi'/>
+<use f='codebrowser/wl_game.cpp' l='1021' u='r' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1023' u='r' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1042' u='r' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1046' u='r' c='_Z16FinishDemoRecordv'/>
+<def f='codebrowser/wl_play.cpp' l='70' type='memptr'/>

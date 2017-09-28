@@ -1,0 +1,18 @@
+<dec f='codebrowser/wl_def.h' l='829' type='short'/>
+<offset>144</offset>
+<use f='codebrowser/wl_agent.cpp' l='291' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='298' u='r' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='400' u='r' c='_Z10DrawHealthv'/>
+<use f='codebrowser/wl_agent.cpp' l='422' u='w' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='424' u='r' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='426' u='w' c='_Z10TakeDamageiP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='459' u='w' c='_Z8HealSelfi'/>
+<use f='codebrowser/wl_agent.cpp' l='460' u='r' c='_Z8HealSelfi'/>
+<use f='codebrowser/wl_agent.cpp' l='461' u='w' c='_Z8HealSelfi'/>
+<use f='codebrowser/wl_agent.cpp' l='696' u='r' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='780' u='r' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='788' u='r' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='796' u='r' c='_Z8GetBonusP10statstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1323' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_main.cpp' l='302' u='w' c='_Z7NewGameii'/>
+<use f='codebrowser/wl_play.cpp' l='591' u='w' c='_Z9CheckKeysv'/>

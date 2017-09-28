@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_in.h' l='141' type='volatile boolean'/>
+<def f='codebrowser/id_in.cpp' l='41' type='volatile boolean'/>
+<use f='codebrowser/id_in.cpp' l='301' u='w' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/wl_menu.cpp' l='3893' u='r' c='_Z10CheckPausev'/>
+<use f='codebrowser/wl_menu.cpp' l='3908' u='w' c='_Z10CheckPausev'/>
+<use f='codebrowser/wl_play.cpp' l='662' u='w' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='663' u='r' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='669' u='w' c='_Z9CheckKeysv'/>

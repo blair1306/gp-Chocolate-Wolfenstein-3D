@@ -1,0 +1,2 @@
+<dec f='include/SDL/SDL_mixer.h' l='605' type='int Mix_SetMusicCMD(const char * command)'/>
+<doc f='include/SDL/SDL_mixer.h' l='604'>/* Stop music and set external music playback command */</doc>

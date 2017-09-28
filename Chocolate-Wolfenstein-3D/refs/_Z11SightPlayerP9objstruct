@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_def.h' l='1127' type='boolean SightPlayer(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='3047' u='c' c='_Z7T_StandP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3395' u='c' c='_Z6T_PathP9objstruct'/>
+<def f='codebrowser/wl_state.cpp' l='1456' ll='1530' type='boolean SightPlayer(objtype * ob)'/>
+<doc f='codebrowser/wl_state.cpp' l='1442'>/*
+===============
+=
+= SightPlayer
+=
+= Called by actors that ARE NOT chasing the player.  If the player
+= is detected (by sight, noise, or proximity), the actor is put into
+= it&apos;s combat frame and true is returned.
+=
+= Incorporates a random reaction delay
+=
+===============
+*/</doc>

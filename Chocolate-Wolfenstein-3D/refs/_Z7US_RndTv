@@ -1,0 +1,42 @@
+<dec f='codebrowser/id_us.h' l='99' type='int US_RndT()'/>
+<def f='codebrowser/id_us_1.cpp' l='774' ll='778' type='int US_RndT()'/>
+<doc f='codebrowser/id_us_1.cpp' l='769'>///////////////////////////////////////////////////////////////////////////
+//
+// US_RndT - Returns the next 8-bit pseudo random number
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_act2.cpp' l='356' u='c' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='361' u='c' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='364' u='c' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1112' u='c' c='_Z13A_DeathScreamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2392' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2484' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2576' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2979' u='c' c='_Z6T_FakeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3112' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3505' u='c' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3508' u='c' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3510' u='c' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3512' u='c' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3574' u='c' c='_Z6T_BiteP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3576' u='c' c='_Z6T_BiteP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='339' u='c' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='341' u='c' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='1240' u='c' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1307' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1309' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1312' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1314' u='c' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_menu.cpp' l='913' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='913' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2919' u='c' c='_Z7CP_Quiti'/>
+<use f='codebrowser/wl_menu.cpp' l='2919' u='c' c='_Z7CP_Quiti'/>
+<use f='codebrowser/wl_state.cpp' l='87' u='c' c='_Z11SpawnNewObjjjP11statestruct'/>
+<use f='codebrowser/wl_state.cpp' l='88' u='c' c='_Z11SpawnNewObjjjP11statestruct'/>
+<use f='codebrowser/wl_state.cpp' l='452' u='c' c='_Z14SelectDodgeDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='563' u='c' c='_Z14SelectChaseDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='648' u='c' c='_Z12SelectRunDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1492' u='c' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1498' u='c' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1501' u='c' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1504' u='c' c='_Z11SightPlayerP9objstruct'/>

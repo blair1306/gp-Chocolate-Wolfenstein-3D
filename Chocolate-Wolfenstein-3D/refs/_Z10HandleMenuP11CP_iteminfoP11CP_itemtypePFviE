@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_menu.h' l='128' type='int HandleMenu(CP_iteminfo * item_i, CP_itemtype * items, void (*)(int) routine)'/>
+<use f='codebrowser/wl_main.cpp' l='1148' u='c' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='461' u='c' c='_Z15US_ControlPaneli'/>
+<use f='codebrowser/wl_menu.cpp' l='1022' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1090' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1238' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1541' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1720' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1829' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='2079' u='c' c='_Z14CustomControlsi'/>
+<def f='codebrowser/wl_menu.cpp' l='3193' ll='3425' type='int HandleMenu(CP_iteminfo * item_i, CP_itemtype * items, void (*)(int) routine)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3188'>////////////////////////////////////////////////////////////////////
+//
+// Handle moving gun around a menu
+//
+////////////////////////////////////////////////////////////////////</doc>

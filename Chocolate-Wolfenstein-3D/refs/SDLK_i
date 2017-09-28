@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_keysym.h' l='93' type='105'/>
+<use f='codebrowser/crt.cpp' l='104' u='r' c='_Z7CRT_DACv'/>
+<use f='codebrowser/id_in.cpp' l='294' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/wl_debug.cpp' l='531' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='589' macro='1' u='r'/>

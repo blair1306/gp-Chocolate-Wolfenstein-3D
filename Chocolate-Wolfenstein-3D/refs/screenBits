@@ -1,0 +1,16 @@
+<dec f='codebrowser/id_vl.h' l='25' type='unsigned int'/>
+<use f='codebrowser/id_vh.cpp' l='410' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<def f='codebrowser/id_vl.cpp' l='26' type='unsigned int'/>
+<use f='codebrowser/id_vl.cpp' l='93' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='96' u='w' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='103' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='105' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='111' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='221' u='r' c='_Z11VL_SetColoriiii'/>
+<use f='codebrowser/id_vl.cpp' l='263' u='r' c='_Z13VL_SetPaletteP9SDL_Colorb'/>
+<use f='codebrowser/id_vl.cpp' l='340' u='r' c='_Z10VL_FadeOutiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='384' u='r' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/id_vl.cpp' l='674' u='r' c='_Z27VL_LatchToScreenScaledCoordP11SDL_Surfaceiiiiii'/>
+<doc f='codebrowser/id_vl.cpp' l='26'>// use &quot;best&quot; color depth according to libSDL</doc>
+<use f='codebrowser/wl_main.cpp' l='1730' u='w' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1731' u='r' c='_Z15CheckParametersiPPc'/>

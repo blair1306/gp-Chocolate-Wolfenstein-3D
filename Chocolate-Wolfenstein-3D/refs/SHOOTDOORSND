@@ -1,0 +1,4 @@
+<dec f='codebrowser/audiowl6.h' l='40' type='28'/>
+<doc f='codebrowser/audiowl6.h' l='40'>// 28</doc>
+<use f='codebrowser/wl_menu.cpp' l='2284' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2311' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>

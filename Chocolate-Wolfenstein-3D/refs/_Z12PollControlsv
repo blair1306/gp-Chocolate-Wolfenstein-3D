@@ -1,0 +1,18 @@
+<dec f='codebrowser/wl_def.h' l='1024' type='void PollControls()'/>
+<dec f='codebrowser/wl_play.cpp' l='87' type='void PollControls()'/>
+<def f='codebrowser/wl_play.cpp' l='391' ll='515' type='void PollControls()'/>
+<use f='codebrowser/wl_play.cpp' l='1275' u='c' c='_Z8PlayLoopv'/>
+<doc f='codebrowser/wl_play.cpp' l='376'>/*
+===================
+=
+= PollControls
+=
+= Gets user or demo input, call once each frame
+=
+= controlx              set between -100 and 100 per tic
+= controly
+= buttonheld[]  the state of the buttons LAST frame
+= buttonstate[] the state of the buttons THIS frame
+=
+===================
+*/</doc>

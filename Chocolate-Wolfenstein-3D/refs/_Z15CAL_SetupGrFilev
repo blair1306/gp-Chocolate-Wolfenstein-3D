@@ -1,0 +1,9 @@
+<def f='codebrowser/id_ca.cpp' l='444' ll='530' type='void CAL_SetupGrFile()'/>
+<use f='codebrowser/id_ca.cpp' l='673' u='c' c='_Z10CA_Startupv'/>
+<doc f='codebrowser/id_ca.cpp' l='436'>/*
+======================
+=
+= CAL_SetupGrFile
+=
+======================
+*/</doc>

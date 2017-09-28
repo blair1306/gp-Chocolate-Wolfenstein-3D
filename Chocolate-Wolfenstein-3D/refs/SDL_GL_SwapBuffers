@@ -1,0 +1,6 @@
+<dec f='include/SDL/SDL_video.h' l='863' type='void SDL_GL_SwapBuffers()'/>
+<use f='codebrowser/crt.cpp' l='59' u='c' c='_Z8CRT_Initi'/>
+<use f='codebrowser/crt.cpp' l='100' u='c' c='_Z7CRT_DACv'/>
+<doc f='include/SDL/SDL_video.h' l='860'>/**
+ * Swap the OpenGL buffers, if double-buffering is supported.
+ */</doc>

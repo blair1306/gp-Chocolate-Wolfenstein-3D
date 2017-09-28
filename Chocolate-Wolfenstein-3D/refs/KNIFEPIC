@@ -1,0 +1,7 @@
+<dec f='codebrowser/gfxv_apo.h' l='123' type='103'/>
+<doc f='codebrowser/gfxv_apo.h' l='122'>// Lump Start</doc>
+<doc f='codebrowser/gfxv_apo.h' l='123'>// 103</doc>
+<use f='codebrowser/id_vh.cpp' l='206' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='211' macro='1' u='r'/>
+<use f='codebrowser/id_vh.cpp' l='257' macro='1' u='r'/>
+<use f='codebrowser/wl_agent.cpp' l='572' u='r' c='_Z10DrawWeaponv'/>

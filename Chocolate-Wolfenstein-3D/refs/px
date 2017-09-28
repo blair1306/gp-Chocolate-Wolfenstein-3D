@@ -1,0 +1,31 @@
+<dec f='codebrowser/id_vh.h' l='39' type='int'/>
+<use f='codebrowser/id_us_1.cpp' l='152' u='w' c='_Z8US_PrintPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='213' u='w' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='251' u='w' c='_Z13US_CPrintLinePKc'/>
+<use f='codebrowser/id_us_1.cpp' l='433' u='w' c='_ZL14USL_XORICursoriiPKct'/>
+<use f='codebrowser/id_us_1.cpp' l='705' u='w' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='713' u='w' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='744' u='w' c='_Z12US_LineInputiiPcPKcaii'/>
+<def f='codebrowser/id_vh.cpp' l='7' type='int'/>
+<use f='codebrowser/id_vh.cpp' l='24' u='r' c='_Z18VWB_DrawPropStringPKc'/>
+<use f='codebrowser/id_vh.cpp' l='43' u='w' c='_Z18VWB_DrawPropStringPKc'/>
+<use f='codebrowser/wl_debug.cpp' l='438' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='553' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='635' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='655' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='674' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_game.cpp' l='1036' u='r' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1081' u='r' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_text.cpp' l='233' u='w' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='241' u='w' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='280' u='r' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='281' u='w' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='319' u='w' c='_Z7NewLinev'/>
+<use f='codebrowser/wl_text.cpp' l='380' u='r' c='_Z10HandleWordv'/>
+<use f='codebrowser/wl_text.cpp' l='390' u='r' c='_Z10HandleWordv'/>
+<use f='codebrowser/wl_text.cpp' l='392' u='w' c='_Z10HandleWordv'/>
+<use f='codebrowser/wl_text.cpp' l='399' u='w' c='_Z10HandleWordv'/>
+<use f='codebrowser/wl_text.cpp' l='440' u='w' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='470' u='w' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='470' u='r' c='_Z10PageLayouta'/>
+<use f='codebrowser/wl_text.cpp' l='489' u='w' c='_Z10PageLayouta'/>

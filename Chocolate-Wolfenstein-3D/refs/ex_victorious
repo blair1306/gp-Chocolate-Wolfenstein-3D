@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='853' type='6'/>
+<use f='codebrowser/wl_act2.cpp' l='3734' u='r' c='_Z8T_BJDoneP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3799' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1559' c='_Z8GameLoopv'/>

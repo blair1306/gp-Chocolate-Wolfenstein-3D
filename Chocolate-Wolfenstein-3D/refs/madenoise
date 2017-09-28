@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='993' type='boolean'/>
+<use f='codebrowser/wl_agent.cpp' l='1265' u='w' c='_Z9GunAttackP9objstruct'/>
+<def f='codebrowser/wl_play.cpp' l='25' type='boolean'/>
+<use f='codebrowser/wl_play.cpp' l='1280' u='w' c='_Z8PlayLoopv'/>
+<doc f='codebrowser/wl_play.cpp' l='17'>/*
+=============================================================================
+
+                                                 GLOBAL VARIABLES
+
+=============================================================================
+*/</doc>
+<doc f='codebrowser/wl_play.cpp' l='25'>// true when shooting or screaming</doc>
+<use f='codebrowser/wl_state.cpp' l='1002' u='w' c='_Z11DamageActorP9objstructj'/>
+<use f='codebrowser/wl_state.cpp' l='1484' u='r' c='_Z11SightPlayerP9objstruct'/>

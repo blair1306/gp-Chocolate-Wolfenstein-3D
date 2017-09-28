@@ -1,0 +1,27 @@
+<dec f='codebrowser/wl_def.h' l='888' type='char [256]'/>
+<def f='codebrowser/wl_main.cpp' l='77' type='char [256]'/>
+<use f='codebrowser/wl_main.cpp' l='124' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='125' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='245' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='246' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='1830' u='r' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1837' u='r' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1839' u='r' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_menu.cpp' l='1506' u='r' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1507' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1547' u='r' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1548' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1691' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1692' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1763' u='r' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1764' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='3151' u='r' c='_Z14SetupSaveGamesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3152' c='_Z14SetupSaveGamesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3966' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3975' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3979' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3979' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3983' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3986' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3991' u='r' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='3994' c='_Z16CheckForEpisodesv'/>

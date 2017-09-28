@@ -1,0 +1,88 @@
+<dec f='codebrowser/id_us.h' l='81' type='void US_Print(const char * s)'/>
+<def f='codebrowser/id_us_1.cpp' l='135' ll='169' type='void US_Print(const char * sorg)'/>
+<use f='codebrowser/id_us_1.cpp' l='182' u='c' c='_Z16US_PrintUnsignedj'/>
+<use f='codebrowser/id_us_1.cpp' l='195' u='c' c='_Z14US_PrintSignedi'/>
+<use f='codebrowser/id_us_1.cpp' l='306' u='c' c='_Z9US_PrintfPKcz'/>
+<doc f='codebrowser/id_us_1.cpp' l='129'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_Print() - Prints a string in the current window. Newlines are
+//      supported.
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_act2.cpp' l='3816' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_debug.cpp' l='75' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='81' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='83' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='93' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='104' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='107' u='c' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='436' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='487' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='488' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='489' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='490' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='491' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='492' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='493' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='494' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='495' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='496' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='497' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='498' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='551' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='580' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='582' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='584' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='586' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='588' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='590' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='592' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='633' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='653' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='669' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_draw.cpp' l='1580' u='c' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_game.cpp' l='1033' u='c' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1072' u='c' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_inter.cpp' l='1088' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1119' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_inter.cpp' l='1134' u='c' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_menu.cpp' l='1188' u='c' c='_Z11DrawNewGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='1472' u='c' c='_Z12DrawLSActioni'/>
+<use f='codebrowser/wl_menu.cpp' l='1474' u='c' c='_Z12DrawLSActioni'/>
+<use f='codebrowser/wl_menu.cpp' l='1656' u='c' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1658' u='c' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1902' u='c' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='1904' u='c' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='2244' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2539' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2541' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2543' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2545' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2550' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2580' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2582' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2584' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2586' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2590' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2614' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2616' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2618' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2620' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2624' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2642' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2644' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2646' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2648' u='c' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2679' u='c' c='_Z14PrintCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='2716' u='c' c='_Z12PrintCustJoyi'/>
+<use f='codebrowser/wl_menu.cpp' l='2750' u='c' c='_Z14PrintCustKeybdi'/>
+<use f='codebrowser/wl_menu.cpp' l='2773' u='c' c='_Z13PrintCustKeysi'/>
+<use f='codebrowser/wl_menu.cpp' l='3214' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3392' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3439' u='c' c='_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3471' u='c' c='_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3524' u='c' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3528' u='c' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3532' u='c' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3695' u='c' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3834' u='c' c='_Z7MessagePKc'/>

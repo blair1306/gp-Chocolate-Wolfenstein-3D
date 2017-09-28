@@ -1,0 +1,13 @@
+<dec f='codebrowser/wl_def.h' l='933' type='void DrawStatusBorder(byte color)'/>
+<use f='codebrowser/wl_debug.cpp' l='454' u='c' c='_Z9DebugKeysv'/>
+<def f='codebrowser/wl_game.cpp' l='833' ll='854' type='void DrawStatusBorder(byte color)'/>
+<use f='codebrowser/wl_game.cpp' l='870' u='c' c='_Z14DrawPlayBorderv'/>
+<doc f='codebrowser/wl_game.cpp' l='825'>/*
+===================
+=
+= DrawStatusBorder
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_inter.cpp' l='170' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='565' u='c' c='_Z14LevelCompletedv'/>

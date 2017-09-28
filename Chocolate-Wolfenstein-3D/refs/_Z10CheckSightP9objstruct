@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='1133' type='boolean CheckSight(objtype * ob)'/>
+<dec f='codebrowser/wl_state.cpp' l='53' type='boolean CheckSight(objtype * ob)'/>
+<def f='codebrowser/wl_state.cpp' l='1219' ll='1291' type='boolean CheckSight(objtype * ob)'/>
+<use f='codebrowser/wl_state.cpp' l='1478' u='c' c='_Z11SightPlayerP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1484' u='c' c='_Z11SightPlayerP9objstruct'/>

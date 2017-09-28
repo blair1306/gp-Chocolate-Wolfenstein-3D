@@ -1,0 +1,27 @@
+<dec f='codebrowser/wl_def.h' l='1001' type='boolean'/>
+<use f='codebrowser/wl_act2.cpp' l='928' macro='1' u='r'/>
+<use f='codebrowser/wl_act2.cpp' l='3085' macro='1' u='r'/>
+<use f='codebrowser/wl_act2.cpp' l='3192' macro='1' u='r'/>
+<use f='codebrowser/wl_act2.cpp' l='3419' macro='1' u='r'/>
+<use f='codebrowser/wl_agent.cpp' l='327' u='r' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='1028' macro='1' u='r'/>
+<use f='codebrowser/wl_agent.cpp' l='1031' macro='1' u='r'/>
+<use f='codebrowser/wl_draw.cpp' l='1025' u='r' c='_Z16DrawPlayerWeaponv'/>
+<use f='codebrowser/wl_game.cpp' l='649' u='r' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='1003' u='w' c='_Z15StartDemoRecordi'/>
+<use f='codebrowser/wl_game.cpp' l='1019' u='w' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1107' u='w' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_game.cpp' l='1437' u='r' c='_Z8GameLoopv'/>
+<def f='codebrowser/wl_play.cpp' l='68' type='boolean'/>
+<use f='codebrowser/wl_play.cpp' l='401' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='485' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_state.cpp' l='86' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='262' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='283' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='304' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='325' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='347' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='1267' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='1272' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='1277' macro='1' u='r'/>
+<use f='codebrowser/wl_state.cpp' l='1282' macro='1' u='r'/>

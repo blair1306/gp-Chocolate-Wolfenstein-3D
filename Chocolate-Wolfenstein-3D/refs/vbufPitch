@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_draw.cpp' l='29' type='unsigned int'/>
+<use f='codebrowser/wl_draw.cpp' l='291' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='312' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='328' u='r' c='_Z9ScalePostv'/>
+<use f='codebrowser/wl_draw.cpp' l='335' u='w' c='_Z15GlobalScalePostPhj'/>
+<use f='codebrowser/wl_draw.cpp' l='629' u='r' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_draw.cpp' l='632' u='r' c='_Z14VGAClearScreenv'/>
+<use f='codebrowser/wl_draw.cpp' l='738' u='r' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='758' u='r' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='818' u='r' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='833' u='r' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='1531' u='w' c='_Z13ThreeDRefreshv'/>

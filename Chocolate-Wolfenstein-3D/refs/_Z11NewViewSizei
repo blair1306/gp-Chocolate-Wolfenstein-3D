@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='909' type='void NewViewSize(int width)'/>
+<use f='codebrowser/wl_main.cpp' l='1292' u='c' c='_ZL8InitGamev'/>
+<def f='codebrowser/wl_main.cpp' l='1374' ll='1383' type='void NewViewSize(int width)'/>
+<use f='codebrowser/wl_menu.cpp' l='2862' u='c' c='_Z13CP_ChangeViewi'/>

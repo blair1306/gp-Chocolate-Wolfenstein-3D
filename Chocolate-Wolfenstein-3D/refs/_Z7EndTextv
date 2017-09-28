@@ -1,0 +1,6 @@
+<dec f='codebrowser/wl_def.h' l='1316' type='void EndText()'/>
+<use f='codebrowser/wl_inter.cpp' l='291' u='c' c='_Z7Victoryv'/>
+<def f='codebrowser/wl_text.cpp' l='806' ll='858' type='void EndText()'/>
+<doc f='codebrowser/wl_text.cpp' l='803'>//
+// END ARTICLES
+//</doc>

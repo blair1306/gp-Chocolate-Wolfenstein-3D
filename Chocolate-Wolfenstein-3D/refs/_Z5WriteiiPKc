@@ -1,0 +1,38 @@
+<dec f='codebrowser/wl_menu.h' l='235' type='void Write(int x, int y, const char * string)'/>
+<use f='codebrowser/wl_act2.cpp' l='3827' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<dec f='codebrowser/wl_inter.cpp' l='9' type='void Write(int x, int y, const char * string)'/>
+<use f='codebrowser/wl_inter.cpp' l='179' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='181' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='183' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='190' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='191' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='192' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='231' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='240' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='244' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='248' u='c' c='_Z7Victoryv'/>
+<def f='codebrowser/wl_inter.cpp' l='333' ll='394' type='void Write(int x, int y, const char * string)'/>
+<use f='codebrowser/wl_inter.cpp' l='592' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='595' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='596' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='597' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='604' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='605' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='606' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='609' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='615' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='641' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='673' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='704' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='721' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='746' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='763' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='787' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='803' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='825' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='829' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='833' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='842' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='879' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='882' u='c' c='_Z14LevelCompletedv'/>
+<doc f='codebrowser/wl_inter.cpp' l='331'>//==========================================================================</doc>

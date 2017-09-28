@@ -1,0 +1,12 @@
+<dec f='codebrowser/id_us.h' l='66' type='void US_Startup()'/>
+<def f='codebrowser/id_us_1.cpp' l='87' ll='95' type='void US_Startup()'/>
+<doc f='codebrowser/id_us_1.cpp' l='78'>//  Internal routines
+
+//  Public routines
+
+///////////////////////////////////////////////////////////////////////////
+//
+//  US_Startup() - Starts the User Mgr
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='1232' u='c' c='_ZL8InitGamev'/>

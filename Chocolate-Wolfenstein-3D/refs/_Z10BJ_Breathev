@@ -1,0 +1,13 @@
+<def f='codebrowser/wl_inter.cpp' l='400' ll='416' type='void BJ_Breathe()'/>
+<use f='codebrowser/wl_inter.cpp' l='678' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='687' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='709' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='736' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='751' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='777' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='792' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='817' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='897' u='c' c='_Z14LevelCompletedv'/>
+<doc f='codebrowser/wl_inter.cpp' l='397'>//
+// Breathe Mr. BJ!!!
+//</doc>

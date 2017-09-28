@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_menu.h' l='184' type='int CP_NewGame(int )'/>
+<use f='codebrowser/wl_menu.cpp' l='67'/>
+<use f='codebrowser/wl_menu.cpp' l='67'/>
+<use f='codebrowser/wl_menu.cpp' l='67'/>
+<use f='codebrowser/wl_menu.cpp' l='67'/>
+<def f='codebrowser/wl_menu.cpp' l='1006' ll='1125' type='int CP_NewGame(int )'/>
+<doc f='codebrowser/wl_menu.cpp' l='1001'>////////////////////////////////////////////////////////////////////
+//
+// START A NEW GAME
+//
+////////////////////////////////////////////////////////////////////</doc>

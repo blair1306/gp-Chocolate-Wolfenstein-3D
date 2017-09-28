@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_menu.h' l='150' type='void SetTextColor(CP_itemtype * items, int hlight)'/>
+<use f='codebrowser/wl_menu.cpp' l='3209' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3435' u='c' c='_Z8EraseGunP11CP_iteminfoP11CP_itemtypeiii'/>
+<use f='codebrowser/wl_menu.cpp' l='3467' u='c' c='_Z7DrawGunP11CP_iteminfoP11CP_itemtypeiPiiiPFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3520' u='c' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<def f='codebrowser/wl_menu.cpp' l='3542' ll='3553' type='void SetTextColor(CP_itemtype * items, int hlight)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3537'>////////////////////////////////////////////////////////////////////
+//
+// SET TEXT COLOR (HIGHLIGHT OR NO)
+//
+////////////////////////////////////////////////////////////////////</doc>

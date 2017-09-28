@@ -1,0 +1,2 @@
+<def f='codebrowser/wl_def.h' l='1381' ll='1386' type='longword READLONGWORD(byte *&amp; ptr)'/>
+<use f='codebrowser/id_ca.cpp' l='765' u='c' c='_Z23CA_CacheAdlibSoundChunki'/>

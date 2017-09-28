@@ -1,0 +1,15 @@
+<dec f='codebrowser/id_vl.h' l='81' type='void VL_MemToScreenScaledCoord(byte * source, int origwidth, int origheight, int srcx, int srcy, int destx, int desty, int width, int height)'/>
+<def f='codebrowser/id_vl.cpp' l='621' ll='645' type='void VL_MemToScreenScaledCoord(byte * source, int origwidth, int origheight, int srcx, int srcy, int destx, int desty, int width, int height)'/>
+<doc f='codebrowser/id_vl.cpp' l='608'>/*
+=================
+=
+= VL_MemToScreenScaledCoord
+=
+= Draws a part of a block of data to the screen.
+= The block has the size origwidth*origheight.
+= The part at (srcx, srcy) has the size width*height
+= and will be painted to (destx, desty) with scaling according to scaleFactor.
+=
+=================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='964' u='c' c='_Z13ShowActStatusv'/>

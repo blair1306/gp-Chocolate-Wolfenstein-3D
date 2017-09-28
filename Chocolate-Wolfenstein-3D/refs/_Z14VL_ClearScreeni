@@ -1,0 +1,9 @@
+<def f='codebrowser/id_vl.h' l='70' ll='73' type='void VL_ClearScreen(int color)'/>
+<use f='codebrowser/wl_game.cpp' l='1548' u='c' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_inter.cpp' l='283' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_main.cpp' l='1615' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='792' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='863' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2852' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2868' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3122' u='c' c='_Z17SetupControlPanelv'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/wl_def.h' l='1067' type='int DebugKeys()'/>
+<doc f='codebrowser/wl_def.h' l='1059'>/*
+=============================================================================
+
+                                WL_DEBUG
+
+=============================================================================
+*/</doc>
+<dec f='codebrowser/wl_debug.cpp' l='35' type='int DebugKeys()'/>
+<def f='codebrowser/wl_debug.cpp' l='427' ll='702' type='int DebugKeys()'/>
+<doc f='codebrowser/wl_debug.cpp' l='419'>/*
+================
+=
+= DebugKeys
+=
+================
+*/</doc>
+<use f='codebrowser/wl_play.cpp' l='729' u='c' c='_Z9CheckKeysv'/>

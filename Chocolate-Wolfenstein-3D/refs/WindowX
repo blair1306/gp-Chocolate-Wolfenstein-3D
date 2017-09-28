@@ -1,0 +1,30 @@
+<dec f='codebrowser/id_us.h' l='53' type='word'/>
+<def f='codebrowser/id_us_1.cpp' l='33' type='word'/>
+<use f='codebrowser/id_us_1.cpp' l='162' u='r' c='_Z8US_PrintPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='228' u='r' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='251' u='r' c='_Z13US_CPrintLinePKc'/>
+<use f='codebrowser/id_us_1.cpp' l='337' u='r' c='_Z14US_ClearWindowv'/>
+<use f='codebrowser/id_us_1.cpp' l='338' u='r' c='_Z14US_ClearWindowv'/>
+<use f='codebrowser/id_us_1.cpp' l='354' u='w' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='359' u='r' c='_Z13US_DrawWindowtttt'/>
+<use f='codebrowser/id_us_1.cpp' l='387' u='r' c='_Z13US_SaveWindowP9WindowRec'/>
+<use f='codebrowser/id_us_1.cpp' l='405' u='w' c='_Z16US_RestoreWindowP9WindowRec'/>
+<use f='codebrowser/wl_inter.cpp' l='24' u='w' c='_Z13ClearSplitVWBv'/>
+<use f='codebrowser/wl_inter.cpp' l='958' u='r' c='_Z13PreloadUpdatejj'/>
+<use f='codebrowser/wl_inter.cpp' l='963' u='r' c='_Z13PreloadUpdatejj'/>
+<use f='codebrowser/wl_inter.cpp' l='965' u='r' c='_Z13PreloadUpdatejj'/>
+<use f='codebrowser/wl_inter.cpp' l='989' u='w' c='_Z15PreloadGraphicsv'/>
+<use f='codebrowser/wl_main.cpp' l='832' u='w' c='_Z12FinishSignonv'/>
+<use f='codebrowser/wl_main.cpp' l='1138' u='w' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='904' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1147' u='w' c='_Z14DrawNewEpisodev'/>
+<use f='codebrowser/wl_menu.cpp' l='1886' u='w' c='_Z13DrawMouseSensv'/>
+<use f='codebrowser/wl_menu.cpp' l='2009' u='w' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2506' u='w' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2516' u='w' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2804' u='w' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2892' u='w' c='_Z14DrawChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3513' u='w' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>
+<use f='codebrowser/wl_menu.cpp' l='3829' u='w' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3831' u='r' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3832' u='r' c='_Z7MessagePKc'/>

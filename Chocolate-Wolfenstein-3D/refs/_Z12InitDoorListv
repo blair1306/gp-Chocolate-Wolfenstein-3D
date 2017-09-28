@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1199' type='void InitDoorList()'/>
+<def f='codebrowser/wl_act1.cpp' l='338' ll='345' type='void InitDoorList()'/>
+<doc f='codebrowser/wl_act1.cpp' l='330'>/*
+===============
+=
+= InitDoorList
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='691' u='c' c='_Z14SetupGameLevelv'/>

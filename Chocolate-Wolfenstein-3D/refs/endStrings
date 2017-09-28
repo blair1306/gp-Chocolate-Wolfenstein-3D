@@ -1,0 +1,4 @@
+<def f='codebrowser/wl_menu.cpp' l='41' ll='51' type='char [9][80]'/>
+<use f='codebrowser/wl_menu.cpp' l='913' u='r' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='2919' u='r' c='_Z7CP_Quiti'/>
+<doc f='codebrowser/wl_menu.cpp' l='40'>// ENDSTRx constants are defined in foreign.h</doc>

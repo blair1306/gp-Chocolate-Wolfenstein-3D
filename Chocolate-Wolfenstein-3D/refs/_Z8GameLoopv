@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='931' type='void GameLoop()'/>
+<dec f='codebrowser/wl_game.cpp' l='58' type='void GameLoop()'/>
+<def f='codebrowser/wl_game.cpp' l='1354' ll='1585' type='void GameLoop()'/>
+<doc f='codebrowser/wl_game.cpp' l='1346'>/*
+===================
+=
+= GameLoop
+=
+===================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1509' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_main.cpp' l='1632' u='c' c='_ZL8DemoLoopv'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/id_vh.h' l='95' type='boolean FizzleFade(SDL_Surface * source, int x1, int y1, unsigned int width, unsigned int height, unsigned int frames, boolean abortable)'/>
+<def f='codebrowser/id_vh.cpp' l='341' ll='451' type='boolean FizzleFade(SDL_Surface * source, int x1, int y1, unsigned int width, unsigned int height, unsigned int frames, boolean abortable)'/>
+<use f='codebrowser/wl_act2.cpp' l='3808' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='1565' u='c' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_game.cpp' l='1313' u='c' c='_Z4Diedv'/>

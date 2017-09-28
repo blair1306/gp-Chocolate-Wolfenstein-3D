@@ -1,0 +1,18 @@
+<dec f='codebrowser/id_vh.h' l='34' type='pictabletype *'/>
+<doc f='codebrowser/id_vh.h' l='31'>//===========================================================================</doc>
+<use f='codebrowser/id_ca.cpp' l='522' u='w' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='523' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='528' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='705' u='r' c='_Z11CA_Shutdownv'/>
+<def f='codebrowser/id_vh.cpp' l='4' type='pictabletype *'/>
+<use f='codebrowser/id_vh.cpp' l='140' u='r' c='_Z11VWB_DrawPiciii'/>
+<use f='codebrowser/id_vh.cpp' l='141' u='r' c='_Z11VWB_DrawPiciii'/>
+<use f='codebrowser/id_vh.cpp' l='151' u='r' c='_Z22VWB_DrawPicScaledCoordiii'/>
+<use f='codebrowser/id_vh.cpp' l='152' u='r' c='_Z22VWB_DrawPicScaledCoordiii'/>
+<use f='codebrowser/id_vh.cpp' l='262' u='r' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/id_vh.cpp' l='263' u='r' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/wl_game.cpp' l='960' u='r' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='961' u='r' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_main.cpp' l='1412' u='r' c='_Z4QuitPKcz'/>
+<use f='codebrowser/wl_text.cpp' l='253' u='r' c='_Z13HandleCommandv'/>
+<use f='codebrowser/wl_text.cpp' l='254' u='r' c='_Z13HandleCommandv'/>

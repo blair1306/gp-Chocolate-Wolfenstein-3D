@@ -1,0 +1,2 @@
+<dec f='include/SDL/SDL_mixer.h' l='622' type='void Mix_CloseAudio()'/>
+<doc f='include/SDL/SDL_mixer.h' l='621'>/* Close the mixer, halting all playing audio */</doc>

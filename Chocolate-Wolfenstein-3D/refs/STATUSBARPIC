@@ -1,0 +1,6 @@
+<dec f='codebrowser/gfxv_apo.h' l='117' type='98'/>
+<doc f='codebrowser/gfxv_apo.h' l='117'>// 98</doc>
+<use f='codebrowser/wl_game.cpp' l='915' u='r' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='958' u='r' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='959' u='r' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_main.cpp' l='1286' u='r' c='_ZL8InitGamev'/>

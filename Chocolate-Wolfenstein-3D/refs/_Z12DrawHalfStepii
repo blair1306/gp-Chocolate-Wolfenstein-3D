@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_menu.h' l='148' type='void DrawHalfStep(int x, int y)'/>
+<use f='codebrowser/wl_menu.cpp' l='3316' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3351' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<def f='codebrowser/wl_menu.cpp' l='3447' ll='3454' type='void DrawHalfStep(int x, int y)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3444'>//
+// DRAW HALF STEP OF GUN TO NEXT POSITION
+//</doc>

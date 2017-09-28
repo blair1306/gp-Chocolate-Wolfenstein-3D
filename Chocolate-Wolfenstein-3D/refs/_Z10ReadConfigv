@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_main.cpp' l='115' ll='231' type='void ReadConfig()'/>
+<use f='codebrowser/wl_main.cpp' l='1259' u='c' c='_ZL8InitGamev'/>
+<doc f='codebrowser/wl_main.cpp' l='107'>/*
+====================
+=
+= ReadConfig
+=
+====================
+*/</doc>

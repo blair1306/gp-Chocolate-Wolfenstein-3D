@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_in.h' l='142' type='volatile char'/>
+<def f='codebrowser/id_in.cpp' l='42' type='volatile char'/>
+<use f='codebrowser/id_in.cpp' l='286' u='w' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='291' u='w' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='424' u='w' c='_Z16IN_ClearKeysDownv'/>
+<use f='codebrowser/id_us_1.cpp' l='503' u='w' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='515' u='r' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/id_us_1.cpp' l='516' u='w' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_menu.cpp' l='3260' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1151' type='void TakeDamage(int points, objtype * attacker)'/>
+<use f='codebrowser/wl_act2.cpp' l='368' u='c' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3514' u='c' c='_Z7T_ShootP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3576' u='c' c='_Z6T_BiteP9objstruct'/>
+<def f='codebrowser/wl_agent.cpp' l='412' ll='447' type='void TakeDamage(int points, objtype * attacker)'/>
+<doc f='codebrowser/wl_agent.cpp' l='404'>/*
+===============
+=
+= TakeDamage
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_debug.cpp' l='529' u='c' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_state.cpp' l='744' u='c' c='_Z7MoveObjP9objstructi'/>

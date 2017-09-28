@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='116'/>
+<doc f='codebrowser/wl_def.h' l='112'>//
+// tile constants
+//</doc>
+<use f='codebrowser/wl_act2.cpp' l='3368' u='c'/>

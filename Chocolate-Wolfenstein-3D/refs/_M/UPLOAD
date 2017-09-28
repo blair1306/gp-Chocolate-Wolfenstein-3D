@@ -1,0 +1,18 @@
+<dec f='codebrowser/version.h' l='10'/>
+<use f='codebrowser/wl_def.h' l='42' u='a'/>
+<use f='codebrowser/wl_def.h' l='483' u='a'/>
+<doc f='codebrowser/version.h' l='6'>/* Defines used for different versions */
+
+//#define SPEAR
+//#define SPEARDEMO</doc>
+<use f='codebrowser/wl_act2.cpp' l='1069' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='1109' u='a'/>
+<use f='codebrowser/wl_game.cpp' l='1071' u='a'/>
+<use f='codebrowser/wl_inter.cpp' l='251' u='a'/>
+<use f='codebrowser/wl_inter.cpp' l='1023' u='a'/>
+<use f='codebrowser/wl_inter.cpp' l='1104' u='a'/>
+<use f='codebrowser/wl_inter.cpp' l='1247' u='a'/>
+<use f='codebrowser/wl_main.cpp' l='919' u='a'/>
+<use f='codebrowser/wl_main.cpp' l='1105' u='a'/>
+<use f='codebrowser/wl_main.cpp' l='1520' u='a'/>
+<use f='codebrowser/wl_menu.cpp' l='4026' u='a'/>

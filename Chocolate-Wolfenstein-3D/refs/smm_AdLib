@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_sd.h' l='23' type='1'/>
+<use f='codebrowser/id_sd.cpp' l='857' u='r' c='_ZL15SDL_CleanDevicev'/>
+<use f='codebrowser/id_sd.cpp' l='947' c='_Z15SD_SetMusicMode6SMMode'/>
+<use f='codebrowser/id_sd.cpp' l='1313' c='_Z11SD_MusicOffv'/>
+<use f='codebrowser/id_sd.cpp' l='1333' u='r' c='_Z13SD_StartMusici'/>
+<use f='codebrowser/id_sd.cpp' l='1351' u='r' c='_Z16SD_ContinueMusicii'/>
+<use f='codebrowser/id_sd.cpp' l='1396' c='_Z15SD_FadeOutMusicv'/>
+<use f='codebrowser/id_sd.cpp' l='1416' c='_Z15SD_MusicPlayingv'/>
+<use f='codebrowser/wl_main.cpp' l='167' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='205' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1315' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1317' u='r' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1435' u='r' c='_Z13DrawSoundMenuv'/>

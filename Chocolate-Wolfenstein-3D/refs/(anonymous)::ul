@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='73' type='Point'/>
+<offset>0</offset>
+<use f='codebrowser/id_us_1.cpp' l='210' u='m' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='211' u='m' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='213' u='m' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='214' u='m' c='_Z17USL_PrintInCenterPKc4Rect'/>
+<use f='codebrowser/id_us_1.cpp' l='228' u='m' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='229' u='m' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='230' u='m' c='_Z16US_PrintCenteredPKc'/>
+<use f='codebrowser/id_us_1.cpp' l='231' u='m' c='_Z16US_PrintCenteredPKc'/>

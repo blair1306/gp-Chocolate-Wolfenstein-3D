@@ -1,0 +1,22 @@
+<dec f='codebrowser/wl_def.h' l='1206' type='void PlaceItemType(int itemtype, int tilex, int tiley)'/>
+<def f='codebrowser/wl_act1.cpp' l='204' ll='245' type='void PlaceItemType(int itemtype, int tilex, int tiley)'/>
+<doc f='codebrowser/wl_act1.cpp' l='192'>/*
+===============
+=
+= PlaceItemType
+=
+= Called during game play to drop actors&apos; items.  It finds the proper
+= item number based on the item type (bo_???).  If there are no free item
+= spots, nothing is done.
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_state.cpp' l='817' u='c' c='_Z8DropItem9wl_stat_tii'/>
+<use f='codebrowser/wl_state.cpp' l='832' u='c' c='_Z8DropItem9wl_stat_tii'/>
+<use f='codebrowser/wl_state.cpp' l='861' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='867' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='873' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='880' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='882' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='894' u='c' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='900' u='c' c='_Z9KillActorP9objstruct'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_sd.h' l='48' type='SoundCommon'/>
+<dec f='codebrowser/id_sd.h' l='85' type='SoundCommon'/>
+<offset>0</offset>
+<use f='codebrowser/id_ca.cpp' l='765' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_ca.cpp' l='766' u='m' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/id_sd.cpp' l='756' u='m' c='_ZL15SDL_ALPlaySoundP10AdLibSound'/>

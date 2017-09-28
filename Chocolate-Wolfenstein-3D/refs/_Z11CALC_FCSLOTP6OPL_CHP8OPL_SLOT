@@ -1,0 +1,4 @@
+<def f='codebrowser/fmopl.cpp' l='1377' ll='1405' macro='1' type='void CALC_FCSLOT(OPL_CH * CH, OPL_SLOT * SLOT)'/>
+<use f='codebrowser/fmopl.cpp' l='1418' u='c' c='_Z7set_mulP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1721' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>
+<use f='codebrowser/fmopl.cpp' l='1722' u='c' c='_ZL11OPLWriteRegP8fm_opl_fii'/>

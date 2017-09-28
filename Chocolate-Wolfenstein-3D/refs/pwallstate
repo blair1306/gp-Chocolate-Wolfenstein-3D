@@ -1,0 +1,29 @@
+<dec f='codebrowser/wl_def.h' l='1193' type='word'/>
+<def f='codebrowser/wl_act1.cpp' l='734' type='word'/>
+<use f='codebrowser/wl_act1.cpp' l='752' u='r' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_act1.cpp' l='773' u='w' c='_Z8PushWalliii'/>
+<use f='codebrowser/wl_act1.cpp' l='798' u='r' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='801' u='r' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='803' u='w' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='805' u='r' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='821' u='r' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='826' u='w' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='844' u='w' c='_Z10MovePWallsv'/>
+<use f='codebrowser/wl_act1.cpp' l='853' u='r' c='_Z10MovePWallsv'/>
+<doc f='codebrowser/wl_act1.cpp' l='726'>/*
+=============================================================================
+
+                                PUSHABLE WALLS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='644' u='w' c='_Z14SetupGameLevelv'/>
+<use f='codebrowser/wl_game.cpp' l='1328' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_main.cpp' l='464' u='a' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='464' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='465' u='a' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='465' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='580' u='a' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='580' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='581' u='a' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='581' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>

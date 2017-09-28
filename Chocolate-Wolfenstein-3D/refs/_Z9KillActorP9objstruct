@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1129' type='void KillActor(objtype * ob)'/>
+<dec f='codebrowser/wl_def.h' l='1284' type='void KillActor(objtype * ob)'/>
+<dec f='codebrowser/wl_state.cpp' l='48' type='void KillActor(objtype * ob)'/>
+<def f='codebrowser/wl_state.cpp' l='849' ll='983' type='void KillActor(objtype * ob)'/>
+<use f='codebrowser/wl_state.cpp' l='1013' u='c' c='_Z11DamageActorP9objstructj'/>
+<doc f='codebrowser/wl_state.cpp' l='841'>/*
+===============
+=
+= KillActor
+=
+===============
+*/</doc>

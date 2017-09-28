@@ -1,0 +1,11 @@
+<dec f='codebrowser/id_ca.h' l='41' type='void CA_RLEWexpand(word * source, word * dest, int32_t length, word rlewtag)'/>
+<def f='codebrowser/id_ca.cpp' l='396' ll='423' type='void CA_RLEWexpand(word * source, word * dest, int32_t length, word rlewtag)'/>
+<use f='codebrowser/id_ca.cpp' l='1085' u='c' c='_Z11CA_CacheMapi'/>
+<doc f='codebrowser/id_ca.cpp' l='387'>/*
+======================
+=
+= CA_RLEWexpand
+= length is EXPANDED length
+=
+======================
+*/</doc>

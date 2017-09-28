@@ -1,0 +1,7 @@
+getc_unlocked|getc_unlocked
+getchar|getchar
+getchar_unlocked|getchar_unlocked
+getline|getline
+_Z9GetSamplefPhi|GetSample
+_Z8GetBonusP10statstruct|GetBonus
+_Z11GetNewActorv|GetNewActor

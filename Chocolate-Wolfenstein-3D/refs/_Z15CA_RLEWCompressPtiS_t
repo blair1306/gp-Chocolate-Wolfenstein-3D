@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_ca.h' l='39' type='int32_t CA_RLEWCompress(word * source, int32_t length, word * dest, word rlewtag)'/>
+<def f='codebrowser/id_ca.cpp' l='341' ll='384' type='int32_t CA_RLEWCompress(word * source, int32_t length, word * dest, word rlewtag)'/>
+<doc f='codebrowser/id_ca.cpp' l='333'>/*
+======================
+=
+= CA_RLEWcompress
+=
+======================
+*/</doc>

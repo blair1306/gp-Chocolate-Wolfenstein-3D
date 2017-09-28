@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_agent.cpp' l='1211' ll='1241' type='void KnifeAttack(objtype * ob)'/>
+<use f='codebrowser/wl_agent.cpp' l='1439' u='c' c='_Z8T_AttackP9objstruct'/>
+<doc f='codebrowser/wl_agent.cpp' l='1201'>/*
+===============
+=
+= T_KnifeAttack
+=
+= Update player hands, and try to do damage when the proper frame is reached
+=
+===============
+*/</doc>

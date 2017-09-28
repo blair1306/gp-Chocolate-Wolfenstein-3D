@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_sd.h' l='120' type='int []'/>
+<def f='codebrowser/id_sd.cpp' l='85' type='int [87]'/>
+<use f='codebrowser/id_sd.cpp' l='502' u='r' c='_Z20SD_GetChannelForDigii'/>
+<use f='codebrowser/id_sd.cpp' l='502' u='r' c='_Z20SD_GetChannelForDigii'/>
+<use f='codebrowser/id_sd.cpp' l='701' u='w' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/wl_main.cpp' l='1011' u='w' c='_Z11InitDigiMapv'/>

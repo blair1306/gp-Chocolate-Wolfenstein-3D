@@ -1,0 +1,9 @@
+<dec f='codebrowser/wl_def.h' l='831' type='short'/>
+<offset>176</offset>
+<use f='codebrowser/wl_act1.cpp' l='509' u='r' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_agent.cpp' l='587' u='r' c='_Z8DrawKeysv'/>
+<use f='codebrowser/wl_agent.cpp' l='592' u='r' c='_Z8DrawKeysv'/>
+<use f='codebrowser/wl_agent.cpp' l='669' u='w' c='_Z7GiveKeyi'/>
+<use f='codebrowser/wl_game.cpp' l='1327' u='w' c='_Z4Diedv'/>
+<use f='codebrowser/wl_game.cpp' l='1448' u='w' c='_Z8GameLoopv'/>
+<use f='codebrowser/wl_play.cpp' l='593' u='w' c='_Z9CheckKeysv'/>

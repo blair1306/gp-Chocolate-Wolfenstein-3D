@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_menu.h' l='140' type='int Confirm(const char * string)'/>
+<use f='codebrowser/wl_menu.cpp' l='750' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='841' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='913' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='947' u='c' c='_Z10CP_EndGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1061' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1731' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='2919' u='c' c='_Z7CP_Quiti'/>
+<def f='codebrowser/wl_menu.cpp' l='3663' ll='3731' type='int Confirm(const char * string)'/>
+<doc f='codebrowser/wl_menu.cpp' l='3658'>////////////////////////////////////////////////////////////////////
+//
+// DRAW DIALOG AND CONFIRM YES OR NO TO QUESTION
+//
+////////////////////////////////////////////////////////////////////</doc>

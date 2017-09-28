@@ -1,0 +1,15 @@
+<dec f='codebrowser/wl_act2.cpp' l='3599' type='void T_BJJump(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='3626'/>
+<use f='codebrowser/wl_act2.cpp' l='3626'/>
+<use f='codebrowser/wl_act2.cpp' l='3627'/>
+<use f='codebrowser/wl_act2.cpp' l='3627'/>
+<use f='codebrowser/wl_act2.cpp' l='3628'/>
+<use f='codebrowser/wl_act2.cpp' l='3628'/>
+<def f='codebrowser/wl_act2.cpp' l='3701' ll='3707' type='void T_BJJump(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3693'>/*
+===============
+=
+= T_BJJump
+=
+===============
+*/</doc>

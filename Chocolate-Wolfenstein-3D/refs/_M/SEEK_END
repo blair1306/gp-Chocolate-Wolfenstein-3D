@@ -1,0 +1,6 @@
+<dec f='include/stdio.h' l='142'/>
+<dec f='include/fcntl.h' l='138'/>
+<dec f='include/unistd.h' l='316'/>
+<use f='codebrowser/id_ca.cpp' l='190' u='c'/>
+<use f='codebrowser/id_ca.cpp' l='479' u='c'/>
+<use f='codebrowser/id_pm.cpp' l='41' u='c'/>

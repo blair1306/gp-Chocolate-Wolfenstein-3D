@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1028' type='void StartDamageFlash(int damage)'/>
+<use f='codebrowser/wl_agent.cpp' l='432' u='c' c='_Z10TakeDamageiP9objstruct'/>
+<def f='codebrowser/wl_play.cpp' l='1048' ll='1051' type='void StartDamageFlash(int damage)'/>
+<doc f='codebrowser/wl_play.cpp' l='1040'>/*
+=====================
+=
+= StartDamageFlash
+=
+=====================
+*/</doc>

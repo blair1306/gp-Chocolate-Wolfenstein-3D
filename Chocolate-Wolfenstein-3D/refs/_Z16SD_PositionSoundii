@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_sd.h' l='134' type='void SD_PositionSound(int leftvol, int rightvol)'/>
+<def f='codebrowser/id_sd.cpp' l='1128' ll='1134' type='void SD_PositionSound(int leftvol, int rightvol)'/>
+<doc f='codebrowser/id_sd.cpp' l='1122'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_PositionSound() - Sets up a stereo imaging location for the next
+//              sound to be played. Each channel ranges from 0 to 15.
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_game.cpp' l='178' u='c' c='_Z18PlaySoundLocGlobaltii'/>

@@ -1,0 +1,3 @@
+<dec f='include/GL/gl.h' l='883' type='void glLoadIdentity()'/>
+<use f='codebrowser/crt.cpp' l='49' u='c' c='_Z8CRT_Initi'/>
+<use f='codebrowser/crt.cpp' l='52' u='c' c='_Z8CRT_Initi'/>

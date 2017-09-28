@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_def.h' l='840' type='int32_t'/>
+<offset>496</offset>
+<use f='codebrowser/wl_act2.cpp' l='3841' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='905' u='w' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='912' u='w' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='919' u='w' c='_Z9KillActorP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='934' u='w' c='_Z9KillActorP9objstruct'/>

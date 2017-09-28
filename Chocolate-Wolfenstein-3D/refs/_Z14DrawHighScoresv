@@ -1,0 +1,12 @@
+<dec f='codebrowser/wl_def.h' l='1050' type='void DrawHighScores()'/>
+<def f='codebrowser/wl_inter.cpp' l='1017' ll='1170' type='void DrawHighScores()'/>
+<use f='codebrowser/wl_inter.cpp' l='1213' u='c' c='_Z14CheckHighScoreit'/>
+<doc f='codebrowser/wl_inter.cpp' l='1009'>/*
+==================
+=
+= DrawHighScores
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_main.cpp' l='1594' u='c' c='_ZL8DemoLoopv'/>
+<use f='codebrowser/wl_menu.cpp' l='983' u='c' c='_Z13CP_ViewScoresi'/>

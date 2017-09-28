@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_menu.h' l='169' type='void DrawLSAction(int which)'/>
+<def f='codebrowser/wl_menu.cpp' l='1454' ll='1477' type='void DrawLSAction(int which)'/>
+<use f='codebrowser/wl_menu.cpp' l='1555' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1773' u='c' c='_Z11CP_SaveGamei'/>
+<doc f='codebrowser/wl_menu.cpp' l='1451'>//
+// DRAW LOAD/SAVE IN PROGRESS
+//</doc>

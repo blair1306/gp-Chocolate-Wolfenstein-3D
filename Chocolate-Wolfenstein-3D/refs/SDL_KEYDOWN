@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_events.h' l='55' type='2'/>
+<use f='include/SDL/SDL_events.h' l='90' u='r'/>
+<use f='include/SDL/SDL_events.h' l='92' u='r'/>
+<doc f='include/SDL/SDL_events.h' l='55'>/**&lt; Keys pressed */</doc>
+<use f='codebrowser/id_in.cpp' l='244' c='_ZL12processEventP9SDL_Event'/>

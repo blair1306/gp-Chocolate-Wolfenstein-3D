@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_def.h' l='1083' type='fixed *'/>
+<use f='codebrowser/wl_act2.cpp' l='315' u='r' c='_Z12T_ProjectileP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3859' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1029' u='r' c='_Z6Thrustii'/>
+<use f='codebrowser/wl_agent.cpp' l='1030' u='r' c='_Z6Thrustii'/>
+<def f='codebrowser/wl_draw.cpp' l='46' type='fixed *'/>
+<use f='codebrowser/wl_draw.cpp' l='1499' u='r' c='_Z17CalcViewVariablesv'/>

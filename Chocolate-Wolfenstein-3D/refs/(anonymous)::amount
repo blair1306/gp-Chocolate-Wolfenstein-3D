@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_menu.h' l='99' type='short'/>
+<offset>32</offset>
+<use f='codebrowser/wl_menu.cpp' l='1382' u='r' c='_Z13DrawSoundMenuv'/>
+<use f='codebrowser/wl_menu.cpp' l='2045' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2657' u='r' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3268' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3325' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3348' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3356' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3518' u='r' c='_Z8DrawMenuP11CP_iteminfoP11CP_itemtype'/>

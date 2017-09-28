@@ -1,0 +1,31 @@
+<dec f='codebrowser/fmopl.h' l='47' type='int YM3812Write(int which, int a, int v)'/>
+<def f='codebrowser/fmopl.cpp' l='2126' ll='2130' type='int YM3812Write(int which, int a, int v)'/>
+<use f='codebrowser/id_sd.cpp' l='717' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='727' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='728' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='729' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='730' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='731' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='732' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='733' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='734' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='735' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='736' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='740' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='779' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='780' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='794' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='796' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='807' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='821' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='823' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1004' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1005' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1007' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1015' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1025' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1076' u='c' c='_Z10SD_Startupv'/>
+<use f='codebrowser/id_sd.cpp' l='1078' u='c' c='_Z10SD_Startupv'/>
+<use f='codebrowser/id_sd.cpp' l='1314' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1316' macro='1' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1374' macro='1' u='c'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_act2.cpp' l='481' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='507' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='512' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='512' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='1022' u='a' c='_Z11SpawnPatrol7enemy_tiii'/>
+<doc f='codebrowser/wl_act2.cpp' l='477'>//
+// dogs
+//</doc>

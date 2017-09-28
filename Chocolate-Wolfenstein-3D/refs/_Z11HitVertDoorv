@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_draw.cpp' l='538' ll='589' type='void HitVertDoor()'/>
+<use f='codebrowser/wl_draw.cpp' l='1192' u='c' c='_Z10AsmRefreshv'/>
+<doc f='codebrowser/wl_draw.cpp' l='530'>/*
+====================
+=
+= HitVertDoor
+=
+====================
+*/</doc>

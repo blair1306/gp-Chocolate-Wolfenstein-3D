@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1020' type='void InitRedShifts()'/>
+<use f='codebrowser/wl_main.cpp' l='1297' u='c' c='_ZL8InitGamev'/>
+<def f='codebrowser/wl_play.cpp' l='964' ll='1008' type='void InitRedShifts()'/>
+<doc f='codebrowser/wl_play.cpp' l='956'>/*
+=====================
+=
+= InitRedShifts
+=
+=====================
+*/</doc>

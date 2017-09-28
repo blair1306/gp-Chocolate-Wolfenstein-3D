@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_menu.cpp' l='226' ll='236' type='CP_itemtype [9]'/>
+<use f='codebrowser/wl_menu.cpp' l='243' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='243' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='243' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='243' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='2079' u='a' c='_Z14CustomControlsi'/>
+<use f='codebrowser/wl_menu.cpp' l='2658' u='m' c='_Z16DrawCustomScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2698' u='m' c='_Z13DrawCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='2701' u='m' c='_Z13DrawCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='2735' u='m' c='_Z11DrawCustJoyi'/>
+<use f='codebrowser/wl_menu.cpp' l='2738' u='m' c='_Z11DrawCustJoyi'/>

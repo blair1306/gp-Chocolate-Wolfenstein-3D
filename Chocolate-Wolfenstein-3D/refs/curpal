@@ -1,0 +1,14 @@
+<dec f='codebrowser/crt.h' l='26' type='SDL_Color [256]'/>
+<use f='codebrowser/crt.cpp' l='72' u='m' c='_Z7CRT_DACv'/>
+<use f='codebrowser/crt.cpp' l='73' u='m' c='_Z7CRT_DACv'/>
+<use f='codebrowser/crt.cpp' l='74' u='m' c='_Z7CRT_DACv'/>
+<dec f='codebrowser/id_vh.cpp' l='312' type='SDL_Color [256]'/>
+<use f='codebrowser/id_vh.cpp' l='418' u='m' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='418' u='m' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='418' u='m' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<def f='codebrowser/id_vl.cpp' l='44' type='SDL_Color [256]'/>
+<use f='codebrowser/id_vl.cpp' l='119' u='r' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='219' u='w' c='_Z11VL_SetColoriiii'/>
+<use f='codebrowser/id_vl.cpp' l='243' u='a' c='_Z11VL_GetColoriPiS_S_'/>
+<use f='codebrowser/id_vl.cpp' l='261' u='r' c='_Z13VL_SetPaletteP9SDL_Colorb'/>
+<use f='codebrowser/id_vl.cpp' l='289' u='r' c='_Z13VL_GetPaletteP9SDL_Color'/>

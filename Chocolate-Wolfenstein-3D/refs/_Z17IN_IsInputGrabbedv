@@ -1,0 +1,15 @@
+<dec f='codebrowser/id_in.h' l='179' type='bool IN_IsInputGrabbed()'/>
+<def f='codebrowser/id_in.cpp' l='610' ll='613' type='bool IN_IsInputGrabbed()'/>
+<use f='codebrowser/wl_menu.cpp' l='810' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='882' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='1834' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='3132' u='c' c='_Z17SetupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3586' u='c' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_play.cpp' l='339' u='c' c='_Z13PollMouseMovev'/>
+<use f='codebrowser/wl_play.cpp' l='453' u='c' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='464' u='c' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='671' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='715' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='732' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='1267' u='c' c='_Z8PlayLoopv'/>
+<use f='codebrowser/wl_text.cpp' l='853' u='c' c='_Z7EndTextv'/>

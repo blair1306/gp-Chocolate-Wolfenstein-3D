@@ -1,0 +1,7 @@
+<dec f='codebrowser/wl_def.h' l='733' type='boolean'/>
+<offset>16</offset>
+<use f='codebrowser/wl_act1.cpp' l='366' u='w' c='_Z9SpawnDooriiai'/>
+<use f='codebrowser/wl_act1.cpp' l='439' u='r' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='455' u='r' c='_Z9CloseDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='573' u='r' c='_Z11DoorOpeningi'/>
+<use f='codebrowser/wl_act1.cpp' l='660' u='r' c='_Z11DoorClosingi'/>

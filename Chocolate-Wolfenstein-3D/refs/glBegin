@@ -1,0 +1,2 @@
+<dec f='include/GL/gl.h' l='929' type='void glBegin(GLenum mode)'/>
+<use f='codebrowser/crt.cpp' l='91' u='c' c='_Z7CRT_DACv'/>

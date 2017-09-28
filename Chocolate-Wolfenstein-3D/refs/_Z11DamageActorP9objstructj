@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_def.h' l='1130' type='void DamageActor(objtype * ob, unsigned int damage)'/>
+<use f='codebrowser/wl_agent.cpp' l='1240' u='c' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1316' u='c' c='_Z9GunAttackP9objstruct'/>
+<dec f='codebrowser/wl_state.cpp' l='49' type='void DamageActor(objtype * ob, unsigned int damage)'/>
+<def f='codebrowser/wl_state.cpp' l='1000' ll='1051' type='void DamageActor(objtype * ob, unsigned int damage)'/>
+<doc f='codebrowser/wl_state.cpp' l='987'>/*
+===================
+=
+= DamageActor
+=
+= Called when the player succesfully hits an enemy.
+=
+= Does damage points to enemy ob, either putting it into a stun frame or
+= killing it.
+=
+===================
+*/</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_vh.h' l='19' type='int16_t'/>
+<dec f='codebrowser/id_vh.h' l='25' type='int16_t'/>
+<dec f='codebrowser/id_ca.h' l='18' type='word'/>
+<offset>160</offset>
+<use f='codebrowser/id_vh.cpp' l='23' u='r' c='_Z18VWB_DrawPropStringPKc'/>
+<use f='codebrowser/id_vh.cpp' l='98' u='r' c='_Z17VWL_MeasureStringPKcPtS1_P10fontstruct'/>
+<use f='codebrowser/id_vh.cpp' l='141' u='r' c='_Z11VWB_DrawPiciii'/>
+<use f='codebrowser/id_vh.cpp' l='152' u='r' c='_Z22VWB_DrawPicScaledCoordiii'/>
+<use f='codebrowser/id_vh.cpp' l='263' u='r' c='_Z12LoadLatchMemv'/>
+<use f='codebrowser/wl_game.cpp' l='961' u='r' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_menu.cpp' l='3811' u='r' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3819' u='r' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_text.cpp' l='254' u='r' c='_Z13HandleCommandv'/>

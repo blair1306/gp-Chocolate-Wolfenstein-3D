@@ -1,0 +1,16 @@
+<dec f='codebrowser/wl_def.h' l='1054' type='void ClearSplitVWB()'/>
+<def f='codebrowser/wl_inter.cpp' l='21' ll='28' type='void ClearSplitVWB()'/>
+<use f='codebrowser/wl_inter.cpp' l='160' u='c' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='561' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='983' u='c' c='_Z15PreloadGraphicsv'/>
+<doc f='codebrowser/wl_inter.cpp' l='13'>/*
+==================
+=
+= CLearSplitVWB
+=
+==================
+*/</doc>
+<use f='codebrowser/wl_play.cpp' l='605' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='626' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='645' u='c' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_play.cpp' l='687' u='c' c='_Z9CheckKeysv'/>

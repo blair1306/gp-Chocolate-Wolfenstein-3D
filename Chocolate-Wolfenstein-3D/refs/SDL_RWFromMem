@@ -1,0 +1,2 @@
+<dec f='include/SDL/SDL_rwops.h' l='105' type='SDL_RWops * SDL_RWFromMem(void * mem, int size)'/>
+<use f='codebrowser/id_sd.cpp' l='584' u='c' c='_Z15SD_PrepareSoundi'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_us.h' l='83' type='void US_CPrintf(const char * formatStr)'/>
+<def f='codebrowser/id_us_1.cpp' l='316' ll='326' type='void US_CPrintf(const char * formatStr)'/>
+<doc f='codebrowser/id_us_1.cpp' l='309'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_CPrintf() - Prints a formatted string centered in the current window.
+//      Newlines are supported.
+//
+///////////////////////////////////////////////////////////////////////////</doc>

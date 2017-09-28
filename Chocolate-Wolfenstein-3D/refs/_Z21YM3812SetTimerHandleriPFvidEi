@@ -1,0 +1,2 @@
+<dec f='codebrowser/fmopl.h' l='53' type='void YM3812SetTimerHandler(int which, OPL_TIMERHANDLER TimerHandler, int channelOffset)'/>
+<def f='codebrowser/fmopl.cpp' l='2148' ll='2151' type='void YM3812SetTimerHandler(int which, OPL_TIMERHANDLER TimerHandler, int channelOffset)'/>

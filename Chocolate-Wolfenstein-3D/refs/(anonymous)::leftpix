@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='1101' type='word'/>
+<offset>0</offset>
+<use f='codebrowser/wl_draw.cpp' l='701' u='r' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='795' u='r' c='_Z16SimpleScaleShapeiij'/>

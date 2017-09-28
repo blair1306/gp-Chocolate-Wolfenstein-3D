@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_video.h' l='102' type='int'/>
+<offset>320</offset>
+<doc f='include/SDL/SDL_video.h' l='102'>/**&lt; Private */</doc>
+<use f='codebrowser/id_vl.cpp' l='405' macro='1' u='r'/>
+<use f='codebrowser/id_vl.cpp' l='415' macro='1' u='r'/>

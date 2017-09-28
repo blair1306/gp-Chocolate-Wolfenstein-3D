@@ -1,0 +1,11 @@
+<def f='codebrowser/id_ca.cpp' l='863' ll='904' type='void CAL_ExpandGrChunk(int chunk, int32_t * source)'/>
+<use f='codebrowser/id_ca.cpp' l='954' u='c' c='_Z15CA_CacheGrChunki'/>
+<doc f='codebrowser/id_ca.cpp' l='853'>/*
+======================
+=
+= CAL_ExpandGrChunk
+=
+= Does whatever is needed with a pointer to a compressed chunk
+=
+======================
+*/</doc>

@@ -1,0 +1,6 @@
+<dec f='include/SDL/SDL_mixer.h' l='520' type='int Mix_GroupAvailable(int tag)'/>
+<use f='codebrowser/id_sd.cpp' l='504' u='c' c='_Z20SD_GetChannelForDigii'/>
+<use f='codebrowser/id_sd.cpp' l='507' u='c' c='_Z20SD_GetChannelForDigii'/>
+<doc f='include/SDL/SDL_mixer.h' l='517'>/* Finds the first available channel in a group of channels,
+   returning -1 if none are available.
+ */</doc>

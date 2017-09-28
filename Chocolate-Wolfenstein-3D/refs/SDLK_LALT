@@ -1,0 +1,11 @@
+<dec f='include/SDL/SDL_keysym.h' l='278' type='308'/>
+<use f='codebrowser/id_in.cpp' l='48' macro='1' u='r'/>
+<use f='codebrowser/id_in.cpp' l='48' macro='1' u='r'/>
+<use f='codebrowser/id_in.cpp' l='255' macro='1' u='r'/>
+<use f='codebrowser/id_in.cpp' l='263' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/id_in.cpp' l='310' u='r' c='_ZL12processEventP9SDL_Event'/>
+<use f='codebrowser/wl_menu.cpp' l='2209' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3375' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='53' macro='1'/>
+<use f='codebrowser/wl_play.cpp' l='53' macro='1'/>
+<use f='codebrowser/wl_play.cpp' l='622' macro='1' u='r'/>

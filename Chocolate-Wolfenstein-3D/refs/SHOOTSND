@@ -1,0 +1,7 @@
+<dec f='codebrowser/audiowl6.h' l='44' type='32'/>
+<doc f='codebrowser/audiowl6.h' l='44'>// 32</doc>
+<use f='codebrowser/wl_menu.cpp' l='1982' u='r' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2860' u='r' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3667' u='r' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3667' u='r' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3950' u='r' c='_Z8ShootSndv'/>

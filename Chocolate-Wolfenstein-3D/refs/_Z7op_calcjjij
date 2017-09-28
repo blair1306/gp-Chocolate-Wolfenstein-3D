@@ -1,0 +1,7 @@
+<def f='codebrowser/fmopl.cpp' l='908' ll='917' macro='1' type='int op_calc(UINT32 phase, unsigned int env, int pm, unsigned int wave_tab)'/>
+<use f='codebrowser/fmopl.cpp' l='963' u='c' c='_Z11OPL_CALC_CHP6OPL_CH'/>
+<use f='codebrowser/fmopl.cpp' l='1041' u='c' c='_Z11OPL_CALC_RHP6OPL_CHj'/>
+<use f='codebrowser/fmopl.cpp' l='1109' u='c' c='_Z11OPL_CALC_RHP6OPL_CHj'/>
+<use f='codebrowser/fmopl.cpp' l='1130' u='c' c='_Z11OPL_CALC_RHP6OPL_CHj'/>
+<use f='codebrowser/fmopl.cpp' l='1136' u='c' c='_Z11OPL_CALC_RHP6OPL_CHj'/>
+<use f='codebrowser/fmopl.cpp' l='1163' u='c' c='_Z11OPL_CALC_RHP6OPL_CHj'/>

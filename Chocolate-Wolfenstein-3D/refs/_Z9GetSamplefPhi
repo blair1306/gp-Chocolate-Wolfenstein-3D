@@ -1,0 +1,2 @@
+<def f='codebrowser/id_sd.cpp' l='527' ll='542' type='Sint16 GetSample(float csample, byte * samples, int size)'/>
+<use f='codebrowser/id_sd.cpp' l='579' u='c' c='_Z15SD_PrepareSoundi'/>

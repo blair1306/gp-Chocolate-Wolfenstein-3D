@@ -1,0 +1,9 @@
+<dec f='codebrowser/id_sd.h' l='146' type='boolean SD_MusicPlaying()'/>
+<use f='codebrowser/id_sd.cpp' l='939' u='c' c='_Z15SD_SetMusicMode6SMMode'/>
+<def f='codebrowser/id_sd.cpp' l='1409' ll='1425' type='boolean SD_MusicPlaying()'/>
+<doc f='codebrowser/id_sd.cpp' l='1403'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_MusicPlaying() - returns true if music is currently playing, false if
+//              not
+//
+///////////////////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_def.h' l='1008' type='boolean'/>
+<use f='codebrowser/wl_main.cpp' l='148' u='a' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='148' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='179' u='r' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='179' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='183' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='219' u='w' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='261' u='a' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='261' u='r' c='_Z11WriteConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1833' u='w' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='2021' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2029' u='r' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='2695' u='r' c='_Z13DrawCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='3586' u='r' c='_Z14ReadAnyControlP10CursorInfo'/>
+<def f='codebrowser/wl_play.cpp' l='51' type='boolean'/>
+<use f='codebrowser/wl_play.cpp' l='453' u='r' c='_Z12PollControlsv'/>
+<use f='codebrowser/wl_play.cpp' l='464' u='r' c='_Z12PollControlsv'/>

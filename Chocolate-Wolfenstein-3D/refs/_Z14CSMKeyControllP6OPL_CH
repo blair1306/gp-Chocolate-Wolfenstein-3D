@@ -1,0 +1,2 @@
+<def f='codebrowser/fmopl.cpp' l='2039' ll='2048' macro='1' type='void CSMKeyControll(OPL_CH * CH)'/>
+<use f='codebrowser/fmopl.cpp' l='2066' u='c' c='_ZL12OPLTimerOverP8fm_opl_fi'/>

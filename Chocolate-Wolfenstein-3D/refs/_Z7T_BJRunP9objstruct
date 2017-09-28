@@ -1,0 +1,29 @@
+<dec f='codebrowser/wl_act2.cpp' l='3598' type='void T_BJRun(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='3618'/>
+<use f='codebrowser/wl_act2.cpp' l='3618'/>
+<use f='codebrowser/wl_act2.cpp' l='3620'/>
+<use f='codebrowser/wl_act2.cpp' l='3620'/>
+<use f='codebrowser/wl_act2.cpp' l='3621'/>
+<use f='codebrowser/wl_act2.cpp' l='3621'/>
+<use f='codebrowser/wl_act2.cpp' l='3623'/>
+<use f='codebrowser/wl_act2.cpp' l='3623'/>
+<def f='codebrowser/wl_act2.cpp' l='3663' ll='3690' type='void T_BJRun(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='3585'>/*
+============================================================================
+
+                                    BJ VICTORY
+
+============================================================================
+*/
+
+
+//
+// BJ victory
+//</doc>
+<doc f='codebrowser/wl_act2.cpp' l='3655'>/*
+===============
+=
+= T_BJRun
+=
+===============
+*/</doc>

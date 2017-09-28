@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>id_vh.h source code [codebrowser/id_vh.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/id_vh.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='id_vh.h.html'>id_vh.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// ID_VH.H</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><u>#define <dfn class="macro" id="_M/WHITE" data-ref="_M/WHITE">WHITE</dfn>           15          // graphics mode independant colors</u></td></tr>
+<tr><th id="5">5</th><td><u>#define <dfn class="macro" id="_M/BLACK" data-ref="_M/BLACK">BLACK</dfn>           0</u></td></tr>
+<tr><th id="6">6</th><td><u>#define <dfn class="macro" id="_M/FIRSTCOLOR" data-ref="_M/FIRSTCOLOR">FIRSTCOLOR</dfn>      1</u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/SECONDCOLOR" data-ref="_M/SECONDCOLOR">SECONDCOLOR</dfn>     12</u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/F_WHITE" data-ref="_M/F_WHITE">F_WHITE</dfn>         15</u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/F_BLACK" data-ref="_M/F_BLACK">F_BLACK</dfn>         0</u></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/F_FIRSTCOLOR" data-ref="_M/F_FIRSTCOLOR">F_FIRSTCOLOR</dfn>    1</u></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/F_SECONDCOLOR" data-ref="_M/F_SECONDCOLOR">F_SECONDCOLOR</dfn>   12</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/MAXSHIFTS" data-ref="_M/MAXSHIFTS">MAXSHIFTS</dfn>   1</u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="18">18</th><td>{</td></tr>
+<tr><th id="19">19</th><td>    <a class="typedef" href="../include/stdint.h.html#int16_t" title='int16_t' data-type='short' data-ref="int16_t">int16_t</a> <dfn class="decl" id="(anonymous)::width" title='(anonymous struct)::width' data-ref="(anonymous)::width">width</dfn>,<dfn class="decl" id="(anonymous)::height" title='(anonymous struct)::height' data-ref="(anonymous)::height">height</dfn>;</td></tr>
+<tr><th id="20">20</th><td>} <dfn class="typedef" id="pictabletype" title='pictabletype' data-type='struct pictabletype' data-ref="pictabletype">pictabletype</dfn>;</td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="24">24</th><td>{</td></tr>
+<tr><th id="25">25</th><td>    <a class="typedef" href="../include/stdint.h.html#int16_t" title='int16_t' data-type='short' data-ref="int16_t">int16_t</a> <dfn class="decl" id="(anonymous)::height" title='(anonymous struct)::height' data-ref="(anonymous)::height">height</dfn>;</td></tr>
+<tr><th id="26">26</th><td>    <a class="typedef" href="../include/stdint.h.html#int16_t" title='int16_t' data-type='short' data-ref="int16_t">int16_t</a> <dfn class="decl" id="(anonymous)::location" title='(anonymous struct)::location' data-ref="(anonymous)::location">location</dfn>[<var>256</var>];</td></tr>
+<tr><th id="27">27</th><td>    <a class="typedef" href="../include/stdint.h.html#int8_t" title='int8_t' data-type='signed char' data-ref="int8_t">int8_t</a> <dfn class="decl" id="(anonymous)::width" title='(anonymous struct)::width' data-ref="(anonymous)::width">width</dfn>[<var>256</var>];</td></tr>
+<tr><th id="28">28</th><td>} <dfn class="typedef" id="fontstruct" title='fontstruct' data-type='struct fontstruct' data-ref="fontstruct">fontstruct</dfn>;</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><i>//===========================================================================</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><b>extern</b>  <a class="typedef" href="#pictabletype" title='pictabletype' data-type='struct pictabletype' data-ref="pictabletype">pictabletype</a>    *<dfn class="decl" id="pictable" title='pictable' data-ref="pictable">pictable</dfn>;</td></tr>
+<tr><th id="35">35</th><td><b>extern</b>  <a class="typedef" href="#pictabletype" title='pictabletype' data-type='struct pictabletype' data-ref="pictabletype">pictabletype</a>    *<dfn class="decl" id="picmtable" title='picmtable' data-ref="picmtable">picmtable</dfn>;</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><b>extern</b>  <a class="typedef" href="wl_def.h.html#byte" title='byte' data-type='uint8_t' data-ref="byte">byte</a>            <dfn class="decl" id="fontcolor" title='fontcolor' data-ref="fontcolor">fontcolor</dfn>,<dfn class="decl" id="backcolor" title='backcolor' data-ref="backcolor">backcolor</dfn>;</td></tr>
+<tr><th id="38">38</th><td><b>extern</b>  <em>int</em>             <dfn class="decl" id="fontnumber" title='fontnumber' data-ref="fontnumber">fontnumber</dfn>;</td></tr>
+<tr><th id="39">39</th><td><b>extern</b>  <em>int</em>             <dfn class="decl" id="px" title='px' data-ref="px">px</dfn>,<dfn class="decl" id="py" title='py' data-ref="py">py</dfn>;</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/SETFONTCOLOR" data-ref="_M/SETFONTCOLOR">SETFONTCOLOR</dfn>(f,b) fontcolor=f;backcolor=b;</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><i>//</i></td></tr>
+<tr><th id="44">44</th><td><i>// mode independant routines</i></td></tr>
+<tr><th id="45">45</th><td><i>// coordinates in pixels, rounded to best screen res</i></td></tr>
+<tr><th id="46">46</th><td><i>// regions marked in double buffer</i></td></tr>
+<tr><th id="47">47</th><td><i>//</i></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><em>void</em> <dfn class="decl" id="_Z18VWB_DrawPropStringPKc" title='VWB_DrawPropString' data-ref="_Z18VWB_DrawPropStringPKc">VWB_DrawPropString</dfn>  (<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="11246string" title='string' data-type='const char *' data-ref="11246string">string</dfn>);</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><em>void</em> <dfn class="decl" id="_Z13VWB_DrawTile8iii" title='VWB_DrawTile8' data-ref="_Z13VWB_DrawTile8iii">VWB_DrawTile8</dfn> (<em>int</em> <dfn class="local col7 decl" id="11247x" title='x' data-type='int' data-ref="11247x">x</dfn>, <em>int</em> <dfn class="local col8 decl" id="11248y" title='y' data-type='int' data-ref="11248y">y</dfn>, <em>int</em> <dfn class="local col9 decl" id="11249tile" title='tile' data-type='int' data-ref="11249tile">tile</dfn>);</td></tr>
+<tr><th id="52">52</th><td><em>void</em> <dfn class="decl" id="_Z14VWB_DrawTile8Miii" title='VWB_DrawTile8M' data-ref="_Z14VWB_DrawTile8Miii">VWB_DrawTile8M</dfn> (<em>int</em> <dfn class="local col0 decl" id="11250x" title='x' data-type='int' data-ref="11250x">x</dfn>, <em>int</em> <dfn class="local col1 decl" id="11251y" title='y' data-type='int' data-ref="11251y">y</dfn>, <em>int</em> <dfn class="local col2 decl" id="11252tile" title='tile' data-type='int' data-ref="11252tile">tile</dfn>);</td></tr>
+<tr><th id="53">53</th><td><em>void</em> <dfn class="decl" id="_Z14VWB_DrawTile16iii" title='VWB_DrawTile16' data-ref="_Z14VWB_DrawTile16iii">VWB_DrawTile16</dfn> (<em>int</em> <dfn class="local col3 decl" id="11253x" title='x' data-type='int' data-ref="11253x">x</dfn>, <em>int</em> <dfn class="local col4 decl" id="11254y" title='y' data-type='int' data-ref="11254y">y</dfn>, <em>int</em> <dfn class="local col5 decl" id="11255tile" title='tile' data-type='int' data-ref="11255tile">tile</dfn>);</td></tr>
+<tr><th id="54">54</th><td><em>void</em> <dfn class="decl" id="_Z15VWB_DrawTile16Miii" title='VWB_DrawTile16M' data-ref="_Z15VWB_DrawTile16Miii">VWB_DrawTile16M</dfn> (<em>int</em> <dfn class="local col6 decl" id="11256x" title='x' data-type='int' data-ref="11256x">x</dfn>, <em>int</em> <dfn class="local col7 decl" id="11257y" title='y' data-type='int' data-ref="11257y">y</dfn>, <em>int</em> <dfn class="local col8 decl" id="11258tile" title='tile' data-type='int' data-ref="11258tile">tile</dfn>);</td></tr>
+<tr><th id="55">55</th><td><em>void</em> <dfn class="decl" id="_Z11VWB_DrawPiciii" title='VWB_DrawPic' data-ref="_Z11VWB_DrawPiciii">VWB_DrawPic</dfn> (<em>int</em> <dfn class="local col9 decl" id="11259x" title='x' data-type='int' data-ref="11259x">x</dfn>, <em>int</em> <dfn class="local col0 decl" id="11260y" title='y' data-type='int' data-ref="11260y">y</dfn>, <em>int</em> <dfn class="local col1 decl" id="11261chunknum" title='chunknum' data-type='int' data-ref="11261chunknum">chunknum</dfn>);</td></tr>
+<tr><th id="56">56</th><td><em>void</em> <dfn class="decl" id="_Z22VWB_DrawPicScaledCoordiii" title='VWB_DrawPicScaledCoord' data-ref="_Z22VWB_DrawPicScaledCoordiii">VWB_DrawPicScaledCoord</dfn> (<em>int</em> <dfn class="local col2 decl" id="11262x" title='x' data-type='int' data-ref="11262x">x</dfn>, <em>int</em> <dfn class="local col3 decl" id="11263y" title='y' data-type='int' data-ref="11263y">y</dfn>, <em>int</em> <dfn class="local col4 decl" id="11264chunknum" title='chunknum' data-type='int' data-ref="11264chunknum">chunknum</dfn>);</td></tr>
+<tr><th id="57">57</th><td><em>void</em> <dfn class="decl" id="_Z12VWB_DrawMPiciii" title='VWB_DrawMPic' data-ref="_Z12VWB_DrawMPiciii">VWB_DrawMPic</dfn>(<em>int</em> <dfn class="local col5 decl" id="11265x" title='x' data-type='int' data-ref="11265x">x</dfn>, <em>int</em> <dfn class="local col6 decl" id="11266y" title='y' data-type='int' data-ref="11266y">y</dfn>, <em>int</em> <dfn class="local col7 decl" id="11267chunknum" title='chunknum' data-type='int' data-ref="11267chunknum">chunknum</dfn>);</td></tr>
+<tr><th id="58">58</th><td><em>void</em> <dfn class="decl" id="_Z7VWB_Bariiiii" title='VWB_Bar' data-ref="_Z7VWB_Bariiiii">VWB_Bar</dfn> (<em>int</em> <dfn class="local col8 decl" id="11268x" title='x' data-type='int' data-ref="11268x">x</dfn>, <em>int</em> <dfn class="local col9 decl" id="11269y" title='y' data-type='int' data-ref="11269y">y</dfn>, <em>int</em> <dfn class="local col0 decl" id="11270width" title='width' data-type='int' data-ref="11270width">width</dfn>, <em>int</em> <dfn class="local col1 decl" id="11271height" title='height' data-type='int' data-ref="11271height">height</dfn>, <em>int</em> <dfn class="local col2 decl" id="11272color" title='color' data-type='int' data-ref="11272color">color</dfn>);</td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/VWB_BarScaledCoord" data-ref="_M/VWB_BarScaledCoord">VWB_BarScaledCoord</dfn> VL_BarScaledCoord</u></td></tr>
+<tr><th id="60">60</th><td><em>void</em> <dfn class="decl" id="_Z8VWB_Plotiii" title='VWB_Plot' data-ref="_Z8VWB_Plotiii">VWB_Plot</dfn> (<em>int</em> <dfn class="local col3 decl" id="11273x" title='x' data-type='int' data-ref="11273x">x</dfn>, <em>int</em> <dfn class="local col4 decl" id="11274y" title='y' data-type='int' data-ref="11274y">y</dfn>, <em>int</em> <dfn class="local col5 decl" id="11275color" title='color' data-type='int' data-ref="11275color">color</dfn>);</td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/VWB_PlotScaledCoord" data-ref="_M/VWB_PlotScaledCoord">VWB_PlotScaledCoord</dfn> VW_Plot</u></td></tr>
+<tr><th id="62">62</th><td><em>void</em> <dfn class="decl" id="_Z8VWB_Hliniiii" title='VWB_Hlin' data-ref="_Z8VWB_Hliniiii">VWB_Hlin</dfn> (<em>int</em> <dfn class="local col6 decl" id="11276x1" title='x1' data-type='int' data-ref="11276x1">x1</dfn>, <em>int</em> <dfn class="local col7 decl" id="11277x2" title='x2' data-type='int' data-ref="11277x2">x2</dfn>, <em>int</em> <dfn class="local col8 decl" id="11278y" title='y' data-type='int' data-ref="11278y">y</dfn>, <em>int</em> <dfn class="local col9 decl" id="11279color" title='color' data-type='int' data-ref="11279color">color</dfn>);</td></tr>
+<tr><th id="63">63</th><td><em>void</em> <dfn class="decl" id="_Z8VWB_Vliniiii" title='VWB_Vlin' data-ref="_Z8VWB_Vliniiii">VWB_Vlin</dfn> (<em>int</em> <dfn class="local col0 decl" id="11280y1" title='y1' data-type='int' data-ref="11280y1">y1</dfn>, <em>int</em> <dfn class="local col1 decl" id="11281y2" title='y2' data-type='int' data-ref="11281y2">y2</dfn>, <em>int</em> <dfn class="local col2 decl" id="11282x" title='x' data-type='int' data-ref="11282x">x</dfn>, <em>int</em> <dfn class="local col3 decl" id="11283color" title='color' data-type='int' data-ref="11283color">color</dfn>);</td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/VWB_HlinScaledCoord" data-ref="_M/VWB_HlinScaledCoord">VWB_HlinScaledCoord</dfn> VW_Hlin</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/VWB_VlinScaledCoord" data-ref="_M/VWB_VlinScaledCoord">VWB_VlinScaledCoord</dfn> VW_Vlin</u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><em>void</em> <dfn class="decl" id="_Z15VH_UpdateScreenv" title='VH_UpdateScreen' data-ref="_Z15VH_UpdateScreenv">VH_UpdateScreen</dfn>();</td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/VW_UpdateScreen" data-ref="_M/VW_UpdateScreen">VW_UpdateScreen</dfn> VH_UpdateScreen</u></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><i>//</i></td></tr>
+<tr><th id="71">71</th><td><i>// wolfenstein EGA compatability stuff</i></td></tr>
+<tr><th id="72">72</th><td><i>//</i></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/VW_Shutdown" data-ref="_M/VW_Shutdown">VW_Shutdown</dfn>         VL_Shutdown</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/VW_Bar" data-ref="_M/VW_Bar">VW_Bar</dfn>              VL_Bar</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/VW_Plot" data-ref="_M/VW_Plot">VW_Plot</dfn>             VL_Plot</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/VW_Hlin" data-ref="_M/VW_Hlin">VW_Hlin</dfn>(x,z,y,c)    VL_Hlin(x,y,(z)-(x)+1,c)</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/VW_Vlin" data-ref="_M/VW_Vlin">VW_Vlin</dfn>(y,z,x,c)    VL_Vlin(x,y,(z)-(y)+1,c)</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/VW_DrawPic" data-ref="_M/VW_DrawPic">VW_DrawPic</dfn>          VH_DrawPic</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/VW_WaitVBL" data-ref="_M/VW_WaitVBL">VW_WaitVBL</dfn>          VL_WaitVBL</u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/VW_FadeIn" data-ref="_M/VW_FadeIn">VW_FadeIn</dfn>()         VL_FadeIn(0,255,gamepal,30);</u></td></tr>
+<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/VW_FadeOut" data-ref="_M/VW_FadeOut">VW_FadeOut</dfn>()        VL_FadeOut(0,255,0,0,0,30);</u></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/VW_ScreenToScreen" data-ref="_M/VW_ScreenToScreen">VW_ScreenToScreen</dfn>   VL_ScreenToScreen</u></td></tr>
+<tr><th id="85">85</th><td><em>void</em>    <dfn class="decl" id="_Z20VW_MeasurePropStringPKcPtS1_" title='VW_MeasurePropString' data-ref="_Z20VW_MeasurePropStringPKcPtS1_">VW_MeasurePropString</dfn> (<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="11284string" title='string' data-type='const char *' data-ref="11284string">string</dfn>, <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col5 decl" id="11285width" title='width' data-type='word *' data-ref="11285width">width</dfn>, <a class="typedef" href="wl_def.h.html#word" title='word' data-type='uint16_t' data-ref="word">word</a> *<dfn class="local col6 decl" id="11286height" title='height' data-type='word *' data-ref="11286height">height</dfn>);</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/LatchDrawChar" data-ref="_M/LatchDrawChar">LatchDrawChar</dfn>(x,y,p) VL_LatchToScreen(latchpics[0],((p)&amp;7)*8,((p)&gt;&gt;3)*8*64,8,8,x,y)</u></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/LatchDrawTile" data-ref="_M/LatchDrawTile">LatchDrawTile</dfn>(x,y,p) VL_LatchToScreen(latchpics[1],(p)*64,0,16,16,x,y)</u></td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><em>void</em>    <dfn class="decl" id="_Z12LatchDrawPicjjj" title='LatchDrawPic' data-ref="_Z12LatchDrawPicjjj">LatchDrawPic</dfn> (<em>unsigned</em> <dfn class="local col7 decl" id="11287x" title='x' data-type='unsigned int' data-ref="11287x">x</dfn>, <em>unsigned</em> <dfn class="local col8 decl" id="11288y" title='y' data-type='unsigned int' data-ref="11288y">y</dfn>, <em>unsigned</em> <dfn class="local col9 decl" id="11289picnum" title='picnum' data-type='unsigned int' data-ref="11289picnum">picnum</dfn>);</td></tr>
+<tr><th id="91">91</th><td><em>void</em>    <dfn class="decl" id="_Z23LatchDrawPicScaledCoordjjj" title='LatchDrawPicScaledCoord' data-ref="_Z23LatchDrawPicScaledCoordjjj">LatchDrawPicScaledCoord</dfn> (<em>unsigned</em> <dfn class="local col0 decl" id="11290scx" title='scx' data-type='unsigned int' data-ref="11290scx">scx</dfn>, <em>unsigned</em> <dfn class="local col1 decl" id="11291scy" title='scy' data-type='unsigned int' data-ref="11291scy">scy</dfn>, <em>unsigned</em> <dfn class="local col2 decl" id="11292picnum" title='picnum' data-type='unsigned int' data-ref="11292picnum">picnum</dfn>);</td></tr>
+<tr><th id="92">92</th><td><em>void</em>    <dfn class="decl" id="_Z12LoadLatchMemv" title='LoadLatchMem' data-ref="_Z12LoadLatchMemv">LoadLatchMem</dfn> (<em>void</em>);</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><em>void</em>    <dfn class="decl" id="_Z10VH_Startupv" title='VH_Startup' data-ref="_Z10VH_Startupv">VH_Startup</dfn>();</td></tr>
+<tr><th id="95">95</th><td><a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="decl" id="_Z10FizzleFadeP11SDL_Surfaceiijjja" title='FizzleFade' data-ref="_Z10FizzleFadeP11SDL_Surfaceiijjja">FizzleFade</dfn> (<a class="typedef" href="../include/SDL/SDL_video.h.html#SDL_Surface" title='SDL_Surface' data-type='struct SDL_Surface' data-ref="SDL_Surface">SDL_Surface</a> *<dfn class="local col3 decl" id="11293source" title='source' data-type='SDL_Surface *' data-ref="11293source">source</dfn>, <em>int</em> <dfn class="local col4 decl" id="11294x1" title='x1' data-type='int' data-ref="11294x1">x1</dfn>, <em>int</em> <dfn class="local col5 decl" id="11295y1" title='y1' data-type='int' data-ref="11295y1">y1</dfn>,</td></tr>
+<tr><th id="96">96</th><td>    <em>unsigned</em> <dfn class="local col6 decl" id="11296width" title='width' data-type='unsigned int' data-ref="11296width">width</dfn>, <em>unsigned</em> <dfn class="local col7 decl" id="11297height" title='height' data-type='unsigned int' data-ref="11297height">height</dfn>, <em>unsigned</em> <dfn class="local col8 decl" id="11298frames" title='frames' data-type='unsigned int' data-ref="11298frames">frames</dfn>, <a class="typedef" href="wl_def.h.html#boolean" title='boolean' data-type='int8_t' data-ref="boolean">boolean</a> <dfn class="local col9 decl" id="11299abortable" title='abortable' data-type='boolean' data-ref="11299abortable">abortable</dfn>);</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td><u>#define <dfn class="macro" id="_M/NUMLATCHPICS" data-ref="_M/NUMLATCHPICS">NUMLATCHPICS</dfn>    100</u></td></tr>
+<tr><th id="99">99</th><td><b>extern</b>  <a class="typedef" href="../include/SDL/SDL_video.h.html#SDL_Surface" title='SDL_Surface' data-type='struct SDL_Surface' data-ref="SDL_Surface">SDL_Surface</a> *<dfn class="decl" id="latchpics" title='latchpics' data-ref="latchpics">latchpics</dfn>[<a class="macro" href="#98" title="100" data-ref="_M/NUMLATCHPICS">NUMLATCHPICS</a>];</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crt.cpp.html'>codebrowser/crt.cpp</a><br/>Generated on <em>2017-Sep-28</em> from project codebrowser revision <em>eaade7d</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

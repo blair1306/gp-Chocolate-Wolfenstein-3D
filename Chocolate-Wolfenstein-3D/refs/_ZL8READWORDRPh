@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_def.h' l='1374' ll='1379' type='word READWORD(byte *&amp; ptr)'/>
+<use f='codebrowser/id_ca.cpp' l='285' u='c' c='_Z17CAL_CarmackExpandPhPti'/>
+<use f='codebrowser/id_ca.cpp' l='317' u='c' c='_Z17CAL_CarmackExpandPhPti'/>
+<use f='codebrowser/id_ca.cpp' l='766' u='c' c='_Z23CA_CacheAdlibSoundChunki'/>
+<use f='codebrowser/wl_draw.cpp' l='726' u='c' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='729' u='c' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='730' u='c' c='_Z10ScaleShapeiijj'/>
+<use f='codebrowser/wl_draw.cpp' l='809' u='c' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='812' u='c' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_draw.cpp' l='813' u='c' c='_Z16SimpleScaleShapeiij'/>
+<use f='codebrowser/wl_game.cpp' l='1166' u='c' c='_Z8PlayDemoi'/>

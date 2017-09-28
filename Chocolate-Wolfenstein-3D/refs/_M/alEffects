@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_sd.h' l='64'/>
+<doc f='codebrowser/id_sd.h' l='63'>// Global stuff</doc>
+<use f='codebrowser/id_sd.cpp' l='779' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='794' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='807' u='c'/>
+<use f='codebrowser/id_sd.cpp' l='1314' u='c'/>

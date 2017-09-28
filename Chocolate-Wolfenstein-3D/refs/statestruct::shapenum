@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='696' type='short'/>
+<offset>8</offset>
+<doc f='codebrowser/wl_def.h' l='696'>// a shapenum of -1 means get from ob-&gt;temp1</doc>
+<use f='codebrowser/wl_draw.cpp' l='914' u='r' c='_Z11DrawScaledsv'/>

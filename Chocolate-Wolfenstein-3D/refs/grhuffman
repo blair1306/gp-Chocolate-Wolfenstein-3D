@@ -1,0 +1,6 @@
+<def f='codebrowser/id_ca.cpp' l='100' type='huffnode [255]'/>
+<use f='codebrowser/id_ca.cpp' l='468' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='468' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='528' u='r' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='903' u='r' c='_Z17CAL_ExpandGrChunkiPi'/>
+<use f='codebrowser/id_ca.cpp' l='1005' u='r' c='_Z14CA_CacheScreeni'/>

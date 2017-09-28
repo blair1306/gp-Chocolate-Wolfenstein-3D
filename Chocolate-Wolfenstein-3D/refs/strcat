@@ -1,0 +1,19 @@
+<dec f='include/string.h' l='133' type='char * strcat(char *__restrict __dest, const char *__restrict __src)'/>
+<doc f='include/string.h' l='132'>/* Append SRC onto DEST.  */</doc>
+<use f='codebrowser/id_ca.cpp' l='462' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='473' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='512' u='c' c='_Z15CAL_SetupGrFilev'/>
+<use f='codebrowser/id_ca.cpp' l='554' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='573' u='c' c='_Z16CAL_SetupMapFilev'/>
+<use f='codebrowser/id_ca.cpp' l='634' u='c' c='_Z18CAL_SetupAudioFilev'/>
+<use f='codebrowser/id_ca.cpp' l='645' u='c' c='_Z18CAL_SetupAudioFilev'/>
+<use f='codebrowser/id_ca.cpp' l='1107' u='c' c='_Z13CA_CannotOpenPKc'/>
+<use f='codebrowser/id_ca.cpp' l='1108' u='c' c='_Z13CA_CannotOpenPKc'/>
+<use f='codebrowser/id_pm.cpp' l='20' u='c' c='_Z10PM_Startupv'/>
+<use f='codebrowser/wl_main.cpp' l='1839' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_menu.cpp' l='838' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='839' u='c' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='4119' u='c' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4120' u='c' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4121' u='c' c='_Z16CheckForEpisodesv'/>
+<use f='codebrowser/wl_menu.cpp' l='4127' u='c' c='_Z16CheckForEpisodesv'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='581' type='1'/>
+<use f='codebrowser/wl_act1.cpp' l='507' u='r' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_act1.cpp' l='509' u='r' c='_Z11OperateDoori'/>
+<use f='codebrowser/wl_draw.cpp' l='514' c='_Z12HitHorizDoorv'/>
+<use f='codebrowser/wl_draw.cpp' l='577' c='_Z11HitVertDoorv'/>

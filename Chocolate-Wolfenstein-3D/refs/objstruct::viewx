@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='762' type='short'/>
+<offset>344</offset>
+<use f='codebrowser/wl_agent.cpp' l='1223' u='r' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1223' u='r' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1223' u='r' c='_Z11KnifeAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1280' u='r' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1280' u='r' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1280' u='r' c='_Z9GunAttackP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='163' u='w' c='_Z14TransformActorP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='654' u='r' c='_Z10CalcRotateP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='939' u='r' c='_Z11DrawScaledsv'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/id_sd.h' l='106' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/id_sd.cpp' l='619' u='w' c='_Z18SD_ChannelFinishedi'/>
+<use f='codebrowser/wl_game.cpp' l='185' u='w' c='_Z18PlaySoundLocGlobaltii'/>
+<use f='codebrowser/wl_game.cpp' l='199' u='r' c='_Z14UpdateSoundLocv'/>

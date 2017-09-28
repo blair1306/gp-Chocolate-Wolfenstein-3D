@@ -1,0 +1,5 @@
+<dec f='codebrowser/id_sd.h' l='151' type='void SD_SetDigiDevice(SDSMode )'/>
+<def f='codebrowser/id_sd.cpp' l='622' ll='649' type='void SD_SetDigiDevice(SDSMode mode)'/>
+<use f='codebrowser/wl_main.cpp' l='230' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1282' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1297' u='c' c='_Z8CP_Soundi'/>

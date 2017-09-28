@@ -1,0 +1,19 @@
+<dec f='codebrowser/id_sd.h' l='154' type='void SD_StopDigitized()'/>
+<def f='codebrowser/id_sd.cpp' l='478' ll='498' type='void SD_StopDigitized()'/>
+<use f='codebrowser/id_sd.cpp' l='630' u='c' c='_Z16SD_SetDigiDevice7SDSMode'/>
+<use f='codebrowser/id_sd.cpp' l='1259' u='c' c='_Z12SD_StopSoundv'/>
+<use f='codebrowser/wl_game.cpp' l='1121' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1194' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1317' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1362' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1452' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1550' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1566' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1570' macro='1' u='c'/>
+<use f='codebrowser/wl_game.cpp' l='1581' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='603' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='624' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='643' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='686' macro='1' u='c'/>
+<use f='codebrowser/wl_play.cpp' l='700' macro='1' u='c'/>
+<use f='codebrowser/wl_text.cpp' l='814' macro='1' u='c'/>

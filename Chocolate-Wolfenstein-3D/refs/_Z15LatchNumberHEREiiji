@@ -1,0 +1,2 @@
+<def f='codebrowser/wl_game.cpp' l='929' ll='953' type='void LatchNumberHERE(int x, int y, unsigned int width, int32_t number)'/>
+<doc f='codebrowser/wl_game.cpp' l='928'>// Uses LatchDrawPic instead of StatusDrawPic</doc>

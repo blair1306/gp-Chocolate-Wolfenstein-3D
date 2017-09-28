@@ -1,0 +1,3 @@
+<dec f='codebrowser/id_sd.h' l='141' type='void SD_ContinueMusic(int chunk, int startoffs)'/>
+<def f='codebrowser/id_sd.cpp' l='1346' ll='1383' type='void SD_ContinueMusic(int chunk, int startoffs)'/>
+<use f='codebrowser/wl_play.cpp' l='931' u='c' c='_Z13ContinueMusici'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/wl_menu.cpp' l='213' ll='224' type='CP_itemtype [10]'/>
+<use f='codebrowser/wl_menu.cpp' l='241' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='241' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='241' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='241' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='1541' u='a' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1634' u='a' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='1720' u='a' c='_Z11CP_SaveGamei'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_us.h' l='73' type='void US_SaveWindow(WindowRec * win)'/>
+<def f='codebrowser/id_us_1.cpp' l='384' ll='394' type='void US_SaveWindow(WindowRec * win)'/>
+<doc f='codebrowser/id_us_1.cpp' l='378'>///////////////////////////////////////////////////////////////////////////
+//
+//  US_SaveWindow() - Saves the current window parms into a record for
+//      later restoration
+//
+///////////////////////////////////////////////////////////////////////////</doc>

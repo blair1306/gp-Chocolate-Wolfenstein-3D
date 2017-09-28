@@ -1,0 +1,5 @@
+<dec f='include/SDL/SDL_joystick.h' l='101' type='int SDL_JoystickNumHats(SDL_Joystick * joystick)'/>
+<doc f='include/SDL/SDL_joystick.h' l='98'>/**
+ * Get the number of POV hats on a joystick
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='377' u='c' c='_Z10IN_Startupv'/>

@@ -1,0 +1,12 @@
+<def f='codebrowser/wl_text.cpp' l='415' ll='498' type='void PageLayout(boolean shownumber)'/>
+<use f='codebrowser/wl_text.cpp' l='663' u='c' c='_Z11ShowArticlePc'/>
+<doc f='codebrowser/wl_text.cpp' l='404'>/*
+=====================
+=
+= PageLayout
+=
+= Clears the screen, draws the pics on the page, and word wraps the text.
+= Returns a pointer to the terminating command
+=
+=====================
+*/</doc>

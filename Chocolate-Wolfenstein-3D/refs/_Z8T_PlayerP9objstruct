@@ -1,0 +1,19 @@
+<dec f='codebrowser/wl_agent.cpp' l='51' type='void T_Player(objtype * ob)'/>
+<use f='codebrowser/wl_agent.cpp' l='54' u='r'/>
+<use f='codebrowser/wl_agent.cpp' l='54' u='r'/>
+<dec f='codebrowser/wl_agent.cpp' l='81' type='void T_Player(objtype * ob)'/>
+<def f='codebrowser/wl_agent.cpp' l='1467' ll='1492' type='void T_Player(objtype * ob)'/>
+<doc f='codebrowser/wl_agent.cpp' l='42'>/*
+=============================================================================
+
+                                                 LOCAL VARIABLES
+
+=============================================================================
+*/</doc>
+<doc f='codebrowser/wl_agent.cpp' l='1459'>/*
+===============
+=
+= T_Player
+=
+===============
+*/</doc>

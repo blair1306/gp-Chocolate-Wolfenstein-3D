@@ -1,0 +1,2 @@
+<def f='codebrowser/fmopl.cpp' l='1003' ll='1166' macro='1' type='void OPL_CALC_RH(OPL_CH * CH, unsigned int noise)'/>
+<use f='codebrowser/fmopl.cpp' l='2208' u='c' c='_Z15YM3812UpdateOneiPsi'/>

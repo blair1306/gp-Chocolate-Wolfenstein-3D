@@ -1,0 +1,14 @@
+<dec f='codebrowser/id_sd.h' l='147' type='boolean SD_SetSoundMode(SDMode mode)'/>
+<def f='codebrowser/id_sd.cpp' l='886' ll='926' type='boolean SD_SetSoundMode(SDMode mode)'/>
+<use f='codebrowser/id_sd.cpp' l='1088' u='c' c='_Z10SD_Startupv'/>
+<doc f='codebrowser/id_sd.cpp' l='879'>//      Public routines
+
+///////////////////////////////////////////////////////////////////////////
+//
+//      SD_SetSoundMode() - Sets which sound hardware to use for sound effects
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='229' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='1251' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1259' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1269' u='c' c='_Z8CP_Soundi'/>

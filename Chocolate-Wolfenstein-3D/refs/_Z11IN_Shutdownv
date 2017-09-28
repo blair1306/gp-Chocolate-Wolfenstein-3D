@@ -1,0 +1,8 @@
+<dec f='codebrowser/id_in.h' l='154' type='void IN_Shutdown()'/>
+<def f='codebrowser/id_in.cpp' l='403' ll='413' type='void IN_Shutdown()'/>
+<doc f='codebrowser/id_in.cpp' l='398'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_Shutdown() - Shuts down the Input Mgr
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_main.cpp' l='664' u='c' c='_Z10ShutdownIdv'/>

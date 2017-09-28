@@ -1,0 +1,14 @@
+<dec f='codebrowser/wl_def.h' l='1167' type='void DrawLives()'/>
+<def f='codebrowser/wl_agent.cpp' l='501' ll='505' type='void DrawLives()'/>
+<use f='codebrowser/wl_agent.cpp' l='520' u='c' c='_Z12GiveExtraManv'/>
+<doc f='codebrowser/wl_agent.cpp' l='493'>/*
+===============
+=
+= DrawLives
+=
+===============
+*/</doc>
+<use f='codebrowser/wl_game.cpp' l='920' u='c' c='_Z14DrawPlayScreenv'/>
+<use f='codebrowser/wl_game.cpp' l='969' u='c' c='_Z13ShowActStatusv'/>
+<use f='codebrowser/wl_game.cpp' l='1339' u='c' c='_Z4Diedv'/>
+<use f='codebrowser/wl_menu.cpp' l='1520' u='c' c='_Z11CP_LoadGamei'/>

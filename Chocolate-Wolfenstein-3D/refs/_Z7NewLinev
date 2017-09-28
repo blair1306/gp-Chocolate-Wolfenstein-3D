@@ -1,0 +1,10 @@
+<def f='codebrowser/wl_text.cpp' l='295' ll='321' type='void NewLine()'/>
+<use f='codebrowser/wl_text.cpp' l='341' u='c' c='_Z11HandleCtrlsv'/>
+<use f='codebrowser/wl_text.cpp' l='382' u='c' c='_Z10HandleWordv'/>
+<doc f='codebrowser/wl_text.cpp' l='287'>/*
+=====================
+=
+= NewLine
+=
+=====================
+*/</doc>

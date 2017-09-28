@@ -1,0 +1,19 @@
+<dec f='codebrowser/wl_menu.h' l='134' type='void WaitKeyUp()'/>
+<use f='codebrowser/wl_menu.cpp' l='1163' u='c' c='_Z14DrawNewEpisodev'/>
+<use f='codebrowser/wl_menu.cpp' l='1201' u='c' c='_Z11DrawNewGamev'/>
+<use f='codebrowser/wl_menu.cpp' l='1234' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1637' u='c' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='1825' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='1852' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='1984' u='c' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2201' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2352' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2399' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<def f='codebrowser/wl_menu.cpp' l='3561' ll='3571' type='void WaitKeyUp()'/>
+<use f='codebrowser/wl_menu.cpp' l='3672' u='c' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3726' u='c' c='_Z7ConfirmPKc'/>
+<doc f='codebrowser/wl_menu.cpp' l='3556'>////////////////////////////////////////////////////////////////////
+//
+// WAIT FOR CTRLKEY-UP OR BUTTON-UP
+//
+////////////////////////////////////////////////////////////////////</doc>

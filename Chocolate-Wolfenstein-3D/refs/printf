@@ -1,0 +1,35 @@
+<dec f='include/stdio.h' l='362' type='int printf(const char *__restrict __format)'/>
+<use f='codebrowser/crt.cpp' l='118' u='c' c='_Z14CRT_Screenshotv'/>
+<doc f='include/stdio.h' l='358'>/* Write formatted output to stdout.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/id_sd.cpp' l='604' u='c' c='_Z16SD_PlayDigitizedtii'/>
+<use f='codebrowser/id_sd.cpp' l='610' u='c' c='_Z16SD_PlayDigitizedtii'/>
+<use f='codebrowser/id_sd.cpp' l='1059' u='c' c='_Z10SD_Startupv'/>
+<use f='codebrowser/id_sd.cpp' l='1072' u='c' c='_Z10SD_Startupv'/>
+<use f='codebrowser/id_vl.cpp' l='111' u='c' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/id_vl.cpp' l='132' u='c' c='_Z18VL_SetVGAPlaneModev'/>
+<use f='codebrowser/wl_main.cpp' l='1194' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1203' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1205' u='c' c='_ZL8InitGamev'/>
+<use f='codebrowser/wl_main.cpp' l='1676' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1692' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1701' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1708' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1716' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1718' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1725' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1740' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1752' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1760' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1769' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1778' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1787' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1797' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1807' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1815' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1824' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1832' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1850' u='c' c='_Z15CheckParametersiPPc'/>
+<use f='codebrowser/wl_main.cpp' l='1855' u='c' c='_Z15CheckParametersiPPc'/>

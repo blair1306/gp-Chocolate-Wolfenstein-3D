@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_draw.cpp' l='69' type='int32_t'/>
+<use f='codebrowser/wl_draw.cpp' l='362' u='r' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='382' u='w' c='_Z11HitVertWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='425' u='r' c='_Z12HitHorizWallv'/>
+<use f='codebrowser/wl_draw.cpp' l='445' u='w' c='_Z12HitHorizWallv'/>

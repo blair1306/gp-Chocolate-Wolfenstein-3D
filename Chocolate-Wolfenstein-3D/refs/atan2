@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='60' type='double atan2(double __y, double __x)'/>
+<use f='codebrowser/wl_act2.cpp' l='2304' u='c' c='_Z13T_SchabbThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2344' u='c' c='_Z11T_GiftThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2939' u='c' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3847' u='c' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_game.cpp' l='1232' u='c' c='_Z4Diedv'/>

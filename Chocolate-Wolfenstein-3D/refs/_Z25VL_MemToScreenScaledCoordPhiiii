@@ -1,0 +1,13 @@
+<dec f='codebrowser/id_vl.h' l='80' type='void VL_MemToScreenScaledCoord(byte * source, int width, int height, int scx, int scy)'/>
+<use f='codebrowser/id_vl.h' l='86' u='c' c='_Z14VL_MemToScreenPhiiii'/>
+<use f='codebrowser/id_vh.cpp' l='154' u='c' c='_Z22VWB_DrawPicScaledCoordiii'/>
+<def f='codebrowser/id_vl.cpp' l='583' ll='606' type='void VL_MemToScreenScaledCoord(byte * source, int width, int height, int destx, int desty)'/>
+<doc f='codebrowser/id_vl.cpp' l='573'>/*
+=================
+=
+= VL_MemToScreenScaledCoord
+=
+= Draws a block of data to the screen with scaling according to scaleFactor.
+=
+=================
+*/</doc>

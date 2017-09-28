@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='58' type='double atan(double __x)'/>
+<use f='codebrowser/wl_main.cpp' l='766' u='c' c='_Z14CalcProjectioni'/>

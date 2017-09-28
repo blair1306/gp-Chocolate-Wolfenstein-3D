@@ -1,0 +1,9 @@
+<def f='codebrowser/wl_menu.cpp' l='2068' type='int8_t [4]'/>
+<use f='codebrowser/wl_menu.cpp' l='2276' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2282' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2302' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2309' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2318' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2676' u='r' c='_Z14PrintCustMousei'/>
+<use f='codebrowser/wl_menu.cpp' l='2713' u='r' c='_Z12PrintCustJoyi'/>
+<use f='codebrowser/wl_menu.cpp' l='2750' u='r' c='_Z14PrintCustKeybdi'/>

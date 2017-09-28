@@ -1,0 +1,3 @@
+<dec f='codebrowser/id_sd.h' l='133' type='int SD_GetChannelForDigi(int which)'/>
+<def f='codebrowser/id_sd.cpp' l='500' ll='509' type='int SD_GetChannelForDigi(int which)'/>
+<use f='codebrowser/id_sd.cpp' l='596' u='c' c='_Z16SD_PlayDigitizedtii'/>

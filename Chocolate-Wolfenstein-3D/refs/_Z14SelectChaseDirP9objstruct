@@ -1,0 +1,21 @@
+<dec f='codebrowser/wl_def.h' l='1123' type='void SelectChaseDir(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2410' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2454' u='c' c='_Z8T_SchabbP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2502' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2546' u='c' c='_Z6T_GiftP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2594' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2638' u='c' c='_Z5T_FatP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3174' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3219' u='c' c='_Z7T_ChaseP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3241' u='c' c='_Z8T_GhostsP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3268' u='c' c='_Z8T_GhostsP9objstruct'/>
+<def f='codebrowser/wl_state.cpp' l='502' ll='599' type='void SelectChaseDir(objtype * ob)'/>
+<doc f='codebrowser/wl_state.cpp' l='492'>/*
+============================
+=
+= SelectChaseDir
+=
+= As SelectDodgeDir, but doesn&apos;t try to dodge
+=
+============================
+*/</doc>

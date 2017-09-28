@@ -1,0 +1,11 @@
+<dec f='codebrowser/wl_def.h' l='146'/>
+<use f='codebrowser/wl_debug.cpp' l='564' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='6' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='202' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='211' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='212' u='c'/>
+<use f='codebrowser/wl_inter.cpp' l='213' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='394' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='395' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='510' u='c'/>
+<use f='codebrowser/wl_main.cpp' l='511' u='c'/>

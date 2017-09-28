@@ -1,0 +1,21 @@
+<dec f='codebrowser/wl_menu.h' l='143' type='void ShootSnd()'/>
+<use f='codebrowser/wl_menu.cpp' l='1052' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1103' u='c' c='_Z10CP_NewGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1262' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1272' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1299' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1311' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1319' u='c' c='_Z8CP_Soundi'/>
+<use f='codebrowser/wl_menu.cpp' l='1544' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1562' u='c' c='_Z11CP_LoadGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1745' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1778' u='c' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1838' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='1845' u='c' c='_Z10CP_Controli'/>
+<use f='codebrowser/wl_menu.cpp' l='2171' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2320' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2330' u='c' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2865' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3413' u='c' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3721' u='c' c='_Z7ConfirmPKc'/>
+<def f='codebrowser/wl_menu.cpp' l='3947' ll='3951' type='void ShootSnd()'/>

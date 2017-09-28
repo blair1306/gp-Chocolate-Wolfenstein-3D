@@ -1,0 +1,19 @@
+<dec f='include/SDL/SDL_video.h' l='58' type='Uint8'/>
+<use f='codebrowser/crt.cpp' l='74' u='r' c='_Z7CRT_DACv'/>
+<offset>16</offset>
+<use f='codebrowser/id_vh.cpp' l='418' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vl.cpp' l='179' u='w' c='_Z17VL_ConvertPalettePhP9SDL_Colori'/>
+<use f='codebrowser/id_vl.cpp' l='200' u='w' c='_Z14VL_FillPaletteiii'/>
+<use f='codebrowser/id_vl.cpp' l='246' u='r' c='_Z11VL_GetColoriPiS_S_'/>
+<use f='codebrowser/id_vl.cpp' l='333' u='r' c='_Z10VL_FadeOutiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='335' u='w' c='_Z10VL_FadeOutiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='380' u='r' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/id_vl.cpp' l='380' u='r' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/id_vl.cpp' l='381' u='w' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/id_vl.cpp' l='381' u='r' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/wl_play.cpp' l='984' u='r' c='_Z13InitRedShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='985' u='w' c='_Z13InitRedShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='985' u='r' c='_Z13InitRedShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1002' u='r' c='_Z13InitRedShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1003' u='w' c='_Z13InitRedShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1003' u='r' c='_Z13InitRedShiftsv'/>

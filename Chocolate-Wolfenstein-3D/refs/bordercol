@@ -1,0 +1,31 @@
+<dec f='codebrowser/wl_def.h' l='926' type='byte'/>
+<use f='codebrowser/wl_act2.cpp' l='3807' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3810' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3814' u='r' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_debug.cpp' l='451' u='w' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='453' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_debug.cpp' l='454' u='r' c='_Z9DebugKeysv'/>
+<use f='codebrowser/wl_draw.cpp' l='1578' u='r' c='_Z13ThreeDRefreshv'/>
+<def f='codebrowser/wl_game.cpp' l='41' type='byte'/>
+<use f='codebrowser/wl_game.cpp' l='798' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='799' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='804' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='805' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='812' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='814' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='815' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='820' u='r' c='_Z19DrawPlayBorderSidesv'/>
+<use f='codebrowser/wl_game.cpp' l='869' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='870' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='875' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='877' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='882' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='892' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='894' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='895' u='r' c='_Z14DrawPlayBorderv'/>
+<use f='codebrowser/wl_game.cpp' l='900' u='r' c='_Z14DrawPlayBorderv'/>
+<doc f='codebrowser/wl_game.cpp' l='41'>// color of the Change View/Ingame border</doc>
+<use f='codebrowser/wl_inter.cpp' l='169' u='r' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='564' u='r' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='985' u='r' c='_Z15PreloadGraphicsv'/>
+<use f='codebrowser/wl_menu.cpp' l='2882' u='r' c='_Z14DrawChangeViewi'/>

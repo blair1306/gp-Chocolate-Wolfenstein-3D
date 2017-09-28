@@ -1,0 +1,17 @@
+<dec f='codebrowser/id_vl.h' l='49' type='void VL_SetPalette(SDL_Color * palette, bool forceupdate)'/>
+<use f='codebrowser/id_vl.cpp' l='203' u='c' c='_Z14VL_FillPaletteiii'/>
+<def f='codebrowser/id_vl.cpp' l='259' ll='274' type='void VL_SetPalette(SDL_Color * palette, bool forceupdate)'/>
+<use f='codebrowser/id_vl.cpp' l='341' u='c' c='_Z10VL_FadeOutiiiiii'/>
+<use f='codebrowser/id_vl.cpp' l='385' u='c' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<use f='codebrowser/id_vl.cpp' l='391' u='c' c='_Z9VL_FadeIniiP9SDL_Colori'/>
+<doc f='codebrowser/id_vl.cpp' l='251'>/*
+=================
+=
+= VL_SetPalette
+=
+=================
+*/</doc>
+<use f='codebrowser/wl_play.cpp' l='1094' u='c' c='_Z19UpdatePaletteShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1099' u='c' c='_Z19UpdatePaletteShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1104' u='c' c='_Z19UpdatePaletteShiftsv'/>
+<use f='codebrowser/wl_play.cpp' l='1125' u='c' c='_Z19FinishPaletteShiftsv'/>

@@ -1,0 +1,8 @@
+<dec f='include/SDL/SDL_video.h' l='98' type='SDL_PixelFormat *'/>
+<offset>64</offset>
+<doc f='include/SDL/SDL_video.h' l='98'>/**&lt; Read-only */</doc>
+<use f='codebrowser/id_vh.cpp' l='358' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='359' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='418' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='419' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>
+<use f='codebrowser/id_vh.cpp' l='420' u='r' c='_Z10FizzleFadeP11SDL_Surfaceiijjja'/>

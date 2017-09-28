@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='109' type='double log(double __x)'/>
+<use f='codebrowser/fmopl.cpp' l='1219' u='c' c='_ZL11init_tablesv'/>
+<use f='codebrowser/fmopl.cpp' l='1219' u='c' c='_ZL11init_tablesv'/>
+<use f='codebrowser/fmopl.cpp' l='1221' u='c' c='_ZL11init_tablesv'/>
+<use f='codebrowser/fmopl.cpp' l='1221' u='c' c='_ZL11init_tablesv'/>

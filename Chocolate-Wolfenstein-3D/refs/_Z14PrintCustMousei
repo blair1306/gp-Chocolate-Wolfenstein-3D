@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_menu.h' l='174' type='void PrintCustMouse(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2115' u='r' c='_Z15DefineMouseBtnsv'/>
+<def f='codebrowser/wl_menu.cpp' l='2670' ll='2682' type='void PrintCustMouse(int i)'/>
+<use f='codebrowser/wl_menu.cpp' l='2705' u='c' c='_Z13DrawCustMousei'/>

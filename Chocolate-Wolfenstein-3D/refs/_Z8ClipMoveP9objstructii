@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_agent.cpp' l='83' type='void ClipMove(objtype * ob, int32_t xmove, int32_t ymove)'/>
+<def f='codebrowser/wl_agent.cpp' l='921' ll='955' type='void ClipMove(objtype * ob, int32_t xmove, int32_t ymove)'/>
+<use f='codebrowser/wl_agent.cpp' l='1035' u='c' c='_Z6Thrustii'/>
+<doc f='codebrowser/wl_agent.cpp' l='913'>/*
+===================
+=
+= ClipMove
+=
+===================
+*/</doc>

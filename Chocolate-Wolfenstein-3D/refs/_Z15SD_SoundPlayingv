@@ -1,0 +1,20 @@
+<dec f='codebrowser/id_sd.h' l='149' type='word SD_SoundPlaying()'/>
+<def f='codebrowser/id_sd.cpp' l='1229' ll='1248' type='word SD_SoundPlaying()'/>
+<use f='codebrowser/id_sd.cpp' l='1284' u='c' c='_Z16SD_WaitSoundDonev'/>
+<doc f='codebrowser/id_sd.cpp' l='1223'>///////////////////////////////////////////////////////////////////////////
+//
+//      SD_SoundPlaying() - returns the sound number that&apos;s playing, or 0 if
+//              no sound is playing
+//
+///////////////////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/wl_agent.cpp' l='289' u='c' c='_Z8DrawFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='335' u='c' c='_Z10UpdateFacev'/>
+<use f='codebrowser/wl_agent.cpp' l='940' u='c' c='_Z8ClipMoveP9objstructii'/>
+<use f='codebrowser/wl_inter.cpp' l='677' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='686' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='708' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='735' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='750' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='776' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='791' u='c' c='_Z14LevelCompletedv'/>
+<use f='codebrowser/wl_inter.cpp' l='816' u='c' c='_Z14LevelCompletedv'/>

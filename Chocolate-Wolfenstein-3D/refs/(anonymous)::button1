@@ -1,0 +1,19 @@
+<dec f='codebrowser/id_in.h' l='118' type='boolean'/>
+<dec f='codebrowser/id_in.h' l='125' type='ScanCode'/>
+<offset>32</offset>
+<use f='codebrowser/id_in.cpp' l='469' u='r' c='_Z14IN_ReadControliP10CursorInfo'/>
+<use f='codebrowser/id_in.cpp' l='480' u='w' c='_Z14IN_ReadControliP10CursorInfo'/>
+<use f='codebrowser/id_us_1.cpp' l='595' u='r' c='_Z12US_LineInputiiPcPKcaii'/>
+<use f='codebrowser/wl_menu.cpp' l='1970' u='r' c='_Z16MouseSensitivityi'/>
+<use f='codebrowser/wl_menu.cpp' l='2212' u='w' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2218' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2291' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2339' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2356' u='r' c='_Z13EnterCtrlDataiP11CustomCtrlsPFviES2_i'/>
+<use f='codebrowser/wl_menu.cpp' l='2847' u='r' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='3375' u='r' c='_Z10HandleMenuP11CP_iteminfoP11CP_itemtypePFviE'/>
+<use f='codebrowser/wl_menu.cpp' l='3566' u='r' c='_Z9WaitKeyUpv'/>
+<use f='codebrowser/wl_menu.cpp' l='3624' u='w' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_menu.cpp' l='3650' u='w' c='_Z14ReadAnyControlP10CursorInfo'/>
+<use f='codebrowser/wl_menu.cpp' l='3708' u='r' c='_Z7ConfirmPKc'/>
+<use f='codebrowser/wl_text.cpp' l='732' u='r' c='_Z11ShowArticlePc'/>

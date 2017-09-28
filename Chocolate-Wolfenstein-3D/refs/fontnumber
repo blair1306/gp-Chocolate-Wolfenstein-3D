@@ -1,0 +1,33 @@
+<dec f='codebrowser/id_vh.h' l='38' type='int'/>
+<def f='codebrowser/id_vh.cpp' l='9' type='int'/>
+<use f='codebrowser/id_vh.cpp' l='22' u='r' c='_Z18VWB_DrawPropStringPKc'/>
+<use f='codebrowser/id_vh.cpp' l='105' u='r' c='_Z20VW_MeasurePropStringPKcPtS1_'/>
+<use f='codebrowser/wl_act2.cpp' l='3813' u='w' c='_Z15A_StartDeathCamP9objstruct'/>
+<use f='codebrowser/wl_draw.cpp' l='1575' u='w' c='_Z13ThreeDRefreshv'/>
+<use f='codebrowser/wl_game.cpp' l='1031' u='w' c='_Z16FinishDemoRecordv'/>
+<use f='codebrowser/wl_game.cpp' l='1068' u='w' c='_Z10RecordDemov'/>
+<use f='codebrowser/wl_inter.cpp' l='274' u='w' c='_Z7Victoryv'/>
+<use f='codebrowser/wl_inter.cpp' l='1054' u='w' c='_Z14DrawHighScoresv'/>
+<use f='codebrowser/wl_main.cpp' l='1122' u='w' c='_Z9DoJukeboxv'/>
+<use f='codebrowser/wl_menu.cpp' l='759' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='770' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='773' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='836' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='844' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='927' u='w' c='_Z13CP_CheckQuicki'/>
+<use f='codebrowser/wl_menu.cpp' l='974' u='w' c='_Z13CP_ViewScoresi'/>
+<use f='codebrowser/wl_menu.cpp' l='986' u='w' c='_Z13CP_ViewScoresi'/>
+<use f='codebrowser/wl_menu.cpp' l='1466' u='w' c='_Z12DrawLSActioni'/>
+<use f='codebrowser/wl_menu.cpp' l='1621' u='w' c='_Z18DrawLoadSaveScreeni'/>
+<use f='codebrowser/wl_menu.cpp' l='1653' u='w' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1660' u='w' c='_Z12PrintLSEntryii'/>
+<use f='codebrowser/wl_menu.cpp' l='1750' u='w' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='1791' u='w' c='_Z11CP_SaveGamei'/>
+<use f='codebrowser/wl_menu.cpp' l='3119' u='w' c='_Z17SetupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3184' u='w' c='_Z19CleanupControlPanelv'/>
+<use f='codebrowser/wl_menu.cpp' l='3809' u='w' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_menu.cpp' l='3810' u='r' c='_Z7MessagePKc'/>
+<use f='codebrowser/wl_play.cpp' l='727' u='w' c='_Z9CheckKeysv'/>
+<use f='codebrowser/wl_text.cpp' l='642' u='r' c='_Z11ShowArticlePc'/>
+<use f='codebrowser/wl_text.cpp' l='643' u='w' c='_Z11ShowArticlePc'/>
+<use f='codebrowser/wl_text.cpp' l='735' u='w' c='_Z11ShowArticlePc'/>

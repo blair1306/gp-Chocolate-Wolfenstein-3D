@@ -1,0 +1,12 @@
+<def f='codebrowser/id_in.cpp' l='493' type='boolean [18]'/>
+<use f='codebrowser/id_in.cpp' l='502' u='r' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_in.cpp' l='502' u='r' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_in.cpp' l='511' u='w' c='_Z11IN_StartAckv'/>
+<use f='codebrowser/id_in.cpp' l='533' u='r' c='_Z11IN_CheckAckv'/>
+<use f='codebrowser/id_in.cpp' l='550' u='w' c='_Z11IN_CheckAckv'/>
+<doc f='codebrowser/id_in.cpp' l='486'>///////////////////////////////////////////////////////////////////////////
+//
+//  IN_Ack() - waits for a button or key press.  If a button is down, upon
+// calling, it must be released for it to be recognized
+//
+///////////////////////////////////////////////////////////////////////////</doc>

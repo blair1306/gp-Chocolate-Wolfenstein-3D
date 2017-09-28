@@ -1,0 +1,39 @@
+<dec f='codebrowser/audiowl6.h' l='101' type='87'/>
+<use f='codebrowser/id_ca.h' l='27' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='66' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='715' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='719' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='814' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='818' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='828' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='834' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='838' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='840' macro='1' u='r'/>
+<use f='codebrowser/id_ca.cpp' l='845' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='71' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='71' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='72' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='72' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='84'/>
+<use f='codebrowser/id_sd.cpp' l='85' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='85' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='698' u='r' c='_Z13SDL_SetupDigiv'/>
+<use f='codebrowser/id_sd.cpp' l='900' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='908' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='1111' macro='1' u='r'/>
+<use f='codebrowser/id_sd.cpp' l='1111' macro='1' u='r'/>
+<use f='codebrowser/wl_main.cpp' l='1000'/>
+<use f='codebrowser/wl_main.cpp' l='1000'/>
+<use f='codebrowser/wl_main.cpp' l='1008' u='r' c='_Z11InitDigiMapv'/>
+<use f='codebrowser/wl_menu.cpp' l='3852' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3852' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3852' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3854' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3861' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3861' macro='1' u='r'/>
+<use f='codebrowser/wl_menu.cpp' l='3861' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='904' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='904' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='904' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='924' macro='1' u='r'/>
+<use f='codebrowser/wl_play.cpp' l='931' macro='1' u='r'/>

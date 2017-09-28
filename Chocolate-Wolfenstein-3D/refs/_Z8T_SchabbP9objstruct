@@ -1,0 +1,17 @@
+<dec f='codebrowser/wl_act2.cpp' l='221' type='void T_Schabb(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='2066'/>
+<use f='codebrowser/wl_act2.cpp' l='2066'/>
+<use f='codebrowser/wl_act2.cpp' l='2068'/>
+<use f='codebrowser/wl_act2.cpp' l='2068'/>
+<use f='codebrowser/wl_act2.cpp' l='2069'/>
+<use f='codebrowser/wl_act2.cpp' l='2069'/>
+<use f='codebrowser/wl_act2.cpp' l='2071'/>
+<use f='codebrowser/wl_act2.cpp' l='2071'/>
+<def f='codebrowser/wl_act2.cpp' l='2378' ll='2459' type='void T_Schabb(objtype * ob)'/>
+<doc f='codebrowser/wl_act2.cpp' l='2370'>/*
+=================
+=
+= T_Schabb
+=
+=================
+*/</doc>

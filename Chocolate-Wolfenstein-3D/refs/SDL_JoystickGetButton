@@ -1,0 +1,7 @@
+<dec f='include/SDL/SDL_joystick.h' l='173' type='Uint8 SDL_JoystickGetButton(SDL_Joystick * joystick, int button)'/>
+<doc f='include/SDL/SDL_joystick.h' l='168'>/**
+ * Get the current state of a button on a joystick
+ *
+ * @param[in] button The button indices start at index 0.
+ */</doc>
+<use f='codebrowser/id_in.cpp' l='226' u='c' c='_Z13IN_JoyButtonsv'/>

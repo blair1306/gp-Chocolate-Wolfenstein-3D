@@ -1,0 +1,5 @@
+<def f='codebrowser/wl_game.cpp' l='53' type='int [6]'/>
+<use f='codebrowser/wl_game.cpp' l='1500' u='r' c='_Z8GameLoopv'/>
+<doc f='codebrowser/wl_game.cpp' l='50'>//
+// ELEVATOR BACK MAPS - REMEMBER (-1)!!
+//</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/id_in.h' l='171' type='boolean IN_JoyPresent()'/>
+<def f='codebrowser/id_in.cpp' l='230' ll='233' type='boolean IN_JoyPresent()'/>
+<use f='codebrowser/wl_main.cpp' l='184' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_main.cpp' l='221' u='c' c='_Z10ReadConfigv'/>
+<use f='codebrowser/wl_menu.cpp' l='2013' u='c' c='_Z13DrawCtlScreenv'/>
+<use f='codebrowser/wl_menu.cpp' l='3013' u='c' c='_Z11IntroScreenv'/>

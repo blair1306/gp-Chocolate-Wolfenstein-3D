@@ -1,0 +1,11 @@
+<def f='codebrowser/wl_act2.cpp' l='3364' ll='3380' type='void SelectPathDir(objtype * ob)'/>
+<use f='codebrowser/wl_act2.cpp' l='3400' u='c' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3442' u='c' c='_Z6T_PathP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='3682' u='c' c='_Z7T_BJRunP9objstruct'/>
+<doc f='codebrowser/wl_act2.cpp' l='3356'>/*
+===============
+=
+= SelectPathDir
+=
+===============
+*/</doc>

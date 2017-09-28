@@ -1,0 +1,5 @@
+<dec f='codebrowser/wl_def.h' l='913' type='void ShowViewSize(int width)'/>
+<def f='codebrowser/wl_main.cpp' l='1343' ll='1371' type='void ShowViewSize(int width)'/>
+<use f='codebrowser/wl_menu.cpp' l='2824' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2838' u='c' c='_Z13CP_ChangeViewi'/>
+<use f='codebrowser/wl_menu.cpp' l='2889' u='c' c='_Z14DrawChangeViewi'/>

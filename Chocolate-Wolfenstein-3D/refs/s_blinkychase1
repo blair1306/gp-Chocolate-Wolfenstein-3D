@@ -1,0 +1,10 @@
+<dec f='codebrowser/wl_def.h' l='1263' type='statetype'/>
+<dec f='codebrowser/wl_act2.cpp' l='455' type='statetype'/>
+<def f='codebrowser/wl_act2.cpp' l='464' type='statetype'/>
+<use f='codebrowser/wl_act2.cpp' l='465' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='465' u='a'/>
+<use f='codebrowser/wl_act2.cpp' l='2001' u='a' c='_Z11SpawnGhostsiii'/>
+<doc f='codebrowser/wl_act2.cpp' l='452'>//
+// ghosts
+//</doc>
+<use f='codebrowser/wl_state.cpp' l='1393' u='a' c='_Z13FirstSightingP9objstruct'/>

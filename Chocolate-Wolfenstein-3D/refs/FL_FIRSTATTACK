@@ -1,0 +1,4 @@
+<dec f='codebrowser/wl_def.h' l='228' type='32'/>
+<use f='codebrowser/wl_state.cpp' l='393' u='r' c='_Z14SelectDodgeDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='400' u='r' c='_Z14SelectDodgeDirP9objstruct'/>
+<use f='codebrowser/wl_state.cpp' l='1437' u='r' c='_Z13FirstSightingP9objstruct'/>

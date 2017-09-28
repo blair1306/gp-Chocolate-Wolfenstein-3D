@@ -1,0 +1,8 @@
+<dec f='codebrowser/wl_def.h' l='591' type='1'/>
+<use f='codebrowser/wl_act2.cpp' l='255' u='r' c='_Z7A_SmokeP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='1034' u='r' c='_Z11SpawnPatrol7enemy_tiii'/>
+<use f='codebrowser/wl_act2.cpp' l='2323' u='r' c='_Z13T_SchabbThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2362' u='r' c='_Z11T_GiftThrowP9objstruct'/>
+<use f='codebrowser/wl_act2.cpp' l='2957' u='r' c='_Z10T_FakeFireP9objstruct'/>
+<use f='codebrowser/wl_agent.cpp' l='1182' u='r' c='_Z11SpawnPlayeriii'/>
+<use f='codebrowser/wl_draw.cpp' l='934' u='r' c='_Z11DrawScaledsv'/>

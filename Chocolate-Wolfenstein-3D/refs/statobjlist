@@ -1,0 +1,20 @@
+<dec f='codebrowser/wl_def.h' l='994' type='statobj_t [400]'/>
+<def f='codebrowser/wl_act1.cpp' l='15' type='statobj_t [400]'/>
+<use f='codebrowser/wl_act1.cpp' l='129' u='a' c='_Z14InitStaticListv'/>
+<use f='codebrowser/wl_act1.cpp' l='187' u='a' c='_Z11SpawnStaticiii'/>
+<use f='codebrowser/wl_act1.cpp' l='223' u='a' c='_Z13PlaceItemTypeiii'/>
+<use f='codebrowser/wl_act1.cpp' l='227' u='a' c='_Z13PlaceItemTypeiii'/>
+<doc f='codebrowser/wl_act1.cpp' l='6'>/*
+=============================================================================
+
+                                                        STATICS
+
+=============================================================================
+*/</doc>
+<use f='codebrowser/wl_debug.cpp' l='76' u='a' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_debug.cpp' l='86' u='m' c='_Z12CountObjectsv'/>
+<use f='codebrowser/wl_draw.cpp' l='883' u='a' c='_Z11DrawScaledsv'/>
+<use f='codebrowser/wl_main.cpp' l='443' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='450' u='r' c='_Z11SaveTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='560' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
+<use f='codebrowser/wl_main.cpp' l='569' u='r' c='_Z11LoadTheGameP8_IO_FILEii'/>
